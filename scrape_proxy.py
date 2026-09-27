@@ -32,3 +32,10 @@ for rid in range(52,82):
     out[str(rid)]={"submissions":submissions,"parsed":len(starts),"votes":votes,"self":self_answer,"voteCount":len(votes),"pointTotal":sum(v["points"] for v in votes)}
     time.sleep(.2)
 open("audit_scraped_52_81.json","w",encoding="utf-8").write(json.dumps(out,ensure_ascii=False,indent=2))
+
+# debug extra own-answer candidate in round 79
+u="https://r.jina.ai/http://oogiri-tmd.net/home/page.php?id=79"
+t=requests.get(u,timeout=60).text
+needle="筋肉の話に入れなくて悔しいだろ"
+pos=t.find(needle)
+open("debug_self79.txt","w",encoding="utf-8").write(t[max(0,pos-800):pos+1200] if pos>=0 else "NOT FOUND")
