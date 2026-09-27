@@ -10,6 +10,7 @@ for rid in range(52,82):
     pat=re.compile(r'(?m)^(\d+)位\[([^\]]+)\]\(([^\n]+)\)\n\n\1位\[\2\]\([^\n]+\)\n')
     starts=list(pat.finditer(t))
     votes=[]
+    answers=[]
     self_answer=None
     for k,mt in enumerate(starts):
         end=starts[k+1].start() if k+1<len(starts) else len(t)
@@ -19,23 +20,31 @@ for rid in range(52,82):
         raw_rank=int(mt.group(1))
         author=mt.group(2)
         author_url=mt.group(3)
-        if 'user_id=309' in author_url or author=='昼崎':
-            self_answer={"rawRank":raw_rank,"displayRank":k+1,"answer":answer}
+        display_rank=k+1
+
+        vote_points=None
         voter_line=next((x for x in lines if target in x and any(f"{p}点 [" in x for p in (2,3,4))),None)
-        if not voter_line:
-            continue
-        pos=voter_line.index(target)
-        marks=[(voter_line.rfind(f"{p}点 ",0,pos),p) for p in (2,3,4)]
-        marks=[x for x in marks if x[0]>=0]
-        points=max(marks)[1]
-        votes.append({"rawRank":raw_rank,"displayRank":k+1,"points":points,"author":author,"answer":answer,"percentile":raw_rank/submissions})
-    out[str(rid)]={"submissions":submissions,"parsed":len(starts),"votes":votes,"self":self_answer,"voteCount":len(votes),"pointTotal":sum(v["points"] for v in votes)}
+        if voter_line:
+            pos=voter_line.index(target)
+            marks=[(voter_line.rfind(f"{p}点 ",0,pos),p) for p in (2,3,4)]
+            marks=[x for x in marks if x[0]>=0]
+            if marks:
+                vote_points=max(marks)[1]
+                votes.append({"rawRank":raw_rank,"displayRank":display_rank,"points":vote_points,"author":author,"answer":answer,"percentile":raw_rank/submissions})
+
+        is_self=('user_id=309' in author_url or author=='昼崎')
+        if is_self:
+            self_answer={"rawRank":raw_rank,"displayRank":display_rank,"answer":answer}
+
+        answers.append({
+            "rawRank":raw_rank,
+            "displayRank":display_rank,
+            "author":author,
+            "answer":answer,
+            "votePoints":vote_points,
+            "isSelf":is_self
+        })
+
+    out[str(rid)]={"submissions":submissions,"parsed":len(starts),"answers":answers,"votes":votes,"self":self_answer,"voteCount":len(votes),"pointTotal":sum(v["points"] for v in votes)}
     time.sleep(.2)
 open("audit_scraped_52_81.json","w",encoding="utf-8").write(json.dumps(out,ensure_ascii=False,indent=2))
-
-# debug extra own-answer candidate in round 79
-u="https://r.jina.ai/http://oogiri-tmd.net/home/page.php?id=79"
-t=requests.get(u,timeout=60).text
-needle="筋肉の話に入れなくて悔しいだろ"
-pos=t.find(needle)
-open("debug_self79.txt","w",encoding="utf-8").write(t[max(0,pos-800):pos+1200] if pos>=0 else "NOT FOUND")
