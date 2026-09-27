@@ -54,4 +54,5 @@ function select(id){selected=id;renderHeat();renderDetail()}function render(){re
 document.querySelectorAll("[data-div]").forEach(b=>b.onclick=()=>{const v=+b.dataset.div;if(activeDiv.has(v)&&activeDiv.size>1){activeDiv.delete(v);b.classList.remove("active")}else if(!activeDiv.has(v)){activeDiv.add(v);b.classList.add("active")}render()});
 document.querySelectorAll("[data-point]").forEach(b=>b.onclick=()=>{const v=+b.dataset.point;if(activePoints.has(v)&&activePoints.size>1){activePoints.delete(v);b.classList.remove("active")}else if(!activePoints.has(v)){activePoints.add(v);b.classList.add("active")}render()});
 document.getElementById("prev").onclick=()=>selected>52&&select(selected-1);document.getElementById("next").onclick=()=>selected<81&&select(selected+1);render();
-</script></body></html>
+</script><!-- trigger-vercel-deploy -->
+</body></html>
