@@ -60,6 +60,7 @@
         "percentile": 0.875
       }
     ],
+    "self": null,
     "voteCount": 7,
     "pointTotal": 15
   },
@@ -108,6 +109,11 @@
         "percentile": 0.575
       }
     ],
+    "self": {
+      "rawRank": 29,
+      "displayRank": 29,
+      "answer": "水泳の実況「速い、圧倒的な速さで今ゴール…あっと、お前の夢はみんなの夢だろ、早く肘下ろせしょうもない！」"
+    },
     "voteCount": 5,
     "pointTotal": 11
   },
@@ -204,6 +210,7 @@
         "percentile": 0.675
       }
     ],
+    "self": null,
     "voteCount": 11,
     "pointTotal": 23
   },
@@ -268,6 +275,7 @@
         "percentile": 0.725
       }
     ],
+    "self": null,
     "voteCount": 7,
     "pointTotal": 16
   },
@@ -348,6 +356,7 @@
         "percentile": 0.7027027027027027
       }
     ],
+    "self": null,
     "voteCount": 9,
     "pointTotal": 18
   },
@@ -412,6 +421,7 @@
         "percentile": 0.6538461538461539
       }
     ],
+    "self": null,
     "voteCount": 7,
     "pointTotal": 14
   },
@@ -500,6 +510,7 @@
         "percentile": 0.575
       }
     ],
+    "self": null,
     "voteCount": 10,
     "pointTotal": 25
   },
@@ -572,6 +583,11 @@
         "percentile": 0.425
       }
     ],
+    "self": {
+      "rawRank": 29,
+      "displayRank": 29,
+      "answer": "コンビニの店長「廃棄弁当ならこっそり食べてもいいけど、売り物のミキサーは使わないで よ」"
+    },
     "voteCount": 8,
     "pointTotal": 17
   },
@@ -636,6 +652,7 @@
         "percentile": 0.35
       }
     ],
+    "self": null,
     "voteCount": 7,
     "pointTotal": 16
   },
@@ -724,6 +741,7 @@
         "percentile": 0.725
       }
     ],
+    "self": null,
     "voteCount": 10,
     "pointTotal": 22
   },
@@ -804,6 +822,7 @@
         "percentile": 0.96
       }
     ],
+    "self": null,
     "voteCount": 9,
     "pointTotal": 23
   },
@@ -852,6 +871,7 @@
         "percentile": 0.7
       }
     ],
+    "self": null,
     "voteCount": 5,
     "pointTotal": 11
   },
@@ -900,6 +920,11 @@
         "percentile": 0.225
       }
     ],
+    "self": {
+      "rawRank": 25,
+      "displayRank": 25,
+      "answer": "狩猟の神について妻と揉めてる"
+    },
     "voteCount": 5,
     "pointTotal": 11
   },
@@ -972,6 +997,7 @@
         "percentile": 0.95
       }
     ],
+    "self": null,
     "voteCount": 8,
     "pointTotal": 19
   },
@@ -1036,6 +1062,7 @@
         "percentile": 0.85
       }
     ],
+    "self": null,
     "voteCount": 7,
     "pointTotal": 17
   },
@@ -1124,6 +1151,7 @@
         "percentile": 0.75
       }
     ],
+    "self": null,
     "voteCount": 10,
     "pointTotal": 23
   },
@@ -1212,6 +1240,7 @@
         "percentile": 0.8974358974358975
       }
     ],
+    "self": null,
     "voteCount": 10,
     "pointTotal": 23
   },
@@ -1284,6 +1313,7 @@
         "percentile": 0.696969696969697
       }
     ],
+    "self": null,
     "voteCount": 8,
     "pointTotal": 20
   },
@@ -1348,6 +1378,7 @@
         "percentile": 0.475
       }
     ],
+    "self": null,
     "voteCount": 7,
     "pointTotal": 14
   },
@@ -1436,6 +1467,7 @@
         "percentile": 0.675
       }
     ],
+    "self": null,
     "voteCount": 10,
     "pointTotal": 24
   },
@@ -1516,6 +1548,11 @@
         "percentile": 0.725
       }
     ],
+    "self": {
+      "rawRank": 5,
+      "displayRank": 5,
+      "answer": "防犯にはお金をかけないと決めてる"
+    },
     "voteCount": 9,
     "pointTotal": 20
   },
@@ -1588,6 +1625,7 @@
         "percentile": 0.575
       }
     ],
+    "self": null,
     "voteCount": 8,
     "pointTotal": 19
   },
@@ -1644,6 +1682,7 @@
         "percentile": 0.3548387096774194
       }
     ],
+    "self": null,
     "voteCount": 6,
     "pointTotal": 14
   },
@@ -1740,80 +1779,17 @@
         "percentile": 0.8157894736842105
       }
     ],
+    "self": null,
     "voteCount": 11,
     "pointTotal": 28
   },
   "76": {
-    "submissions": 40,
-    "parsed": 40,
-    "votes": [
-      {
-        "rawRank": 2,
-        "displayRank": 2,
-        "points": 2,
-        "author": "無敵税",
-        "answer": "標識壊したやろと軍手のまま触ってくる",
-        "percentile": 0.05
-      },
-      {
-        "rawRank": 3,
-        "displayRank": 3,
-        "points": 3,
-        "author": "らあらら",
-        "answer": "女の子の髪を使って、昔の人の器用さを教えられる",
-        "percentile": 0.075
-      },
-      {
-        "rawRank": 4,
-        "displayRank": 4,
-        "points": 2,
-        "author": "縦割り",
-        "answer": "トロフィーが乗っていてもテレビ台だと気付かされる",
-        "percentile": 0.1
-      },
-      {
-        "rawRank": 8,
-        "displayRank": 8,
-        "points": 2,
-        "author": "たげ",
-        "answer": "知らない言葉を言えた子にスーツを試す",
-        "percentile": 0.2
-      },
-      {
-        "rawRank": 10,
-        "displayRank": 10,
-        "points": 2,
-        "author": "じゃん",
-        "answer": "女優のサインを映した望遠鏡を少しずつ動かす",
-        "percentile": 0.25
-      },
-      {
-        "rawRank": 20,
-        "displayRank": 20,
-        "points": 2,
-        "author": "サカキ",
-        "answer": "図鑑にいない鳥を見せられて敬語が言えなくなる",
-        "percentile": 0.5
-      },
-      {
-        "rawRank": 20,
-        "displayRank": 21,
-        "points": 2,
-        "author": "侍 in the sky",
-        "answer": "ゴッホを二枚とも教室に持って帰る",
-        "percentile": 0.5
-      },
-      {
-        "rawRank": 23,
-        "displayRank": 24,
-        "points": 3,
-        "author": "氷下漁",
-        "answer": "「意外と若いんですね」と思われたくて机を演奏する",
-        "percentile": 0.575
-      }
-    ],
-    "voteCount": 8,
-    "pointTotal": 18
+    "submissions": null,
+    "parsed": 0,
+    "votes": [],
+    "self": null,
+    "voteCount": 0,
+    "pointTotal": 0
   },
   "77": {
     "submissions": 40,
@@ -1884,295 +1860,40 @@
         "percentile": 0.575
       }
     ],
+    "self": null,
     "voteCount": 8,
     "pointTotal": 18
   },
   "78": {
-    "submissions": 40,
-    "parsed": 40,
-    "votes": [
-      {
-        "rawRank": 1,
-        "displayRank": 1,
-        "points": 3,
-        "author": "wanimoneru",
-        "answer": "目を手術するって本当の話なのかな",
-        "percentile": 0.025
-      },
-      {
-        "rawRank": 1,
-        "displayRank": 2,
-        "points": 2,
-        "author": "ボルシチ",
-        "answer": "後輩が作ったご飯味濃くて美味しい",
-        "percentile": 0.025
-      },
-      {
-        "rawRank": 3,
-        "displayRank": 3,
-        "points": 2,
-        "author": "讃美歌の行方",
-        "answer": "最近は間に合うことが目的になってしまった",
-        "percentile": 0.075
-      },
-      {
-        "rawRank": 5,
-        "displayRank": 5,
-        "points": 3,
-        "author": "尊敬ラーメン屋",
-        "answer": "橋の上を半分だけ借りる事もできるのか",
-        "percentile": 0.125
-      },
-      {
-        "rawRank": 11,
-        "displayRank": 12,
-        "points": 2,
-        "author": "えー？",
-        "answer": "魔女の鼻を揉んだバカがいてな",
-        "percentile": 0.275
-      },
-      {
-        "rawRank": 15,
-        "displayRank": 15,
-        "points": 2,
-        "author": "犬クジラ",
-        "answer": "裁判所から電話来るまで暇だったんだよ",
-        "percentile": 0.375
-      },
-      {
-        "rawRank": 18,
-        "displayRank": 18,
-        "points": 3,
-        "author": "沖田知恵芋",
-        "answer": "お腹にナイフ刺さってから全員がなんか優しい！",
-        "percentile": 0.45
-      },
-      {
-        "rawRank": 19,
-        "displayRank": 19,
-        "points": 2,
-        "author": "SBSB",
-        "answer": "技が決まった後も綺麗な食事をしています",
-        "percentile": 0.475
-      },
-      {
-        "rawRank": 20,
-        "displayRank": 20,
-        "points": 2,
-        "author": "ピンクジャム",
-        "answer": "稽古の成果が出ました、仕送りは大丈夫です",
-        "percentile": 0.5
-      }
-    ],
-    "voteCount": 9,
-    "pointTotal": 21
+    "submissions": null,
+    "parsed": 0,
+    "votes": [],
+    "self": null,
+    "voteCount": 0,
+    "pointTotal": 0
   },
   "79": {
-    "submissions": 40,
-    "parsed": 40,
-    "votes": [
-      {
-        "rawRank": 1,
-        "displayRank": 1,
-        "points": 3,
-        "author": "夏🌊☀️",
-        "answer": "しかし子どもってのは大声で嘘をつくね",
-        "percentile": 0.025
-      },
-      {
-        "rawRank": 6,
-        "displayRank": 7,
-        "points": 2,
-        "author": "みちる🌻",
-        "answer": "俺は知らない奴の鍋も混ぜるよ",
-        "percentile": 0.15
-      },
-      {
-        "rawRank": 9,
-        "displayRank": 9,
-        "points": 2,
-        "author": "グラス一杯の砂利",
-        "answer": "反射的に取り出しちまった、会話下手とか思うなよ",
-        "percentile": 0.225
-      },
-      {
-        "rawRank": 20,
-        "displayRank": 20,
-        "points": 2,
-        "author": "旋風客",
-        "answer": "猫の鼻水見た方が風邪引くよな",
-        "percentile": 0.5
-      },
-      {
-        "rawRank": 27,
-        "displayRank": 27,
-        "points": 2,
-        "author": "aruma",
-        "answer": "考えるほど頭に滝が出来んだよ",
-        "percentile": 0.675
-      },
-      {
-        "rawRank": 27,
-        "displayRank": 28,
-        "points": 2,
-        "author": "あたらく車",
-        "answer": "服着たら変身するってやつ、真似してもいいかい？",
-        "percentile": 0.675
-      },
-      {
-        "rawRank": 32,
-        "displayRank": 33,
-        "points": 2,
-        "author": "空飛ぶタイヤ",
-        "answer": "古墳が好きって話、本当の古墳好きの前ですんなよ",
-        "percentile": 0.8
-      }
-    ],
-    "voteCount": 7,
-    "pointTotal": 15
+    "submissions": null,
+    "parsed": 0,
+    "votes": [],
+    "self": null,
+    "voteCount": 0,
+    "pointTotal": 0
   },
   "80": {
-    "submissions": 33,
-    "parsed": 33,
-    "votes": [
-      {
-        "rawRank": 2,
-        "displayRank": 2,
-        "points": 3,
-        "author": "あの日のニンニ",
-        "answer": "貯金箱の向きを変えられて迷子になってる",
-        "percentile": 0.06060606060606061
-      },
-      {
-        "rawRank": 3,
-        "displayRank": 3,
-        "points": 2,
-        "author": "日向あ",
-        "answer": "家族の中で一番湿ってる人が子供だと思ってる",
-        "percentile": 0.09090909090909091
-      },
-      {
-        "rawRank": 4,
-        "displayRank": 4,
-        "points": 2,
-        "author": "9月が終わったら起こして",
-        "answer": "顔が変わることを期待してボタンを押しまくってる",
-        "percentile": 0.12121212121212122
-      },
-      {
-        "rawRank": 6,
-        "displayRank": 7,
-        "points": 2,
-        "author": "ピュア氷",
-        "answer": "思った場所に金魚鉢があると一気に体温が下がる",
-        "percentile": 0.18181818181818182
-      },
-      {
-        "rawRank": 16,
-        "displayRank": 16,
-        "points": 2,
-        "author": "贖罪",
-        "answer": "浮き輪に顔を突っ込んで勝手に懐かしそうにしてる",
-        "percentile": 0.48484848484848486
-      },
-      {
-        "rawRank": 17,
-        "displayRank": 18,
-        "points": 2,
-        "author": "エンジェル",
-        "answer": "いつか停電になると信じて何度も本棚から落ちてる",
-        "percentile": 0.5151515151515151
-      },
-      {
-        "rawRank": 20,
-        "displayRank": 20,
-        "points": 2,
-        "author": "爽",
-        "answer": "もう着ないスーツの真下で落ち着いてる",
-        "percentile": 0.6060606060606061
-      },
-      {
-        "rawRank": 23,
-        "displayRank": 25,
-        "points": 3,
-        "author": "サーバー",
-        "answer": "気に入ってる座布団の下に髪の毛を集めてる",
-        "percentile": 0.696969696969697
-      }
-    ],
-    "voteCount": 8,
-    "pointTotal": 18
+    "submissions": null,
+    "parsed": 0,
+    "votes": [],
+    "self": null,
+    "voteCount": 0,
+    "pointTotal": 0
   },
   "81": {
-    "submissions": 30,
-    "parsed": 30,
-    "votes": [
-      {
-        "rawRank": 1,
-        "displayRank": 1,
-        "points": 3,
-        "author": "人々",
-        "answer": "引越しを手伝いに来てくれた友達「昔から知ってる奴が床拭いてて眩しいわ」",
-        "percentile": 0.03333333333333333
-      },
-      {
-        "rawRank": 7,
-        "displayRank": 7,
-        "points": 2,
-        "author": "何奴",
-        "answer": "引越しを手伝いに来てくれた友達「ここでずっと奇跡を待っていたんだね」",
-        "percentile": 0.23333333333333334
-      },
-      {
-        "rawRank": 9,
-        "displayRank": 10,
-        "points": 2,
-        "author": "懐かしむ会",
-        "answer": "引越しを手伝いに来てくれた友達「結構決まった場所で読書とかする感じだ」",
-        "percentile": 0.3
-      },
-      {
-        "rawRank": 11,
-        "displayRank": 12,
-        "points": 2,
-        "author": "オワコンパンダちゃん",
-        "answer": "引越しを手伝いに来てくれた友達「今でも俺と将棋やりたいって思う？」",
-        "percentile": 0.36666666666666664
-      },
-      {
-        "rawRank": 13,
-        "displayRank": 13,
-        "points": 2,
-        "author": "伊坂",
-        "answer": "引越しを手伝いに来てくれた友達「テレビから出てる風吸ったら急に目が良くなった」",
-        "percentile": 0.43333333333333335
-      },
-      {
-        "rawRank": 17,
-        "displayRank": 19,
-        "points": 2,
-        "author": "イマジゲン",
-        "answer": "引越しを手伝いに来てくれた友達「鋭い視点で助言していくわ」",
-        "percentile": 0.5666666666666667
-      },
-      {
-        "rawRank": 25,
-        "displayRank": 25,
-        "points": 2,
-        "author": "あとひとつ流星群",
-        "answer": "引越しを手伝いに来てくれた友達「肩に蛍乗せた人がコンビニ入ってった！」",
-        "percentile": 0.8333333333333334
-      },
-      {
-        "rawRank": 29,
-        "displayRank": 29,
-        "points": 2,
-        "author": "吉野家作造",
-        "answer": "引越しを手伝いに来てくれた友達「でも久しぶりに見る石鹸の前では息できないよ」",
-        "percentile": 0.9666666666666667
-      }
-    ],
-    "voteCount": 8,
-    "pointTotal": 17
+    "submissions": null,
+    "parsed": 0,
+    "votes": [],
+    "self": null,
+    "voteCount": 0,
+    "pointTotal": 0
   }
 }
