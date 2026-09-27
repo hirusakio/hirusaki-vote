@@ -19,6 +19,6 @@ jobs:
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add debug63.txt
-          git commit -m "Add proxy scrape debug" || exit 0
+          git add audit_scraped_52_81.json
+          git commit -m "Add full vote audit data" || exit 0
           git push
