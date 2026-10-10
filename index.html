@@ -24,8 +24,16 @@ button{font:inherit}.shell{max-width:1740px;margin:auto;padding:10px 18px}.card{
 .votes{display:flex;flex-direction:column;gap:8px}.vote{border:1px solid var(--line);border-radius:12px;padding:9px;background:#fff}.vote-top{display:flex;align-items:center;gap:7px;flex-wrap:wrap}.badge{font-size:12px;font-weight:900;padding:5px 8px;border-radius:8px;color:#fff}.badge.p4{color:#5a3a00}
 .rank,.author{font-size:13px;font-weight:800}.pct{font-size:11px;color:var(--muted);margin-left:auto}.answer{font-size:13px;line-height:1.5;margin-top:5px}.answer strong{font-weight:900}.source{font-size:12px;margin-top:11px}.source a{color:#2563eb;text-decoration:none}
 @media(max-width:1050px){.shell{padding:7px}.title{font-size:20px}.stats{grid-template-columns:repeat(2,1fr)}.filter-line{flex-wrap:wrap;white-space:normal}.toggle-row{flex-wrap:wrap}.main{grid-template-columns:1fr}.detail{position:static;padding:12px}.scroll{overflow-x:auto}.heat{grid-template-columns:40px 34px repeat(40,21px);width:max-content}}
+</style><style id="site-tabs-style">
+.site-tabs{max-width:1740px;margin:0 auto;padding:14px 18px 4px;display:flex;gap:8px;align-items:center}
+.site-tab{font:inherit;font-size:15px;font-weight:800;background:#fff;color:#667085;border:1px solid #dfe5ef;border-radius:10px;padding:10px 22px;cursor:pointer}
+.site-tab[aria-selected="true"]{background:#244f88;color:#fff;border-color:#244f88}
+.site-tab:focus-visible{outline:3px solid #4f8df7;outline-offset:3px}
+.site-panel[hidden]{display:none!important}
+#b1-frame{display:block;width:100%;height:900px;border:0;background:#f5f7fb}
+@media(max-width:1050px){.site-tabs{padding:10px 7px 3px}.site-tab{flex:1;padding:10px 15px}}
 </style></head>
-<body><div class="shell">
+<body><nav class="site-tabs" role="tablist" aria-label="大喜利サイトの切り替え"><button id="tab-tmd" class="site-tab" role="tab" aria-selected="true" aria-controls="panel-tmd" tabindex="0">天文台</button><button id="tab-b1" class="site-tab" role="tab" aria-selected="false" aria-controls="panel-b1" tabindex="-1">地下1階</button></nav><div id="panel-tmd" class="site-panel" role="tabpanel" aria-labelledby="tab-tmd"><div class="shell">
 <div class="card header"><div class="title"> 投票ヒートマップ</div><div class="sub">実順位を投稿数で割った「上位％」で比較。灰色はその回に存在しない順位。同率順位は隣のセルへずらして表示します。</div>
 <div class="legend"><span class="leg"><i class="sw" style="background:var(--yellow)"></i>4点</span><span class="leg"><i class="sw" style="background:var(--red)"></i>3点</span><span class="leg"><i class="sw" style="background:var(--blue)"></i>2点</span><span class="leg"><i class="sw" style="background:var(--self)"></i>自分の回答</span><span class="leg"><i class="sw" style="background:var(--empty)"></i>投票なし</span><span class="leg"><i class="sw" style="background:var(--void)"></i>順位なし</span><span class="leg"><i class="sw" style="background:var(--d1)"></i>1部</span></div></div>
 
@@ -63,4 +71,17 @@ bindFilter("[data-week]",activeWeeks,[1,2,3,4,5,6,7,8],"week");
 bindFilter("[data-point]",activePoints,[2,3,4],"point");
 document.getElementById("prev").onclick=()=>selected>52&&select(selected-1);document.getElementById("next").onclick=()=>selected<87&&select(selected+1);render();
 </script><!-- trigger-vercel-deploy -->
-</body></html>
+</div><section id="panel-b1" class="site-panel" role="tabpanel" aria-labelledby="tab-b1" hidden><iframe id="b1-frame" title="地下1階 投票ヒートマップ"></iframe></section>
+<script id="site-tabs-script">
+(()=>{
+ const tabs=[document.getElementById('tab-tmd'),document.getElementById('tab-b1')];
+ const panels=[document.getElementById('panel-tmd'),document.getElementById('panel-b1')];
+ const frame=document.getElementById('b1-frame');let loaded=false,observer;
+ function fit(){if(!frame.contentDocument||panels[1].hidden)return;const shell=frame.contentDocument.querySelector('.shell');if(shell)frame.style.height=Math.ceil(shell.getBoundingClientRect().height+32)+'px'}
+ frame.addEventListener('load',()=>{const shell=frame.contentDocument?.querySelector('.shell');if(!shell)return;observer?.disconnect();observer=new ResizeObserver(fit);observer.observe(shell);fit()});
+ function activate(index,focus=false){tabs.forEach((t,i)=>{t.setAttribute('aria-selected',String(i===index));t.tabIndex=i===index?0:-1;panels[i].hidden=i!==index});if(index===1&&!loaded){frame.src='b1.html';loaded=true}if(index===1)requestAnimationFrame(fit);history.replaceState(null,'',index===1?'#b1':'#tmd');if(focus)tabs[index].focus()}
+ tabs.forEach((t,i)=>{t.addEventListener('click',()=>activate(i));t.addEventListener('keydown',e=>{if(['ArrowLeft','ArrowRight','Home','End'].includes(e.key)){e.preventDefault();activate(e.key==='Home'?0:e.key==='End'?1:1-i,true)}})});
+ window.addEventListener('hashchange',()=>activate(location.hash==='#b1'?1:0));window.addEventListener('resize',fit);
+ activate(location.hash==='#b1'?1:0);
+})();
+</script></body></html>
