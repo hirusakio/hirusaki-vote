@@ -5,7 +5,7 @@ out={}
 session=requests.Session()
 session.headers.update({"User-Agent":"Mozilla/5.0"})
 
-for rid in range(82,88):
+for rid in range(88,94):
     u=f"https://r.jina.ai/http://oogiri-tmd.net/home/page.php?id={rid}"
     t=""
     for attempt in range(6):
@@ -95,4 +95,4 @@ for rid in range(82,88):
     }
     time.sleep(2)
 
-open("audit_82_87_full.json","w",encoding="utf-8").write(json.dumps(out,ensure_ascii=False,indent=2))
+open("audit_88_93_full.json","w",encoding="utf-8").write(json.dumps(out,ensure_ascii=False,indent=2))
