@@ -1,0 +1,2564 @@
+{
+  "88": {
+    "id": 88,
+    "division": 2,
+    "prompt": "さかなクンが魚の知識を忘れてしまったが、こんな理由で尊敬された",
+    "imageUrl": null,
+    "source": "https://oogiri-tmd.net/home/page.php?id=88",
+    "submissions": 40,
+    "parsed": 40,
+    "answers": [
+      {
+        "rawRank": 1,
+        "displayRank": 1,
+        "author": "uq",
+        "answer": "軽く腕を振っただけで浴衣を脱ぐことができる",
+        "score": 114,
+        "voteRate": 0.86,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 2,
+        "displayRank": 2,
+        "author": "ボチョムキン",
+        "answer": "絵を描くのに集中しすぎて裸になってる",
+        "score": 94,
+        "voteRate": 0.71,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 3,
+        "displayRank": 3,
+        "author": "怨玉こ",
+        "answer": "勝手にもう一つ段階を作って紙飛行機を折ってた",
+        "score": 76,
+        "voteRate": 0.58,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 4,
+        "displayRank": 4,
+        "author": "ユタ",
+        "answer": "靴になる予定だった革を無料で貰ってる",
+        "score": 73,
+        "voteRate": 0.55,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 5,
+        "displayRank": 5,
+        "author": "かげよしの昼",
+        "answer": "行き先が分からないバスに水をかけ続けてた",
+        "score": 67,
+        "voteRate": 0.51,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 6,
+        "displayRank": 6,
+        "author": "モノカルチャー",
+        "answer": "ポスターに載せる顔のまま社長に電話してた",
+        "score": 65,
+        "voteRate": 0.49,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 7,
+        "displayRank": 7,
+        "author": "旋風客",
+        "answer": "自分の鼻に指を入れて持ち上げるように移動した",
+        "score": 64,
+        "voteRate": 0.48,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 8,
+        "displayRank": 8,
+        "author": "ソトノトス",
+        "answer": "いずれ言ってはいけないことを言うという緊張感があった",
+        "score": 62,
+        "voteRate": 0.47,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 8,
+        "displayRank": 9,
+        "author": "ピヨピヨストライク",
+        "answer": "片手で持てるギリギリの大きさのフライパンを選んだ",
+        "score": 62,
+        "voteRate": 0.47,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 10,
+        "displayRank": 10,
+        "author": "鴨蕎麦",
+        "answer": "お菓子を持ってきたフリをして子供を一箇所に集めている",
+        "score": 56,
+        "voteRate": 0.42,
+        "votePoints": 3,
+        "isSelf": false
+      },
+      {
+        "rawRank": 10,
+        "displayRank": 11,
+        "author": "ほにほに",
+        "answer": "海の男のしゃがれ声に「嘘ですよね」と返した",
+        "score": 56,
+        "voteRate": 0.42,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 12,
+        "displayRank": 12,
+        "author": "大体いつも眠い人",
+        "answer": "田んぼにいくはずの水で帽子を洗ってる",
+        "score": 52,
+        "voteRate": 0.39,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 13,
+        "displayRank": 13,
+        "author": "wanimoneru",
+        "answer": "ジュースをこぼして墓参りのことを思い出した",
+        "score": 48,
+        "voteRate": 0.36,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 14,
+        "displayRank": 14,
+        "author": "なめこんぶ",
+        "answer": "一度手を合わせてからクーポン券を使ってる",
+        "score": 47,
+        "voteRate": 0.36,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 14,
+        "displayRank": 15,
+        "author": "あたらく車",
+        "answer": "帽子を取ってから外国人に道を教えていた",
+        "score": 47,
+        "voteRate": 0.36,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 16,
+        "displayRank": 16,
+        "author": "味本気アジ",
+        "answer": "水溜まりに浮いてるゴミを見て今日は何の日か話した",
+        "score": 46,
+        "voteRate": 0.35,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 17,
+        "displayRank": 17,
+        "author": "こころ",
+        "answer": "子供の三味線を手当り次第直していった",
+        "score": 45,
+        "voteRate": 0.34,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 17,
+        "displayRank": 18,
+        "author": "じゃん",
+        "answer": "階段を一段飛ばしたとき咄嗟に外国語が出た",
+        "score": 45,
+        "voteRate": 0.34,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 19,
+        "displayRank": 19,
+        "author": "9れあ",
+        "answer": "祭りの匂いがして眠くなっていた",
+        "score": 39,
+        "voteRate": 0.3,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 20,
+        "displayRank": 20,
+        "author": "SBSB",
+        "answer": "牛乳の瓶しか倒さずに掃除を終えてる",
+        "score": 38,
+        "voteRate": 0.29,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 20,
+        "displayRank": 21,
+        "author": "氷下漁",
+        "answer": "「いずれは天にお返しする知識ですから」と入院を断った",
+        "score": 38,
+        "voteRate": 0.29,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 22,
+        "displayRank": 22,
+        "author": "鬼奈子",
+        "answer": "バス乗ってる時に聴く曲が決まってる",
+        "score": 37,
+        "voteRate": 0.28,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 23,
+        "displayRank": 23,
+        "author": "みささぎ",
+        "answer": "犬飼ってる社長に現場主義ですかと聞いた",
+        "score": 35,
+        "voteRate": 0.27,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 23,
+        "displayRank": 24,
+        "author": "粉骨",
+        "answer": "仮定の話に頭叩いて考えられる",
+        "score": 35,
+        "voteRate": 0.27,
+        "votePoints": 3,
+        "isSelf": false
+      },
+      {
+        "rawRank": 25,
+        "displayRank": 25,
+        "author": "イヌ",
+        "answer": "子供のパズルみたいな推理が気に入った",
+        "score": 34,
+        "voteRate": 0.26,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 25,
+        "displayRank": 26,
+        "author": "えすわい",
+        "answer": "明日は雨ですかと聞かれて知らねーよと答えた",
+        "score": 34,
+        "voteRate": 0.26,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 27,
+        "displayRank": 27,
+        "author": "ひまち",
+        "answer": "弓の構えを取って弁当と箸を持たされた",
+        "score": 31,
+        "voteRate": 0.23,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 28,
+        "displayRank": 28,
+        "author": "40代からの基礎化粧品",
+        "answer": "マナー講師に殺すぞと言ってくれた",
+        "score": 30,
+        "voteRate": 0.23,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 29,
+        "displayRank": 29,
+        "author": "核ラミナ",
+        "answer": "スパチャを無視して、緊張もしない",
+        "score": 27,
+        "voteRate": 0.2,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 30,
+        "displayRank": 30,
+        "author": "沖田知恵芋",
+        "answer": "半年煮込んだスープで犬を蘇生させた",
+        "score": 25,
+        "voteRate": 0.19,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 31,
+        "displayRank": 31,
+        "author": "そうやってまた",
+        "answer": "ポストをゆっくり開けたのが怪しく、一瞬で閉めたのが優しかった",
+        "score": 24,
+        "voteRate": 0.18,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 31,
+        "displayRank": 32,
+        "author": "微の歯",
+        "answer": "預かった鍵を浴槽に縫いつけて飾ってる",
+        "score": 24,
+        "voteRate": 0.18,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 33,
+        "displayRank": 33,
+        "author": "空飛ぶタイヤ",
+        "answer": "乳首にエサつけて岩肌で待つ",
+        "score": 23,
+        "voteRate": 0.17,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 34,
+        "displayRank": 34,
+        "author": "讃美歌の行方",
+        "answer": "飛行船の影に入って植物を日光から守っていた",
+        "score": 20,
+        "voteRate": 0.15,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 35,
+        "displayRank": 35,
+        "author": "ピンクジャム",
+        "answer": "お年寄りと喋ってる姿が品格のある文豪に見えた",
+        "score": 19,
+        "voteRate": 0.14,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 36,
+        "displayRank": 36,
+        "author": "田中アオジル",
+        "answer": "にょにょっ！さかなクンです！健康な成人にょ場合、1日に作られるおしっこにょ量は150〜180リットルだにょ！そにょうち99%が体内に再吸収され、実際に外に出る量は約1.5リットルだにょ！人は1日平均して約7回おしっこをするんだにょ！成人にょ膀胱には、およそ300〜400ml（コップ1〜2杯分程度）がたまると脳（にょう）が尿意（にょうい）を認識するにょ！哺乳類にょほとんどは、体にょ大きさに関わらずおしっこを出し切るにょにかかる時間が「平均約21秒」という研究結果があるんだにょ！ケイン・コスギ「センチュリートゥウェンリーワン」だにょ！にょにょっ！あと、おしっこが黄色いにょは、古い赤血球が分解されてできる色素「ウロクローム」が混ざっているからだにょ！濃い黄色にょときは水分不足や脱水気味にょサインになるんだにょ！アスパラガスを食べた後にょおしっこ独特にょにおいは、体内で消化されるときに発生する硫黄化合物が原因だガス！ガスガス！",
+        "score": 15,
+        "voteRate": 0.11,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 37,
+        "displayRank": 37,
+        "author": "アーチャーアーチャー",
+        "answer": "それでも周りの期待の為に図鑑とか読み直すの子役の心に近い",
+        "score": 14,
+        "voteRate": 0.11,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 38,
+        "displayRank": 38,
+        "author": ".tin弁",
+        "answer": "あああ",
+        "score": 3,
+        "voteRate": 0.02,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 39,
+        "displayRank": 39,
+        "author": "やんまままんま",
+        "answer": "あ",
+        "score": 0,
+        "voteRate": 0.0,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 39,
+        "displayRank": 40,
+        "author": "ぎゃら",
+        "answer": "仮",
+        "score": 0,
+        "voteRate": 0.0,
+        "votePoints": null,
+        "isSelf": false
+      }
+    ],
+    "votes": [
+      {
+        "rawRank": 5,
+        "displayRank": 5,
+        "points": 2,
+        "author": "かげよしの昼",
+        "answer": "行き先が分からないバスに水をかけ続けてた",
+        "percentile": 0.125
+      },
+      {
+        "rawRank": 6,
+        "displayRank": 6,
+        "points": 2,
+        "author": "モノカルチャー",
+        "answer": "ポスターに載せる顔のまま社長に電話してた",
+        "percentile": 0.15
+      },
+      {
+        "rawRank": 10,
+        "displayRank": 10,
+        "points": 3,
+        "author": "鴨蕎麦",
+        "answer": "お菓子を持ってきたフリをして子供を一箇所に集めている",
+        "percentile": 0.25
+      },
+      {
+        "rawRank": 23,
+        "displayRank": 23,
+        "points": 2,
+        "author": "みささぎ",
+        "answer": "犬飼ってる社長に現場主義ですかと聞いた",
+        "percentile": 0.575
+      },
+      {
+        "rawRank": 23,
+        "displayRank": 24,
+        "points": 3,
+        "author": "粉骨",
+        "answer": "仮定の話に頭叩いて考えられる",
+        "percentile": 0.575
+      },
+      {
+        "rawRank": 30,
+        "displayRank": 30,
+        "points": 2,
+        "author": "沖田知恵芋",
+        "answer": "半年煮込んだスープで犬を蘇生させた",
+        "percentile": 0.75
+      },
+      {
+        "rawRank": 35,
+        "displayRank": 35,
+        "points": 2,
+        "author": "ピンクジャム",
+        "answer": "お年寄りと喋ってる姿が品格のある文豪に見えた",
+        "percentile": 0.875
+      }
+    ],
+    "self": null
+  },
+  "89": {
+    "id": 89,
+    "division": 2,
+    "prompt": "画像で一言",
+    "imageUrl": "http://oogiri-tmd.net/home/image/20260930204010_1.jpeg",
+    "source": "https://oogiri-tmd.net/home/page.php?id=89",
+    "submissions": 40,
+    "parsed": 40,
+    "answers": [
+      {
+        "rawRank": 1,
+        "displayRank": 1,
+        "author": "ジャーマンスープ",
+        "answer": "正確に測る仕事は続けておられますか",
+        "score": 113,
+        "voteRate": 0.89,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 2,
+        "displayRank": 2,
+        "author": "木根島",
+        "answer": "馬が嫌がる場所は地図に載せてません",
+        "score": 98,
+        "voteRate": 0.77,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 3,
+        "displayRank": 3,
+        "author": "げら",
+        "answer": "バス降りたばっかりでもキリッとしてはるわ",
+        "score": 91,
+        "voteRate": 0.72,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 4,
+        "displayRank": 4,
+        "author": "無敵税",
+        "answer": "弓なら倉庫に凄まじいのがあるよ",
+        "score": 87,
+        "voteRate": 0.69,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 5,
+        "displayRank": 5,
+        "author": "ふりある",
+        "answer": "きっと家の中を通る川なんでしょうね",
+        "score": 85,
+        "voteRate": 0.67,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 6,
+        "displayRank": 6,
+        "author": "夏のワルプルギス",
+        "answer": "素手で墓を洗うのは最初から決めてたんですか？",
+        "score": 77,
+        "voteRate": 0.61,
+        "votePoints": 3,
+        "isSelf": false
+      },
+      {
+        "rawRank": 7,
+        "displayRank": 7,
+        "author": "昼崎",
+        "answer": "研究所までは船が出ておりますので",
+        "score": 75,
+        "voteRate": 0.59,
+        "votePoints": null,
+        "isSelf": true
+      },
+      {
+        "rawRank": 8,
+        "displayRank": 8,
+        "author": "プラス",
+        "answer": "具体的には竹で塀を建てないで欲しいんです",
+        "score": 71,
+        "voteRate": 0.56,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 9,
+        "displayRank": 9,
+        "author": "みちる🌻",
+        "answer": "いただき物の目薬から差しましょうね",
+        "score": 67,
+        "voteRate": 0.53,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 10,
+        "displayRank": 10,
+        "author": "入れ歯型乳歯",
+        "answer": "顔の余白が多い方は皆さん有名になられましたよ",
+        "score": 66,
+        "voteRate": 0.52,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 10,
+        "displayRank": 11,
+        "author": "ニョン",
+        "answer": "石が美しいとか本当馬鹿らしいですよ",
+        "score": 66,
+        "voteRate": 0.52,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 12,
+        "displayRank": 12,
+        "author": "ボルシチ",
+        "answer": "踏切ああ電車で来たんですか？",
+        "score": 59,
+        "voteRate": 0.46,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 13,
+        "displayRank": 13,
+        "author": "さいぞう",
+        "answer": "やはりテレビを持ち帰る度胸は無いようで",
+        "score": 56,
+        "voteRate": 0.44,
+        "votePoints": 3,
+        "isSelf": false
+      },
+      {
+        "rawRank": 13,
+        "displayRank": 14,
+        "author": "たこ焼きボンバー",
+        "answer": "次来た時も旅館のままだったら嬉しいです",
+        "score": 56,
+        "voteRate": 0.44,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 15,
+        "displayRank": 15,
+        "author": "アルキスト",
+        "answer": "月に持って行けそうな武器ですか？",
+        "score": 55,
+        "voteRate": 0.43,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 16,
+        "displayRank": 16,
+        "author": "2037",
+        "answer": "最適解を引く遊びをしてらっしゃる",
+        "score": 46,
+        "voteRate": 0.36,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 16,
+        "displayRank": 17,
+        "author": "フルーツスペシャリスト",
+        "answer": "思いついたことはなんでも言っていい時代だったんです",
+        "score": 46,
+        "voteRate": 0.36,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 18,
+        "displayRank": 18,
+        "author": "シャロン",
+        "answer": "なんだろう握らない感じで回す",
+        "score": 45,
+        "voteRate": 0.35,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 18,
+        "displayRank": 19,
+        "author": "筆圧",
+        "answer": "要するに風邪っていうバグが起きてます",
+        "score": 45,
+        "voteRate": 0.35,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 20,
+        "displayRank": 20,
+        "author": "ツイタチ",
+        "answer": "テレビにアニメ流してる部屋もございますが",
+        "score": 43,
+        "voteRate": 0.34,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 21,
+        "displayRank": 21,
+        "author": "オタマ弱者",
+        "answer": "貝殻を乾かして巾着の中もほぐれた頃です",
+        "score": 42,
+        "voteRate": 0.33,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 22,
+        "displayRank": 22,
+        "author": "9分",
+        "answer": "絵本を開いてみましょう、もう象は怖くない",
+        "score": 39,
+        "voteRate": 0.31,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 23,
+        "displayRank": 23,
+        "author": "じゃー",
+        "answer": "読んでる本からあなたを知っていきたい",
+        "score": 37,
+        "voteRate": 0.29,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 23,
+        "displayRank": 24,
+        "author": "辛いところ",
+        "answer": "カメラも太るのです",
+        "score": 37,
+        "voteRate": 0.29,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 25,
+        "displayRank": 25,
+        "author": "たきざき",
+        "answer": "ほな荷物は野ざらしでよろしいね？",
+        "score": 35,
+        "voteRate": 0.28,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 26,
+        "displayRank": 26,
+        "author": "にこごり",
+        "answer": "ピアスは穴を開けてからが大変なんですよね",
+        "score": 34,
+        "voteRate": 0.27,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 26,
+        "displayRank": 27,
+        "author": "ねこライト",
+        "answer": "この国のお笑いという文化が嫌いです",
+        "score": 34,
+        "voteRate": 0.27,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 28,
+        "displayRank": 28,
+        "author": "笑動的",
+        "answer": "お前らのレモンは夢の中だけ",
+        "score": 30,
+        "voteRate": 0.24,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 29,
+        "displayRank": 29,
+        "author": "しろねこ",
+        "answer": "広い寺なら中で吐いても大丈夫、その為の広さやから",
+        "score": 28,
+        "voteRate": 0.22,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 30,
+        "displayRank": 30,
+        "author": "真司",
+        "answer": "柔らかい茶碗も文化ですからね",
+        "score": 27,
+        "voteRate": 0.21,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 31,
+        "displayRank": 31,
+        "author": "能動的三半規管",
+        "answer": "電話で言った事を何度も言わせて口を殺す気ですか",
+        "score": 26,
+        "voteRate": 0.2,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 32,
+        "displayRank": 32,
+        "author": "えー？",
+        "answer": "覚えたての漢字、使いたなりますよなあ",
+        "score": 25,
+        "voteRate": 0.2,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 33,
+        "displayRank": 33,
+        "author": "夏🌊☀️",
+        "answer": "急ぐために床を磨いてます",
+        "score": 23,
+        "voteRate": 0.18,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 34,
+        "displayRank": 34,
+        "author": "ババア",
+        "answer": "小学校が近くにないから選んでくれてありがとございますわ",
+        "score": 20,
+        "voteRate": 0.16,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 35,
+        "displayRank": 35,
+        "author": "ゆうとってゆうとるやん",
+        "answer": "本当の骨折を知っていますか",
+        "score": 19,
+        "voteRate": 0.15,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 36,
+        "displayRank": 36,
+        "author": "ブスとり",
+        "answer": "ワンピース、このあとすぐ",
+        "score": 16,
+        "voteRate": 0.13,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 37,
+        "displayRank": 37,
+        "author": "海老預け",
+        "answer": "館内着みたいな着物を仕立てた",
+        "score": 9,
+        "voteRate": 0.07,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 38,
+        "displayRank": 38,
+        "author": "くすも",
+        "answer": "気まずさって私達共に伝わるよ",
+        "score": 7,
+        "voteRate": 0.06,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 39,
+        "displayRank": 39,
+        "author": "進展シティ",
+        "answer": "あ",
+        "score": 0,
+        "voteRate": 0.0,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 39,
+        "displayRank": 40,
+        "author": "快適マイノリティ",
+        "answer": "あ",
+        "score": 0,
+        "voteRate": 0.0,
+        "votePoints": null,
+        "isSelf": false
+      }
+    ],
+    "votes": [
+      {
+        "rawRank": 2,
+        "displayRank": 2,
+        "points": 2,
+        "author": "木根島",
+        "answer": "馬が嫌がる場所は地図に載せてません",
+        "percentile": 0.05
+      },
+      {
+        "rawRank": 3,
+        "displayRank": 3,
+        "points": 2,
+        "author": "げら",
+        "answer": "バス降りたばっかりでもキリッとしてはるわ",
+        "percentile": 0.075
+      },
+      {
+        "rawRank": 6,
+        "displayRank": 6,
+        "points": 3,
+        "author": "夏のワルプルギス",
+        "answer": "素手で墓を洗うのは最初から決めてたんですか？",
+        "percentile": 0.15
+      },
+      {
+        "rawRank": 8,
+        "displayRank": 8,
+        "points": 2,
+        "author": "プラス",
+        "answer": "具体的には竹で塀を建てないで欲しいんです",
+        "percentile": 0.2
+      },
+      {
+        "rawRank": 13,
+        "displayRank": 13,
+        "points": 3,
+        "author": "さいぞう",
+        "answer": "やはりテレビを持ち帰る度胸は無いようで",
+        "percentile": 0.325
+      },
+      {
+        "rawRank": 15,
+        "displayRank": 15,
+        "points": 2,
+        "author": "アルキスト",
+        "answer": "月に持って行けそうな武器ですか？",
+        "percentile": 0.375
+      },
+      {
+        "rawRank": 16,
+        "displayRank": 16,
+        "points": 2,
+        "author": "2037",
+        "answer": "最適解を引く遊びをしてらっしゃる",
+        "percentile": 0.4
+      }
+    ],
+    "self": {
+      "rawRank": 7,
+      "displayRank": 7,
+      "answer": "研究所までは船が出ておりますので"
+    }
+  },
+  "90": {
+    "id": 90,
+    "division": 2,
+    "prompt": "経験値が2倍になるアイテム○○○",
+    "imageUrl": null,
+    "source": "https://oogiri-tmd.net/home/page.php?id=90",
+    "submissions": 40,
+    "parsed": 40,
+    "answers": [
+      {
+        "rawRank": 1,
+        "displayRank": 1,
+        "author": "へなちょこ",
+        "answer": "経験値が2倍になるアイテム を説明してるお前、急に他人みたいで怖かった",
+        "score": 103,
+        "voteRate": 0.82,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 2,
+        "displayRank": 2,
+        "author": "言語遊戯",
+        "answer": "経験値が2倍になるアイテム あざます、砂場はこういう出会いがあるんよ",
+        "score": 95,
+        "voteRate": 0.75,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 3,
+        "displayRank": 3,
+        "author": "バケツマン",
+        "answer": "経験値が2倍になるアイテム でずっと傘の色変えてたんだ俺",
+        "score": 91,
+        "voteRate": 0.72,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 4,
+        "displayRank": 4,
+        "author": "ジュルジュル温泉!!",
+        "answer": "経験値が2倍になるアイテム の洞窟あっただろ、あそこで整体やろうと思う",
+        "score": 90,
+        "voteRate": 0.71,
+        "votePoints": 3,
+        "isSelf": false
+      },
+      {
+        "rawRank": 5,
+        "displayRank": 5,
+        "author": "即興曲",
+        "answer": "経験値が2倍になるアイテム なのに、携帯の光で全体が分かってしまう",
+        "score": 84,
+        "voteRate": 0.67,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 6,
+        "displayRank": 6,
+        "author": "きまぐれ",
+        "answer": "経験値が2倍になるアイテム を膝に置けばもう1人座れるでしょう",
+        "score": 77,
+        "voteRate": 0.61,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 7,
+        "displayRank": 7,
+        "author": "虎猫",
+        "answer": "経験値が2倍になるアイテム 見せてよ、映画は別に来週でもいいから",
+        "score": 66,
+        "voteRate": 0.52,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 8,
+        "displayRank": 8,
+        "author": "すかいどん",
+        "answer": "経験値が2倍になるアイテム お前が持つと借りて来ましたみたいに見えるな",
+        "score": 65,
+        "voteRate": 0.52,
+        "votePoints": 3,
+        "isSelf": false
+      },
+      {
+        "rawRank": 8,
+        "displayRank": 9,
+        "author": "侍 in the sky",
+        "answer": "経験値が2倍になるアイテム というか、授業中気にしてた鳥",
+        "score": 65,
+        "voteRate": 0.52,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 10,
+        "displayRank": 10,
+        "author": "世界の牛肉",
+        "answer": "経験値が2倍になるアイテム からのお知らせ！冷蔵庫が寂しいですよ",
+        "score": 63,
+        "voteRate": 0.5,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 11,
+        "displayRank": 11,
+        "author": "gas",
+        "answer": "経験値が2倍になるアイテム 使ってるんだぞ、今は変なサイトの話すんな",
+        "score": 61,
+        "voteRate": 0.48,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 12,
+        "displayRank": 12,
+        "author": "犬クジラ",
+        "answer": "経験値が2倍になるアイテム 最悪です、冷えたビールの匂いで捕まります",
+        "score": 57,
+        "voteRate": 0.45,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 13,
+        "displayRank": 13,
+        "author": "tan5.7゜",
+        "answer": "経験値が2倍になるアイテム があるやん、いつまで公園に余裕を求めてるん",
+        "score": 54,
+        "voteRate": 0.43,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 13,
+        "displayRank": 14,
+        "author": "mudman",
+        "answer": "経験値が2倍になるアイテム こそ子供に持たせたい、優しい紐にはワケがある",
+        "score": 54,
+        "voteRate": 0.43,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 15,
+        "displayRank": 15,
+        "author": "ミトコンドリア",
+        "answer": "経験値が2倍になるアイテム 預けてるホテル、くしゃみが電球に響いてる",
+        "score": 48,
+        "voteRate": 0.38,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 15,
+        "displayRank": 16,
+        "author": "らあらら",
+        "answer": "経験値が2倍になるアイテム として飛行機で売られてた日焼け止め",
+        "score": 48,
+        "voteRate": 0.38,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 15,
+        "displayRank": 17,
+        "author": "ちゅどーん",
+        "answer": "経験値が2倍になるアイテム を中々飲み込めず、舌だけが伸びていく声優",
+        "score": 48,
+        "voteRate": 0.38,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 18,
+        "displayRank": 18,
+        "author": "sterling",
+        "answer": "経験値が2倍になるアイテム がポケットに収まってないんだし、あんま喋んなよお前！",
+        "score": 47,
+        "voteRate": 0.37,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 19,
+        "displayRank": 19,
+        "author": "しざりEX",
+        "answer": "経験値が2倍になるアイテム を小麦粉と練る、今日はクリスマス",
+        "score": 41,
+        "voteRate": 0.33,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 20,
+        "displayRank": 20,
+        "author": "あると",
+        "answer": "経験値が2倍になるアイテム を大量にドロップする、ティアラに擬態した虫",
+        "score": 40,
+        "voteRate": 0.32,
+        "votePoints": 3,
+        "isSelf": false
+      },
+      {
+        "rawRank": 21,
+        "displayRank": 21,
+        "author": "天からの配膳",
+        "answer": "経験値が2倍になるアイテム が地元の祭りで売ってた、太鼓の香りする",
+        "score": 37,
+        "voteRate": 0.29,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 22,
+        "displayRank": 22,
+        "author": "POPOJI",
+        "answer": "経験値が2倍になるアイテム を出して食堂で固まってるのがご先祖様？",
+        "score": 36,
+        "voteRate": 0.29,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 23,
+        "displayRank": 23,
+        "author": "ボンバーウィーメン",
+        "answer": "経験値が2倍になるアイテム 下水道で釣りしてる人を師匠と呼べますか",
+        "score": 35,
+        "voteRate": 0.28,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 24,
+        "displayRank": 24,
+        "author": "佐原",
+        "answer": "経験値が2倍になるアイテム は家の煙突じゃ隠し切れん",
+        "score": 34,
+        "voteRate": 0.27,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 25,
+        "displayRank": 25,
+        "author": "aruma",
+        "answer": "経験値が2倍になるアイテム って歩道橋の上に靴を並べてても出来るよ",
+        "score": 31,
+        "voteRate": 0.25,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 26,
+        "displayRank": 26,
+        "author": "はひふーへ・ほーほほ",
+        "answer": "経験値が2倍になるアイテム と一緒に茹でた卵で歯が欠けた",
+        "score": 29,
+        "voteRate": 0.23,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 27,
+        "displayRank": 27,
+        "author": "縦割り",
+        "answer": "経験値が2倍になるアイテム を入れたせいで冷蔵庫に自然が蘇った",
+        "score": 26,
+        "voteRate": 0.21,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 28,
+        "displayRank": 28,
+        "author": "ガパチョ",
+        "answer": "経験値が2倍になるアイテム を捨てた途端、餅に触れていたいと思った",
+        "score": 24,
+        "voteRate": 0.19,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 29,
+        "displayRank": 29,
+        "author": "マージナル・マン",
+        "answer": "経験値が2倍になるアイテム ありますか？無い？じゃあクリオネください",
+        "score": 20,
+        "voteRate": 0.16,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 29,
+        "displayRank": 30,
+        "author": "ふじがた",
+        "answer": "経験値が2倍になるアイテム 探して行方不明になった男の子、知らない大道芸覚えて帰ってきたらしい",
+        "score": 20,
+        "voteRate": 0.16,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 31,
+        "displayRank": 31,
+        "author": "確率論のパラテママ",
+        "answer": "経験値が2倍になるアイテム のある夏休みは絵日記を隅々まで埋め尽くしたものだ",
+        "score": 15,
+        "voteRate": 0.12,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 31,
+        "displayRank": 32,
+        "author": "ドど見",
+        "answer": "経験値が2倍になるアイテム とは言っても、女将から貰ったサイコロに頼るわけにはいかない",
+        "score": 15,
+        "voteRate": 0.12,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 31,
+        "displayRank": 33,
+        "author": "紫電",
+        "answer": "経験値が2倍になるアイテム ありきのくせに何が隠れ家的なカフェだよバカ親父",
+        "score": 15,
+        "voteRate": 0.12,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 34,
+        "displayRank": 34,
+        "author": "kak",
+        "answer": "経験値が2倍になるアイテム、馬から見る景色に空が多い",
+        "score": 14,
+        "voteRate": 0.11,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 34,
+        "displayRank": 35,
+        "author": "ワサビ🫛",
+        "answer": "経験値が2倍になるアイテム を売ったお金で食べる牛丼は嘘みたいに味がしない",
+        "score": 14,
+        "voteRate": 0.11,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 36,
+        "displayRank": 36,
+        "author": "有亀わんたん",
+        "answer": "経験値が2倍になるアイテム ハートスランプ二人ぼっち",
+        "score": 13,
+        "voteRate": 0.1,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 37,
+        "displayRank": 37,
+        "author": "レイルレイル",
+        "answer": "経験値が2倍になるアイテム を探した小説のせいでご飯が不味い",
+        "score": 12,
+        "voteRate": 0.1,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 38,
+        "displayRank": 38,
+        "author": "納屋の鍵",
+        "answer": "経験値が2倍になるアイテム できた",
+        "score": 2,
+        "voteRate": 0.02,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 39,
+        "displayRank": 39,
+        "author": "親善小僧",
+        "answer": "経験値が2倍になるアイテム 親善小僧",
+        "score": 0,
+        "voteRate": 0.0,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 39,
+        "displayRank": 40,
+        "author": "ラブリーチャーミーな敵役",
+        "answer": "経験値が2倍になるアイテム あ",
+        "score": 0,
+        "voteRate": 0.0,
+        "votePoints": null,
+        "isSelf": false
+      }
+    ],
+    "votes": [
+      {
+        "rawRank": 1,
+        "displayRank": 1,
+        "points": 2,
+        "author": "へなちょこ",
+        "answer": "経験値が2倍になるアイテム を説明してるお前、急に他人みたいで怖かった",
+        "percentile": 0.025
+      },
+      {
+        "rawRank": 2,
+        "displayRank": 2,
+        "points": 2,
+        "author": "言語遊戯",
+        "answer": "経験値が2倍になるアイテム あざます、砂場はこういう出会いがあるんよ",
+        "percentile": 0.05
+      },
+      {
+        "rawRank": 4,
+        "displayRank": 4,
+        "points": 3,
+        "author": "ジュルジュル温泉!!",
+        "answer": "経験値が2倍になるアイテム の洞窟あっただろ、あそこで整体やろうと思う",
+        "percentile": 0.1
+      },
+      {
+        "rawRank": 6,
+        "displayRank": 6,
+        "points": 2,
+        "author": "きまぐれ",
+        "answer": "経験値が2倍になるアイテム を膝に置けばもう1人座れるでしょう",
+        "percentile": 0.15
+      },
+      {
+        "rawRank": 8,
+        "displayRank": 8,
+        "points": 3,
+        "author": "すかいどん",
+        "answer": "経験値が2倍になるアイテム お前が持つと借りて来ましたみたいに見えるな",
+        "percentile": 0.2
+      },
+      {
+        "rawRank": 20,
+        "displayRank": 20,
+        "points": 3,
+        "author": "あると",
+        "answer": "経験値が2倍になるアイテム を大量にドロップする、ティアラに擬態した虫",
+        "percentile": 0.5
+      },
+      {
+        "rawRank": 26,
+        "displayRank": 26,
+        "points": 2,
+        "author": "はひふーへ・ほーほほ",
+        "answer": "経験値が2倍になるアイテム と一緒に茹でた卵で歯が欠けた",
+        "percentile": 0.65
+      },
+      {
+        "rawRank": 29,
+        "displayRank": 30,
+        "points": 2,
+        "author": "ふじがた",
+        "answer": "経験値が2倍になるアイテム 探して行方不明になった男の子、知らない大道芸覚えて帰ってきたらしい",
+        "percentile": 0.725
+      }
+    ],
+    "self": null
+  },
+  "91": {
+    "id": 91,
+    "division": 2,
+    "prompt": "高速道路の中央分離帯で営業している屋台について知っていること",
+    "imageUrl": null,
+    "source": "https://oogiri-tmd.net/home/page.php?id=91",
+    "submissions": 40,
+    "parsed": 40,
+    "answers": [
+      {
+        "rawRank": 1,
+        "displayRank": 1,
+        "author": "ますく",
+        "answer": "雪の日に貰ったライターを返すためにやってる",
+        "score": 119,
+        "voteRate": 0.92,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 2,
+        "displayRank": 2,
+        "author": "まな！",
+        "answer": "救急車に暖簾を持っていかれた日から店名が短い",
+        "score": 91,
+        "voteRate": 0.7,
+        "votePoints": 3,
+        "isSelf": false
+      },
+      {
+        "rawRank": 3,
+        "displayRank": 3,
+        "author": "ちょくりんちょ",
+        "answer": "紐の通った化石がドアにぶら下がっている",
+        "score": 78,
+        "voteRate": 0.6,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 4,
+        "displayRank": 4,
+        "author": "今永",
+        "answer": "コイツだと思った人にだけ鍋の塗装を見せてる",
+        "score": 74,
+        "voteRate": 0.57,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 5,
+        "displayRank": 5,
+        "author": "サービスバルーン",
+        "answer": "驚いた表情のまま水を探している",
+        "score": 73,
+        "voteRate": 0.56,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 6,
+        "displayRank": 6,
+        "author": "たげ",
+        "answer": "声変わり前の子どもが機械の感じで喋ってる",
+        "score": 65,
+        "voteRate": 0.5,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 7,
+        "displayRank": 7,
+        "author": "超お譲り娘",
+        "answer": "おしぼりの袋に俳優の電話番号が書かれている",
+        "score": 62,
+        "voteRate": 0.48,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 8,
+        "displayRank": 8,
+        "author": "五言舌禍",
+        "answer": "バイクの女を見て鉄板の温度を下げた",
+        "score": 61,
+        "voteRate": 0.47,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 9,
+        "displayRank": 9,
+        "author": "モスクワ動物園2",
+        "answer": "一瞬だけ全ての電気が通る瞬間をそのまま維持している",
+        "score": 58,
+        "voteRate": 0.45,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 9,
+        "displayRank": 10,
+        "author": "ミッツ乾電池",
+        "answer": "通り過ぎた車から一瞬だけ演歌を受信してる",
+        "score": 58,
+        "voteRate": 0.45,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 11,
+        "displayRank": 11,
+        "author": "しゅにく",
+        "answer": "何もやってないよと言われて口の中を見られた",
+        "score": 57,
+        "voteRate": 0.44,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 11,
+        "displayRank": 12,
+        "author": "ここから",
+        "answer": "手が冷たいので車触らせてくださいと止められる",
+        "score": 57,
+        "voteRate": 0.44,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 13,
+        "displayRank": 13,
+        "author": "せやかて苦労",
+        "answer": "お釣りを熱帯魚の水槽に入れてる",
+        "score": 56,
+        "voteRate": 0.43,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 14,
+        "displayRank": 14,
+        "author": "灯油の日",
+        "answer": "季節を象徴する料理としてカレーを売ってる",
+        "score": 54,
+        "voteRate": 0.42,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 15,
+        "displayRank": 15,
+        "author": "virus菌",
+        "answer": "普通に便利なものを売ってて、気づくと郵便局になってた",
+        "score": 47,
+        "voteRate": 0.36,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 16,
+        "displayRank": 16,
+        "author": "遠くを見ている",
+        "answer": "まだ歯の治療が終わってないのに始めた",
+        "score": 45,
+        "voteRate": 0.35,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 17,
+        "displayRank": 17,
+        "author": "やせくま",
+        "answer": "思い出話してる時に花火を始めたりする",
+        "score": 43,
+        "voteRate": 0.33,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 18,
+        "displayRank": 18,
+        "author": "グラス一杯の砂利",
+        "answer": "一番遠い海の魚を売っている",
+        "score": 39,
+        "voteRate": 0.3,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 18,
+        "displayRank": 19,
+        "author": "缶",
+        "answer": "大学は凄いみたいな話をしている",
+        "score": 39,
+        "voteRate": 0.3,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 20,
+        "displayRank": 20,
+        "author": "僕",
+        "answer": "ピアノを弾いてる時もある",
+        "score": 34,
+        "voteRate": 0.26,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 20,
+        "displayRank": 21,
+        "author": "金魚のムニエル",
+        "answer": "年配の常連がペットボトルをポケットにねじ込んでる",
+        "score": 34,
+        "voteRate": 0.26,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 22,
+        "displayRank": 22,
+        "author": "monika",
+        "answer": "赤い車が通るたびに店主から正論を言われる",
+        "score": 33,
+        "voteRate": 0.25,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 23,
+        "displayRank": 23,
+        "author": "しろとら",
+        "answer": "靴下を付けてうさぎのお面としていた",
+        "score": 32,
+        "voteRate": 0.25,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 23,
+        "displayRank": 24,
+        "author": "否定から入るオンザビーチ",
+        "answer": "車内が臭そうです、とラジオに割り込んでくる",
+        "score": 32,
+        "voteRate": 0.25,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 25,
+        "displayRank": 25,
+        "author": "Dシンカー",
+        "answer": "楽しんでもらうために植えた二本の桜の木の間にある",
+        "score": 30,
+        "voteRate": 0.23,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 26,
+        "displayRank": 26,
+        "author": "優死 とれま",
+        "answer": "竹で作った包丁で人形の髪を切ってくれる",
+        "score": 27,
+        "voteRate": 0.21,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 26,
+        "displayRank": 27,
+        "author": "ぼしん苦",
+        "answer": "香水の歌をちょっと飾ってる",
+        "score": 27,
+        "voteRate": 0.21,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 28,
+        "displayRank": 28,
+        "author": "totsuka",
+        "answer": "ネットが止まって闇堕ちした",
+        "score": 22,
+        "voteRate": 0.17,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 29,
+        "displayRank": 29,
+        "author": "ペイトリオッツ",
+        "answer": "裸足で運転する人に優しくする",
+        "score": 21,
+        "voteRate": 0.16,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 29,
+        "displayRank": 30,
+        "author": "ランダム",
+        "answer": "急いで顔を出すけど、架空請求のアラートが鳴ってる",
+        "score": 21,
+        "voteRate": 0.16,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 29,
+        "displayRank": 31,
+        "author": "まちょ",
+        "answer": "お揃いの白いTシャツで心がけている",
+        "score": 21,
+        "voteRate": 0.16,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 29,
+        "displayRank": 32,
+        "author": "板チョコ",
+        "answer": "店主が腕を振るジェスチャーをしながら見てくる",
+        "score": 21,
+        "voteRate": 0.16,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 33,
+        "displayRank": 33,
+        "author": "神谷テクニカ",
+        "answer": "時々濁った水槽に小銭を投げて手を合わせてる",
+        "score": 20,
+        "voteRate": 0.15,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 34,
+        "displayRank": 34,
+        "author": "ゆゆゆ♨️",
+        "answer": "落としたハンカチが流れる方向に新品のが並んでる",
+        "score": 19,
+        "voteRate": 0.15,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 35,
+        "displayRank": 35,
+        "author": "キャベツの裏側",
+        "answer": "ラジオが途切れたらうどんを鳥にくくる",
+        "score": 18,
+        "voteRate": 0.14,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 35,
+        "displayRank": 36,
+        "author": "踊るダイソー",
+        "answer": "渋滞を見つけて移動し始めるが、渋滞に巻き込まれている",
+        "score": 18,
+        "voteRate": 0.14,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 37,
+        "displayRank": 37,
+        "author": "白犬",
+        "answer": "リサイクル会社の人間が偶然集まって屋台に見える",
+        "score": 14,
+        "voteRate": 0.11,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 38,
+        "displayRank": 38,
+        "author": "啓蒙思想",
+        "answer": "建て付けの木材を買いたいクソインキャが張り付いてる",
+        "score": 11,
+        "voteRate": 0.08,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 39,
+        "displayRank": 39,
+        "author": "新快速誠",
+        "answer": "流れる車見て足が重くなる",
+        "score": 10,
+        "voteRate": 0.08,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 40,
+        "displayRank": 40,
+        "author": "木製の雪",
+        "answer": "あ",
+        "score": 3,
+        "voteRate": 0.02,
+        "votePoints": null,
+        "isSelf": false
+      }
+    ],
+    "votes": [
+      {
+        "rawRank": 2,
+        "displayRank": 2,
+        "points": 3,
+        "author": "まな！",
+        "answer": "救急車に暖簾を持っていかれた日から店名が短い",
+        "percentile": 0.05
+      },
+      {
+        "rawRank": 3,
+        "displayRank": 3,
+        "points": 2,
+        "author": "ちょくりんちょ",
+        "answer": "紐の通った化石がドアにぶら下がっている",
+        "percentile": 0.075
+      },
+      {
+        "rawRank": 18,
+        "displayRank": 19,
+        "points": 2,
+        "author": "缶",
+        "answer": "大学は凄いみたいな話をしている",
+        "percentile": 0.45
+      },
+      {
+        "rawRank": 26,
+        "displayRank": 26,
+        "points": 2,
+        "author": "優死 とれま",
+        "answer": "竹で作った包丁で人形の髪を切ってくれる",
+        "percentile": 0.65
+      },
+      {
+        "rawRank": 33,
+        "displayRank": 33,
+        "points": 2,
+        "author": "神谷テクニカ",
+        "answer": "時々濁った水槽に小銭を投げて手を合わせてる",
+        "percentile": 0.825
+      }
+    ],
+    "self": null
+  },
+  "92": {
+    "id": 92,
+    "division": 1,
+    "prompt": "イカが透明な理由を教えてください",
+    "imageUrl": null,
+    "source": "https://oogiri-tmd.net/home/page.php?id=92",
+    "submissions": 26,
+    "parsed": 26,
+    "answers": [
+      {
+        "rawRank": 1,
+        "displayRank": 1,
+        "author": "根岸",
+        "answer": "赤ちゃんの真似をしてたら戻らなくなった",
+        "score": 103,
+        "voteRate": 0.97,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 2,
+        "displayRank": 2,
+        "author": "お城",
+        "answer": "好きに死んでいいよと産まれた日に言われてる",
+        "score": 83,
+        "voteRate": 0.78,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 3,
+        "displayRank": 3,
+        "author": "は？",
+        "answer": "オルゴールの部品に巻き込まれる自分を想像した",
+        "score": 82,
+        "voteRate": 0.77,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 4,
+        "displayRank": 4,
+        "author": "懐かしむ会",
+        "answer": "暗い場所で狂わないための簡単な方法だった",
+        "score": 73,
+        "voteRate": 0.69,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 5,
+        "displayRank": 5,
+        "author": "懐かしむ会",
+        "answer": "マッチの箱に書く動物として有力なのが嫌だった",
+        "score": 70,
+        "voteRate": 0.66,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 6,
+        "displayRank": 6,
+        "author": "根岸",
+        "answer": "どこでもおっぱじまる本来の相撲に立ち会った",
+        "score": 62,
+        "voteRate": 0.58,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 7,
+        "displayRank": 7,
+        "author": "伊坂",
+        "answer": "将棋の途中で帰るような人にこそ見つけてほしい",
+        "score": 58,
+        "voteRate": 0.55,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 8,
+        "displayRank": 8,
+        "author": "お城",
+        "answer": "時計に張り付いて遊んでるのがテレビに映ってた",
+        "score": 50,
+        "voteRate": 0.47,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 9,
+        "displayRank": 9,
+        "author": "だだり",
+        "answer": "磁石拾っておかしくなったやつを全員で無視してる",
+        "score": 42,
+        "voteRate": 0.4,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 9,
+        "displayRank": 10,
+        "author": "らうかった",
+        "answer": "カーテンにだけ使える洗剤を昔から知ってた",
+        "score": 42,
+        "voteRate": 0.4,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 9,
+        "displayRank": 11,
+        "author": "9月が終わったら起こして",
+        "answer": "親からずっと逃げてたらなぜか服を着ていた",
+        "score": 42,
+        "voteRate": 0.4,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 12,
+        "displayRank": 12,
+        "author": "釜ちびちび",
+        "answer": "注射の日になった子供に殴られてる",
+        "score": 41,
+        "voteRate": 0.39,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 13,
+        "displayRank": 13,
+        "author": "すぽんじ",
+        "answer": "海外のマジック見てたら居た、ぐらいがちょうどいい",
+        "score": 39,
+        "voteRate": 0.37,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 14,
+        "displayRank": 14,
+        "author": "伊坂",
+        "answer": "心臓の位置を一発で当ててきた子どもにもう一度会いたい",
+        "score": 38,
+        "voteRate": 0.36,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 15,
+        "displayRank": 15,
+        "author": "煮込みVUITTON",
+        "answer": "他人の短冊に触るのが好きと泡の中で言った",
+        "score": 36,
+        "voteRate": 0.34,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 15,
+        "displayRank": 16,
+        "author": "日向あ",
+        "answer": "映画館の椅子の隙間から抜け出したことがある",
+        "score": 36,
+        "voteRate": 0.34,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 17,
+        "displayRank": 17,
+        "author": "安藤龍",
+        "answer": "落語家に頭を割られたときの悲鳴が伝わった",
+        "score": 34,
+        "voteRate": 0.32,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 18,
+        "displayRank": 18,
+        "author": "9月が終わったら起こして",
+        "answer": "どこにいる自分が1番臭いかちょっと考えてた",
+        "score": 32,
+        "voteRate": 0.3,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 19,
+        "displayRank": 19,
+        "author": "イマジゲン",
+        "answer": "かっこいい人が話を通してくれた",
+        "score": 30,
+        "voteRate": 0.28,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 20,
+        "displayRank": 20,
+        "author": "煮込みVUITTON",
+        "answer": "底にあった望遠鏡の持ち主を今でも探してる",
+        "score": 28,
+        "voteRate": 0.26,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 20,
+        "displayRank": 21,
+        "author": "は？",
+        "answer": "寝てるか死んでるかわからないですと言われた",
+        "score": 28,
+        "voteRate": 0.26,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 22,
+        "displayRank": 22,
+        "author": "釜ちびちび",
+        "answer": "銭湯に贈られた絵をずっと見てしまう",
+        "score": 26,
+        "voteRate": 0.25,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 23,
+        "displayRank": 23,
+        "author": "日向あ",
+        "answer": "噴水の近くで座りたいと思う家族が増えすぎてる",
+        "score": 25,
+        "voteRate": 0.24,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 23,
+        "displayRank": 24,
+        "author": "すぽんじ",
+        "answer": "ふざけて白黒で印刷されるというのが流行った",
+        "score": 25,
+        "voteRate": 0.24,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 25,
+        "displayRank": 25,
+        "author": "イマジゲン",
+        "answer": "丁寧な説明をされてしまった",
+        "score": 22,
+        "voteRate": 0.21,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 26,
+        "displayRank": 26,
+        "author": "オワコンパンダちゃん",
+        "answer": "体に電流を走らせて天才が出現した感じにする",
+        "score": 21,
+        "voteRate": 0.2,
+        "votePoints": null,
+        "isSelf": false
+      }
+    ],
+    "votes": [
+      {
+        "rawRank": 2,
+        "displayRank": 2,
+        "points": 2,
+        "author": "お城",
+        "answer": "好きに死んでいいよと産まれた日に言われてる",
+        "percentile": 0.07692307692307693
+      },
+      {
+        "rawRank": 4,
+        "displayRank": 4,
+        "points": 2,
+        "author": "懐かしむ会",
+        "answer": "暗い場所で狂わないための簡単な方法だった",
+        "percentile": 0.15384615384615385
+      },
+      {
+        "rawRank": 5,
+        "displayRank": 5,
+        "points": 2,
+        "author": "懐かしむ会",
+        "answer": "マッチの箱に書く動物として有力なのが嫌だった",
+        "percentile": 0.19230769230769232
+      },
+      {
+        "rawRank": 13,
+        "displayRank": 13,
+        "points": 2,
+        "author": "すぽんじ",
+        "answer": "海外のマジック見てたら居た、ぐらいがちょうどいい",
+        "percentile": 0.5
+      },
+      {
+        "rawRank": 14,
+        "displayRank": 14,
+        "points": 2,
+        "author": "伊坂",
+        "answer": "心臓の位置を一発で当ててきた子どもにもう一度会いたい",
+        "percentile": 0.5384615384615384
+      }
+    ],
+    "self": null
+  },
+  "93": {
+    "id": 93,
+    "division": 1,
+    "prompt": "世界初の孤児院は何もかも手探りだったので、こんな感じでやっていた",
+    "imageUrl": null,
+    "source": "https://oogiri-tmd.net/home/page.php?id=93",
+    "submissions": 31,
+    "parsed": 31,
+    "answers": [
+      {
+        "rawRank": 1,
+        "displayRank": 1,
+        "author": "贖罪",
+        "answer": "紅茶を指で混ぜるだけで授業みたいになってる",
+        "score": 89,
+        "voteRate": 0.85,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 2,
+        "displayRank": 2,
+        "author": "寝坊",
+        "answer": "鶏の真似をさせて意味分かんなかったら入れる",
+        "score": 78,
+        "voteRate": 0.74,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 3,
+        "displayRank": 3,
+        "author": "寝坊",
+        "answer": "唐辛子を食べさせた時の反応で年齢を決めてる",
+        "score": 63,
+        "voteRate": 0.6,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 4,
+        "displayRank": 4,
+        "author": "お化けぬこ",
+        "answer": "目を押してたら星が見えたと階段に集まってる",
+        "score": 62,
+        "voteRate": 0.59,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 5,
+        "displayRank": 5,
+        "author": "おお龍馬",
+        "answer": "人が観てるところに加わる形で相撲を観せてた",
+        "score": 60,
+        "voteRate": 0.57,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 6,
+        "displayRank": 6,
+        "author": "おお龍馬",
+        "answer": "自然に飛んできた綿毛を座布団に着地させてた",
+        "score": 56,
+        "voteRate": 0.53,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 7,
+        "displayRank": 7,
+        "author": "とも",
+        "answer": "大声出した子をカチューシャで抑えつけてる",
+        "score": 55,
+        "voteRate": 0.52,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 8,
+        "displayRank": 8,
+        "author": "シャンプー剤",
+        "answer": "紙でメガホンが作れると気づいて円陣を組んでる",
+        "score": 54,
+        "voteRate": 0.51,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 9,
+        "displayRank": 9,
+        "author": "何奴",
+        "answer": "悔しいって感情があるかで寝床の場所を分けてた",
+        "score": 53,
+        "voteRate": 0.5,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 10,
+        "displayRank": 10,
+        "author": "人々",
+        "answer": "運動になると思って鉱山を襲わせてた",
+        "score": 52,
+        "voteRate": 0.5,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 11,
+        "displayRank": 11,
+        "author": "吉野家作造",
+        "answer": "駅員と同じ服装に着替えて仲直りを手伝ってる",
+        "score": 47,
+        "voteRate": 0.45,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 12,
+        "displayRank": 12,
+        "author": "永栄",
+        "answer": "花の近くでジュースを飲んで、こぼれたらラッキーみたいな感じ",
+        "score": 44,
+        "voteRate": 0.42,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 13,
+        "displayRank": 13,
+        "author": "シャンプー剤",
+        "answer": "没収したハサミを光で見えない高さまで掲げてる",
+        "score": 43,
+        "voteRate": 0.41,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 14,
+        "displayRank": 14,
+        "author": "お化けぬこ",
+        "answer": "やっぱミント嗅ぎたかったんやと薄目を開ける",
+        "score": 42,
+        "voteRate": 0.4,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 15,
+        "displayRank": 15,
+        "author": "二塁シャチ",
+        "answer": "礼拝の時間とカラスがうるさい時間が重なってる",
+        "score": 41,
+        "voteRate": 0.39,
+        "votePoints": 3,
+        "isSelf": false
+      },
+      {
+        "rawRank": 16,
+        "displayRank": 16,
+        "author": "エンジェル",
+        "answer": "関係ない人にも届けと思いながら空き家の前で合唱してた",
+        "score": 39,
+        "voteRate": 0.37,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 16,
+        "displayRank": 17,
+        "author": "何奴",
+        "answer": "恐竜になりたい子の数を正の字で管理してた",
+        "score": 39,
+        "voteRate": 0.37,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 18,
+        "displayRank": 18,
+        "author": "723",
+        "answer": "ペットボトル落とした時の反応で髪型を決める",
+        "score": 38,
+        "voteRate": 0.36,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 18,
+        "displayRank": 19,
+        "author": "とも",
+        "answer": "目を見て渡したタオルがその間にほつれてる",
+        "score": 38,
+        "voteRate": 0.36,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 20,
+        "displayRank": 20,
+        "author": "吉野家作造",
+        "answer": "平気ですからと扉の奥までテープを伸ばしてる",
+        "score": 37,
+        "voteRate": 0.35,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 20,
+        "displayRank": 21,
+        "author": "ヘルシー帝",
+        "answer": "みんなで星を見る時間だけは外で着替えるのが許されていた",
+        "score": 37,
+        "voteRate": 0.35,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 22,
+        "displayRank": 22,
+        "author": "シルバータント",
+        "answer": "もらった名前でカードを書くとコーヒーが出てくる",
+        "score": 36,
+        "voteRate": 0.34,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 23,
+        "displayRank": 23,
+        "author": "人々",
+        "answer": "ガスの出るキノコで無理に眠らせてた",
+        "score": 34,
+        "voteRate": 0.32,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 24,
+        "displayRank": 24,
+        "author": "あとひとつ流星群",
+        "answer": "一人を全員で囲んで地下室であったことを聞く",
+        "score": 32,
+        "voteRate": 0.3,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 25,
+        "displayRank": 25,
+        "author": "永栄",
+        "answer": "風邪を引いた子供にみんなでキスをする",
+        "score": 30,
+        "voteRate": 0.29,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 26,
+        "displayRank": 26,
+        "author": "あとひとつ流星群",
+        "answer": "誰のものでもない靴が何足か玄関に転がってる",
+        "score": 27,
+        "voteRate": 0.26,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 27,
+        "displayRank": 27,
+        "author": "ピュア氷",
+        "answer": "施設の余った材料でベビーカーを作ってた",
+        "score": 26,
+        "voteRate": 0.25,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 28,
+        "displayRank": 28,
+        "author": "あの日のニンニ",
+        "answer": "計算が面倒になってでかいパンをドンと置いてた",
+        "score": 25,
+        "voteRate": 0.24,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 29,
+        "displayRank": 29,
+        "author": "ヘルシー帝",
+        "answer": "包丁の持ち方がおかしい子と分かり、地下の部屋に閉じ込めた",
+        "score": 19,
+        "voteRate": 0.18,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 30,
+        "displayRank": 30,
+        "author": "ピュア氷",
+        "answer": "制服を洗濯する日をくじ引きで決めていた",
+        "score": 14,
+        "voteRate": 0.13,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 31,
+        "displayRank": 31,
+        "author": "室町コスプレ時代",
+        "answer": "長靴を振って混乱するまで近くで待ってる",
+        "score": 8,
+        "voteRate": 0.08,
+        "votePoints": null,
+        "isSelf": false
+      }
+    ],
+    "votes": [
+      {
+        "rawRank": 5,
+        "displayRank": 5,
+        "points": 2,
+        "author": "おお龍馬",
+        "answer": "人が観てるところに加わる形で相撲を観せてた",
+        "percentile": 0.16129032258064516
+      },
+      {
+        "rawRank": 7,
+        "displayRank": 7,
+        "points": 2,
+        "author": "とも",
+        "answer": "大声出した子をカチューシャで抑えつけてる",
+        "percentile": 0.22580645161290322
+      },
+      {
+        "rawRank": 14,
+        "displayRank": 14,
+        "points": 2,
+        "author": "お化けぬこ",
+        "answer": "やっぱミント嗅ぎたかったんやと薄目を開ける",
+        "percentile": 0.45161290322580644
+      },
+      {
+        "rawRank": 15,
+        "displayRank": 15,
+        "points": 3,
+        "author": "二塁シャチ",
+        "answer": "礼拝の時間とカラスがうるさい時間が重なってる",
+        "percentile": 0.4838709677419355
+      },
+      {
+        "rawRank": 16,
+        "displayRank": 17,
+        "points": 2,
+        "author": "何奴",
+        "answer": "恐竜になりたい子の数を正の字で管理してた",
+        "percentile": 0.5161290322580645
+      },
+      {
+        "rawRank": 30,
+        "displayRank": 30,
+        "points": 2,
+        "author": "ピュア氷",
+        "answer": "制服を洗濯する日をくじ引きで決めていた",
+        "percentile": 0.967741935483871
+      }
+    ],
+    "self": null
+  }
+}
