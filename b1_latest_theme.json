@@ -1,0 +1,738 @@
+{
+  "theme": {
+    "id": "17908924242e060dc4-ba07-4fc3-8d61-b2392e38e21a",
+    "date": "2026-10-17",
+    "theme": "",
+    "image": "https://dan0h5umj3b5n.cloudfront.net/17908924242e060dc4-ba07-4fc3-8d61-b2392e38e21a.jpg",
+    "count": 71,
+    "voters": 64,
+    "answers": [
+      {
+        "id": "1791654010abe9a732-fc7d-4d68-84ce-7e7a8f873cb4",
+        "rank": 1,
+        "position": 1,
+        "answer": "声が低いのは会長さんかもね",
+        "author": "mem",
+        "total": 54,
+        "vote": 2,
+        "self": false
+      },
+      {
+        "id": "179162652247bd8180-dc66-4e3a-b368-0c74cc8b214b",
+        "rank": 2,
+        "position": 2,
+        "answer": "お皿を洗う才能がありませんでした",
+        "author": "昼崎",
+        "total": 49,
+        "vote": 0,
+        "self": true
+      },
+      {
+        "id": "179162917136c22d6a-a24b-4acb-9022-53a47bed474a",
+        "rank": 3,
+        "position": 3,
+        "answer": "宇宙は遠くにあるから綺麗",
+        "author": "たげ",
+        "total": 47,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791653267a6d29b1e-ec93-4e60-945c-d385669d436b",
+        "rank": 4,
+        "position": 4,
+        "answer": "心の使い方が上手なんだよ",
+        "author": "まぢりけがよごる",
+        "total": 42,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791634085a27b3d3d-a9e3-4e99-afbd-b1841e2956f7",
+        "rank": 5,
+        "position": 5,
+        "answer": "買うとき緊張したの恥ずかしい",
+        "author": "ほにほに",
+        "total": 41,
+        "vote": 2,
+        "self": false
+      },
+      {
+        "id": "17916299714f33cb10-2556-4fde-abbb-69265a476067",
+        "rank": 5,
+        "position": 6,
+        "answer": "牛丼を汚いって思いたくない",
+        "author": "掻き鳴らせっ！",
+        "total": 41,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791567471d847dabf-b19c-41db-af03-4a2072e4f02c",
+        "rank": 7,
+        "position": 7,
+        "answer": "世界の挨拶に興味があります",
+        "author": "おーるどすぱいす！",
+        "total": 38,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "179166715923b28c87-54ba-495f-9a95-b96c063ba3a5",
+        "rank": 7,
+        "position": 8,
+        "answer": "何かを探すとき、私は背景になる",
+        "author": "とりふぐ",
+        "total": 38,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791373242d21d092e-32ac-480d-b5bc-a1faac7b705a",
+        "rank": 9,
+        "position": 9,
+        "answer": "そりゃ飛行機でも考え事しますよ",
+        "author": "ひまちゃん",
+        "total": 34,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791666977e4b3605c-d8cf-4669-a8bf-2cfe211708d8",
+        "rank": 9,
+        "position": 10,
+        "answer": "心から夕方が始まってほしいので",
+        "author": "ゆどら食品",
+        "total": 34,
+        "vote": 2,
+        "self": false
+      },
+      {
+        "id": "17910785274ba83ead-9372-4e46-8d72-6adeadc83201",
+        "rank": 11,
+        "position": 11,
+        "answer": "信号をたくさん見たからありがとう",
+        "author": "鮎歯茎",
+        "total": 32,
+        "vote": 2,
+        "self": false
+      },
+      {
+        "id": "1791672806b706be16-5920-4580-8de0-12fd3a331322",
+        "rank": 11,
+        "position": 12,
+        "answer": "ひびに価値があるコップだったとはね",
+        "author": "字",
+        "total": 32,
+        "vote": 3,
+        "self": false
+      },
+      {
+        "id": "179112194355c4bc85-fc6b-4af3-88ce-c942e8b13852",
+        "rank": 13,
+        "position": 13,
+        "answer": "元々は本とかも読めてたのにね",
+        "author": "ふりある",
+        "total": 31,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "17916619539399ffdf-4fc9-4a91-90fa-9737b44f0967",
+        "rank": 14,
+        "position": 14,
+        "answer": "そんなに怖い紙芝居だったのかな",
+        "author": "723",
+        "total": 30,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "179150563083ab8ef8-fb36-4bda-a423-60cc908f8b18",
+        "rank": 14,
+        "position": 15,
+        "answer": "偉い人の前でも、同じ重さでいてね",
+        "author": "キキ",
+        "total": 30,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791661181966e79cb-e590-4095-88a0-8cdd894e7642",
+        "rank": 14,
+        "position": 16,
+        "answer": "穀物の名前をつけたのは唯一の失敗",
+        "author": "ジャーマンスープ",
+        "total": 30,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "17910701904a7f070d-9370-435a-bf7f-60b35b59a4a4",
+        "rank": 17,
+        "position": 17,
+        "answer": "たまには餃子の皮から作ってみるか",
+        "author": "頭脳まさき",
+        "total": 29,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "17911078505703b6ac-963c-4f78-a816-56b41cf39620",
+        "rank": 17,
+        "position": 18,
+        "answer": "クリームは意外な瞬間に思いつくんだね",
+        "author": "ガツン！",
+        "total": 29,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "17914896916eae10c9-521e-423f-9fc9-1f7099463599",
+        "rank": 17,
+        "position": 19,
+        "answer": "職人のミスは見てられんな",
+        "author": "mudman",
+        "total": 29,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791127042a9473514-b96f-4aef-992a-5c3a5195bc44",
+        "rank": 20,
+        "position": 20,
+        "answer": "幽霊で埋め尽くされた空間ってあると思う",
+        "author": "微の歯",
+        "total": 28,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791664615b8e121ce-3ca5-4131-a655-1fb35b166df7",
+        "rank": 21,
+        "position": 21,
+        "answer": "冬に咲く花ありがたい",
+        "author": "エースヤーン",
+        "total": 26,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791668360a7229bfa-cc3b-45b7-94db-12dff109021d",
+        "rank": 21,
+        "position": 22,
+        "answer": "その中に一人だけ建物のオタクがいるんじゃない？",
+        "author": "みこ",
+        "total": 26,
+        "vote": 2,
+        "self": false
+      },
+      {
+        "id": "17916639279ac9e8f6-a13b-452f-915e-02b4be9b93b9",
+        "rank": 21,
+        "position": 23,
+        "answer": "いろんな施設が揃ってる",
+        "author": "ハートフル",
+        "total": 26,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791572439486491b7-0498-4d02-9294-4133bf3990db",
+        "rank": 24,
+        "position": 24,
+        "answer": "あー大切なこと思い出せそう",
+        "author": "笑う古代魚",
+        "total": 25,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "17910698522317b8f9-f4f5-43b8-b872-373eb98ae216",
+        "rank": 24,
+        "position": 25,
+        "answer": "私だって諦めたくないよ",
+        "author": "CanCel",
+        "total": 25,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791303308bc6efbb3-5179-42ad-98df-edcbc893b1c7",
+        "rank": 24,
+        "position": 26,
+        "answer": "偉人って人生に関係ない",
+        "author": "苦いところ",
+        "total": 25,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791164589476101ae-1761-4efa-a371-95bf4441c6ba",
+        "rank": 24,
+        "position": 27,
+        "answer": "同級生とこれやったなー",
+        "author": "初対面",
+        "total": 25,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "17911565264e578856-e81f-4d0e-a386-c3d5b2cf9a2d",
+        "rank": 28,
+        "position": 28,
+        "answer": "考えない時間が私をリセットするの",
+        "author": "独活独楽",
+        "total": 24,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "17916707153f74de06-bd06-4674-ba7f-57b4398317f7",
+        "rank": 28,
+        "position": 29,
+        "answer": "卒業するためには筒が2つ必要",
+        "author": "abcdefg",
+        "total": 24,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "179166892576eff91f-8130-4361-aa8c-4e31b0a0806c",
+        "rank": 30,
+        "position": 30,
+        "answer": "想定してたってのも苦しいか",
+        "author": "讃美歌の行方",
+        "total": 23,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791659097602ab939-2ff1-4c46-bfdb-85c8a64ee1eb",
+        "rank": 30,
+        "position": 31,
+        "answer": "バカ殿のクッションまだ怖いか",
+        "author": "早朝ストレッチ",
+        "total": 23,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "17912978378755a337-2f4c-49e4-9c64-f9aeaeb871f6",
+        "rank": 30,
+        "position": 32,
+        "answer": "本は持ち方によって種類が変わってくる",
+        "author": "ちゅどーん",
+        "total": 23,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "17915341227a50e13e-7721-4a45-9304-6d6b1f5fabf1",
+        "rank": 33,
+        "position": 33,
+        "answer": "周りがアドバイスできないから続く",
+        "author": "dノ慟哭",
+        "total": 22,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "179166713271ebcca5-8073-41fc-b2b7-c493b203a416",
+        "rank": 33,
+        "position": 34,
+        "answer": "知ることもそうだし、考えるのも大事",
+        "author": "あぐくねる",
+        "total": 22,
+        "vote": 2,
+        "self": false
+      },
+      {
+        "id": "179165569831f1c6d2-13c7-4612-84e1-3467cc3e2500",
+        "rank": 35,
+        "position": 35,
+        "answer": "カレンダーが空白だと寂しい",
+        "author": "缶撃退",
+        "total": 21,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "17916512663176d96c-726f-4087-9d40-bafe90a546f9",
+        "rank": 35,
+        "position": 36,
+        "answer": "本に書かれてあることを全部やった",
+        "author": "縦割り",
+        "total": 21,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "179159135131a8ec5e-af6e-4503-843f-28386206f5a8",
+        "rank": 37,
+        "position": 37,
+        "answer": "その心拍の話まだ続きますか？",
+        "author": "やせくま",
+        "total": 20,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791638665cd679505-29b7-455a-9c64-d4349f31a0b7",
+        "rank": 37,
+        "position": 38,
+        "answer": "電車で焦ってんの、意味ないすよ",
+        "author": "言語遊戯",
+        "total": 20,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791653161691d4a8f-3f3d-444c-9b48-76c36b53e979",
+        "rank": 39,
+        "position": 39,
+        "answer": "顔広いって親の前でも言ってるんか",
+        "author": "tan5.7゜",
+        "total": 19,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791605207a731a515-b061-4ec3-92b7-c2025b3f37bb",
+        "rank": 39,
+        "position": 40,
+        "answer": "はわわわ！勉強になりますー",
+        "author": "大体いつも眠い人",
+        "total": 19,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "179162125499fee365-39f8-4f29-8895-dd0fb03b1cd8",
+        "rank": 39,
+        "position": 41,
+        "answer": "暮らしの正解は平成のギャグにありました",
+        "author": "人々",
+        "total": 19,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "17916459193600acfc-a337-4994-95f1-807aa211fca7",
+        "rank": 39,
+        "position": 42,
+        "answer": "じゃあこういう話題はどうだろう",
+        "author": "すぎり",
+        "total": 19,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "179167307913252162-1624-43f8-b461-4826fd5c886b",
+        "rank": 39,
+        "position": 43,
+        "answer": "ありがとう、秋が鼻からやって来た",
+        "author": "あとひとつ流星群",
+        "total": 19,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791401822ca7e0c49-7c04-413d-a0ca-da4cde7a8262",
+        "rank": 44,
+        "position": 44,
+        "answer": "来い、犬が食べた受験票",
+        "author": "赤井me",
+        "total": 17,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791158553574a02be-dc6f-4cff-a326-2b52e496782e",
+        "rank": 44,
+        "position": 45,
+        "answer": "日の出見えないでしょ、バカなの",
+        "author": "筆圧",
+        "total": 17,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "17916512304ff2d329-c134-41c2-a8ac-8c483ae60882",
+        "rank": 44,
+        "position": 46,
+        "answer": "天への列に並んでんのかお前",
+        "author": "ベスト・オブ・バランス",
+        "total": 17,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "17913382102363a557-ae1c-4d42-98de-474d1613633f",
+        "rank": 47,
+        "position": 47,
+        "answer": "犬楽しいから人死ね",
+        "author": "悠",
+        "total": 16,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791285426cc03884d-21bc-4c42-b3b4-58541c16c989",
+        "rank": 48,
+        "position": 48,
+        "answer": "楽な方楽な方に流された結果だよな",
+        "author": "みずいろ",
+        "total": 15,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791656964064b4887-9a6a-41e5-ba94-aefaabf3f1a3",
+        "rank": 48,
+        "position": 49,
+        "answer": "壺の底には付かないはず",
+        "author": "佐原",
+        "total": 15,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791620528b9477e96-42fd-43f6-829a-d740a056e8df",
+        "rank": 50,
+        "position": 50,
+        "answer": "前の犬もこうだったわね",
+        "author": "後藤逸材",
+        "total": 14,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791670773fe25072c-a1c9-480e-ae0f-6833fbb5cb5e",
+        "rank": 51,
+        "position": 51,
+        "answer": "奈良の豊かな森",
+        "author": "高速林業",
+        "total": 13,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "179110360648d4c9fd-2d58-4887-97f0-0e99e7718573",
+        "rank": 51,
+        "position": 52,
+        "answer": "これがことわざになるまで続けてみようと思う",
+        "author": "レバニラ？ニラレバ？",
+        "total": 13,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "179166502432f3af9b-6430-48d6-9075-9c7ffb1262af",
+        "rank": 51,
+        "position": 53,
+        "answer": "車内を忘れる投稿",
+        "author": "れいまりる",
+        "total": 13,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "17913988449e2941b0-55b2-4aa1-9022-f140ac16ad44",
+        "rank": 51,
+        "position": 54,
+        "answer": "脳たらし",
+        "author": "銀の鰺",
+        "total": 13,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "179154786716dbe088-4790-45b8-9859-c2212fd7c5f5",
+        "rank": 51,
+        "position": 55,
+        "answer": "サーカスで生きたくなったら言って",
+        "author": "灯油の日",
+        "total": 13,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791672260d55ca4e4-52d2-4a6a-a475-6fe6024b175b",
+        "rank": 51,
+        "position": 56,
+        "answer": "裸を知られた方が情報が多くなる",
+        "author": "9分",
+        "total": 13,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "17916219800e2c9df0-93e6-45b1-9332-5079eca94517",
+        "rank": 57,
+        "position": 57,
+        "answer": "祖父の人参がそうさせるんかな",
+        "author": "おっすおらも悟空",
+        "total": 12,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791488884c437d321-8c2a-4528-90b7-1d4bfd777b0e",
+        "rank": 57,
+        "position": 58,
+        "answer": "犬側の異常性癖",
+        "author": "ぴかそ",
+        "total": 12,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791668005a68cdfc5-f740-4d18-ad42-8fcd7792ec52",
+        "rank": 59,
+        "position": 59,
+        "answer": "水を飲む度に、空気は枯れていく",
+        "author": "倫理",
+        "total": 11,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "179158112700f5e92f-3c04-4745-ba33-18b593317bda",
+        "rank": 60,
+        "position": 60,
+        "answer": "ほらやっぱり、今日は神社の日",
+        "author": "はるはるまきまき",
+        "total": 9,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "17911573309ca5629b-9a88-4dfe-8c19-5ec49c81db32",
+        "rank": 60,
+        "position": 61,
+        "answer": "これじゃ横社会は見れそうに無いわね",
+        "author": "一二三ミニー",
+        "total": 9,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "179129053306c3f884-6cfe-467c-9853-5d9c47784203",
+        "rank": 60,
+        "position": 62,
+        "answer": "とても幸せな時間でした・・・",
+        "author": "kubodi",
+        "total": 9,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "17916615816ed0f067-4201-4771-8e36-fed447abfe20",
+        "rank": 63,
+        "position": 63,
+        "answer": "まだ「嬉しい」の範囲内ではある",
+        "author": "おひとりさま計画",
+        "total": 8,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "17913190304df73797-4503-49fa-b45f-03b96cd197a2",
+        "rank": 63,
+        "position": 64,
+        "answer": "売り言葉に買い言葉",
+        "author": "かげよしの昼",
+        "total": 8,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791662057ed67af19-3534-4b83-9506-21d108f255e9",
+        "rank": 63,
+        "position": 65,
+        "answer": "誠意を感じるね",
+        "author": "能動的三半規管",
+        "total": 8,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791480410a5a89ca5-5520-4331-8daf-489e9ae3eaa7",
+        "rank": 63,
+        "position": 66,
+        "answer": "出来栄えなんて考えたことないのに100点",
+        "author": "メモの葉もきの木",
+        "total": 8,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "179145100655258ecf-63f9-474d-9cc2-9f3436729fb3",
+        "rank": 67,
+        "position": 67,
+        "answer": "臭い犬と土台の人",
+        "author": "カマキリ（仮）",
+        "total": 6,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791672963b825e9f0-3139-47fc-b479-a3be4ff989c6",
+        "rank": 67,
+        "position": 68,
+        "answer": "「朝のテレビでこんなシーン見せられないよ～」と思うポチなのでした。",
+        "author": "ひろちょび",
+        "total": 6,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "17910693861ddf5bfa-f88f-4f1e-a45c-1863d8cb5ea0",
+        "rank": 69,
+        "position": 69,
+        "answer": "恩知らずの意味を教えたい",
+        "author": "夏🌊☀️",
+        "total": 5,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "179147827927519131-d38a-44c2-8a7e-7a2850400f19",
+        "rank": 69,
+        "position": 70,
+        "answer": "やはりあの時セミは食べるべきだった",
+        "author": "君のお縄",
+        "total": 5,
+        "vote": 0,
+        "self": false
+      },
+      {
+        "id": "1791667399122767a7-001d-4e03-9002-4daca80797c0",
+        "rank": 69,
+        "position": 71,
+        "answer": "心配しすぎて正直になっちゃうよね",
+        "author": "ニョン",
+        "total": 5,
+        "vote": 0,
+        "self": false
+      }
+    ],
+    "source": "https://oogiri-b1.com/theme?themeId=17908924242e060dc4-ba07-4fc3-8d61-b2392e38e21a",
+    "week": 17
+  },
+  "validation": {
+    "answerCountMatches": true,
+    "badTotalCount": 0,
+    "badTotals": [],
+    "voteCount": 7,
+    "votePoints": 15,
+    "self": {
+      "rank": 2,
+      "position": 2,
+      "answer": "お皿を洗う才能がありませんでした",
+      "total": 49
+    }
+  },
+  "updatedAt": "2026-10-17T14:47:55.782650+00:00"
+}
