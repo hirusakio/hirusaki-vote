@@ -1,0 +1,2504 @@
+{
+  "94": {
+    "id": 94,
+    "division": 2,
+    "prompt": "画像で一言",
+    "imageUrl": "http://oogiri-tmd.net/home/image/20261007181805_1.jpeg",
+    "source": "https://oogiri-tmd.net/home/page.php?id=94",
+    "submissions": 40,
+    "parsed": 40,
+    "answers": [
+      {
+        "rawRank": 1,
+        "displayRank": 1,
+        "author": "納屋の鍵",
+        "answer": "石けんが学校から無くなったと、いなくなったと",
+        "score": 94,
+        "voteRate": 0.75,
+        "votePoints": 4,
+        "isSelf": false
+      },
+      {
+        "rawRank": 2,
+        "displayRank": 2,
+        "author": "バケツマン",
+        "answer": "カーテンは結構ね、音しますから",
+        "score": 85,
+        "voteRate": 0.68,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 3,
+        "displayRank": 3,
+        "author": "凰蘭",
+        "answer": "居酒屋の名前がここまで自分を変えました",
+        "score": 77,
+        "voteRate": 0.62,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 4,
+        "displayRank": 4,
+        "author": "空飛ぶタイヤ",
+        "answer": "家賃が払えませんでした、払いたかったな",
+        "score": 76,
+        "voteRate": 0.61,
+        "votePoints": 3,
+        "isSelf": false
+      },
+      {
+        "rawRank": 5,
+        "displayRank": 5,
+        "author": "そうやってまた",
+        "answer": "私の知恵袋は、私から見ても小さかったのです",
+        "score": 73,
+        "voteRate": 0.58,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 6,
+        "displayRank": 6,
+        "author": "みちる🌻",
+        "answer": "少しずつ本当の住所に近づいています",
+        "score": 68,
+        "voteRate": 0.54,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 7,
+        "displayRank": 7,
+        "author": "ねこライト",
+        "answer": "途中雑誌を読むこともありました",
+        "score": 62,
+        "voteRate": 0.5,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 8,
+        "displayRank": 8,
+        "author": "佐原",
+        "answer": "袖でカギ拭くとかがマジで嫌でした",
+        "score": 61,
+        "voteRate": 0.49,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 9,
+        "displayRank": 9,
+        "author": "犬クジラ",
+        "answer": "ざっと言うと車椅子を返し忘れた話です",
+        "score": 60,
+        "voteRate": 0.48,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 10,
+        "displayRank": 10,
+        "author": "旋風客",
+        "answer": "透明になるのは怖いですが凄いことだと思うんです",
+        "score": 59,
+        "voteRate": 0.47,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 10,
+        "displayRank": 11,
+        "author": "確率論のパラテママ",
+        "answer": "ホタルを追いかけながら言いました。野球",
+        "score": 59,
+        "voteRate": 0.47,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 12,
+        "displayRank": 12,
+        "author": "アルキスト",
+        "answer": "どんな計算をしたのかここでは言えませんが",
+        "score": 56,
+        "voteRate": 0.45,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 13,
+        "displayRank": 13,
+        "author": "鬼奈子",
+        "answer": "とにかく海に詳しい人と会いたいです",
+        "score": 52,
+        "voteRate": 0.42,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 14,
+        "displayRank": 14,
+        "author": "しろねこ",
+        "answer": "カバンの小さい女を信じてきました",
+        "score": 49,
+        "voteRate": 0.39,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 15,
+        "displayRank": 15,
+        "author": "天からの配膳",
+        "answer": "確かに大人がする将棋は美しく見えます",
+        "score": 46,
+        "voteRate": 0.37,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 15,
+        "displayRank": 16,
+        "author": "えすわい",
+        "answer": "ご質問いただいたように、漁師にいい人はいません",
+        "score": 46,
+        "voteRate": 0.37,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 17,
+        "displayRank": 17,
+        "author": "ちょくりんちょ",
+        "answer": "鈴を付けた少年に気づけなかったんです",
+        "score": 44,
+        "voteRate": 0.35,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 17,
+        "displayRank": 18,
+        "author": "さいぞう",
+        "answer": "牛乳を噛んでる時と同じくらい幸せでした",
+        "score": 44,
+        "voteRate": 0.35,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 19,
+        "displayRank": 19,
+        "author": "だるまふじ",
+        "answer": "最初の稲刈りも見守ってもらいました",
+        "score": 43,
+        "voteRate": 0.34,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 20,
+        "displayRank": 20,
+        "author": "氷下漁",
+        "answer": "悪い発言が本音みたいな空気ありがとう",
+        "score": 42,
+        "voteRate": 0.34,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 21,
+        "displayRank": 21,
+        "author": "レイルレイル",
+        "answer": "お正月に食べた寿司は今でも胃の中にあります",
+        "score": 40,
+        "voteRate": 0.32,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 21,
+        "displayRank": 22,
+        "author": "ソトノトス",
+        "answer": "はみ出し者のブルースが、皆さんにも聞こえたんじゃないかという",
+        "score": 40,
+        "voteRate": 0.32,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 23,
+        "displayRank": 23,
+        "author": "tan5.7゜",
+        "answer": "料亭を後にして、全員眉毛太くなってた",
+        "score": 34,
+        "voteRate": 0.27,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 23,
+        "displayRank": 24,
+        "author": "ひまち",
+        "answer": "バスから私の体温が出たという電話をもらいました",
+        "score": 34,
+        "voteRate": 0.27,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 23,
+        "displayRank": 25,
+        "author": "ふりある",
+        "answer": "猫で両手が塞がってる中、よく頑張ったと思います",
+        "score": 34,
+        "voteRate": 0.27,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 26,
+        "displayRank": 26,
+        "author": "僕",
+        "answer": "さっき食べた和菓子も野球でした",
+        "score": 32,
+        "voteRate": 0.26,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 27,
+        "displayRank": 27,
+        "author": "鴨蕎麦",
+        "answer": "船にこだわってるのとか馬鹿みたいでした",
+        "score": 31,
+        "voteRate": 0.25,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 28,
+        "displayRank": 28,
+        "author": "ちゅどーん",
+        "answer": "甲羅を磨きました、何だか身体が軽い気がします",
+        "score": 30,
+        "voteRate": 0.24,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 29,
+        "displayRank": 29,
+        "author": "紫電",
+        "answer": "パツパツのズボン買わされたのも許してません",
+        "score": 29,
+        "voteRate": 0.23,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 30,
+        "displayRank": 30,
+        "author": "Dシンカー",
+        "answer": "飲食店を理由もなく買って怒られたこともありました",
+        "score": 28,
+        "voteRate": 0.22,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 30,
+        "displayRank": 31,
+        "author": "金魚のムニエル",
+        "answer": "「チームの石鹸のような存在になるのだ」",
+        "score": 28,
+        "voteRate": 0.22,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 30,
+        "displayRank": 32,
+        "author": "えー？",
+        "answer": "字を書くことが嫌いになったのは、安い紙のせいでした",
+        "score": 28,
+        "voteRate": 0.22,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 33,
+        "displayRank": 33,
+        "author": "即興曲",
+        "answer": "消化器運んでる時の体温のまま来ました",
+        "score": 27,
+        "voteRate": 0.22,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 34,
+        "displayRank": 34,
+        "author": "まちょ",
+        "answer": "若いのに大変だなって夜の街に行くと最近思います",
+        "score": 26,
+        "voteRate": 0.21,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 35,
+        "displayRank": 35,
+        "author": "虎猫",
+        "answer": "担架を見て、あと5年頑張ろうってなりました",
+        "score": 22,
+        "voteRate": 0.18,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 36,
+        "displayRank": 36,
+        "author": "ドど見",
+        "answer": "美女が一人で作った船どこに隠した",
+        "score": 18,
+        "voteRate": 0.14,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 37,
+        "displayRank": 37,
+        "author": "gas",
+        "answer": "そりゃ急にひざ触られたら不安にもなりますよ",
+        "score": 17,
+        "voteRate": 0.14,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 38,
+        "displayRank": 38,
+        "author": "すかいどん",
+        "answer": "ピザ屋の頭が悪すぎてイヤホンが乗ってることもありました",
+        "score": 16,
+        "voteRate": 0.13,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 39,
+        "displayRank": 39,
+        "author": "モスクワ動物園2",
+        "answer": "タバコの煙が目に染みて私のシャツが少し色付きました",
+        "score": 9,
+        "voteRate": 0.07,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 40,
+        "displayRank": 40,
+        "author": "木根島",
+        "answer": "体温が選べたので細胞単位で共鳴しました",
+        "score": 7,
+        "voteRate": 0.06,
+        "votePoints": null,
+        "isSelf": false
+      }
+    ],
+    "votes": [
+      {
+        "rawRank": 1,
+        "displayRank": 1,
+        "points": 4,
+        "author": "納屋の鍵",
+        "answer": "石けんが学校から無くなったと、いなくなったと",
+        "percentile": 0.025
+      },
+      {
+        "rawRank": 2,
+        "displayRank": 2,
+        "points": 2,
+        "author": "バケツマン",
+        "answer": "カーテンは結構ね、音しますから",
+        "percentile": 0.05
+      },
+      {
+        "rawRank": 4,
+        "displayRank": 4,
+        "points": 3,
+        "author": "空飛ぶタイヤ",
+        "answer": "家賃が払えませんでした、払いたかったな",
+        "percentile": 0.1
+      },
+      {
+        "rawRank": 17,
+        "displayRank": 17,
+        "points": 2,
+        "author": "ちょくりんちょ",
+        "answer": "鈴を付けた少年に気づけなかったんです",
+        "percentile": 0.425
+      },
+      {
+        "rawRank": 19,
+        "displayRank": 19,
+        "points": 2,
+        "author": "だるまふじ",
+        "answer": "最初の稲刈りも見守ってもらいました",
+        "percentile": 0.475
+      },
+      {
+        "rawRank": 26,
+        "displayRank": 26,
+        "points": 2,
+        "author": "僕",
+        "answer": "さっき食べた和菓子も野球でした",
+        "percentile": 0.65
+      }
+    ],
+    "self": null
+  },
+  "95": {
+    "id": 95,
+    "division": 2,
+    "prompt": "画像で一言",
+    "imageUrl": "http://oogiri-tmd.net/home/image/20261007181733_1.jpeg",
+    "source": "https://oogiri-tmd.net/home/page.php?id=95",
+    "submissions": 40,
+    "parsed": 40,
+    "answers": [
+      {
+        "rawRank": 1,
+        "displayRank": 1,
+        "author": "やせくま",
+        "answer": "だが爪楊枝ってのは肝心な時に太すぎるぞ",
+        "score": 94,
+        "voteRate": 0.76,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 1,
+        "displayRank": 2,
+        "author": "aruma",
+        "answer": "バッサリ髪切って学生に戻りたいんだろ？",
+        "score": 94,
+        "voteRate": 0.76,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 3,
+        "displayRank": 3,
+        "author": "ピヨピヨストライク",
+        "answer": "100パー会えるってのが重要なんだ",
+        "score": 90,
+        "voteRate": 0.73,
+        "votePoints": 3,
+        "isSelf": false
+      },
+      {
+        "rawRank": 4,
+        "displayRank": 4,
+        "author": "グラス一杯の砂利",
+        "answer": "美術館はただの待ち合わせ場所だったのさ！",
+        "score": 82,
+        "voteRate": 0.67,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 5,
+        "displayRank": 5,
+        "author": "入道雲",
+        "answer": "体温計挟んだ後も運転してもらうからな",
+        "score": 80,
+        "voteRate": 0.65,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 6,
+        "displayRank": 6,
+        "author": "POPOJI",
+        "answer": "その飛行機が通る瞬間に一息で言っただけだ",
+        "score": 75,
+        "voteRate": 0.61,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 7,
+        "displayRank": 7,
+        "author": "讃美歌の行方",
+        "answer": "鉄同士がぶつかる音で目覚めるってのはどうだ",
+        "score": 72,
+        "voteRate": 0.59,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 8,
+        "displayRank": 8,
+        "author": "しゅにく",
+        "answer": "お前が踏んずけたスリッパが俺の方向いてるぜ",
+        "score": 66,
+        "voteRate": 0.54,
+        "votePoints": 3,
+        "isSelf": false
+      },
+      {
+        "rawRank": 9,
+        "displayRank": 9,
+        "author": "ますく",
+        "answer": "眼科の張り紙だって急に無くなると困る",
+        "score": 60,
+        "voteRate": 0.49,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 9,
+        "displayRank": 10,
+        "author": "へなちょこ",
+        "answer": "トイレの会社と裁判した事はあるかい",
+        "score": 60,
+        "voteRate": 0.49,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 11,
+        "displayRank": 11,
+        "author": "サービスバルーン",
+        "answer": "昼ならクジラが見えたらしいな",
+        "score": 50,
+        "voteRate": 0.41,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 12,
+        "displayRank": 12,
+        "author": "こころ",
+        "answer": "旅行で見た犬に心持ってかれんな",
+        "score": 49,
+        "voteRate": 0.4,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 13,
+        "displayRank": 13,
+        "author": "否定から入るオンザビーチ",
+        "answer": "貴様の駐輪場は森の奥だ",
+        "score": 48,
+        "voteRate": 0.39,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 14,
+        "displayRank": 14,
+        "author": "いちらん",
+        "answer": "入口に桃があった話でもしようか",
+        "score": 46,
+        "voteRate": 0.37,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 15,
+        "displayRank": 15,
+        "author": "せやかて苦労",
+        "answer": "俺だって大漁を願ってる",
+        "score": 44,
+        "voteRate": 0.36,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 16,
+        "displayRank": 16,
+        "author": "uq",
+        "answer": "海水で洗うなんて怒られちゃうよ",
+        "score": 42,
+        "voteRate": 0.34,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 17,
+        "displayRank": 17,
+        "author": "今永",
+        "answer": "一滴垂らしたソースを拭いてなかったのさ",
+        "score": 41,
+        "voteRate": 0.33,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 18,
+        "displayRank": 18,
+        "author": "ゑくれあ",
+        "answer": "デカい蜂から妹を守ってんだ",
+        "score": 39,
+        "voteRate": 0.32,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 19,
+        "displayRank": 19,
+        "author": "昼崎",
+        "answer": "この地区のルールだけ説明させてくれ",
+        "score": 38,
+        "voteRate": 0.31,
+        "votePoints": null,
+        "isSelf": true
+      },
+      {
+        "rawRank": 20,
+        "displayRank": 20,
+        "author": "みささぎ",
+        "answer": "スキー場では多めに現金を持っておきなさい",
+        "score": 36,
+        "voteRate": 0.29,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 20,
+        "displayRank": 21,
+        "author": "筆圧",
+        "answer": "今日は珍しく改札が冷たくて、もう最高！",
+        "score": 36,
+        "voteRate": 0.29,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 20,
+        "displayRank": 22,
+        "author": "ガパチョ",
+        "answer": "人類の鼻の形をすべて把握している",
+        "score": 36,
+        "voteRate": 0.29,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 23,
+        "displayRank": 23,
+        "author": "ニョン",
+        "answer": "お前はチューバから産まれたのだ",
+        "score": 35,
+        "voteRate": 0.28,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 23,
+        "displayRank": 24,
+        "author": "ミトコンドリア",
+        "answer": "相撲の勝ち負けを銀行が決めてたのは昔の話だろ",
+        "score": 35,
+        "voteRate": 0.28,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 25,
+        "displayRank": 25,
+        "author": "イヌ",
+        "answer": "拠点に戻ってお金数えよう",
+        "score": 31,
+        "voteRate": 0.25,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 25,
+        "displayRank": 26,
+        "author": "ほにほに",
+        "answer": "どんな映画だったかを言えば許そう",
+        "score": 31,
+        "voteRate": 0.25,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 25,
+        "displayRank": 27,
+        "author": "ジャーマンスープ",
+        "answer": "目標に向かいたい欲求を、こいつは満たしてくれる",
+        "score": 31,
+        "voteRate": 0.25,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 28,
+        "displayRank": 28,
+        "author": "2037",
+        "answer": "指の名前に感動してからは、全く新しい島",
+        "score": 27,
+        "voteRate": 0.22,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 28,
+        "displayRank": 29,
+        "author": "ニコニコB",
+        "answer": "劣悪な風土でこその基礎練だ",
+        "score": 27,
+        "voteRate": 0.22,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 28,
+        "displayRank": 30,
+        "author": "はさまり",
+        "answer": "忍者みたいに持ち物を冷やす！",
+        "score": 27,
+        "voteRate": 0.22,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 31,
+        "displayRank": 31,
+        "author": "たこ焼きボンバー",
+        "answer": "家でやると家族がカーテンを閉める",
+        "score": 22,
+        "voteRate": 0.18,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 32,
+        "displayRank": 32,
+        "author": "ボチョムキン",
+        "answer": "赤ん坊のときから物をすぐ触る子でした",
+        "score": 21,
+        "voteRate": 0.17,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 33,
+        "displayRank": 33,
+        "author": "夏🌊☀️",
+        "answer": "俺がマックでウケた話聞きたいか",
+        "score": 20,
+        "voteRate": 0.16,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 34,
+        "displayRank": 34,
+        "author": "アーチャーアーチャー",
+        "answer": "中身が減ってたら俺を呼べ、種類は問わない",
+        "score": 19,
+        "voteRate": 0.15,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 34,
+        "displayRank": 35,
+        "author": "シャロン",
+        "answer": "いつだって地面から生えてくるのは腰悪い奴",
+        "score": 19,
+        "voteRate": 0.15,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 36,
+        "displayRank": 36,
+        "author": "辛いところ",
+        "answer": "かつて花壇では重宝されたぞ",
+        "score": 14,
+        "voteRate": 0.11,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 37,
+        "displayRank": 37,
+        "author": "核ラミナ",
+        "answer": "信じられないかもしれないが、ワインはちゃんと冷やしてある",
+        "score": 11,
+        "voteRate": 0.09,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 38,
+        "displayRank": 38,
+        "author": "板チョコ",
+        "answer": "1人っ子だぜ、恐ろしいだろ",
+        "score": 8,
+        "voteRate": 0.07,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 39,
+        "displayRank": 39,
+        "author": "monika",
+        "answer": "絶対",
+        "score": 2,
+        "voteRate": 0.02,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 40,
+        "displayRank": 40,
+        "author": "げら",
+        "answer": "あ",
+        "score": 0,
+        "voteRate": 0.0,
+        "votePoints": null,
+        "isSelf": false
+      }
+    ],
+    "votes": [
+      {
+        "rawRank": 3,
+        "displayRank": 3,
+        "points": 3,
+        "author": "ピヨピヨストライク",
+        "answer": "100パー会えるってのが重要なんだ",
+        "percentile": 0.075
+      },
+      {
+        "rawRank": 4,
+        "displayRank": 4,
+        "points": 2,
+        "author": "グラス一杯の砂利",
+        "answer": "美術館はただの待ち合わせ場所だったのさ！",
+        "percentile": 0.1
+      },
+      {
+        "rawRank": 5,
+        "displayRank": 5,
+        "points": 2,
+        "author": "入道雲",
+        "answer": "体温計挟んだ後も運転してもらうからな",
+        "percentile": 0.125
+      },
+      {
+        "rawRank": 8,
+        "displayRank": 8,
+        "points": 3,
+        "author": "しゅにく",
+        "answer": "お前が踏んずけたスリッパが俺の方向いてるぜ",
+        "percentile": 0.2
+      },
+      {
+        "rawRank": 13,
+        "displayRank": 13,
+        "points": 2,
+        "author": "否定から入るオンザビーチ",
+        "answer": "貴様の駐輪場は森の奥だ",
+        "percentile": 0.325
+      },
+      {
+        "rawRank": 17,
+        "displayRank": 17,
+        "points": 2,
+        "author": "今永",
+        "answer": "一滴垂らしたソースを拭いてなかったのさ",
+        "percentile": 0.425
+      },
+      {
+        "rawRank": 33,
+        "displayRank": 33,
+        "points": 2,
+        "author": "夏🌊☀️",
+        "answer": "俺がマックでウケた話聞きたいか",
+        "percentile": 0.825
+      }
+    ],
+    "self": {
+      "rawRank": 19,
+      "displayRank": 19,
+      "answer": "この地区のルールだけ説明させてくれ"
+    }
+  },
+  "96": {
+    "id": 96,
+    "division": 2,
+    "prompt": "風邪を全くひいたことがない人が 風邪の人にこんなアドバイスをしていた",
+    "imageUrl": null,
+    "source": "https://oogiri-tmd.net/home/page.php?id=96",
+    "submissions": 40,
+    "parsed": 40,
+    "answers": [
+      {
+        "rawRank": 1,
+        "displayRank": 1,
+        "author": "ペイトリオッツ",
+        "answer": "自分の部屋でよそ見するのってどんな時だ",
+        "score": 96,
+        "voteRate": 0.76,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 2,
+        "displayRank": 2,
+        "author": "入れ歯型乳歯",
+        "answer": "勝手に戦いすぎなんだよオタクって",
+        "score": 95,
+        "voteRate": 0.75,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 3,
+        "displayRank": 3,
+        "author": "必殺",
+        "answer": "風呂場以外なら椅子のまま移動できる",
+        "score": 79,
+        "voteRate": 0.63,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 4,
+        "displayRank": 4,
+        "author": "mudman",
+        "answer": "本屋だけの道とか歩いてないか",
+        "score": 70,
+        "voteRate": 0.56,
+        "votePoints": 4,
+        "isSelf": false
+      },
+      {
+        "rawRank": 5,
+        "displayRank": 5,
+        "author": "能動的三半規管",
+        "answer": "リモコン置く場所がずっと気持ち悪い",
+        "score": 66,
+        "voteRate": 0.52,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 6,
+        "displayRank": 6,
+        "author": "sterling",
+        "answer": "家電と間違えられるほど白くなってみ",
+        "score": 64,
+        "voteRate": 0.51,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 7,
+        "displayRank": 7,
+        "author": "よよよよよよ！？",
+        "answer": "スポーツの新聞なら文章で上回れる",
+        "score": 59,
+        "voteRate": 0.47,
+        "votePoints": 3,
+        "isSelf": false
+      },
+      {
+        "rawRank": 8,
+        "displayRank": 8,
+        "author": "ツイタチ",
+        "answer": "15才だった頃があるだろ？それをやれ",
+        "score": 58,
+        "voteRate": 0.46,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 8,
+        "displayRank": 9,
+        "author": "微の歯",
+        "answer": "水道水は夜中に見ると少し光ってる",
+        "score": 58,
+        "voteRate": 0.46,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 10,
+        "displayRank": 10,
+        "author": "らあらら",
+        "answer": "文章で怒られたあとは無理に声を出さないようにしてる",
+        "score": 57,
+        "voteRate": 0.45,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 11,
+        "displayRank": 11,
+        "author": "ゆゆゆ♨️",
+        "answer": "親戚に肩幅のことを言われたら怒っていい",
+        "score": 52,
+        "voteRate": 0.41,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 12,
+        "displayRank": 12,
+        "author": "日野茜",
+        "answer": "肩をトントンされたら出身地を言う必要があるんだ",
+        "score": 50,
+        "voteRate": 0.4,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 12,
+        "displayRank": 13,
+        "author": "め！",
+        "answer": "一番夜だなって感じられる服を着てみ",
+        "score": 50,
+        "voteRate": 0.4,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 14,
+        "displayRank": 14,
+        "author": "くのん",
+        "answer": "刑務所の石鹸で手を洗えば？",
+        "score": 49,
+        "voteRate": 0.39,
+        "votePoints": 3,
+        "isSelf": false
+      },
+      {
+        "rawRank": 15,
+        "displayRank": 15,
+        "author": "結婚",
+        "answer": "小説で綺麗に表現される事を軸に考えろ",
+        "score": 46,
+        "voteRate": 0.37,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 16,
+        "displayRank": 16,
+        "author": "侍 in the sky",
+        "answer": "口の中でパズル解きなよ",
+        "score": 45,
+        "voteRate": 0.36,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 17,
+        "displayRank": 17,
+        "author": "ユタ",
+        "answer": "ゴルフ場の草はニットを普通に貫通してくる",
+        "score": 43,
+        "voteRate": 0.34,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 18,
+        "displayRank": 18,
+        "author": "トルスレの箱",
+        "answer": "スーツで裸足になるところまでは良かった",
+        "score": 41,
+        "voteRate": 0.33,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 19,
+        "displayRank": 19,
+        "author": "超お譲り娘",
+        "answer": "たこ焼きを食べてるでしょ",
+        "score": 39,
+        "voteRate": 0.31,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 19,
+        "displayRank": 20,
+        "author": "五言舌禍",
+        "answer": "罰みたいにゼリー食うな",
+        "score": 39,
+        "voteRate": 0.31,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 21,
+        "displayRank": 21,
+        "author": "3ねこ",
+        "answer": "海はいい、声に意味がない",
+        "score": 34,
+        "voteRate": 0.27,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 22,
+        "displayRank": 22,
+        "author": "あたらく車",
+        "answer": "カーテン開けて、うわって言っちゃったら閉めよ",
+        "score": 33,
+        "voteRate": 0.26,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 22,
+        "displayRank": 23,
+        "author": "縦割り",
+        "answer": "愛想よくした方が寄せ書き書いてもらえる",
+        "score": 33,
+        "voteRate": 0.26,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 24,
+        "displayRank": 24,
+        "author": "林原よしき",
+        "answer": "寂しくなってノドがベコッと鳴ったら大当たり",
+        "score": 31,
+        "voteRate": 0.25,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 25,
+        "displayRank": 25,
+        "author": "踊るダイソー",
+        "answer": "胸を張ってお米食べなよ",
+        "score": 30,
+        "voteRate": 0.24,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 26,
+        "displayRank": 26,
+        "author": "くすも",
+        "answer": "心から握りこむこと",
+        "score": 28,
+        "voteRate": 0.22,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 26,
+        "displayRank": 27,
+        "author": "マージナル・マン",
+        "answer": "膝を削った後は神社に行った方が良い",
+        "score": 28,
+        "voteRate": 0.22,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 28,
+        "displayRank": 28,
+        "author": "粉骨",
+        "answer": "穴を塞いで向かったところが必要とされる場所",
+        "score": 27,
+        "voteRate": 0.21,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 29,
+        "displayRank": 29,
+        "author": "好漁場",
+        "answer": "来年からは抱負は一筆で書いてみろ",
+        "score": 24,
+        "voteRate": 0.19,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 30,
+        "displayRank": 30,
+        "author": "40代からの基礎化粧品",
+        "answer": "各駅停車に乗っていろんな土地の抗体作るといいよ",
+        "score": 22,
+        "voteRate": 0.17,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 30,
+        "displayRank": 31,
+        "author": "モンキーDTウキィ",
+        "answer": "病は木から、うなじに毎日水やりしてないでしょ",
+        "score": 22,
+        "voteRate": 0.17,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 32,
+        "displayRank": 32,
+        "author": "白犬",
+        "answer": "手の届く範囲で頑張る",
+        "score": 21,
+        "voteRate": 0.17,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 33,
+        "displayRank": 33,
+        "author": "鴨とサイコロ",
+        "answer": "どうすればいいかじゃなくて、どうしたいかじゃない？",
+        "score": 17,
+        "voteRate": 0.13,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 34,
+        "displayRank": 34,
+        "author": "田中アオジル",
+        "answer": "あれだよ、窓。部屋のさ、窓を開けてさ。まず開けてみ窓。そう。いや半分、半分くらいで良いです。開けたらさ、こう、浅呼吸です。深呼吸ではない、浅呼吸。スッスッハッハッ。はい、スッスッハッハッやってみ、スッスッハッハッ。まだちょっと深いよ。スースーハーハーになっちゃってる。もっとスッスッて。もっとハッハッて。そう。じゃあ窓開けて。いや、全部開けて。今です、そう。全部開けたらさ、こう、耳を塞いで。いや。澄ましたらだめよ、塞いで、そう。塞いだ？まだ？塞いだ？聞こえる？いや聞こえたらだめなのよ。塞いで。そう。あれかなー、風邪、引いたかなーって。まず思って。そう。思うとこから。思うことが大事だから風邪は。思った？思ったね？よし思った。思ったらじゃあ閉めて。カーテン閉めて。窓はだめよ、窓はまだ早い。お前には。",
+        "score": 15,
+        "voteRate": 0.12,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 34,
+        "displayRank": 35,
+        "author": "有亀わんたん",
+        "answer": "僕がオリジナルで作った漢方キムチ大福食べな",
+        "score": 15,
+        "voteRate": 0.12,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 36,
+        "displayRank": 36,
+        "author": "赤井me",
+        "answer": "この後あなたはテレビを見ながらゴロゴロするでしょう",
+        "score": 13,
+        "voteRate": 0.1,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 37,
+        "displayRank": 37,
+        "author": "ぼしん苦",
+        "answer": "木の幹を軽く撫でてからが本番",
+        "score": 11,
+        "voteRate": 0.09,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 38,
+        "displayRank": 38,
+        "author": "ご馳走たまご",
+        "answer": "とりあえず体温めようか！ 今から満員電車乗り込んでおしくらまんじゅうするぞ！ 泣くな！",
+        "score": 6,
+        "voteRate": 0.05,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 39,
+        "displayRank": 39,
+        "author": "新快速誠",
+        "answer": "さ",
+        "score": 0,
+        "voteRate": 0.0,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 39,
+        "displayRank": 40,
+        "author": "ババア",
+        "answer": "あ",
+        "score": 0,
+        "voteRate": 0.0,
+        "votePoints": null,
+        "isSelf": false
+      }
+    ],
+    "votes": [
+      {
+        "rawRank": 2,
+        "displayRank": 2,
+        "points": 2,
+        "author": "入れ歯型乳歯",
+        "answer": "勝手に戦いすぎなんだよオタクって",
+        "percentile": 0.05
+      },
+      {
+        "rawRank": 3,
+        "displayRank": 3,
+        "points": 2,
+        "author": "必殺",
+        "answer": "風呂場以外なら椅子のまま移動できる",
+        "percentile": 0.075
+      },
+      {
+        "rawRank": 4,
+        "displayRank": 4,
+        "points": 4,
+        "author": "mudman",
+        "answer": "本屋だけの道とか歩いてないか",
+        "percentile": 0.1
+      },
+      {
+        "rawRank": 7,
+        "displayRank": 7,
+        "points": 3,
+        "author": "よよよよよよ！？",
+        "answer": "スポーツの新聞なら文章で上回れる",
+        "percentile": 0.175
+      },
+      {
+        "rawRank": 14,
+        "displayRank": 14,
+        "points": 3,
+        "author": "くのん",
+        "answer": "刑務所の石鹸で手を洗えば？",
+        "percentile": 0.35
+      },
+      {
+        "rawRank": 22,
+        "displayRank": 23,
+        "points": 2,
+        "author": "縦割り",
+        "answer": "愛想よくした方が寄せ書き書いてもらえる",
+        "percentile": 0.55
+      },
+      {
+        "rawRank": 29,
+        "displayRank": 29,
+        "points": 2,
+        "author": "好漁場",
+        "answer": "来年からは抱負は一筆で書いてみろ",
+        "percentile": 0.725
+      }
+    ],
+    "self": null
+  },
+  "97": {
+    "id": 97,
+    "division": 2,
+    "prompt": "良い人「朝5時に集合！？ ○○○」",
+    "imageUrl": null,
+    "source": "https://oogiri-tmd.net/home/page.php?id=97",
+    "submissions": 40,
+    "parsed": 40,
+    "answers": [
+      {
+        "rawRank": 1,
+        "displayRank": 1,
+        "author": "ピンクジャム",
+        "answer": "良い人「朝5時に集合！？ 運良かったら気球とか飛んでますよね」",
+        "score": 116,
+        "voteRate": 0.94,
+        "votePoints": 3,
+        "isSelf": false
+      },
+      {
+        "rawRank": 2,
+        "displayRank": 2,
+        "author": "ミッツ乾電池",
+        "answer": "良い人「朝5時に集合！？ 時間によって旗の見え方変わるとかめっちゃ好きよ俺」",
+        "score": 91,
+        "voteRate": 0.73,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 3,
+        "displayRank": 3,
+        "author": "プラス",
+        "answer": "良い人「朝5時に集合！？ 薬局を思い付ける人ってやっぱり違うんだな」",
+        "score": 83,
+        "voteRate": 0.67,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 4,
+        "displayRank": 4,
+        "author": "にこごり",
+        "answer": "良い人「朝5時に集合！？ 駅のゴミ箱から登場したら全員笑ってくれる？」",
+        "score": 75,
+        "voteRate": 0.6,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 5,
+        "displayRank": 5,
+        "author": "モノカルチャー",
+        "answer": "良い人「朝5時に集合！？ やっぱ衣装着てると役の中で喋ってしまうわ」",
+        "score": 71,
+        "voteRate": 0.57,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 6,
+        "displayRank": 6,
+        "author": "フルーツスペシャリスト",
+        "answer": "良い人「朝5時に集合！？ 井戸に落ちる前の本来のお前に会えた気がする」",
+        "score": 69,
+        "voteRate": 0.56,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 7,
+        "displayRank": 7,
+        "author": "9分",
+        "answer": "良い人「朝5時に集合！？ 尊敬してる人はキッチンで何してるんやろ」",
+        "score": 68,
+        "voteRate": 0.55,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 8,
+        "displayRank": 8,
+        "author": "キャベツの裏側",
+        "answer": "良い人「朝5時に集合！？ もしや美術館の丸い部分に期待して良いのでは？」",
+        "score": 65,
+        "voteRate": 0.52,
+        "votePoints": 3,
+        "isSelf": false
+      },
+      {
+        "rawRank": 9,
+        "displayRank": 9,
+        "author": "きまぐれ",
+        "answer": "良い人「朝5時に集合！？ そこで働いている人達からはマラソンに見えるかもね」",
+        "score": 63,
+        "voteRate": 0.51,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 10,
+        "displayRank": 10,
+        "author": "wanimoneru",
+        "answer": "良い人「朝5時に集合！？ ウチでライオンの映画見ていこうや」",
+        "score": 61,
+        "voteRate": 0.49,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 11,
+        "displayRank": 11,
+        "author": "kak",
+        "answer": "良い人「朝5時に集合！？ 絵じゃなくて写真の地図送るね」",
+        "score": 56,
+        "voteRate": 0.45,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 12,
+        "displayRank": 12,
+        "author": "世界の牛肉",
+        "answer": "良い人「朝5時に集合！？ 食パンが先にそっち行くわ」",
+        "score": 55,
+        "voteRate": 0.44,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 13,
+        "displayRank": 13,
+        "author": "じゃー",
+        "answer": "良い人「朝5時に集合！？ 羊が動いちゃうから鈴は置いていく」",
+        "score": 52,
+        "voteRate": 0.42,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 14,
+        "displayRank": 14,
+        "author": "しろとら",
+        "answer": "良い人「朝5時に集合！？ 今よりもっと大きいドレス探せるね」",
+        "score": 50,
+        "voteRate": 0.4,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 15,
+        "displayRank": 15,
+        "author": "ジュルジュル温泉!!",
+        "answer": "良い人「朝5時に集合！？ これ今から雪だるま作ったら明日残ってるだろ……！」",
+        "score": 43,
+        "voteRate": 0.35,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 15,
+        "displayRank": 16,
+        "author": "遠くを見ている",
+        "answer": "良い人「朝5時に集合！？ 詩書いてまうわボケ！」",
+        "score": 43,
+        "voteRate": 0.35,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 17,
+        "displayRank": 17,
+        "author": "言語遊戯",
+        "answer": "良い人「朝5時に集合！？ そこで一発笑えると、気持ち良いんだよ」",
+        "score": 42,
+        "voteRate": 0.34,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 18,
+        "displayRank": 18,
+        "author": "オタマ弱者",
+        "answer": "良い人「朝5時に集合！？ やはり学校との近さで自販機の値段は決まるのか」",
+        "score": 40,
+        "voteRate": 0.32,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 18,
+        "displayRank": 19,
+        "author": "夏のワルプルギス",
+        "answer": "良い人「朝5時に集合！？ 道で車が弾んでから説明を始めようかな」",
+        "score": 40,
+        "voteRate": 0.32,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 20,
+        "displayRank": 20,
+        "author": "ボンバーウィーメン",
+        "answer": "良い人「朝5時に集合！？ タオルに座って、降ってくる柿を待つじゃだめ？」",
+        "score": 33,
+        "voteRate": 0.27,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 20,
+        "displayRank": 21,
+        "author": "前田",
+        "answer": "良い人「朝5時に集合！？ まだ顔洗ってもない時間だよ！」",
+        "score": 33,
+        "voteRate": 0.27,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 22,
+        "displayRank": 22,
+        "author": "たげ",
+        "answer": "良い人「朝5時に集合！？ 預かってる洗濯機は後日返します」",
+        "score": 32,
+        "voteRate": 0.26,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 22,
+        "displayRank": 23,
+        "author": "たきざき",
+        "answer": "良い人「朝5時に集合！？ ちょっと待って今キンタマどっか行った」",
+        "score": 32,
+        "voteRate": 0.26,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 24,
+        "displayRank": 24,
+        "author": "無敵税",
+        "answer": "良い人「朝5時に集合！？ この世の記号全部出てくるもんな、あのパスワード」",
+        "score": 31,
+        "voteRate": 0.25,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 25,
+        "displayRank": 25,
+        "author": "優死 とれま",
+        "answer": "良い人「朝5時に集合！？ わかった、寿司握れる子供もそれまでに見つけてくるわ！」",
+        "score": 26,
+        "voteRate": 0.21,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 25,
+        "displayRank": 26,
+        "author": "啓蒙思想",
+        "answer": "良い人「朝5時に集合！？ 起きた時みんなの顔が見れるバスを手配してくれ」",
+        "score": 26,
+        "voteRate": 0.21,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 25,
+        "displayRank": 27,
+        "author": "怨玉こ",
+        "answer": "良い人「朝5時に集合！？ 鬼太郎みたいな奴に言われたって多分それ俺の妹だぞ」",
+        "score": 26,
+        "voteRate": 0.21,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 28,
+        "displayRank": 28,
+        "author": "笑動的",
+        "answer": "良い人「朝5時に集合！？ 水を滝のように飲んでしまいます」",
+        "score": 25,
+        "voteRate": 0.2,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 29,
+        "displayRank": 29,
+        "author": "あぐくねる",
+        "answer": "良い人「朝5時に集合！？ いいね！」",
+        "score": 23,
+        "voteRate": 0.19,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 30,
+        "displayRank": 30,
+        "author": "じゃん",
+        "answer": "良い人「朝5時に集合！？ 花火の音が聞こえて来たらそれ私です」",
+        "score": 22,
+        "voteRate": 0.18,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 31,
+        "displayRank": 31,
+        "author": "はひふーへ・ほーほほ",
+        "answer": "良い人「朝5時に集合！？ でもこんな時間にも働いてる人がいるんだよな。何もおかしなこと言ってないか。すまなかった。」",
+        "score": 20,
+        "voteRate": 0.16,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 32,
+        "displayRank": 32,
+        "author": "なめこんぶ",
+        "answer": "良い人「朝5時に集合！？ 狐と交わした古き日の契約を、お忘れかい？」",
+        "score": 17,
+        "voteRate": 0.14,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 33,
+        "displayRank": 33,
+        "author": "灯油の日",
+        "answer": "良い人「朝5時に集合！？ 今ならお前を認めたシェフに弟子入りできるわ」",
+        "score": 16,
+        "voteRate": 0.13,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 34,
+        "displayRank": 34,
+        "author": "大体いつも眠い人",
+        "answer": "良い人「朝5時に集合！？ すごい思想！評価します！」",
+        "score": 13,
+        "voteRate": 0.1,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 35,
+        "displayRank": 35,
+        "author": "味本気アジ",
+        "answer": "良い人「朝5時に集合！？ 牛の糞尿の階段を降りてきて！？」",
+        "score": 12,
+        "voteRate": 0.1,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 35,
+        "displayRank": 36,
+        "author": "カビ光線",
+        "answer": "良い人「朝5時に集合！？ 大学は遅れて行くのがカッコいいって」",
+        "score": 12,
+        "voteRate": 0.1,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 35,
+        "displayRank": 37,
+        "author": "あると",
+        "answer": "良い人「朝5時に集合！？ 練習に明け暮れてたら、この時間！」",
+        "score": 12,
+        "voteRate": 0.1,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 38,
+        "displayRank": 38,
+        "author": "ラブリーチャーミーな敵役",
+        "answer": "良い人「朝5時に集合！？ 夜29時だと本当にイマイチだから最高の表記だ！」",
+        "score": 7,
+        "voteRate": 0.06,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 39,
+        "displayRank": 39,
+        "author": "ブスとり",
+        "answer": "良い人「朝5時に集合！？ 29時集合と言おう！」",
+        "score": 6,
+        "voteRate": 0.05,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 40,
+        "displayRank": 40,
+        "author": "真司",
+        "answer": "良い人「朝5時に集合！？ あ」",
+        "score": 0,
+        "voteRate": 0.0,
+        "votePoints": null,
+        "isSelf": false
+      }
+    ],
+    "votes": [
+      {
+        "rawRank": 1,
+        "displayRank": 1,
+        "points": 3,
+        "author": "ピンクジャム",
+        "answer": "良い人「朝5時に集合！？ 運良かったら気球とか飛んでますよね」",
+        "percentile": 0.025
+      },
+      {
+        "rawRank": 4,
+        "displayRank": 4,
+        "points": 2,
+        "author": "にこごり",
+        "answer": "良い人「朝5時に集合！？ 駅のゴミ箱から登場したら全員笑ってくれる？」",
+        "percentile": 0.1
+      },
+      {
+        "rawRank": 8,
+        "displayRank": 8,
+        "points": 3,
+        "author": "キャベツの裏側",
+        "answer": "良い人「朝5時に集合！？ もしや美術館の丸い部分に期待して良いのでは？」",
+        "percentile": 0.2
+      },
+      {
+        "rawRank": 9,
+        "displayRank": 9,
+        "points": 2,
+        "author": "きまぐれ",
+        "answer": "良い人「朝5時に集合！？ そこで働いている人達からはマラソンに見えるかもね」",
+        "percentile": 0.225
+      },
+      {
+        "rawRank": 18,
+        "displayRank": 18,
+        "points": 2,
+        "author": "オタマ弱者",
+        "answer": "良い人「朝5時に集合！？ やはり学校との近さで自販機の値段は決まるのか」",
+        "percentile": 0.45
+      },
+      {
+        "rawRank": 24,
+        "displayRank": 24,
+        "points": 2,
+        "author": "無敵税",
+        "answer": "良い人「朝5時に集合！？ この世の記号全部出てくるもんな、あのパスワード」",
+        "percentile": 0.6
+      },
+      {
+        "rawRank": 25,
+        "displayRank": 25,
+        "points": 2,
+        "author": "優死 とれま",
+        "answer": "良い人「朝5時に集合！？ わかった、寿司握れる子供もそれまでに見つけてくるわ！」",
+        "percentile": 0.625
+      }
+    ],
+    "self": null
+  },
+  "98": {
+    "id": 98,
+    "division": 1,
+    "prompt": "儲かるからという理由だけで漫画を描いている人は こんなにも漫画に愛情がない",
+    "imageUrl": null,
+    "source": "https://oogiri-tmd.net/home/page.php?id=98",
+    "submissions": 22,
+    "parsed": 22,
+    "answers": [
+      {
+        "rawRank": 1,
+        "displayRank": 1,
+        "author": "シャンプー剤",
+        "answer": "今のランドセルはもっと派手かも、と矢印で言ってる",
+        "score": 86,
+        "voteRate": 0.92,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 2,
+        "displayRank": 2,
+        "author": "シルバータント",
+        "answer": "鼻歌が完成したとき机の上に立ってた",
+        "score": 60,
+        "voteRate": 0.65,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 3,
+        "displayRank": 3,
+        "author": "ばたんきゅー",
+        "answer": "こんないい体格だったかとコイン当ててる",
+        "score": 59,
+        "voteRate": 0.63,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 3,
+        "displayRank": 4,
+        "author": "寝坊",
+        "answer": "その時一番暇そうな人間に掃除機を持たせている",
+        "score": 59,
+        "voteRate": 0.63,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 5,
+        "displayRank": 5,
+        "author": "寝坊",
+        "answer": "友達に言わせた数字がそのままミサイルの名前に入る",
+        "score": 53,
+        "voteRate": 0.57,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 6,
+        "displayRank": 6,
+        "author": "すぽんじ",
+        "answer": "人が死んだ時に映る流れ星が全部同じ",
+        "score": 52,
+        "voteRate": 0.56,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 6,
+        "displayRank": 7,
+        "author": "シャンプー剤",
+        "answer": "意外と何も起きないという理由で旅館を舞台にする",
+        "score": 52,
+        "voteRate": 0.56,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 8,
+        "displayRank": 8,
+        "author": "安藤龍",
+        "answer": "リモコンから出てる光を必死に掴もうとしている",
+        "score": 51,
+        "voteRate": 0.55,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 9,
+        "displayRank": 9,
+        "author": "だだり",
+        "answer": "ヒーローが瀕死のまま靴が何回も新しくなる",
+        "score": 50,
+        "voteRate": 0.54,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 10,
+        "displayRank": 10,
+        "author": "安藤龍",
+        "answer": "公園の中に停車して一日帰らないときがある",
+        "score": 47,
+        "voteRate": 0.51,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 10,
+        "displayRank": 11,
+        "author": "二塁シャチ",
+        "answer": "バス停に高校生を立たせて、あとは想像させる",
+        "score": 47,
+        "voteRate": 0.51,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 12,
+        "displayRank": 12,
+        "author": "シルバータント",
+        "answer": "ベランダから見たときの部屋を模型にしてる",
+        "score": 40,
+        "voteRate": 0.43,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 12,
+        "displayRank": 13,
+        "author": "ドゥラちゃん",
+        "answer": "小学校に居た先生の名前を思い出せる分使う",
+        "score": 40,
+        "voteRate": 0.43,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 14,
+        "displayRank": 14,
+        "author": "ドゥラちゃん",
+        "answer": "皆が考えた事ある目立ち方をそのまま描いてる",
+        "score": 38,
+        "voteRate": 0.41,
+        "votePoints": 3,
+        "isSelf": false
+      },
+      {
+        "rawRank": 14,
+        "displayRank": 15,
+        "author": "だだり",
+        "answer": "くっついて暖を取る学生の近くまで行ってる",
+        "score": 38,
+        "voteRate": 0.41,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 16,
+        "displayRank": 16,
+        "author": "9月が終わったら起こして",
+        "answer": "この失礼な奴は後で燃えますとあらかじめ言う",
+        "score": 35,
+        "voteRate": 0.38,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 17,
+        "displayRank": 17,
+        "author": "9月が終わったら起こして",
+        "answer": "移動する時間に矛盾がないか学者を呼んでる",
+        "score": 34,
+        "voteRate": 0.37,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 17,
+        "displayRank": 18,
+        "author": "永栄",
+        "answer": "作中に登場する料理に一切味が付いていない",
+        "score": 34,
+        "voteRate": 0.37,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 19,
+        "displayRank": 19,
+        "author": "723",
+        "answer": "交差点の標識なんて大体同じだろと日傘開いてる",
+        "score": 29,
+        "voteRate": 0.31,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 20,
+        "displayRank": 20,
+        "author": "らうかった",
+        "answer": "作業の後ろで長時間煮るような料理をしてる",
+        "score": 26,
+        "voteRate": 0.28,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 21,
+        "displayRank": 21,
+        "author": "伊坂",
+        "answer": "本来は都会のネズミがやるような仕事だと思ってる",
+        "score": 18,
+        "voteRate": 0.19,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 22,
+        "displayRank": 22,
+        "author": "永栄",
+        "answer": "ストーリー上の矛盾を解消するために新キャラを出してる",
+        "score": 16,
+        "voteRate": 0.17,
+        "votePoints": null,
+        "isSelf": false
+      }
+    ],
+    "votes": [
+      {
+        "rawRank": 3,
+        "displayRank": 4,
+        "points": 2,
+        "author": "寝坊",
+        "answer": "その時一番暇そうな人間に掃除機を持たせている",
+        "percentile": 0.13636363636363635
+      },
+      {
+        "rawRank": 6,
+        "displayRank": 7,
+        "points": 2,
+        "author": "シャンプー剤",
+        "answer": "意外と何も起きないという理由で旅館を舞台にする",
+        "percentile": 0.2727272727272727
+      },
+      {
+        "rawRank": 14,
+        "displayRank": 14,
+        "points": 3,
+        "author": "ドゥラちゃん",
+        "answer": "皆が考えた事ある目立ち方をそのまま描いてる",
+        "percentile": 0.6363636363636364
+      },
+      {
+        "rawRank": 17,
+        "displayRank": 17,
+        "points": 2,
+        "author": "9月が終わったら起こして",
+        "answer": "移動する時間に矛盾がないか学者を呼んでる",
+        "percentile": 0.7727272727272727
+      },
+      {
+        "rawRank": 20,
+        "displayRank": 20,
+        "points": 2,
+        "author": "らうかった",
+        "answer": "作業の後ろで長時間煮るような料理をしてる",
+        "percentile": 0.9090909090909091
+      }
+    ],
+    "self": null
+  },
+  "99": {
+    "id": 99,
+    "division": 1,
+    "prompt": "画像で一言",
+    "imageUrl": "http://oogiri-tmd.net/home/image/20261007181316_1.jpeg",
+    "source": "https://oogiri-tmd.net/home/page.php?id=99",
+    "submissions": 29,
+    "parsed": 29,
+    "answers": [
+      {
+        "rawRank": 1,
+        "displayRank": 1,
+        "author": "天国かラスベガス",
+        "answer": "凍った果物すら配達できんかった街だぞ",
+        "score": 82,
+        "voteRate": 0.85,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 1,
+        "displayRank": 2,
+        "author": "釜ちびちび",
+        "answer": "自分で手相見て予定変えたりしてんだよ",
+        "score": 82,
+        "voteRate": 0.85,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 3,
+        "displayRank": 3,
+        "author": "shu",
+        "answer": "居酒屋で生まれた感じがあるんだよ俺は",
+        "score": 78,
+        "voteRate": 0.8,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 4,
+        "displayRank": 4,
+        "author": "根岸",
+        "answer": "城を撮る時の体勢がそれぞれあるだろう",
+        "score": 68,
+        "voteRate": 0.7,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 5,
+        "displayRank": 5,
+        "author": "お化けぬこ",
+        "answer": "山頂を検索しても余計なもんが出んだわ",
+        "score": 62,
+        "voteRate": 0.64,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 6,
+        "displayRank": 6,
+        "author": "人々",
+        "answer": "判子に息をかけるのは美しい仕草なんだよ",
+        "score": 59,
+        "voteRate": 0.61,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 7,
+        "displayRank": 7,
+        "author": "あとひとつ流星群",
+        "answer": "ここで腕時計を見る、そういう奴らを集めた",
+        "score": 57,
+        "voteRate": 0.59,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 8,
+        "displayRank": 8,
+        "author": "懐かしむ会",
+        "answer": "若者が勢揃いで食器見てたのおかしいだろ",
+        "score": 54,
+        "voteRate": 0.56,
+        "votePoints": 3,
+        "isSelf": false
+      },
+      {
+        "rawRank": 9,
+        "displayRank": 9,
+        "author": "天国かラスベガス",
+        "answer": "あと飛行機で帽子置いていい場所教えろ",
+        "score": 50,
+        "voteRate": 0.52,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 10,
+        "displayRank": 10,
+        "author": "サーバー",
+        "answer": "捨てる時が楽しみで水を買っているまである",
+        "score": 46,
+        "voteRate": 0.47,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 11,
+        "displayRank": 11,
+        "author": "何奴",
+        "answer": "一生やれる趣味を譲って下さい",
+        "score": 44,
+        "voteRate": 0.45,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 12,
+        "displayRank": 12,
+        "author": "shu",
+        "answer": "俺の高校にも宇宙服が普通にあった",
+        "score": 43,
+        "voteRate": 0.44,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 13,
+        "displayRank": 13,
+        "author": "おお龍馬",
+        "answer": "一回ぐらい太陽が変だと疑った事ないのか",
+        "score": 40,
+        "voteRate": 0.41,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 13,
+        "displayRank": 14,
+        "author": "吉野家作造",
+        "answer": "そして俺は上司の耳を塞いでみたんだ",
+        "score": 40,
+        "voteRate": 0.41,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 15,
+        "displayRank": 15,
+        "author": "お化けぬこ",
+        "answer": "喫煙所で鼻つまんだら意外とウケたわ",
+        "score": 39,
+        "voteRate": 0.4,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 16,
+        "displayRank": 16,
+        "author": "サーバー",
+        "answer": "差し込み口が多いと期待されてるみたいだな",
+        "score": 38,
+        "voteRate": 0.39,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 17,
+        "displayRank": 17,
+        "author": "何奴",
+        "answer": "虎が住む田舎で何人か降ろす",
+        "score": 36,
+        "voteRate": 0.37,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 18,
+        "displayRank": 18,
+        "author": "エンジェル",
+        "answer": "勝手に芸能界みたいな空気を作らないでくれ！",
+        "score": 35,
+        "voteRate": 0.36,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 19,
+        "displayRank": 19,
+        "author": "おお龍馬",
+        "answer": "学校の豚がほどけるのを目の前で見たんだわ",
+        "score": 34,
+        "voteRate": 0.35,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 19,
+        "displayRank": 20,
+        "author": "根岸",
+        "answer": "橋に聴診器を当ててみたことはあるか",
+        "score": 34,
+        "voteRate": 0.35,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 19,
+        "displayRank": 21,
+        "author": "人々",
+        "answer": "乾くの遅い屋根は神経が参るんだよ",
+        "score": 34,
+        "voteRate": 0.35,
+        "votePoints": 2,
+        "isSelf": false
+      },
+      {
+        "rawRank": 22,
+        "displayRank": 22,
+        "author": "馬to量子化",
+        "answer": "うわっ、ガムの紙に書いてることを本気にしたんだ",
+        "score": 32,
+        "voteRate": 0.33,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 23,
+        "displayRank": 23,
+        "author": "ピュア氷",
+        "answer": "秋になったら空港にも行く、飛行機を触る",
+        "score": 30,
+        "voteRate": 0.31,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 24,
+        "displayRank": 24,
+        "author": "吉野家作造",
+        "answer": "悔しいが、印刷の準備がまだなんだ",
+        "score": 27,
+        "voteRate": 0.28,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 25,
+        "displayRank": 25,
+        "author": "ピュア氷",
+        "answer": "菊でいっぱいの公園、そこで昔の俺が迷ってんだ",
+        "score": 26,
+        "voteRate": 0.27,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 26,
+        "displayRank": 26,
+        "author": "あとひとつ流星群",
+        "answer": "同じ名字の人間が笑い合って、馬鹿かよ幸せかよ",
+        "score": 25,
+        "voteRate": 0.26,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 27,
+        "displayRank": 27,
+        "author": "懐かしむ会",
+        "answer": "学校に植わってる桜って桜の中でも外れだよな",
+        "score": 22,
+        "voteRate": 0.23,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 28,
+        "displayRank": 28,
+        "author": "釜ちびちび",
+        "answer": "和菓子机に忘れてからここまで来たんだ",
+        "score": 17,
+        "voteRate": 0.18,
+        "votePoints": null,
+        "isSelf": false
+      },
+      {
+        "rawRank": 29,
+        "displayRank": 29,
+        "author": "ヘルシー帝",
+        "answer": "来年の夏はサーフィンをやろうぐらいの熱量で来てしまいました",
+        "score": 10,
+        "voteRate": 0.1,
+        "votePoints": null,
+        "isSelf": false
+      }
+    ],
+    "votes": [
+      {
+        "rawRank": 1,
+        "displayRank": 1,
+        "points": 2,
+        "author": "天国かラスベガス",
+        "answer": "凍った果物すら配達できんかった街だぞ",
+        "percentile": 0.034482758620689655
+      },
+      {
+        "rawRank": 1,
+        "displayRank": 2,
+        "points": 2,
+        "author": "釜ちびちび",
+        "answer": "自分で手相見て予定変えたりしてんだよ",
+        "percentile": 0.034482758620689655
+      },
+      {
+        "rawRank": 4,
+        "displayRank": 4,
+        "points": 2,
+        "author": "根岸",
+        "answer": "城を撮る時の体勢がそれぞれあるだろう",
+        "percentile": 0.13793103448275862
+      },
+      {
+        "rawRank": 8,
+        "displayRank": 8,
+        "points": 3,
+        "author": "懐かしむ会",
+        "answer": "若者が勢揃いで食器見てたのおかしいだろ",
+        "percentile": 0.27586206896551724
+      },
+      {
+        "rawRank": 13,
+        "displayRank": 13,
+        "points": 2,
+        "author": "おお龍馬",
+        "answer": "一回ぐらい太陽が変だと疑った事ないのか",
+        "percentile": 0.4482758620689655
+      },
+      {
+        "rawRank": 19,
+        "displayRank": 21,
+        "points": 2,
+        "author": "人々",
+        "answer": "乾くの遅い屋根は神経が参るんだよ",
+        "percentile": 0.6551724137931034
+      }
+    ],
+    "self": null
+  }
+}
