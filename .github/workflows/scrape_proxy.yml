@@ -19,6 +19,6 @@ jobs:
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add b1_latest_theme.json
-          git commit -m "Save latest underground result" || exit 0
+          git add audit_94_99_full.json
+          git commit -m "Add Observatory rounds 94-99 audit" || exit 0
           git push
