@@ -1,98 +1,87 @@
-import requests, re, json, time
+import requests, json, datetime, re
 
-target='[昼崎](http://oogiri-tmd.net/home/mypage.php?user_id=309)'
-out={}
-session=requests.Session()
-session.headers.update({"User-Agent":"Mozilla/5.0"})
+BASE="https://l4xp33cq4l.execute-api.ap-northeast-1.amazonaws.com/prd/"
+CDN="https://dan0h5umj3b5n.cloudfront.net/"
+USER_ID="27445a98-00d1-70e7-99dc-674b38fa7a19"
 
-for rid in range(94,100):
-    u=f"https://r.jina.ai/http://oogiri-tmd.net/home/page.php?id={rid}"
-    t=""
-    for attempt in range(6):
-        r=session.get(u,timeout=90)
-        if r.ok and "投稿数：" in r.text:
-            t=r.text.replace("\r\n","\n")
-            break
-        time.sleep(3+attempt*2)
-    if not t:
-        raise RuntimeError(f"failed to fetch round {rid}")
+s=requests.Session()
+s.headers.update({"User-Agent":"Mozilla/5.0"})
 
-    m=re.search(r'投稿数：(\d+)',t)
-    submissions=int(m.group(1))
+timeline=s.get(BASE+"timeline",params={"lastEvaluatedKey":"","limit":40},timeout=60)
+timeline.raise_for_status()
+items=timeline.json().get("Items",[])
+result=next((x for x in items if x.get("ThemeStatus")=="結果表示"),None)
+if not result:
+    raise RuntimeError("no result theme found")
 
-    topic_m=re.search(r'(?s)\nお題\n(.*?)(?=\n\d+位\[)',t)
-    if not topic_m:
-        raise RuntimeError(f"round {rid}: prompt not found")
-    topic_raw=topic_m.group(1).strip()
-    img_m=re.search(r'!\[[^\]]*\]\((https?://oogiri-tmd\.net/home/image/[^)]+)\)',topic_raw)
-    image_url=img_m.group(1) if img_m else None
-    prompt="画像で一言" if image_url else re.sub(r'\s+',' ',topic_raw).strip()
+tid=result["ThemeId"]
+r=s.get(BASE+"theme/before-login",params={"themeId":tid},timeout=60)
+r.raise_for_status()
+j=r.json()
+th=j["theme"]
+answers=j.get("answers") or []
+expected=int(th.get("AnswerCount",0))
+if len(answers)!=expected:
+    raise RuntimeError(f"answer count mismatch {len(answers)} != {expected}")
 
-    pat=re.compile(r'(?m)^(\d+)位\[([^\]]+)\]\(([^\n]+)\)\n\n\1位\[\2\]\([^\n]+\)\n')
-    starts=list(pat.finditer(t))
-    if len(starts)!=submissions:
-        raise RuntimeError(f"round {rid}: parsed {len(starts)} != submissions {submissions}")
+# Continue the existing weekly numbering from b1.html.
+html=open("b1.html",encoding="utf-8").read()
+m=re.search(r'Promise\.resolve\((\{.*?\})\)\.then\(d=>\{',html,re.S)
+if not m:
+    raise RuntimeError("embedded b1 data not found")
+old=json.loads(m.group(1))
+last_week=max((int(t.get("week",0)) for t in old.get("themes",[])),default=0)
+existing_ids={t.get("id") for t in old.get("themes",[])}
+week=next((int(t.get("week",last_week)) for t in old.get("themes",[]) if t.get("id")==tid), last_week+1)
 
-    votes=[]; answers=[]; self_answer=None
-    for k,mt in enumerate(starts):
-        end=starts[k+1].start() if k+1<len(starts) else len(t)
-        block=t[mt.end():end]
-        lines=[x.strip() for x in block.splitlines()]
-        answer=next((x for x in lines if x),"")
-        raw_rank=int(mt.group(1))
-        author=mt.group(2)
-        author_url=mt.group(3)
-        display_rank=k+1
+out_answers=[]
+bad_totals=[]
+for pos,a in enumerate(answers,1):
+    sl=a.get("ScoreList") or []
+    calc=sum(float(x.get("Score",0)) for x in sl)
+    total=float(a.get("TotalScore",0))
+    if abs(calc-total)>1e-9:
+        bad_totals.append({"position":pos,"calc":calc,"total":total,"answerId":a.get("AnswerId")})
+    uv=next((x for x in sl if x.get("UserId")==USER_ID),None)
+    out_answers.append({
+        "id":a.get("AnswerId"),
+        "rank":int(a.get("AnswerRank",pos)),
+        "position":pos,
+        "answer":a.get("AnswerSentence",""),
+        "author":a.get("UserName",""),
+        "total":int(total) if total.is_integer() else total,
+        "vote":int(uv.get("Score",0)) if uv else 0,
+        "self":a.get("UserId")==USER_ID
+    })
 
-        score_match=re.search(r'(?m)^(\d+) 点｜([0-9.]+)$',block)
-        score=int(score_match.group(1)) if score_match else None
-        vote_rate=float(score_match.group(2)) if score_match else None
+date=(th.get("ScoringDeadline") or "")[:10]
+if not date:
+    raise RuntimeError("no result date")
 
-        vote_points=None
-        voter_line=next((x for x in lines if target in x and any(f"{p}点 [" in x for p in (2,3,4))),None)
-        if voter_line:
-            pos=voter_line.index(target)
-            marks=[(voter_line.rfind(f"{p}点 ",0,pos),p) for p in (2,3,4)]
-            marks=[x for x in marks if x[0]>=0]
-            if marks:
-                vote_points=max(marks)[1]
-                votes.append({
-                    "rawRank":raw_rank,
-                    "displayRank":display_rank,
-                    "points":vote_points,
-                    "author":author,
-                    "answer":answer,
-                    "percentile":raw_rank/submissions
-                })
-
-        is_self=('user_id=309' in author_url or author=='昼崎')
-        if is_self:
-            self_answer={"rawRank":raw_rank,"displayRank":display_rank,"answer":answer}
-
-        answers.append({
-            "rawRank":raw_rank,
-            "displayRank":display_rank,
-            "author":author,
-            "answer":answer,
-            "score":score,
-            "voteRate":vote_rate,
-            "votePoints":vote_points,
-            "isSelf":is_self
-        })
-
-    division=2 if ((rid-52)%6)<4 else 1
-    out[str(rid)]={
-        "id":rid,
-        "division":division,
-        "prompt":prompt,
-        "imageUrl":image_url,
-        "source":f"https://oogiri-tmd.net/home/page.php?id={rid}",
-        "submissions":submissions,
-        "parsed":len(starts),
-        "answers":answers,
-        "votes":votes,
-        "self":self_answer
-    }
-    time.sleep(2)
-
-open("audit_94_99_full.json","w",encoding="utf-8").write(json.dumps(out,ensure_ascii=False,indent=2))
+theme_data={
+    "id":tid,
+    "date":date,
+    "theme":th.get("ThemeSentence",""),
+    "image":CDN+tid+".jpg" if th.get("IsImageTheme") else None,
+    "count":expected,
+    "voters":int(th.get("ScoreCount",0)),
+    "answers":out_answers,
+    "source":"https://oogiri-b1.com/theme?themeId="+tid,
+    "week":week
+}
+summary={
+    "theme":theme_data,
+    "validation":{
+        "alreadyPresent":tid in existing_ids,
+        "answerCountMatches":len(answers)==expected,
+        "badTotalCount":len(bad_totals),
+        "badTotals":bad_totals[:10],
+        "voteCount":sum(1 for a in out_answers if a["vote"]),
+        "votePoints":sum(a["vote"] for a in out_answers),
+        "self":next(({"rank":a["rank"],"position":a["position"],"answer":a["answer"],"total":a["total"]} for a in out_answers if a["self"]),None)
+    },
+    "updatedAt":datetime.datetime.now(datetime.timezone.utc).isoformat()
+}
+if bad_totals:
+    raise RuntimeError(f"score validation failed for {len(bad_totals)} answers")
+open("b1_latest_theme.json","w",encoding="utf-8").write(json.dumps(summary,ensure_ascii=False,indent=2))
