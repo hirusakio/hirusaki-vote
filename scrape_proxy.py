@@ -1,4 +1,5 @@
 import requests, json, datetime, re
+# refresh latest underground result
 
 BASE="https://l4xp33cq4l.execute-api.ap-northeast-1.amazonaws.com/prd/"
 CDN="https://dan0h5umj3b5n.cloudfront.net/"
