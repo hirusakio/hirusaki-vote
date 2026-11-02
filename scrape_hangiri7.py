@@ -1,23 +1,21 @@
 import requests,re,json,urllib.parse
-BASE="https://oogiri-mi.com"
-URL=BASE+"/hangiri7/match/"
+URL="https://oogiri-mi.com/hangiri7/match/"
 s=requests.Session(); s.headers.update({"User-Agent":"Mozilla/5.0"})
-r=s.get(URL,timeout=60); r.raise_for_status()
-html=r.text
-srcs=re.findall(r'<script[^>]+src=["\']([^"\']+)["\']',html)
-scripts=[]
-for src in srcs:
-    u=urllib.parse.urljoin(URL,src)
-    try:
-        rr=s.get(u,timeout=60)
-        txt=rr.text
-    except Exception as e:
-        scripts.append({"url":u,"error":str(e)}); continue
-    endpoints=sorted(set(re.findall(r'["\']([^"\']*(?:/api/|api/event|hangiri7)[^"\']*)["\']',txt)))
-    if endpoints:
-        scripts.append({"url":u,"status":rr.status_code,"endpoints":endpoints[:200]})
-payloads=sorted(set(re.findall(r'["\']([^"\']*(?:_payload\.json|/api/|hangiri7)[^"\']*)["\']',html)))
+html=s.get(URL,timeout=60).text
+uuids=sorted(set(re.findall(r'[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}',html)))
+needles=["event-matches:hangiri7","1回戦","2回戦","3回戦"]+uuids
+snips={}
+for n in needles:
+    arr=[]; pos=0
+    while True:
+        i=html.find(n,pos)
+        if i<0: break
+        arr.append(html[max(0,i-800):min(len(html),i+1800)])
+        pos=i+len(n)
+        if len(arr)>=5: break
+    if arr: snips[n]=arr
+links=sorted(set(re.findall(r'href=["\']([^"\']+)["\']',html)))
 open("hangiri7_discovery.json","w",encoding="utf-8").write(json.dumps({
- "status":r.status_code,"final_url":r.url,"html_prefix":html[:5000],
- "script_srcs":srcs,"html_candidates":payloads,"scripts":scripts
+ "html_len":len(html),"uuids":uuids,"links":[x for x in links if "hangiri7" in x],
+ "snippets":snips
 },ensure_ascii=False,indent=2))
