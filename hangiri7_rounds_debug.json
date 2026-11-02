@@ -1,622 +1,186 @@
 {
-  "r1": {
-    "url": "https://oogiri-mi.com/hangiri7/theme/8f7dd4df-ba8f-4283-96c7-dcc445b26843",
-    "status": 200,
-    "htmlLen": 77962,
-    "keys": [
-      "maintenance_settings",
-      "event-view:hangiri7",
-      "event-matches:hangiri7",
-      "theme-meta:8f7dd4df-ba8f-4283-96c7-dcc445b26843",
-      "theme-ssr:8f7dd4df-ba8f-4283-96c7-dcc445b26843"
-    ],
-    "data": {
-      "maintenance_settings": {
-        "maintenance_flag": false,
-        "maintenance_start_datetime": null,
-        "maintenance_end_datetime": null
-      },
-      "event-view:hangiri7": {
-        "event": {
-          "id": "hangiri7",
-          "event_name": "第7回半喜利",
-          "event_status": "ongoing",
-          "x_hashtag": null,
-          "battle_unit": "individual",
-          "team_meeting_room_flag": true,
-          "show_on_top": true
-        },
-        "design": {
-          "logo_image_flag": true,
-          "logo_text": null,
-          "logo_image_url": "events/hangiri7/logo/1789354283088-zr39nc-hangiri_logo_horizontal_transparent__1_.png",
-          "top_image_flag": true,
-          "top_image_url": "events/hangiri7/top/1789354283724-zmz2xc-hangiri_logo_square.png",
-          "background_image_flag": false,
-          "background_image_url": null,
-          "base_color": "#142c2d",
-          "font_color": "#ffffff",
-          "accent_color": "#b8b8b8",
-          "sub_color": "#253b3a",
-          "flip_color": "#ffffff",
-          "marker_color": "#000000",
-          "blank_font_color": "#FF6600",
-          "emphasis_font_color": "#ee5858",
-          "flip_blank_font_color": "#FF6600"
-        },
-        "news": [
-          {
-            "id": "e76e22ad-9cd0-4183-8704-b7cc16467118",
-            "announcement_title": "1回戦を開始しました",
-            "announcement_link": "https://oogiri-mi.com/hangiri7/match/f8709851-cfb3-4b8d-923d-dc4369888a7a",
-            "date": "2026-10-05T00:00:00.000Z"
-          },
-          {
-            "id": "5ad9f18d-a3dd-489f-b3fd-3a5d038633b4",
-            "announcement_title": "1回戦組み分けが完了しました",
-            "announcement_link": "https://oogiri-mi.com/hangiri7/match/f8709851-cfb3-4b8d-923d-dc4369888a7a",
-            "date": "2026-10-01T00:00:00.000Z"
-          },
-          {
-            "id": "bd37f318-4f3e-4fcf-9b94-e8ac20ed5ace",
-            "announcement_title": "ルールページを更新しました\n参加者は必ず一度ご確認ください",
-            "announcement_link": "https://oogiri-mi.com/hangiri7/rule",
-            "date": "2026-09-29T00:00:00.000Z"
-          }
-        ],
-        "media": [],
-        "current_phase": {
-          "phase_name": "3回戦"
-        }
-      },
-      "event-matches:hangiri7": {
-        "matches": [
-          {
-            "id": "2b293ed7-d1bf-456f-b422-d4362b953d50",
-            "match_name": "3回戦",
-            "match_status": "posting_period",
-            "display_order": 4
-          },
-          {
-            "id": "0ef04231-168d-4576-896b-2fb97f51caf2",
-            "match_name": "2回戦",
-            "match_status": "results_announced",
-            "display_order": 6
-          },
-          {
-            "id": "f8709851-cfb3-4b8d-923d-dc4369888a7a",
-            "match_name": "1回戦",
-            "match_status": "results_announced",
-            "display_order": 7
-          }
-        ]
-      },
-      "theme-meta:8f7dd4df-ba8f-4283-96c7-dcc445b26843": {
-        "status": "ok",
-        "event_id": "hangiri7",
-        "theme_title": "グループA",
-        "theme_text": "誰一人サーカスを知らない街に、ピエロがサーカスの宣伝をしに来た時の様子",
-        "theme_status": "results_announced"
-      },
-      "theme-ssr:8f7dd4df-ba8f-4283-96c7-dcc445b26843": {
-        "matchName": "1回戦",
-        "themeTitle": "グループA",
-        "themeText": "誰一人サーカスを知らない街に、ピエロがサーカスの宣伝をしに来た時の様子",
-        "themeType": "text",
-        "themeImageUrl": "",
-        "youtubeUrl": "",
-        "themeProvider": "ボケクエ8 - パラライズアロー",
-        "totalPostCount": 24,
-        "totalVoteCount": 211,
-        "resultsAnnouncedDatetime": "2026-10-19T13:00:00.000Z",
-        "results": [
-          {
-            "postId": "dd639144-25d9-4fe5-b277-524c2073a45b",
-            "rank": 1,
-            "username": "サカキ",
-            "teamName": "サカキ",
-            "workText": "そこまでなら笑えたのにと母が窓を閉めた",
-            "totalScore": 241,
-            "voteRate": 1.14,
-            "imageUrl": null
-          },
-          {
-            "postId": "50b9fc95-7522-49c4-8cd1-ff4a09a8523c",
-            "rank": 2,
-            "username": "723",
-            "teamName": "723",
-            "workText": "枝を切るためのはしごだと何度も説明されてる",
-            "totalScore": 236,
-            "voteRate": 1.12,
-            "imageUrl": null
-          },
-          {
-            "postId": "7a46b221-0b98-41e6-8730-ad6c909d57fd",
-            "rank": 3,
-            "username": "安全地帯",
-            "teamName": "安全地帯",
-            "workText": "先端に花が咲いた槍でそのまま刺された",
-            "totalScore": 216,
-            "voteRate": 1.02,
-            "imageUrl": null
-          },
-          {
-            "postId": "8bdce95f-2158-4dac-bb4e-cf79450db316",
-            "rank": 4,
-            "username": "昨今",
-            "teamName": "昨今",
-            "workText": "滑り台から降りてこない子に両手を振ってる",
-            "totalScore": 193,
-            "voteRate": 0.91,
-            "imageUrl": null
-          },
-          {
-            "postId": "b82374b9-eb71-4b03-a43a-01f23aa4194b",
-            "rank": 5,
-            "username": "さすけのお兄さん",
-            "teamName": "さすけのお兄さん",
-            "workText": "演歌のポスターを隠してくれてありがとうと言われてた",
-            "totalScore": 185,
-            "voteRate": 0.88,
-            "imageUrl": null
-          },
-          {
-            "postId": "c0446a7e-e45b-4b24-ba80-3e6b636646e7",
-            "rank": 6,
-            "username": "毎秒砕く",
-            "teamName": "毎秒砕く",
-            "workText": "絵画から逃げ出して来たんだと泣いている",
-            "totalScore": 178,
-            "voteRate": 0.84,
-            "imageUrl": null
-          },
-          {
-            "postId": "db833b94-7323-497f-aa1c-c4dbd736eafe",
-            "rank": 7,
-            "username": "馬to量子化",
-            "teamName": "馬to量子化",
-            "workText": "そういうのを待ってたと家電を運んでる人も味方だった",
-            "totalScore": 150,
-            "voteRate": 0.71,
-            "imageUrl": null
-          },
-          {
-            "postId": "61ad3d41-f414-4dd7-8d2f-44fa81e9055a",
-            "rank": 8,
-            "username": "2個",
-            "teamName": "2個",
-            "workText": "何も言わなくてもテープで区切った道に従っていた",
-            "totalScore": 143,
-            "voteRate": 0.68,
-            "imageUrl": null
-          },
-          {
-            "postId": "283604df-127d-48cc-887e-1db7ca66d29b",
-            "rank": 9,
-            "username": "前田",
-            "teamName": "前田",
-            "workText": "あなたが苦しむ所を見たい人がいるんですかと聞かれて即答してしまった",
-            "totalScore": 132,
-            "voteRate": 0.63,
-            "imageUrl": null
-          },
-          {
-            "postId": "775b6de9-4004-41b8-85ea-305a510e3920",
-            "rank": 10,
-            "username": "ふかし",
-            "teamName": "ふかし",
-            "workText": "とん平焼きの屋台を見て絶対に勝てないと思った",
-            "totalScore": 119,
-            "voteRate": 0.56,
-            "imageUrl": null
-          },
-          {
-            "postId": "44d04828-5288-4d0b-8e88-22826a6b074b",
-            "rank": 11,
-            "username": "寝坊",
-            "teamName": "寝坊",
-            "workText": "説明のための紙芝居を少しずつ捨ててる",
-            "totalScore": 114,
-            "voteRate": 0.54,
-            "imageUrl": null
-          },
-          {
-            "postId": "d5714b9e-621f-4321-a800-597dff2f1f57",
-            "rank": 12,
-            "username": "あとひとつ流星群",
-            "teamName": "あとひとつ流星群",
-            "workText": "持たされた水瓶の中で、時々魚が跳ねる",
-            "totalScore": 105,
-            "voteRate": 0.5,
-            "imageUrl": null
-          },
-          {
-            "postId": "e72e261e-a4cf-4dc1-946b-0ac3bd61d3f4",
-            "rank": 13,
-            "username": "かごめ",
-            "teamName": "かごめ",
-            "workText": "なるべく皆さんの理解の範疇を超えない娯楽をお届けします",
-            "totalScore": 100,
-            "voteRate": 0.47,
-            "imageUrl": null
-          },
-          {
-            "postId": "8f112e9b-5253-4534-a27a-dd73afa7eb76",
-            "rank": 14,
-            "username": "清水り",
-            "teamName": "清水り",
-            "workText": "銅像に向かって喋り続けてたら食べ物をくれるようになった",
-            "totalScore": 98,
-            "voteRate": 0.46,
-            "imageUrl": null
-          },
-          {
-            "postId": "040300e7-4f03-4b3b-aacf-7f814199a6d0",
-            "rank": 15,
-            "username": "かるろす",
-            "teamName": "かるろす",
-            "workText": "動物が出てくる歌舞伎をやるらしいぞ",
-            "totalScore": 95,
-            "voteRate": 0.45,
-            "imageUrl": null
-          },
-          {
-            "postId": "8d04d1a4-d7aa-4bfd-a56f-2e50be61e0ff",
-            "rank": 16,
-            "username": "POPOJI",
-            "teamName": "POPOJI",
-            "workText": "行き場のない下品が形になってんなとイヤホンを付け直す",
-            "totalScore": 93,
-            "voteRate": 0.44,
-            "imageUrl": null
-          },
-          {
-            "postId": "a542754b-dd46-499d-aa97-d38c9ba9a822",
-            "rank": 17,
-            "username": "笑動的",
-            "teamName": "笑動的",
-            "workText": "落ちていた紙を見えるように広げる",
-            "totalScore": 92,
-            "voteRate": 0.44,
-            "imageUrl": null
-          },
-          {
-            "postId": "f36ab760-8a7b-400a-be62-68c1cbd93914",
-            "rank": 18,
-            "username": "目刺四尾",
-            "teamName": "目刺四尾",
-            "workText": "燃えないゴミの日とコインランドリーの場所に詳しくなって帰った",
-            "totalScore": 80,
-            "voteRate": 0.38,
-            "imageUrl": null
-          },
-          {
-            "postId": "59dcc5a2-ea8d-449a-8b26-7485518873b0",
-            "rank": 19,
-            "username": "ゑくれあ",
-            "teamName": "ゑくれあ",
-            "workText": "一番儲かってる店を足の裏で撫でてる",
-            "totalScore": 75,
-            "voteRate": 0.36,
-            "imageUrl": null
-          },
-          {
-            "postId": "54d8bbeb-4160-46a6-8be7-cb565c16d511",
-            "rank": 20,
-            "username": "IkorihaYimiran",
-            "teamName": "IkorihaYimiran",
-            "workText": "背の長い一輪車で来て、市民に寄り添わないタイプの立候補者だと思われた",
-            "totalScore": 72,
-            "voteRate": 0.34,
-            "imageUrl": null
-          },
-          {
-            "postId": "05ad2b82-e380-46b0-a500-a01bba9f7fd4",
-            "rank": 21,
-            "username": "平田",
-            "teamName": "平田",
-            "workText": "折れたカードを靴下にしまう",
-            "totalScore": 40,
-            "voteRate": 0.19,
-            "imageUrl": null
-          },
-          {
-            "postId": "5ecc1ce1-835f-40af-aa0e-7cd983000962",
-            "rank": 21,
-            "username": "kak",
-            "teamName": "kak",
-            "workText": "好きな宝石を聞いて、賽銭箱を改造させてる",
-            "totalScore": 40,
-            "voteRate": 0.19,
-            "imageUrl": null
-          },
-          {
-            "postId": "2377187b-cead-420a-86dd-c166b491227e",
-            "rank": 23,
-            "username": "キラキライリポーン",
-            "teamName": "キラキライリポーン",
-            "workText": "火の輪をくぐって綱を渡った先に玉乗り場があった",
-            "totalScore": 27,
-            "voteRate": 0.13,
-            "imageUrl": null
-          },
-          {
-            "postId": "7b00934b-a4b4-49b7-865c-0dab2130d304",
-            "rank": 24,
-            "username": "椎名きょく",
-            "teamName": "椎名きょく",
-            "workText": "手始めに街の子供を攫って、身代金の受け渡し場所にサーカスのテントを指定する",
-            "totalScore": 18,
-            "voteRate": 0.09,
-            "imageUrl": null
-          }
-        ]
-      }
+  "assets": [
+    "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9265353222505528",
+    "/_nuxt/BJy_l_ry.js",
+    "/_nuxt/D-EDqh0d.js",
+    "/_nuxt/BjpAV5q4.js",
+    "/_nuxt/BwcvlcRl.js",
+    "/_nuxt/BLDXYmPq.js",
+    "/_nuxt/Dj4Ns9dX.js",
+    "/_nuxt/egK7W3YR.js",
+    "/_nuxt/LPpUbcAK.js",
+    "/_nuxt/vDvvNmra.js",
+    "/_nuxt/DnfuNMVO.js",
+    "/_nuxt/DylqUnMU.js",
+    "/_nuxt/DlPF3Xsv.js",
+    "/_nuxt/BDfbeEPR.js",
+    "/_nuxt/B3lxuuoR.js",
+    "/_nuxt/B92tfIoB.js",
+    "/_nuxt/CjHlxnmF.js",
+    "/_nuxt/fQGFkCUy.js",
+    "/_nuxt/CoUE6bMJ.js",
+    "/_nuxt/iRMzCYC1.js",
+    "/_nuxt/CyUt0q7m.js",
+    "/_nuxt/D0vy1yXv.js",
+    "/_nuxt/z9KRXAKA.js",
+    "/_nuxt/DStQauiw.js",
+    "/_nuxt/DFlu9Tha.js",
+    "/_nuxt/B41od-xN.js",
+    "/_nuxt/CKW5KVSs.js",
+    "/_nuxt/C8g3AYuK.js",
+    "/_nuxt/BxKQTt0u.js",
+    "/_nuxt/MmnaOtcL.js",
+    "/_nuxt/CS3Wy1Ul.js",
+    "/_nuxt/DsMtR0PP.js",
+    "/_nuxt/C2inm-GA.js"
+  ],
+  "out": [
+    {
+      "url": "https://oogiri-mi.com/_nuxt/BJy_l_ry.js",
+      "hits": [
+        "./ProgressVotersList.FOJWvohE.css",
+        "./votes.BV7Zv5EQ.css",
+        "admin-event-eventId-theme-themeId-votes",
+        "/admin/event/:eventId()/theme/:themeId()/votes",
+        "admin-event-eventId-theme-themeId-vote-create",
+        "/admin/event/:eventId()/theme/:themeId()/vote/create"
+      ]
+    },
+    {
+      "url": "https://oogiri-mi.com/_nuxt/D-EDqh0d.js",
+      "hits": [
+        "/api/event/${n.value}/participation-status",
+        "/api/event/${n.value}/matches"
+      ]
+    },
+    {
+      "url": "https://oogiri-mi.com/_nuxt/egK7W3YR.js",
+      "hits": [
+        "/api/event/${r.value}/view"
+      ]
+    },
+    {
+      "url": "https://oogiri-mi.com/_nuxt/DnfuNMVO.js",
+      "hits": [
+        "/api/theme/${$.value}/view?preview=results",
+        "/api/theme/${$.value}/view",
+        "/api/theme/${$.value}/post",
+        "/api/theme/${$.value}/post/${O.value}",
+        "/api/theme/${$.value}/vote/draft",
+        "/api/theme/${$.value}/post/${H.value}/comment",
+        "/api/theme/${$.value}/vote",
+        ",!0),R.snapshot.totalVoteCount!==null?(n(),a(",
+        "+u(R.snapshot.totalVoteCount),1)):r(",
+        "+u(S.voteRate.toFixed(2))+",
+        "vote-rate",
+        "vote-breakdown",
+        "vote-points",
+        "vote-count",
+        "voters-list",
+        "no-voters",
+        "voters-text",
+        "voters-count",
+        ")if(o.value.userVotes&&(T.value={},o.value.userVotes.forEach(v=>{T.value[v.post_id]=v.vote_points})),o.value.allWorks&&o.value.allWorks.forEach(v=>{T.value[v.id]===void 0&&(!b.value||v.user_id!==b.value.id)&&(T.value[v.id]=0)}),o.value.userComments&&(N.value={},o.value.userComments.forEach(v=>{N.value[v.post_id]=v.comment_text})),o.value.hasVoted?z.value=",
+        ":z.value=o.value.theme.vote_format===",
+        ",o.value.theme.vote_format===",
+        ");p(()=>o.value?.posters?o.value.posters.reduce((i,t)=>i+t.post_count,0):0);const gs=p(()=>!o.value?.theme?.vote_stage_points||o.value.theme.vote_stage_points.length===0?",
+        ":o.value.theme.vote_stage_points.map(i=>",
+        ");const ee=p(()=>o.value?.theme?.vote_format===",
+        "})})},Vt=async()=>{try{M.value=!0;const i=new Set(o.value?.allWorks?.filter(f=>b.value&&f.user_id===b.value.id).map(f=>f.id)||[]),t=Object.entries(T.value).filter(([f])=>!i.has(f)).map(([f,V])=>({post_id:f,vote_points:V})),c=Object.entries(N.value).filter(([,f])=>f&&f.trim()).map(([f,V])=>({post_id:f,comment_text:V})),d=o.value?.theme?.vote_format===",
+        ",body:{votes:t,comments:c,workOrder:v,currentWorkIndex:g}}),Y.value=!1,J(",
+        "},Hs=async()=>{if(!H.value){ve();return}if(o.value?.hasVoted)try{De.value=!0;const i=G.value?.trim()||",
+        ",body:{votes:t,comments:c}}),Y.value=!1,await _e(),z.value=",
+        "Failed to submit vote:",
+        ",-1))])])),e(x)&&(e(o).hasVoted||e(o).canVote===!1)?(n(),a(",
+        ",e(o).hasVoted?",
+        ",dn,[e(o).hasVoted?(n(),a(h,{key:0},[y(",
+        ")],64)):e(o).cannotVoteReason===",
+        ":e(T)[e(B).id]!==l}]),onClick:m=>Wt(e(B).id,l),disabled:!e(x)||e(o).hasVoted||e(o).canVote===!1},u(l)+",
+        ",disabled:!e(x)||e(o).hasVoted||e(o).canVote===!1},null,8,Rn),[[F,e(N)[e(B).id]]])])):r(",
+        ",onClick:Vt,disabled:e(M)||!e(x)||e(o).hasVoted||e(o).canVote===!1},[e(M)?(n(),a(",
+        ",In,[e(o)?.theme?.vote_format!==",
+        ",!0),e(o)?.theme?.vote_format===",
+        ":e(T)[l.id]!==P}]),onClick:te=>Wt(l.id,P),disabled:!e(x)||e(o).hasVoted||e(o).canVote===!1},u(P),11,Hn))),128))]))]),s(",
+        ",onClick:P=>St(l.id),disabled:!e(x)||e(o).hasVoted||e(o).canVote===!1},[t[52]||(t[52]=s(",
+        ",sa,[e(o)?.theme?.vote_format!==",
+        ",onClick:t[4]||(t[4]=l=>e(o)?.theme?.vote_format===",
+        "?Fs():Mt()),disabled:e(M)||!e(x)||e(o).hasVoted||e(o).canVote===!1},[e(M)?(n(),a(",
+        ",aa,u(e(o)?.theme?.vote_format===",
+        ",la,u(e(o)?.theme?.vote_format===",
+        "how_to_vote",
+        ",onClick:Mt,disabled:e(M)||!e(x)||e(o).hasVoted||e(o).canVote===!1},[e(M)?(n(),a(",
+        ",!0),D(he,{voters:e(o).voters,",
+        "voters",
+        "+u(e(o).totalVoteCount),1),s(",
+        "vote-score-row",
+        "+u(Number(l.vote_rate).toFixed(2))+",
+        ",ul,[(n(!0),a(h,null,W(ps(l.vote_breakdown),([m,P])=>(n(),a(",
+        "vote-item",
+        ",pl,[!e(o).voters||e(o).voters.length===0?(n(),a(",
+        ",kl,[(n(!0),a(h,null,W(e(o).voters,(l,m)=>(n(),a(h,{key:l.user_id},[s(",
+        "voter-name",
+        "own-voter",
+        ",!0)],64))),128))]))]),e(o).voters&&e(o).voters.length>0?(n(),a(",
+        ",yl,u(e(o).voters.length)+",
+        ",!0)])),e(o)?.theme?.vote_format===",
+        ",1),e(o)?.theme?.vote_format!==",
+        ",!0),e(o)?.theme?.vote_format!=="
+      ]
+    },
+    {
+      "url": "https://oogiri-mi.com/_nuxt/DylqUnMU.js",
+      "hits": [
+        "),S=m(()=>n.theme.vote_format===",
+        "),U=m(()=>n.theme.vote_format==="
+      ]
+    },
+    {
+      "url": "https://oogiri-mi.com/_nuxt/BDfbeEPR.js",
+      "hits": [
+        ",null,l(t.vote_rate.toFixed(2)),1),e(",
+        ",me,l(t.team_total_vote_rate.toFixed(2)),1),e(",
+        ",be,l(t.team_total_vote_rate.toFixed(2)),1),e(",
+        "},l(t.team_total_vote_rate.toFixed(2)),9,Te),e(",
+        ",ye,l(t.members[0]?.vote_rate.toFixed(2)),1),e(",
+        ",fe,l(d.vote_rate.toFixed(2)),1),e(",
+        "},l(t.team_total_vote_rate.toFixed(2)),9,Ce),e(",
+        ",Fe,l(t.members[0]?.vote_rate!==null?t.members[0]?.vote_rate.toFixed(2):",
+        ",We,l(d.vote_rate!==null?d.vote_rate.toFixed(2):",
+        "},l(t.team_total_vote_rate.toFixed(2)),9,De),e(",
+        ",je,l(t.members[0]?.vote_rate!==null?t.members[0]?.vote_rate.toFixed(2):",
+        ",Oe,l(d.vote_rate!==null?d.vote_rate.toFixed(2):",
+        "voters-list",
+        "no-voters",
+        "voters-text",
+        "voters-count",
+        "ProgressVotersList",
+        ",Qe,[!s.voters||s.voters.length===0?(n(),a(",
+        ",Ze,[(n(!0),a(i,null,g(s.voters,(w,k)=>(n(),a(i,{key:w.user_id},[e(",
+        "voter-name",
+        "own-voter",
+        ",!0)],64))),128))]))]),s.voters&&s.voters.length>0?(n(),a(",
+        ",et,l(s.voters.length)+",
+        "UserProgressVotersList"
+      ]
+    },
+    {
+      "url": "https://oogiri-mi.com/_nuxt/D0vy1yXv.js",
+      "hits": [
+        "/api/event/${a}/validate"
+      ]
+    },
+    {
+      "url": "https://oogiri-mi.com/_nuxt/z9KRXAKA.js",
+      "hits": [
+        "/api/event/${r}/validate"
+      ]
+    },
+    {
+      "url": "https://oogiri-mi.com/_nuxt/BxKQTt0u.js",
+      "hits": [
+        "/api/admin/event/${r.value}",
+        "/api/admin/event/${m.value}"
+      ]
     }
-  },
-  "r2": {
-    "url": "https://oogiri-mi.com/hangiri7/theme/80b57476-d331-4d3f-9ff7-9eb28f0039de",
-    "status": 200,
-    "htmlLen": 72222,
-    "keys": [
-      "maintenance_settings",
-      "event-view:hangiri7",
-      "event-matches:hangiri7",
-      "theme-meta:80b57476-d331-4d3f-9ff7-9eb28f0039de",
-      "theme-ssr:80b57476-d331-4d3f-9ff7-9eb28f0039de"
-    ],
-    "data": {
-      "maintenance_settings": {
-        "maintenance_flag": false,
-        "maintenance_start_datetime": null,
-        "maintenance_end_datetime": null
-      },
-      "event-view:hangiri7": {
-        "event": {
-          "id": "hangiri7",
-          "event_name": "第7回半喜利",
-          "event_status": "ongoing",
-          "x_hashtag": null,
-          "battle_unit": "individual",
-          "team_meeting_room_flag": true,
-          "show_on_top": true
-        },
-        "design": {
-          "logo_image_flag": true,
-          "logo_text": null,
-          "logo_image_url": "events/hangiri7/logo/1789354283088-zr39nc-hangiri_logo_horizontal_transparent__1_.png",
-          "top_image_flag": true,
-          "top_image_url": "events/hangiri7/top/1789354283724-zmz2xc-hangiri_logo_square.png",
-          "background_image_flag": false,
-          "background_image_url": null,
-          "base_color": "#142c2d",
-          "font_color": "#ffffff",
-          "accent_color": "#b8b8b8",
-          "sub_color": "#253b3a",
-          "flip_color": "#ffffff",
-          "marker_color": "#000000",
-          "blank_font_color": "#FF6600",
-          "emphasis_font_color": "#ee5858",
-          "flip_blank_font_color": "#FF6600"
-        },
-        "news": [
-          {
-            "id": "e76e22ad-9cd0-4183-8704-b7cc16467118",
-            "announcement_title": "1回戦を開始しました",
-            "announcement_link": "https://oogiri-mi.com/hangiri7/match/f8709851-cfb3-4b8d-923d-dc4369888a7a",
-            "date": "2026-10-05T00:00:00.000Z"
-          },
-          {
-            "id": "5ad9f18d-a3dd-489f-b3fd-3a5d038633b4",
-            "announcement_title": "1回戦組み分けが完了しました",
-            "announcement_link": "https://oogiri-mi.com/hangiri7/match/f8709851-cfb3-4b8d-923d-dc4369888a7a",
-            "date": "2026-10-01T00:00:00.000Z"
-          },
-          {
-            "id": "bd37f318-4f3e-4fcf-9b94-e8ac20ed5ace",
-            "announcement_title": "ルールページを更新しました\n参加者は必ず一度ご確認ください",
-            "announcement_link": "https://oogiri-mi.com/hangiri7/rule",
-            "date": "2026-09-29T00:00:00.000Z"
-          }
-        ],
-        "media": [],
-        "current_phase": {
-          "phase_name": "3回戦"
-        }
-      },
-      "event-matches:hangiri7": {
-        "matches": [
-          {
-            "id": "2b293ed7-d1bf-456f-b422-d4362b953d50",
-            "match_name": "3回戦",
-            "match_status": "posting_period",
-            "display_order": 4
-          },
-          {
-            "id": "0ef04231-168d-4576-896b-2fb97f51caf2",
-            "match_name": "2回戦",
-            "match_status": "results_announced",
-            "display_order": 6
-          },
-          {
-            "id": "f8709851-cfb3-4b8d-923d-dc4369888a7a",
-            "match_name": "1回戦",
-            "match_status": "results_announced",
-            "display_order": 7
-          }
-        ]
-      },
-      "theme-meta:80b57476-d331-4d3f-9ff7-9eb28f0039de": {
-        "status": "ok",
-        "event_id": "hangiri7",
-        "theme_title": "グループA",
-        "theme_text": "「どう見てもコイツが犯人だろ」という被告人を担当することになった弱小弁護士がとった奇策",
-        "theme_status": "results_announced"
-      },
-      "theme-ssr:80b57476-d331-4d3f-9ff7-9eb28f0039de": {
-        "matchName": "2回戦",
-        "themeTitle": "グループA",
-        "themeText": "「どう見てもコイツが犯人だろ」という被告人を担当することになった弱小弁護士がとった奇策",
-        "themeType": "text",
-        "themeImageUrl": "",
-        "youtubeUrl": "",
-        "themeProvider": "",
-        "totalPostCount": 15,
-        "totalVoteCount": 162,
-        "resultsAnnouncedDatetime": "2026-11-02T13:00:00.000Z",
-        "results": [
-          {
-            "postId": "070ee07c-1c52-45f8-b595-06157fb05e7d",
-            "rank": 1,
-            "username": "らうかった",
-            "teamName": "らうかった",
-            "workText": "動物の声でも特に日本語と似たものを集めた",
-            "totalScore": 198,
-            "voteRate": 1.22,
-            "imageUrl": null
-          },
-          {
-            "postId": "4e392692-ac23-48ff-a445-c28dcab548da",
-            "rank": 2,
-            "username": "毎秒砕く",
-            "teamName": "毎秒砕く",
-            "workText": "小窓から喋らせることでお姫様に見せる",
-            "totalScore": 162,
-            "voteRate": 1,
-            "imageUrl": null
-          },
-          {
-            "postId": "6242c2be-a17e-45ef-8d00-3548ddde5133",
-            "rank": 3,
-            "username": "へなちょこ",
-            "teamName": "へなちょこ",
-            "workText": "宇宙飛行士の格好で普通の事を言ってる",
-            "totalScore": 159,
-            "voteRate": 0.98,
-            "imageUrl": null
-          },
-          {
-            "postId": "20d51a74-9c0f-40a3-99e3-296a2498ae04",
-            "rank": 4,
-            "username": "尊敬ラーメン屋",
-            "teamName": "尊敬ラーメン屋",
-            "workText": "この人は袋を顔に被せても寝ない人ですと言った",
-            "totalScore": 145,
-            "voteRate": 0.9,
-            "imageUrl": null
-          },
-          {
-            "postId": "003811f2-bb8c-4583-806a-3b650e70dfda",
-            "rank": 5,
-            "username": "無敵税",
-            "teamName": "無敵税",
-            "workText": "勝手に流してる落語を遮るように喋る",
-            "totalScore": 124,
-            "voteRate": 0.77,
-            "imageUrl": null
-          },
-          {
-            "postId": "cd3d019a-602a-4acb-8517-f0a304bd1b3d",
-            "rank": 6,
-            "username": "きまぐれ",
-            "teamName": "きまぐれ",
-            "workText": "写真だとこんな端に、という話から始める",
-            "totalScore": 120,
-            "voteRate": 0.74,
-            "imageUrl": null
-          },
-          {
-            "postId": "d04f5ed4-b814-444f-b7ac-402df9d514c6",
-            "rank": 7,
-            "username": "からまき",
-            "teamName": "からまき",
-            "workText": "宝箱から資料を探して、そのまま箱に飲み込まれる",
-            "totalScore": 97,
-            "voteRate": 0.6,
-            "imageUrl": null
-          },
-          {
-            "postId": "5aa543bf-8800-4d53-8fa3-fb29db89754f",
-            "rank": 8,
-            "username": "レイルレイル",
-            "teamName": "レイルレイル",
-            "workText": "「こいつは人として発明だ！」とレーザーポインターを額に当てる",
-            "totalScore": 85,
-            "voteRate": 0.52,
-            "imageUrl": null
-          },
-          {
-            "postId": "dbd62068-7824-409c-935d-16bd47ef3821",
-            "rank": 9,
-            "username": "山本宏昌",
-            "teamName": "山本宏昌",
-            "workText": "ペンを分解した時に出てきたお札に折り目が無い",
-            "totalScore": 81,
-            "voteRate": 0.5,
-            "imageUrl": null
-          },
-          {
-            "postId": "5a519554-d02e-452e-9cee-ee5471df0f1d",
-            "rank": 10,
-            "username": "ふりある",
-            "teamName": "ふりある",
-            "workText": "音楽を流してる間に服を買えるだけ買う",
-            "totalScore": 75,
-            "voteRate": 0.46,
-            "imageUrl": null
-          },
-          {
-            "postId": "02acd1c3-a2c9-425d-8f29-c9210b7acb68",
-            "rank": 11,
-            "username": "永栄",
-            "teamName": "永栄",
-            "workText": "被告人のイヤホンを解体したら羽虫が出てくる",
-            "totalScore": 66,
-            "voteRate": 0.41,
-            "imageUrl": null
-          },
-          {
-            "postId": "7fe580a2-0172-45c8-a1a0-36cc5597b757",
-            "rank": 12,
-            "username": "かげよしの昼",
-            "teamName": "かげよしの昼",
-            "workText": "襟を払って落ちた砂が灰皿に収まる",
-            "totalScore": 61,
-            "voteRate": 0.38,
-            "imageUrl": null
-          },
-          {
-            "postId": "f931b99f-2e5b-4591-b50b-327d1df680df",
-            "rank": 13,
-            "username": "取り人間コンテスト",
-            "teamName": "取り人間コンテスト",
-            "workText": "「勝ちたいんか？」と被告人に問う",
-            "totalScore": 40,
-            "voteRate": 0.25,
-            "imageUrl": null
-          },
-          {
-            "postId": "ae604156-e2e5-4ddf-9a70-b770d9e6970d",
-            "rank": 14,
-            "username": "大型ケミカル",
-            "teamName": "大型ケミカル",
-            "workText": "絶縁してる友達が説教をした後、和解させる",
-            "totalScore": 31,
-            "voteRate": 0.19,
-            "imageUrl": null
-          },
-          {
-            "postId": "d974d3ae-d313-4a1a-afa5-4d306a843ea1",
-            "rank": 15,
-            "username": "ヘルシー帝",
-            "teamName": "ヘルシー帝",
-            "workText": "有名になる方法という有料の記事を販売した",
-            "totalScore": 30,
-            "voteRate": 0.19,
-            "imageUrl": null
-          }
-        ]
-      }
-    }
-  }
+  ]
 }
