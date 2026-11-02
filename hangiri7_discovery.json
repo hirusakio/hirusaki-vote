@@ -1,0 +1,44 @@
+{
+  "status": 200,
+  "final_url": "https://oogiri-mi.com/hangiri7/match/",
+  "html_prefix": "<!DOCTYPE html><html  lang=\"ja\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width, initial-scale=1\"><script type=\"importmap\">{\"imports\":{\"#entry\":\"/_nuxt/BJy_l_ry.js\"}}</script><title>試合 - 第7回半喜利 | 大喜利名人維新</title><link rel=\"preconnect\" href=\"https://fonts.googleapis.com\"><link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin><script src=\"https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9265353222505528\" async crossorigin=\"anonymous\"></script><link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Alef:wght@400;700&display=swap\"><link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=add,arrow_back,arrow_downward,arrow_forward,arrow_upward,article,block,build,chart_data,check,check_circle,chevron_left,chevron_right,close,comment,construction,content_copy,crown,delete,edit,emoji_events,error,event,event_busy,expand_less,expand_more,group,groups,home,how_to_vote,image,info,lightbulb,login,logout,mail,menu,military_tech,more_vert,open_in_new,palette,person,person_add,person_remove,person_search,play_arrow,search,settings,sports_score,stop,swap_horiz,swords,visibility,visibility_off,warning&display=block\"><style>:root {\n  --event-base-color: #142c2d;\n  --event-font-color: #ffffff;\n  --event-accent-color: #b8b8b8;\n  --event-accent-color-contrast: #ffffff;\n  --event-sub-color: #253b3a;\n  --event-border-color: rgba(255, 255, 255, 0.15);\n  --event-font-color-secondary: rgba(255, 255, 255, 0.6);\n  --event-flip-color: #ffffff;\n  --event-marker-color: #000000;\n  --event-blank-font-color: #FF6600;\n  --event-emphasis-font-color: #ee5858;\n  --event-flip-blank-font-color: #FF6600;\n  --event-ui-input-bg: #1a1a1a;\n  --event-ui-input-border: #404040;\n  --event-ui-input-placeholder: #808080;\n  --event-ui-input-disabled-bg: #2a2a2a;\n  --event-ui-input-disabled-text: #606060;\n  --event-ui-dropdown-bg: #1a1a1a;\n  --event-ui-dropdown-hover: #2a2a2a;\n  --event-ui-card-bg: #1f1f1f;\n  --event-ui-alert-danger-bg: #3a1a1a;\n  --event-ui-alert-danger-text: #ff6b6b;\n  --event-ui-alert-danger-border: #5a2a2a;\n  --event-ui-alert-warning-bg: #3a3a1a;\n  --event-ui-alert-warning-text: #ffd93d;\n  --event-ui-alert-warning-border: #5a5a2a;\n  --event-ui-alert-info-bg: #1a2a3a;\n  --event-ui-alert-info-text: #6bb6ff;\n  --event-ui-alert-info-border: #2a3a5a;\n  --event-ui-alert-success-bg: #1a3a1a;\n  --event-ui-alert-success-text: #6bff6b;\n  --event-ui-alert-success-border: #2a5a2a;\n  color-scheme: dark;\n}</style><style>.user-layout[data-v-20b1652e]{background-color:var(--event-base-color,#fff);background-image:var(--event-background-image-url,none);background-position:0 0;background-repeat:repeat;display:flex;flex-direction:column;min-height:100vh}.user-body[data-v-20b1652e]{display:flex;flex:1;margin-top:60px;position:relative}.user-main[data-v-20b1652e]{flex:1;min-width:0;transition:margin-left .3s ease;width:100%}.ad-area-top[data-v-20b1652e]{padding:4px 0 8px}.ad-area-bottom[data-v-20b1652e],.ad-area-top[data-v-20b1652e]{display:flex;justify-content:center}.ad-area-bottom[data-v-20b1652e]{padding:0 0 12px}.user-footer[data-v-20b1652e]{transition:margin-left .3s ease}@media (min-width:768px){.user-footer[data-v-20b1652e],.user-main[data-v-20b1652e]{margin-left:var(--sidebar-w)}.user-footer.sidebar-collapsed[data-v-20b1652e],.user-main.sidebar-collapsed[data-v-20b1652e]{margin-left:var(--sidebar-w-collapsed)}}.sidebar-mask[data-v-20b1652e]{background-color:#00000080;height:calc(100vh - 60px);left:0;position:fixed;top:60px;width:100%;z-index:998}</style><style>.user-header[data-v-d0861f43]{background-color:var(--event-base-color,#fff);border-bottom:1px solid var(--event-border-color,rgba(44,62,80,.15));height:60px;left:0;position:fixed;right:0;top:0;z-index:1000}.header-content[data-v-d0861f43]{align-items:center;display:flex;gap:12px;height:100%;justify-content:space-between;padding:0 16px}.hamburger-button[data-v-d0861f43]{align-items:center;background:none;border:none;border-radius:50%;color:var(--event-font-color,#2c3e50);cursor:pointer;display:flex;flex-shrink:0;height:40px;justify-content:center;transition:background-color .2s;width:40px}.hamburger-button[data-v-d0861f43]:hover{background-color:var(--event-sub-color,#f0f0f0)}.hamburger-button .material-symbols-outlined[data-v-d0861f43]{font-size:24px}.header-logo[data-v-d0861f43]{align-items:center;display:flex}.header-logo.with-hamburger[data-v-d0861f43]{flex:1}.header-logo a[data-v-d0861f43]{align-items:center;display:flex;gap:12px;text-decoration:none}.logo-image[data-v-d0861f43]{max-height:50px;max-width:100%;-o-object-fit:contain;object-fit:contain;padding:5px 0}.logo-placeholder[data-v-d0861f43]{align-items:center;background-color:var(--event-sub-color,#f8f9fa);border-radius:var(--radius-sm);color:var(--event-font-color-secondary,rgba(44,62,80,.6));display:flex;height:40px;justify-content:center;width:40px}",
+  "script_srcs": [
+    "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9265353222505528",
+    "/_nuxt/BJy_l_ry.js"
+  ],
+  "html_candidates": [
+    "/hangiri7",
+    "/hangiri7/boke-ranking",
+    "/hangiri7/ceremony",
+    "/hangiri7/charts",
+    "/hangiri7/match",
+    "/hangiri7/match/",
+    "/hangiri7/roster",
+    "/hangiri7/rule",
+    "event-matches:hangiri7",
+    "event-participation:hangiri7",
+    "event-view:hangiri7",
+    "events/hangiri7/logo/1789354283088-zr39nc-hangiri_logo_horizontal_transparent__1_.png",
+    "events/hangiri7/top/1789354283724-zmz2xc-hangiri_logo_square.png",
+    "hangiri7",
+    "https://oogiri-mi.com/hangiri7/match/",
+    "https://oogiri-mi.com/hangiri7/match/f8709851-cfb3-4b8d-923d-dc4369888a7a",
+    "https://oogiri-mi.com/hangiri7/rule",
+    "https://prd-oogiri-mi2-images.s3.ap-northeast-1.amazonaws.com/events/hangiri7/logo/1789354283088-zr39nc-hangiri_logo_horizontal_transparent__1_.png",
+    "match-meta:hangiri7:",
+    "match-view:hangiri7:"
+  ],
+  "scripts": [
+    {
+      "url": "https://oogiri-mi.com/_nuxt/BJy_l_ry.js",
+      "status": 200,
+      "endpoints": [
+        "/api/auth/login",
+        "/api/auth/logout",
+        "/api/auth/me",
+        "/api/auth/refresh",
+        "/api/auth/resend-if-unconfirmed"
+      ]
+    }
+  ]
+}
