@@ -1,0 +1,644 @@
+{
+  "1": {
+    "url": "https://oogiri-mi.com/hangiri7/match/f8709851-cfb3-4b8d-923d-dc4369888a7a",
+    "keys": [
+      "maintenance_settings",
+      "event-view:hangiri7",
+      "event-matches:hangiri7",
+      "match-meta:hangiri7:f8709851-cfb3-4b8d-923d-dc4369888a7a",
+      "match-view:hangiri7:f8709851-cfb3-4b8d-923d-dc4369888a7a"
+    ],
+    "data": {
+      "maintenance_settings": {
+        "maintenance_flag": false,
+        "maintenance_start_datetime": null,
+        "maintenance_end_datetime": null
+      },
+      "event-view:hangiri7": {
+        "event": {
+          "id": "hangiri7",
+          "event_name": "第7回半喜利",
+          "event_status": "ongoing",
+          "x_hashtag": null,
+          "battle_unit": "individual",
+          "team_meeting_room_flag": true,
+          "show_on_top": true
+        },
+        "design": {
+          "logo_image_flag": true,
+          "logo_text": null,
+          "logo_image_url": "events/hangiri7/logo/1789354283088-zr39nc-hangiri_logo_horizontal_transparent__1_.png",
+          "top_image_flag": true,
+          "top_image_url": "events/hangiri7/top/1789354283724-zmz2xc-hangiri_logo_square.png",
+          "background_image_flag": false,
+          "background_image_url": null,
+          "base_color": "#142c2d",
+          "font_color": "#ffffff",
+          "accent_color": "#b8b8b8",
+          "sub_color": "#253b3a",
+          "flip_color": "#ffffff",
+          "marker_color": "#000000",
+          "blank_font_color": "#FF6600",
+          "emphasis_font_color": "#ee5858",
+          "flip_blank_font_color": "#FF6600"
+        },
+        "news": [
+          {
+            "id": "e76e22ad-9cd0-4183-8704-b7cc16467118",
+            "announcement_title": "1回戦を開始しました",
+            "announcement_link": "https://oogiri-mi.com/hangiri7/match/f8709851-cfb3-4b8d-923d-dc4369888a7a",
+            "date": "2026-10-05T00:00:00.000Z"
+          },
+          {
+            "id": "5ad9f18d-a3dd-489f-b3fd-3a5d038633b4",
+            "announcement_title": "1回戦組み分けが完了しました",
+            "announcement_link": "https://oogiri-mi.com/hangiri7/match/f8709851-cfb3-4b8d-923d-dc4369888a7a",
+            "date": "2026-10-01T00:00:00.000Z"
+          },
+          {
+            "id": "bd37f318-4f3e-4fcf-9b94-e8ac20ed5ace",
+            "announcement_title": "ルールページを更新しました\n参加者は必ず一度ご確認ください",
+            "announcement_link": "https://oogiri-mi.com/hangiri7/rule",
+            "date": "2026-09-29T00:00:00.000Z"
+          }
+        ],
+        "media": [],
+        "current_phase": {
+          "phase_name": "3回戦"
+        }
+      },
+      "event-matches:hangiri7": {
+        "matches": [
+          {
+            "id": "2b293ed7-d1bf-456f-b422-d4362b953d50",
+            "match_name": "3回戦",
+            "match_status": "posting_period",
+            "display_order": 4
+          },
+          {
+            "id": "0ef04231-168d-4576-896b-2fb97f51caf2",
+            "match_name": "2回戦",
+            "match_status": "results_announced",
+            "display_order": 6
+          },
+          {
+            "id": "f8709851-cfb3-4b8d-923d-dc4369888a7a",
+            "match_name": "1回戦",
+            "match_status": "results_announced",
+            "display_order": 7
+          }
+        ]
+      },
+      "match-meta:hangiri7:f8709851-cfb3-4b8d-923d-dc4369888a7a": {
+        "status": "ok",
+        "matches": [
+          {
+            "id": "2b293ed7-d1bf-456f-b422-d4362b953d50",
+            "match_name": "3回戦",
+            "match_status": "posting_period",
+            "display_order": 4
+          },
+          {
+            "id": "0ef04231-168d-4576-896b-2fb97f51caf2",
+            "match_name": "2回戦",
+            "match_status": "results_announced",
+            "display_order": 6
+          },
+          {
+            "id": "f8709851-cfb3-4b8d-923d-dc4369888a7a",
+            "match_name": "1回戦",
+            "match_status": "results_announced",
+            "display_order": 7
+          }
+        ]
+      },
+      "match-view:hangiri7:f8709851-cfb3-4b8d-923d-dc4369888a7a": {
+        "data": {
+          "matches": [
+            {
+              "id": "2b293ed7-d1bf-456f-b422-d4362b953d50",
+              "match_name": "3回戦",
+              "display_order": 4,
+              "is_current": false
+            },
+            {
+              "id": "0ef04231-168d-4576-896b-2fb97f51caf2",
+              "match_name": "2回戦",
+              "display_order": 6,
+              "is_current": false
+            },
+            {
+              "id": "f8709851-cfb3-4b8d-923d-dc4369888a7a",
+              "match_name": "1回戦",
+              "display_order": 7,
+              "is_current": true
+            }
+          ],
+          "currentMatch": {
+            "id": "f8709851-cfb3-4b8d-923d-dc4369888a7a",
+            "match_name": "1回戦",
+            "match_status": "results_announced",
+            "display_order": 7,
+            "posting_start_datetime": "2026-10-05T13:00:00.000Z",
+            "posting_end_datetime": "2026-10-12T13:00:00.000Z",
+            "voting_end_datetime": "2026-10-19T13:00:00.000Z",
+            "admin_message": "1グループ22〜24人、上11〜12人が勝ち抜け（※ブロックによって変動）"
+          },
+          "charts": [
+            {
+              "id": "5da3e5ae-fdce-4d70-af40-bb8e1e53ec47",
+              "display_title": "1回戦 順位表",
+              "charts_type": "ranking",
+              "match_page_display_order": 1,
+              "link": null
+            }
+          ],
+          "themes": [
+            {
+              "id": "001d2f63-07da-405d-aa67-46b1a9f41e77",
+              "theme_title": "グループC",
+              "theme_status": "results_announced",
+              "display_order": 3,
+              "progress_display_flag": true,
+              "group_id": "0c919525-1e9a-4dee-bda8-4f8072878724",
+              "group_name": "グループC",
+              "is_user_postable": false,
+              "is_user_group": false,
+              "user_has_saved_votes": false,
+              "user_has_confirmed_votes": false
+            },
+            {
+              "id": "408b4a49-829e-4584-ae17-8577c60f0fda",
+              "theme_title": "グループF",
+              "theme_status": "results_announced",
+              "display_order": 6,
+              "progress_display_flag": true,
+              "group_id": "56c50728-9d48-43ee-9050-f18e55aebc76",
+              "group_name": "グループF",
+              "is_user_postable": false,
+              "is_user_group": false,
+              "user_has_saved_votes": false,
+              "user_has_confirmed_votes": false
+            },
+            {
+              "id": "53e41386-e0e7-4f71-9cc2-395d845cdb1d",
+              "theme_title": "グループJ",
+              "theme_status": "results_announced",
+              "display_order": 10,
+              "progress_display_flag": true,
+              "group_id": "21115917-091b-490d-8c4b-e3d91a32a3eb",
+              "group_name": "グループJ",
+              "is_user_postable": false,
+              "is_user_group": false,
+              "user_has_saved_votes": false,
+              "user_has_confirmed_votes": false
+            },
+            {
+              "id": "54f541de-298a-4c00-90f6-9f992496fefd",
+              "theme_title": "グループE",
+              "theme_status": "results_announced",
+              "display_order": 5,
+              "progress_display_flag": true,
+              "group_id": "239d96d1-5a7c-4574-9636-9639fe615561",
+              "group_name": "グループE",
+              "is_user_postable": false,
+              "is_user_group": false,
+              "user_has_saved_votes": false,
+              "user_has_confirmed_votes": false
+            },
+            {
+              "id": "63dabac3-701c-46f7-80e3-e6ccad428412",
+              "theme_title": "グループL",
+              "theme_status": "results_announced",
+              "display_order": 12,
+              "progress_display_flag": true,
+              "group_id": "997afcc9-10b4-43c8-9f85-0006e4f5b1ca",
+              "group_name": "グループL",
+              "is_user_postable": false,
+              "is_user_group": false,
+              "user_has_saved_votes": false,
+              "user_has_confirmed_votes": false
+            },
+            {
+              "id": "67c8e2bf-464d-4fe6-9140-fe8484381ce0",
+              "theme_title": "グループH",
+              "theme_status": "results_announced",
+              "display_order": 8,
+              "progress_display_flag": true,
+              "group_id": "3bd76229-7e06-4c48-98a2-adb5e27122b2",
+              "group_name": "グループH",
+              "is_user_postable": false,
+              "is_user_group": false,
+              "user_has_saved_votes": false,
+              "user_has_confirmed_votes": false
+            },
+            {
+              "id": "8f7dd4df-ba8f-4283-96c7-dcc445b26843",
+              "theme_title": "グループA",
+              "theme_status": "results_announced",
+              "display_order": 1,
+              "progress_display_flag": true,
+              "group_id": "dc7d71b5-0b85-4338-a05b-af0c4aa2da26",
+              "group_name": "グループA",
+              "is_user_postable": false,
+              "is_user_group": false,
+              "user_has_saved_votes": false,
+              "user_has_confirmed_votes": false
+            },
+            {
+              "id": "9be235df-28b9-44ba-93eb-17bf089c8b9b",
+              "theme_title": "グループG",
+              "theme_status": "results_announced",
+              "display_order": 7,
+              "progress_display_flag": true,
+              "group_id": "ce32f836-0b49-4cf7-a4ea-dd56dd350bee",
+              "group_name": "グループG",
+              "is_user_postable": false,
+              "is_user_group": false,
+              "user_has_saved_votes": false,
+              "user_has_confirmed_votes": false
+            },
+            {
+              "id": "de2146d0-32d4-40e6-a3a2-6a8374c708d7",
+              "theme_title": "グループI",
+              "theme_status": "results_announced",
+              "display_order": 9,
+              "progress_display_flag": true,
+              "group_id": "45c03bbf-8fed-437c-afea-0e0841f1415c",
+              "group_name": "グループI",
+              "is_user_postable": false,
+              "is_user_group": false,
+              "user_has_saved_votes": false,
+              "user_has_confirmed_votes": false
+            },
+            {
+              "id": "ef4b7ffb-942b-4d71-bf24-2cab19a29118",
+              "theme_title": "グループB",
+              "theme_status": "results_announced",
+              "display_order": 2,
+              "progress_display_flag": true,
+              "group_id": "f5b3ff99-d159-4134-879d-ac9a50b123cc",
+              "group_name": "グループB",
+              "is_user_postable": false,
+              "is_user_group": false,
+              "user_has_saved_votes": false,
+              "user_has_confirmed_votes": false
+            },
+            {
+              "id": "f0c04820-5c8d-466c-825e-4b7ab6fdfa2a",
+              "theme_title": "グループK",
+              "theme_status": "results_announced",
+              "display_order": 11,
+              "progress_display_flag": true,
+              "group_id": "10b8c5fd-89b9-4e06-9a84-0c9b93da9edd",
+              "group_name": "グループK",
+              "is_user_postable": false,
+              "is_user_group": false,
+              "user_has_saved_votes": false,
+              "user_has_confirmed_votes": false
+            },
+            {
+              "id": "f9871218-bda8-4008-aede-85d37ce97b67",
+              "theme_title": "グループD",
+              "theme_status": "results_announced",
+              "display_order": 4,
+              "progress_display_flag": true,
+              "group_id": "ff40cf85-124c-41b5-8860-d1cd78ede4b4",
+              "group_name": "グループD",
+              "is_user_postable": false,
+              "is_user_group": false,
+              "user_has_saved_votes": false,
+              "user_has_confirmed_votes": false
+            }
+          ],
+          "userParticipant": null
+        }
+      }
+    },
+    "uuidCount": 31,
+    "uuids": [
+      "e76e22ad-9cd0-4183-8704-b7cc16467118",
+      "f8709851-cfb3-4b8d-923d-dc4369888a7a",
+      "5ad9f18d-a3dd-489f-b3fd-3a5d038633b4",
+      "bd37f318-4f3e-4fcf-9b94-e8ac20ed5ace",
+      "2b293ed7-d1bf-456f-b422-d4362b953d50",
+      "0ef04231-168d-4576-896b-2fb97f51caf2",
+      "5da3e5ae-fdce-4d70-af40-bb8e1e53ec47",
+      "001d2f63-07da-405d-aa67-46b1a9f41e77",
+      "0c919525-1e9a-4dee-bda8-4f8072878724",
+      "408b4a49-829e-4584-ae17-8577c60f0fda",
+      "56c50728-9d48-43ee-9050-f18e55aebc76",
+      "53e41386-e0e7-4f71-9cc2-395d845cdb1d",
+      "21115917-091b-490d-8c4b-e3d91a32a3eb",
+      "54f541de-298a-4c00-90f6-9f992496fefd",
+      "239d96d1-5a7c-4574-9636-9639fe615561",
+      "63dabac3-701c-46f7-80e3-e6ccad428412",
+      "997afcc9-10b4-43c8-9f85-0006e4f5b1ca",
+      "67c8e2bf-464d-4fe6-9140-fe8484381ce0",
+      "3bd76229-7e06-4c48-98a2-adb5e27122b2",
+      "8f7dd4df-ba8f-4283-96c7-dcc445b26843",
+      "dc7d71b5-0b85-4338-a05b-af0c4aa2da26",
+      "9be235df-28b9-44ba-93eb-17bf089c8b9b",
+      "ce32f836-0b49-4cf7-a4ea-dd56dd350bee",
+      "de2146d0-32d4-40e6-a3a2-6a8374c708d7",
+      "45c03bbf-8fed-437c-afea-0e0841f1415c",
+      "ef4b7ffb-942b-4d71-bf24-2cab19a29118",
+      "f5b3ff99-d159-4134-879d-ac9a50b123cc",
+      "f0c04820-5c8d-466c-825e-4b7ab6fdfa2a",
+      "10b8c5fd-89b9-4e06-9a84-0c9b93da9edd",
+      "f9871218-bda8-4008-aede-85d37ce97b67",
+      "ff40cf85-124c-41b5-8860-d1cd78ede4b4"
+    ]
+  },
+  "2": {
+    "url": "https://oogiri-mi.com/hangiri7/match/0ef04231-168d-4576-896b-2fb97f51caf2",
+    "keys": [
+      "maintenance_settings",
+      "event-view:hangiri7",
+      "event-matches:hangiri7",
+      "match-meta:hangiri7:0ef04231-168d-4576-896b-2fb97f51caf2",
+      "match-view:hangiri7:0ef04231-168d-4576-896b-2fb97f51caf2"
+    ],
+    "data": {
+      "maintenance_settings": {
+        "maintenance_flag": false,
+        "maintenance_start_datetime": null,
+        "maintenance_end_datetime": null
+      },
+      "event-view:hangiri7": {
+        "event": {
+          "id": "hangiri7",
+          "event_name": "第7回半喜利",
+          "event_status": "ongoing",
+          "x_hashtag": null,
+          "battle_unit": "individual",
+          "team_meeting_room_flag": true,
+          "show_on_top": true
+        },
+        "design": {
+          "logo_image_flag": true,
+          "logo_text": null,
+          "logo_image_url": "events/hangiri7/logo/1789354283088-zr39nc-hangiri_logo_horizontal_transparent__1_.png",
+          "top_image_flag": true,
+          "top_image_url": "events/hangiri7/top/1789354283724-zmz2xc-hangiri_logo_square.png",
+          "background_image_flag": false,
+          "background_image_url": null,
+          "base_color": "#142c2d",
+          "font_color": "#ffffff",
+          "accent_color": "#b8b8b8",
+          "sub_color": "#253b3a",
+          "flip_color": "#ffffff",
+          "marker_color": "#000000",
+          "blank_font_color": "#FF6600",
+          "emphasis_font_color": "#ee5858",
+          "flip_blank_font_color": "#FF6600"
+        },
+        "news": [
+          {
+            "id": "e76e22ad-9cd0-4183-8704-b7cc16467118",
+            "announcement_title": "1回戦を開始しました",
+            "announcement_link": "https://oogiri-mi.com/hangiri7/match/f8709851-cfb3-4b8d-923d-dc4369888a7a",
+            "date": "2026-10-05T00:00:00.000Z"
+          },
+          {
+            "id": "5ad9f18d-a3dd-489f-b3fd-3a5d038633b4",
+            "announcement_title": "1回戦組み分けが完了しました",
+            "announcement_link": "https://oogiri-mi.com/hangiri7/match/f8709851-cfb3-4b8d-923d-dc4369888a7a",
+            "date": "2026-10-01T00:00:00.000Z"
+          },
+          {
+            "id": "bd37f318-4f3e-4fcf-9b94-e8ac20ed5ace",
+            "announcement_title": "ルールページを更新しました\n参加者は必ず一度ご確認ください",
+            "announcement_link": "https://oogiri-mi.com/hangiri7/rule",
+            "date": "2026-09-29T00:00:00.000Z"
+          }
+        ],
+        "media": [],
+        "current_phase": {
+          "phase_name": "3回戦"
+        }
+      },
+      "event-matches:hangiri7": {
+        "matches": [
+          {
+            "id": "2b293ed7-d1bf-456f-b422-d4362b953d50",
+            "match_name": "3回戦",
+            "match_status": "posting_period",
+            "display_order": 4
+          },
+          {
+            "id": "0ef04231-168d-4576-896b-2fb97f51caf2",
+            "match_name": "2回戦",
+            "match_status": "results_announced",
+            "display_order": 6
+          },
+          {
+            "id": "f8709851-cfb3-4b8d-923d-dc4369888a7a",
+            "match_name": "1回戦",
+            "match_status": "results_announced",
+            "display_order": 7
+          }
+        ]
+      },
+      "match-meta:hangiri7:0ef04231-168d-4576-896b-2fb97f51caf2": {
+        "status": "ok",
+        "matches": [
+          {
+            "id": "2b293ed7-d1bf-456f-b422-d4362b953d50",
+            "match_name": "3回戦",
+            "match_status": "posting_period",
+            "display_order": 4
+          },
+          {
+            "id": "0ef04231-168d-4576-896b-2fb97f51caf2",
+            "match_name": "2回戦",
+            "match_status": "results_announced",
+            "display_order": 6
+          },
+          {
+            "id": "f8709851-cfb3-4b8d-923d-dc4369888a7a",
+            "match_name": "1回戦",
+            "match_status": "results_announced",
+            "display_order": 7
+          }
+        ]
+      },
+      "match-view:hangiri7:0ef04231-168d-4576-896b-2fb97f51caf2": {
+        "data": {
+          "matches": [
+            {
+              "id": "2b293ed7-d1bf-456f-b422-d4362b953d50",
+              "match_name": "3回戦",
+              "display_order": 4,
+              "is_current": false
+            },
+            {
+              "id": "0ef04231-168d-4576-896b-2fb97f51caf2",
+              "match_name": "2回戦",
+              "display_order": 6,
+              "is_current": true
+            },
+            {
+              "id": "f8709851-cfb3-4b8d-923d-dc4369888a7a",
+              "match_name": "1回戦",
+              "display_order": 7,
+              "is_current": false
+            }
+          ],
+          "currentMatch": {
+            "id": "0ef04231-168d-4576-896b-2fb97f51caf2",
+            "match_name": "2回戦",
+            "match_status": "results_announced",
+            "display_order": 6,
+            "posting_start_datetime": null,
+            "posting_end_datetime": "2026-10-26T13:00:00.000Z",
+            "voting_end_datetime": "2026-11-02T13:00:00.000Z",
+            "admin_message": "1グループ17人、上位9人が勝ち抜け"
+          },
+          "charts": [
+            {
+              "id": "6b779bc0-e639-497b-a4cc-067cfd514dda",
+              "display_title": "2回戦 順位表",
+              "charts_type": "ranking",
+              "match_page_display_order": 1,
+              "link": null
+            }
+          ],
+          "themes": [
+            {
+              "id": "238ab214-704c-4792-b715-d77df453eb6f",
+              "theme_title": "グループH",
+              "theme_status": "results_announced",
+              "display_order": 8,
+              "progress_display_flag": true,
+              "group_id": "6c5e5109-0066-4d64-92ec-57f555052da6",
+              "group_name": "グループH",
+              "is_user_postable": false,
+              "is_user_group": false,
+              "user_has_saved_votes": false,
+              "user_has_confirmed_votes": false
+            },
+            {
+              "id": "2a3048d9-78f3-40fd-8c11-2a31a7841d14",
+              "theme_title": "グループC",
+              "theme_status": "results_announced",
+              "display_order": 3,
+              "progress_display_flag": true,
+              "group_id": "24c4f4ba-41dd-4333-ae90-6d268175b63e",
+              "group_name": "グループC",
+              "is_user_postable": false,
+              "is_user_group": false,
+              "user_has_saved_votes": false,
+              "user_has_confirmed_votes": false
+            },
+            {
+              "id": "588895d5-2a72-4cf7-bc0a-a0602611d88d",
+              "theme_title": "グループE",
+              "theme_status": "results_announced",
+              "display_order": 5,
+              "progress_display_flag": true,
+              "group_id": "2091ba15-c006-4f32-b3bd-a4b2491694e2",
+              "group_name": "グループE",
+              "is_user_postable": false,
+              "is_user_group": false,
+              "user_has_saved_votes": false,
+              "user_has_confirmed_votes": false
+            },
+            {
+              "id": "61780c03-a2b0-4526-b448-1409fe5aaca5",
+              "theme_title": "グループD",
+              "theme_status": "results_announced",
+              "display_order": 4,
+              "progress_display_flag": true,
+              "group_id": "24e4f245-8d29-4a0a-a988-275839b51c89",
+              "group_name": "グループD",
+              "is_user_postable": false,
+              "is_user_group": false,
+              "user_has_saved_votes": false,
+              "user_has_confirmed_votes": false
+            },
+            {
+              "id": "80b57476-d331-4d3f-9ff7-9eb28f0039de",
+              "theme_title": "グループA",
+              "theme_status": "results_announced",
+              "display_order": 1,
+              "progress_display_flag": true,
+              "group_id": "d625584b-29b3-4799-9d32-234d75f8bf85",
+              "group_name": "グループA",
+              "is_user_postable": false,
+              "is_user_group": false,
+              "user_has_saved_votes": false,
+              "user_has_confirmed_votes": false
+            },
+            {
+              "id": "93f161b4-d878-474c-9ab8-48903f03ec1a",
+              "theme_title": "グループF",
+              "theme_status": "results_announced",
+              "display_order": 6,
+              "progress_display_flag": true,
+              "group_id": "4240d336-2fc7-4252-b569-3452a346b646",
+              "group_name": "グループF",
+              "is_user_postable": false,
+              "is_user_group": false,
+              "user_has_saved_votes": false,
+              "user_has_confirmed_votes": false
+            },
+            {
+              "id": "94913be9-4f40-4a33-8757-c01a0b859aaa",
+              "theme_title": "グループB",
+              "theme_status": "results_announced",
+              "display_order": 2,
+              "progress_display_flag": true,
+              "group_id": "ae3c1327-438b-491f-b923-065933c6a877",
+              "group_name": "グループB",
+              "is_user_postable": false,
+              "is_user_group": false,
+              "user_has_saved_votes": false,
+              "user_has_confirmed_votes": false
+            },
+            {
+              "id": "c8d55057-4e0d-4319-be07-9755d0c01f54",
+              "theme_title": "グループG",
+              "theme_status": "results_announced",
+              "display_order": 7,
+              "progress_display_flag": true,
+              "group_id": "536a2017-f93d-44f7-9c1f-bdea137e929e",
+              "group_name": "グループG",
+              "is_user_postable": false,
+              "is_user_group": false,
+              "user_has_saved_votes": false,
+              "user_has_confirmed_votes": false
+            }
+          ],
+          "userParticipant": null
+        }
+      }
+    },
+    "uuidCount": 23,
+    "uuids": [
+      "e76e22ad-9cd0-4183-8704-b7cc16467118",
+      "f8709851-cfb3-4b8d-923d-dc4369888a7a",
+      "5ad9f18d-a3dd-489f-b3fd-3a5d038633b4",
+      "bd37f318-4f3e-4fcf-9b94-e8ac20ed5ace",
+      "2b293ed7-d1bf-456f-b422-d4362b953d50",
+      "0ef04231-168d-4576-896b-2fb97f51caf2",
+      "6b779bc0-e639-497b-a4cc-067cfd514dda",
+      "238ab214-704c-4792-b715-d77df453eb6f",
+      "6c5e5109-0066-4d64-92ec-57f555052da6",
+      "2a3048d9-78f3-40fd-8c11-2a31a7841d14",
+      "24c4f4ba-41dd-4333-ae90-6d268175b63e",
+      "588895d5-2a72-4cf7-bc0a-a0602611d88d",
+      "2091ba15-c006-4f32-b3bd-a4b2491694e2",
+      "61780c03-a2b0-4526-b448-1409fe5aaca5",
+      "24e4f245-8d29-4a0a-a988-275839b51c89",
+      "80b57476-d331-4d3f-9ff7-9eb28f0039de",
+      "d625584b-29b3-4799-9d32-234d75f8bf85",
+      "93f161b4-d878-474c-9ab8-48903f03ec1a",
+      "4240d336-2fc7-4252-b569-3452a346b646",
+      "94913be9-4f40-4a33-8757-c01a0b859aaa",
+      "ae3c1327-438b-491f-b923-065933c6a877",
+      "c8d55057-4e0d-4319-be07-9755d0c01f54",
+      "536a2017-f93d-44f7-9c1f-bdea137e929e"
+    ]
+  }
+}
