@@ -9,9 +9,21 @@ const rounds=[
 ];
 const revivers={ShallowReactive:v=>v,Reactive:v=>v,Set:v=>new Set(v),Map:v=>new Map(v)};
 
+const sleep=ms=>new Promise(r=>setTimeout(r,ms));
+async function get(url,headers={}){
+  let last;
+  for(let i=0;i<5;i++){
+    try{
+      const r=await fetch(url,{headers:{'user-agent':'Mozilla/5.0',...headers}});
+      if(r.ok)return r;
+      last=new Error(`${url}: ${r.status}`);
+    }catch(e){last=e}
+    await sleep(1200*(i+1));
+  }
+  throw last;
+}
 async function nuxtData(url){
-  const r=await fetch(url,{headers:{'user-agent':'Mozilla/5.0'}});
-  if(!r.ok) throw new Error(`${url}: ${r.status}`);
+  const r=await get(url);
   const html=await r.text();
   const m=html.match(/<script type="application\/json" data-nuxt-data="nuxt-app"[^>]*id="__NUXT_DATA__">([\s\S]*?)<\/script>/);
   if(!m) throw new Error('Nuxt data missing: '+url);
@@ -28,8 +40,7 @@ for(const rr of rounds){
   const groups=[];
   for(const t of themes){
     const api=`https://oogiri-mi.com/api/theme/${t.id}/view?preview=results`;
-    const r=await fetch(api,{headers:{'user-agent':'Mozilla/5.0','accept':'application/json'}});
-    if(!r.ok) throw new Error(`${api}: ${r.status}`);
+    const r=await get(api,{'accept':'application/json'});
     const j=await r.json();
     const d=j.data;
     if(!d?.isResultsAnnounced) throw new Error('results not announced '+t.id);
@@ -63,6 +74,7 @@ for(const rr of rounds){
       source:`https://oogiri-mi.com/${EVENT}/theme/${t.id}`,
       answers
     });
+    await sleep(350);
   }
   out.rounds.push({
     round:rr.round,
