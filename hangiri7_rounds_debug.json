@@ -1,186 +1,3812 @@
 {
-  "assets": [
-    "https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9265353222505528",
-    "/_nuxt/BJy_l_ry.js",
-    "/_nuxt/D-EDqh0d.js",
-    "/_nuxt/BjpAV5q4.js",
-    "/_nuxt/BwcvlcRl.js",
-    "/_nuxt/BLDXYmPq.js",
-    "/_nuxt/Dj4Ns9dX.js",
-    "/_nuxt/egK7W3YR.js",
-    "/_nuxt/LPpUbcAK.js",
-    "/_nuxt/vDvvNmra.js",
-    "/_nuxt/DnfuNMVO.js",
-    "/_nuxt/DylqUnMU.js",
-    "/_nuxt/DlPF3Xsv.js",
-    "/_nuxt/BDfbeEPR.js",
-    "/_nuxt/B3lxuuoR.js",
-    "/_nuxt/B92tfIoB.js",
-    "/_nuxt/CjHlxnmF.js",
-    "/_nuxt/fQGFkCUy.js",
-    "/_nuxt/CoUE6bMJ.js",
-    "/_nuxt/iRMzCYC1.js",
-    "/_nuxt/CyUt0q7m.js",
-    "/_nuxt/D0vy1yXv.js",
-    "/_nuxt/z9KRXAKA.js",
-    "/_nuxt/DStQauiw.js",
-    "/_nuxt/DFlu9Tha.js",
-    "/_nuxt/B41od-xN.js",
-    "/_nuxt/CKW5KVSs.js",
-    "/_nuxt/C8g3AYuK.js",
-    "/_nuxt/BxKQTt0u.js",
-    "/_nuxt/MmnaOtcL.js",
-    "/_nuxt/CS3Wy1Ul.js",
-    "/_nuxt/DsMtR0PP.js",
-    "/_nuxt/C2inm-GA.js"
-  ],
-  "out": [
-    {
-      "url": "https://oogiri-mi.com/_nuxt/BJy_l_ry.js",
-      "hits": [
-        "./ProgressVotersList.FOJWvohE.css",
-        "./votes.BV7Zv5EQ.css",
-        "admin-event-eventId-theme-themeId-votes",
-        "/admin/event/:eventId()/theme/:themeId()/votes",
-        "admin-event-eventId-theme-themeId-vote-create",
-        "/admin/event/:eventId()/theme/:themeId()/vote/create"
-      ]
-    },
-    {
-      "url": "https://oogiri-mi.com/_nuxt/D-EDqh0d.js",
-      "hits": [
-        "/api/event/${n.value}/participation-status",
-        "/api/event/${n.value}/matches"
-      ]
-    },
-    {
-      "url": "https://oogiri-mi.com/_nuxt/egK7W3YR.js",
-      "hits": [
-        "/api/event/${r.value}/view"
-      ]
-    },
-    {
-      "url": "https://oogiri-mi.com/_nuxt/DnfuNMVO.js",
-      "hits": [
-        "/api/theme/${$.value}/view?preview=results",
-        "/api/theme/${$.value}/view",
-        "/api/theme/${$.value}/post",
-        "/api/theme/${$.value}/post/${O.value}",
-        "/api/theme/${$.value}/vote/draft",
-        "/api/theme/${$.value}/post/${H.value}/comment",
-        "/api/theme/${$.value}/vote",
-        ",!0),R.snapshot.totalVoteCount!==null?(n(),a(",
-        "+u(R.snapshot.totalVoteCount),1)):r(",
-        "+u(S.voteRate.toFixed(2))+",
-        "vote-rate",
-        "vote-breakdown",
-        "vote-points",
-        "vote-count",
-        "voters-list",
-        "no-voters",
-        "voters-text",
-        "voters-count",
-        ")if(o.value.userVotes&&(T.value={},o.value.userVotes.forEach(v=>{T.value[v.post_id]=v.vote_points})),o.value.allWorks&&o.value.allWorks.forEach(v=>{T.value[v.id]===void 0&&(!b.value||v.user_id!==b.value.id)&&(T.value[v.id]=0)}),o.value.userComments&&(N.value={},o.value.userComments.forEach(v=>{N.value[v.post_id]=v.comment_text})),o.value.hasVoted?z.value=",
-        ":z.value=o.value.theme.vote_format===",
-        ",o.value.theme.vote_format===",
-        ");p(()=>o.value?.posters?o.value.posters.reduce((i,t)=>i+t.post_count,0):0);const gs=p(()=>!o.value?.theme?.vote_stage_points||o.value.theme.vote_stage_points.length===0?",
-        ":o.value.theme.vote_stage_points.map(i=>",
-        ");const ee=p(()=>o.value?.theme?.vote_format===",
-        "})})},Vt=async()=>{try{M.value=!0;const i=new Set(o.value?.allWorks?.filter(f=>b.value&&f.user_id===b.value.id).map(f=>f.id)||[]),t=Object.entries(T.value).filter(([f])=>!i.has(f)).map(([f,V])=>({post_id:f,vote_points:V})),c=Object.entries(N.value).filter(([,f])=>f&&f.trim()).map(([f,V])=>({post_id:f,comment_text:V})),d=o.value?.theme?.vote_format===",
-        ",body:{votes:t,comments:c,workOrder:v,currentWorkIndex:g}}),Y.value=!1,J(",
-        "},Hs=async()=>{if(!H.value){ve();return}if(o.value?.hasVoted)try{De.value=!0;const i=G.value?.trim()||",
-        ",body:{votes:t,comments:c}}),Y.value=!1,await _e(),z.value=",
-        "Failed to submit vote:",
-        ",-1))])])),e(x)&&(e(o).hasVoted||e(o).canVote===!1)?(n(),a(",
-        ",e(o).hasVoted?",
-        ",dn,[e(o).hasVoted?(n(),a(h,{key:0},[y(",
-        ")],64)):e(o).cannotVoteReason===",
-        ":e(T)[e(B).id]!==l}]),onClick:m=>Wt(e(B).id,l),disabled:!e(x)||e(o).hasVoted||e(o).canVote===!1},u(l)+",
-        ",disabled:!e(x)||e(o).hasVoted||e(o).canVote===!1},null,8,Rn),[[F,e(N)[e(B).id]]])])):r(",
-        ",onClick:Vt,disabled:e(M)||!e(x)||e(o).hasVoted||e(o).canVote===!1},[e(M)?(n(),a(",
-        ",In,[e(o)?.theme?.vote_format!==",
-        ",!0),e(o)?.theme?.vote_format===",
-        ":e(T)[l.id]!==P}]),onClick:te=>Wt(l.id,P),disabled:!e(x)||e(o).hasVoted||e(o).canVote===!1},u(P),11,Hn))),128))]))]),s(",
-        ",onClick:P=>St(l.id),disabled:!e(x)||e(o).hasVoted||e(o).canVote===!1},[t[52]||(t[52]=s(",
-        ",sa,[e(o)?.theme?.vote_format!==",
-        ",onClick:t[4]||(t[4]=l=>e(o)?.theme?.vote_format===",
-        "?Fs():Mt()),disabled:e(M)||!e(x)||e(o).hasVoted||e(o).canVote===!1},[e(M)?(n(),a(",
-        ",aa,u(e(o)?.theme?.vote_format===",
-        ",la,u(e(o)?.theme?.vote_format===",
-        "how_to_vote",
-        ",onClick:Mt,disabled:e(M)||!e(x)||e(o).hasVoted||e(o).canVote===!1},[e(M)?(n(),a(",
-        ",!0),D(he,{voters:e(o).voters,",
-        "voters",
-        "+u(e(o).totalVoteCount),1),s(",
-        "vote-score-row",
-        "+u(Number(l.vote_rate).toFixed(2))+",
-        ",ul,[(n(!0),a(h,null,W(ps(l.vote_breakdown),([m,P])=>(n(),a(",
-        "vote-item",
-        ",pl,[!e(o).voters||e(o).voters.length===0?(n(),a(",
-        ",kl,[(n(!0),a(h,null,W(e(o).voters,(l,m)=>(n(),a(h,{key:l.user_id},[s(",
-        "voter-name",
-        "own-voter",
-        ",!0)],64))),128))]))]),e(o).voters&&e(o).voters.length>0?(n(),a(",
-        ",yl,u(e(o).voters.length)+",
-        ",!0)])),e(o)?.theme?.vote_format===",
-        ",1),e(o)?.theme?.vote_format!==",
-        ",!0),e(o)?.theme?.vote_format!=="
-      ]
-    },
-    {
-      "url": "https://oogiri-mi.com/_nuxt/DylqUnMU.js",
-      "hits": [
-        "),S=m(()=>n.theme.vote_format===",
-        "),U=m(()=>n.theme.vote_format==="
-      ]
-    },
-    {
-      "url": "https://oogiri-mi.com/_nuxt/BDfbeEPR.js",
-      "hits": [
-        ",null,l(t.vote_rate.toFixed(2)),1),e(",
-        ",me,l(t.team_total_vote_rate.toFixed(2)),1),e(",
-        ",be,l(t.team_total_vote_rate.toFixed(2)),1),e(",
-        "},l(t.team_total_vote_rate.toFixed(2)),9,Te),e(",
-        ",ye,l(t.members[0]?.vote_rate.toFixed(2)),1),e(",
-        ",fe,l(d.vote_rate.toFixed(2)),1),e(",
-        "},l(t.team_total_vote_rate.toFixed(2)),9,Ce),e(",
-        ",Fe,l(t.members[0]?.vote_rate!==null?t.members[0]?.vote_rate.toFixed(2):",
-        ",We,l(d.vote_rate!==null?d.vote_rate.toFixed(2):",
-        "},l(t.team_total_vote_rate.toFixed(2)),9,De),e(",
-        ",je,l(t.members[0]?.vote_rate!==null?t.members[0]?.vote_rate.toFixed(2):",
-        ",Oe,l(d.vote_rate!==null?d.vote_rate.toFixed(2):",
-        "voters-list",
-        "no-voters",
-        "voters-text",
-        "voters-count",
-        "ProgressVotersList",
-        ",Qe,[!s.voters||s.voters.length===0?(n(),a(",
-        ",Ze,[(n(!0),a(i,null,g(s.voters,(w,k)=>(n(),a(i,{key:w.user_id},[e(",
-        "voter-name",
-        "own-voter",
-        ",!0)],64))),128))]))]),s.voters&&s.voters.length>0?(n(),a(",
-        ",et,l(s.voters.length)+",
-        "UserProgressVotersList"
-      ]
-    },
-    {
-      "url": "https://oogiri-mi.com/_nuxt/D0vy1yXv.js",
-      "hits": [
-        "/api/event/${a}/validate"
-      ]
-    },
-    {
-      "url": "https://oogiri-mi.com/_nuxt/z9KRXAKA.js",
-      "hits": [
-        "/api/event/${r}/validate"
-      ]
-    },
-    {
-      "url": "https://oogiri-mi.com/_nuxt/BxKQTt0u.js",
-      "hits": [
-        "/api/admin/event/${r.value}",
-        "/api/admin/event/${m.value}"
-      ]
+  "8f7dd4df-ba8f-4283-96c7-dcc445b26843": {
+    "status": 200,
+    "data": {
+      "success": true,
+      "data": {
+        "theme": {
+          "id": "8f7dd4df-ba8f-4283-96c7-dcc445b26843",
+          "match_id": "f8709851-cfb3-4b8d-923d-dc4369888a7a",
+          "match_name": "1回戦",
+          "group_name": "グループA",
+          "theme_status": "results_announced",
+          "theme_type": "text",
+          "theme_title": "グループA",
+          "theme_text": "誰一人サーカスを知らない街に、ピエロがサーカスの宣伝をしに来た時の様子",
+          "blank_count": null,
+          "individual_post_count": 1,
+          "team_post_count": 1,
+          "auto_status_switch_flag": true,
+          "posting_start_datetime": "2026-10-05T13:00:00.000Z",
+          "posting_deadline_datetime": "2026-10-12T13:00:00.000Z",
+          "posting_end_datetime": "2026-10-12T13:00:00.000Z",
+          "voting_end_datetime": "2026-10-19T13:00:00.000Z",
+          "progress_display_flag": true,
+          "vote_format": "classic",
+          "poster_restriction_type": "group",
+          "voter_restriction_type": "sync_poster",
+          "work_animation_flag": false,
+          "theme_image_url": "",
+          "youtube_url": "",
+          "post_type": "text",
+          "post_font_size": 22,
+          "theme_provider": "ボケクエ8 - パラライズアロー",
+          "admin_message": "",
+          "vote_stage_points": [
+            4,
+            3,
+            2,
+            0
+          ],
+          "battle_format": "individual",
+          "match_count": 1,
+          "advancement_team_count": 12,
+          "match_display_order": 7,
+          "event_id": "hangiri7",
+          "ranking_chart_id": "5da3e5ae-fdce-4d70-af40-bb8e1e53ec47"
+        },
+        "teams": [
+          {
+            "team_id": "c4ca4efc-0105-4c5c-8729-50104eb6981f",
+            "team_name": "2個",
+            "members": [
+              {
+                "user_id": "d7343a88-d0b1-7046-1fe0-17934ddc45a6",
+                "username": "2個",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "d7343a88-d0b1-7046-1fe0-17934ddc45a6",
+              "username": "2個"
+            }
+          },
+          {
+            "team_id": "d1575a33-2dd3-48c7-a2c9-b64da2f56704",
+            "team_name": "723",
+            "members": [
+              {
+                "user_id": "97b40a98-e0c1-705e-1763-523f0904988f",
+                "username": "723",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "97b40a98-e0c1-705e-1763-523f0904988f",
+              "username": "723"
+            }
+          },
+          {
+            "team_id": "82114302-df02-4d9c-9be3-afca7a22fb7d",
+            "team_name": "IkorihaYimiran",
+            "members": [
+              {
+                "user_id": "37c40ac8-c001-7082-ba57-0ac960b3e445",
+                "username": "IkorihaYimiran",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "37c40ac8-c001-7082-ba57-0ac960b3e445",
+              "username": "IkorihaYimiran"
+            }
+          },
+          {
+            "team_id": "febf4cfa-92ef-4736-ac36-24beeec74b2b",
+            "team_name": "POPOJI",
+            "members": [
+              {
+                "user_id": "5714eaf8-1051-700d-1fce-4f386afcab3f",
+                "username": "POPOJI",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "5714eaf8-1051-700d-1fce-4f386afcab3f",
+              "username": "POPOJI"
+            }
+          },
+          {
+            "team_id": "9c4944ce-26f0-42b6-9662-4e8a352faa93",
+            "team_name": "kak",
+            "members": [
+              {
+                "user_id": "57f44a38-a0d1-70c8-cfba-db7b8bdab853",
+                "username": "kak",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "57f44a38-a0d1-70c8-cfba-db7b8bdab853",
+              "username": "kak"
+            }
+          },
+          {
+            "team_id": "8ce627c0-3499-46ed-8d0d-8b0ae93bdcdd",
+            "team_name": "あとひとつ流星群",
+            "members": [
+              {
+                "user_id": "6714baa8-4071-70ba-448e-1e83678bf725",
+                "username": "あとひとつ流星群",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "6714baa8-4071-70ba-448e-1e83678bf725",
+              "username": "あとひとつ流星群"
+            }
+          },
+          {
+            "team_id": "fc0ff675-8d1a-409a-ae80-6e10093b57fa",
+            "team_name": "かごめ",
+            "members": [
+              {
+                "user_id": "3774da28-e031-700b-d713-e38d09dcd6ed",
+                "username": "かごめ",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "3774da28-e031-700b-d713-e38d09dcd6ed",
+              "username": "かごめ"
+            }
+          },
+          {
+            "team_id": "c22c3911-3714-458a-8dc7-4b940b398548",
+            "team_name": "かるろす",
+            "members": [
+              {
+                "user_id": "f7148af8-9051-7020-3047-75855399e8e8",
+                "username": "かるろす",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "f7148af8-9051-7020-3047-75855399e8e8",
+              "username": "かるろす"
+            }
+          },
+          {
+            "team_id": "f71d27a1-0a58-4cab-b7b2-ee4d612e4daa",
+            "team_name": "さすけのお兄さん",
+            "members": [
+              {
+                "user_id": "a704da68-e0c1-7084-c1fd-1300a520bec3",
+                "username": "さすけのお兄さん",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "a704da68-e0c1-7084-c1fd-1300a520bec3",
+              "username": "さすけのお兄さん"
+            }
+          },
+          {
+            "team_id": "aaa5e8fa-4bbb-4d54-92f5-04f011280351",
+            "team_name": "ふかし",
+            "members": [
+              {
+                "user_id": "97447af8-a0d1-702e-1a86-2e87b0eea74f",
+                "username": "ふかし",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "97447af8-a0d1-702e-1a86-2e87b0eea74f",
+              "username": "ふかし"
+            }
+          },
+          {
+            "team_id": "d552ea23-2862-4e92-85d9-67828f083fb4",
+            "team_name": "ゑくれあ",
+            "members": [
+              {
+                "user_id": "d744da98-4081-70a8-54ff-2b5a579fd9a9",
+                "username": "ゑくれあ",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "d744da98-4081-70a8-54ff-2b5a579fd9a9",
+              "username": "ゑくれあ"
+            }
+          },
+          {
+            "team_id": "bbdb5b6d-25e8-4053-be88-b448d2977fa6",
+            "team_name": "キラキライリポーン",
+            "members": [
+              {
+                "user_id": "a714ca38-c0c1-70b6-80e4-39749a544da6",
+                "username": "キラキライリポーン",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "a714ca38-c0c1-70b6-80e4-39749a544da6",
+              "username": "キラキライリポーン"
+            }
+          },
+          {
+            "team_id": "4253b99d-1d18-4d14-ad0e-b344818ae364",
+            "team_name": "サカキ",
+            "members": [
+              {
+                "user_id": "47c4cac8-b071-7010-fe4e-ac23b1488645",
+                "username": "サカキ",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "47c4cac8-b071-7010-fe4e-ac23b1488645",
+              "username": "サカキ"
+            }
+          },
+          {
+            "team_id": "7dcdd084-cf8c-40fc-a33c-eb61311b75d5",
+            "team_name": "前田",
+            "members": [
+              {
+                "user_id": "67e4ca98-5081-70a3-365c-f39e6808755b",
+                "username": "前田",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "67e4ca98-5081-70a3-365c-f39e6808755b",
+              "username": "前田"
+            }
+          },
+          {
+            "team_id": "6d40eedb-9939-40f6-a899-956765b48eba",
+            "team_name": "安全地帯",
+            "members": [
+              {
+                "user_id": "27f42ac8-7011-70fb-222f-56698f588e87",
+                "username": "安全地帯",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "27f42ac8-7011-70fb-222f-56698f588e87",
+              "username": "安全地帯"
+            }
+          },
+          {
+            "team_id": "9d1de479-731b-4ed1-a43e-1917c9fcbb5f",
+            "team_name": "寝坊",
+            "members": [
+              {
+                "user_id": "97b46aa8-c031-708a-45f5-2960ade50453",
+                "username": "寝坊",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "97b46aa8-c031-708a-45f5-2960ade50453",
+              "username": "寝坊"
+            }
+          },
+          {
+            "team_id": "fa1b43b3-616e-4017-962f-80ea06c53e30",
+            "team_name": "平田",
+            "members": [
+              {
+                "user_id": "a7e4aa08-a051-7052-956b-4c0452d66aa0",
+                "username": "平田",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "a7e4aa08-a051-7052-956b-4c0452d66aa0",
+              "username": "平田"
+            }
+          },
+          {
+            "team_id": "573a21aa-14fb-4b05-8f41-807ffcc24fc4",
+            "team_name": "昨今",
+            "members": [
+              {
+                "user_id": "27940a68-c021-7020-9bbe-64b4d8d366a8",
+                "username": "昨今",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "27940a68-c021-7020-9bbe-64b4d8d366a8",
+              "username": "昨今"
+            }
+          },
+          {
+            "team_id": "9a8c5d15-3375-40b0-b8a7-4c7461c5b26a",
+            "team_name": "椎名きょく",
+            "members": [
+              {
+                "user_id": "87a46a98-1031-70e4-f195-104fe3713eb4",
+                "username": "椎名きょく",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "87a46a98-1031-70e4-f195-104fe3713eb4",
+              "username": "椎名きょく"
+            }
+          },
+          {
+            "team_id": "f243558a-0dae-4a56-86f0-cfba610f604e",
+            "team_name": "毎秒砕く",
+            "members": [
+              {
+                "user_id": "f7946a98-40d1-7099-9c79-d62ca7815733",
+                "username": "毎秒砕く",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "f7946a98-40d1-7099-9c79-d62ca7815733",
+              "username": "毎秒砕く"
+            }
+          },
+          {
+            "team_id": "79ee1616-5e02-42d9-b618-0ffc872c5ad7",
+            "team_name": "清水り",
+            "members": [
+              {
+                "user_id": "67145a08-f021-7084-7736-e3989c0ea7f9",
+                "username": "清水り",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "67145a08-f021-7084-7736-e3989c0ea7f9",
+              "username": "清水り"
+            }
+          },
+          {
+            "team_id": "1ed0bc85-16dd-4c59-a805-319cee298375",
+            "team_name": "目刺四尾",
+            "members": [
+              {
+                "user_id": "f7e4da28-30f1-70a7-412b-ee068da22fbe",
+                "username": "目刺四尾",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "f7e4da28-30f1-70a7-412b-ee068da22fbe",
+              "username": "目刺四尾"
+            }
+          },
+          {
+            "team_id": "ab6123a1-9e08-4031-9952-9c5011178132",
+            "team_name": "笑動的",
+            "members": [
+              {
+                "user_id": "5724bad8-f031-70a8-9848-908a6358e094",
+                "username": "笑動的",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "5724bad8-f031-70a8-9848-908a6358e094",
+              "username": "笑動的"
+            }
+          },
+          {
+            "team_id": "be6fd18f-f131-4161-8257-59342fa1804c",
+            "team_name": "馬to量子化",
+            "members": [
+              {
+                "user_id": "47440a68-e081-7072-f541-890ca94d4f70",
+                "username": "馬to量子化",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "47440a68-e081-7072-f541-890ca94d4f70",
+              "username": "馬to量子化"
+            }
+          }
+        ],
+        "posters": [
+          {
+            "user_id": "d7343a88-d0b1-7046-1fe0-17934ddc45a6",
+            "username": "2個",
+            "post_count": 1
+          },
+          {
+            "user_id": "97b40a98-e0c1-705e-1763-523f0904988f",
+            "username": "723",
+            "post_count": 1
+          },
+          {
+            "user_id": "37c40ac8-c001-7082-ba57-0ac960b3e445",
+            "username": "IkorihaYimiran",
+            "post_count": 1
+          },
+          {
+            "user_id": "5714eaf8-1051-700d-1fce-4f386afcab3f",
+            "username": "POPOJI",
+            "post_count": 1
+          },
+          {
+            "user_id": "57f44a38-a0d1-70c8-cfba-db7b8bdab853",
+            "username": "kak",
+            "post_count": 1
+          },
+          {
+            "user_id": "6714baa8-4071-70ba-448e-1e83678bf725",
+            "username": "あとひとつ流星群",
+            "post_count": 1
+          },
+          {
+            "user_id": "3774da28-e031-700b-d713-e38d09dcd6ed",
+            "username": "かごめ",
+            "post_count": 1
+          },
+          {
+            "user_id": "f7148af8-9051-7020-3047-75855399e8e8",
+            "username": "かるろす",
+            "post_count": 1
+          },
+          {
+            "user_id": "a704da68-e0c1-7084-c1fd-1300a520bec3",
+            "username": "さすけのお兄さん",
+            "post_count": 1
+          },
+          {
+            "user_id": "97447af8-a0d1-702e-1a86-2e87b0eea74f",
+            "username": "ふかし",
+            "post_count": 1
+          },
+          {
+            "user_id": "d744da98-4081-70a8-54ff-2b5a579fd9a9",
+            "username": "ゑくれあ",
+            "post_count": 1
+          },
+          {
+            "user_id": "a714ca38-c0c1-70b6-80e4-39749a544da6",
+            "username": "キラキライリポーン",
+            "post_count": 1
+          },
+          {
+            "user_id": "47c4cac8-b071-7010-fe4e-ac23b1488645",
+            "username": "サカキ",
+            "post_count": 1
+          },
+          {
+            "user_id": "67e4ca98-5081-70a3-365c-f39e6808755b",
+            "username": "前田",
+            "post_count": 1
+          },
+          {
+            "user_id": "27f42ac8-7011-70fb-222f-56698f588e87",
+            "username": "安全地帯",
+            "post_count": 1
+          },
+          {
+            "user_id": "97b46aa8-c031-708a-45f5-2960ade50453",
+            "username": "寝坊",
+            "post_count": 1
+          },
+          {
+            "user_id": "a7e4aa08-a051-7052-956b-4c0452d66aa0",
+            "username": "平田",
+            "post_count": 1
+          },
+          {
+            "user_id": "27940a68-c021-7020-9bbe-64b4d8d366a8",
+            "username": "昨今",
+            "post_count": 1
+          },
+          {
+            "user_id": "87a46a98-1031-70e4-f195-104fe3713eb4",
+            "username": "椎名きょく",
+            "post_count": 1
+          },
+          {
+            "user_id": "f7946a98-40d1-7099-9c79-d62ca7815733",
+            "username": "毎秒砕く",
+            "post_count": 1
+          },
+          {
+            "user_id": "67145a08-f021-7084-7736-e3989c0ea7f9",
+            "username": "清水り",
+            "post_count": 1
+          },
+          {
+            "user_id": "f7e4da28-30f1-70a7-412b-ee068da22fbe",
+            "username": "目刺四尾",
+            "post_count": 1
+          },
+          {
+            "user_id": "5724bad8-f031-70a8-9848-908a6358e094",
+            "username": "笑動的",
+            "post_count": 1
+          },
+          {
+            "user_id": "47440a68-e081-7072-f541-890ca94d4f70",
+            "username": "馬to量子化",
+            "post_count": 1
+          }
+        ],
+        "userPosts": [],
+        "userPostCount": 0,
+        "canPost": true,
+        "cannotPostReason": null,
+        "matchThemes": [
+          {
+            "id": "8f7dd4df-ba8f-4283-96c7-dcc445b26843",
+            "display_order": 1
+          },
+          {
+            "id": "ef4b7ffb-942b-4d71-bf24-2cab19a29118",
+            "display_order": 2
+          },
+          {
+            "id": "001d2f63-07da-405d-aa67-46b1a9f41e77",
+            "display_order": 3
+          },
+          {
+            "id": "f9871218-bda8-4008-aede-85d37ce97b67",
+            "display_order": 4
+          },
+          {
+            "id": "54f541de-298a-4c00-90f6-9f992496fefd",
+            "display_order": 5
+          },
+          {
+            "id": "408b4a49-829e-4584-ae17-8577c60f0fda",
+            "display_order": 6
+          },
+          {
+            "id": "9be235df-28b9-44ba-93eb-17bf089c8b9b",
+            "display_order": 7
+          },
+          {
+            "id": "67c8e2bf-464d-4fe6-9140-fe8484381ce0",
+            "display_order": 8
+          },
+          {
+            "id": "de2146d0-32d4-40e6-a3a2-6a8374c708d7",
+            "display_order": 9
+          },
+          {
+            "id": "53e41386-e0e7-4f71-9cc2-395d845cdb1d",
+            "display_order": 10
+          },
+          {
+            "id": "f0c04820-5c8d-466c-825e-4b7ab6fdfa2a",
+            "display_order": 11
+          },
+          {
+            "id": "63dabac3-701c-46f7-80e3-e6ccad428412",
+            "display_order": 12
+          }
+        ],
+        "finalResults": [
+          {
+            "post_id": "dd639144-25d9-4fe5-b277-524c2073a45b",
+            "work_text": "そこまでなら笑えたのにと母が窓を閉めた",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "47c4cac8-b071-7010-fe4e-ac23b1488645",
+            "username": "サカキ",
+            "team_name": "サカキ",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 241,
+            "vote_rate": 1.14,
+            "rank": 1,
+            "vote_breakdown": {
+              "2": 59,
+              "3": 33,
+              "4": 6
+            },
+            "comments": []
+          },
+          {
+            "post_id": "50b9fc95-7522-49c4-8cd1-ff4a09a8523c",
+            "work_text": "枝を切るためのはしごだと何度も説明されてる",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "97b40a98-e0c1-705e-1763-523f0904988f",
+            "username": "723",
+            "team_name": "723",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 236,
+            "vote_rate": 1.12,
+            "rank": 2,
+            "vote_breakdown": {
+              "2": 68,
+              "3": 24,
+              "4": 7
+            },
+            "comments": []
+          },
+          {
+            "post_id": "7a46b221-0b98-41e6-8730-ad6c909d57fd",
+            "work_text": "先端に花が咲いた槍でそのまま刺された",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "27f42ac8-7011-70fb-222f-56698f588e87",
+            "username": "安全地帯",
+            "team_name": "安全地帯",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 216,
+            "vote_rate": 1.02,
+            "rank": 3,
+            "vote_breakdown": {
+              "2": 54,
+              "3": 28,
+              "4": 6
+            },
+            "comments": []
+          },
+          {
+            "post_id": "8bdce95f-2158-4dac-bb4e-cf79450db316",
+            "work_text": "滑り台から降りてこない子に両手を振ってる",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "27940a68-c021-7020-9bbe-64b4d8d366a8",
+            "username": "昨今",
+            "team_name": "昨今",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 193,
+            "vote_rate": 0.91,
+            "rank": 4,
+            "vote_breakdown": {
+              "2": 57,
+              "3": 21,
+              "4": 4
+            },
+            "comments": []
+          },
+          {
+            "post_id": "b82374b9-eb71-4b03-a43a-01f23aa4194b",
+            "work_text": "演歌のポスターを隠してくれてありがとうと言われてた",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "a704da68-e0c1-7084-c1fd-1300a520bec3",
+            "username": "さすけのお兄さん",
+            "team_name": "さすけのお兄さん",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 185,
+            "vote_rate": 0.88,
+            "rank": 5,
+            "vote_breakdown": {
+              "2": 51,
+              "3": 17,
+              "4": 8
+            },
+            "comments": []
+          },
+          {
+            "post_id": "c0446a7e-e45b-4b24-ba80-3e6b636646e7",
+            "work_text": "絵画から逃げ出して来たんだと泣いている",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "f7946a98-40d1-7099-9c79-d62ca7815733",
+            "username": "毎秒砕く",
+            "team_name": "毎秒砕く",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 178,
+            "vote_rate": 0.84,
+            "rank": 6,
+            "vote_breakdown": {
+              "2": 46,
+              "3": 22,
+              "4": 5
+            },
+            "comments": []
+          },
+          {
+            "post_id": "db833b94-7323-497f-aa1c-c4dbd736eafe",
+            "work_text": "そういうのを待ってたと家電を運んでる人も味方だった",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "47440a68-e081-7072-f541-890ca94d4f70",
+            "username": "馬to量子化",
+            "team_name": "馬to量子化",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 150,
+            "vote_rate": 0.71,
+            "rank": 7,
+            "vote_breakdown": {
+              "2": 43,
+              "3": 16,
+              "4": 4
+            },
+            "comments": []
+          },
+          {
+            "post_id": "61ad3d41-f414-4dd7-8d2f-44fa81e9055a",
+            "work_text": "何も言わなくてもテープで区切った道に従っていた",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "d7343a88-d0b1-7046-1fe0-17934ddc45a6",
+            "username": "2個",
+            "team_name": "2個",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 143,
+            "vote_rate": 0.68,
+            "rank": 8,
+            "vote_breakdown": {
+              "2": 47,
+              "3": 15,
+              "4": 1
+            },
+            "comments": []
+          },
+          {
+            "post_id": "283604df-127d-48cc-887e-1db7ca66d29b",
+            "work_text": "あなたが苦しむ所を見たい人がいるんですかと聞かれて即答してしまった",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "67e4ca98-5081-70a3-365c-f39e6808755b",
+            "username": "前田",
+            "team_name": "前田",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 132,
+            "vote_rate": 0.63,
+            "rank": 9,
+            "vote_breakdown": {
+              "2": 41,
+              "3": 14,
+              "4": 2
+            },
+            "comments": []
+          },
+          {
+            "post_id": "775b6de9-4004-41b8-85ea-305a510e3920",
+            "work_text": "とん平焼きの屋台を見て絶対に勝てないと思った",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "97447af8-a0d1-702e-1a86-2e87b0eea74f",
+            "username": "ふかし",
+            "team_name": "ふかし",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 119,
+            "vote_rate": 0.56,
+            "rank": 10,
+            "vote_breakdown": {
+              "2": 38,
+              "3": 13,
+              "4": 1
+            },
+            "comments": []
+          },
+          {
+            "post_id": "44d04828-5288-4d0b-8e88-22826a6b074b",
+            "work_text": "説明のための紙芝居を少しずつ捨ててる",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "97b46aa8-c031-708a-45f5-2960ade50453",
+            "username": "寝坊",
+            "team_name": "寝坊",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 114,
+            "vote_rate": 0.54,
+            "rank": 11,
+            "vote_breakdown": {
+              "2": 39,
+              "3": 12
+            },
+            "comments": []
+          },
+          {
+            "post_id": "d5714b9e-621f-4321-a800-597dff2f1f57",
+            "work_text": "持たされた水瓶の中で、時々魚が跳ねる",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "6714baa8-4071-70ba-448e-1e83678bf725",
+            "username": "あとひとつ流星群",
+            "team_name": "あとひとつ流星群",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 105,
+            "vote_rate": 0.5,
+            "rank": 12,
+            "vote_breakdown": {
+              "2": 31,
+              "3": 9,
+              "4": 4
+            },
+            "comments": []
+          },
+          {
+            "post_id": "e72e261e-a4cf-4dc1-946b-0ac3bd61d3f4",
+            "work_text": "なるべく皆さんの理解の範疇を超えない娯楽をお届けします",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "3774da28-e031-700b-d713-e38d09dcd6ed",
+            "username": "かごめ",
+            "team_name": "かごめ",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 100,
+            "vote_rate": 0.47,
+            "rank": 13,
+            "vote_breakdown": {
+              "2": 27,
+              "3": 10,
+              "4": 4
+            },
+            "comments": []
+          },
+          {
+            "post_id": "8f112e9b-5253-4534-a27a-dd73afa7eb76",
+            "work_text": "銅像に向かって喋り続けてたら食べ物をくれるようになった",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "67145a08-f021-7084-7736-e3989c0ea7f9",
+            "username": "清水り",
+            "team_name": "清水り",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 98,
+            "vote_rate": 0.46,
+            "rank": 14,
+            "vote_breakdown": {
+              "2": 36,
+              "3": 6,
+              "4": 2
+            },
+            "comments": []
+          },
+          {
+            "post_id": "040300e7-4f03-4b3b-aacf-7f814199a6d0",
+            "work_text": "動物が出てくる歌舞伎をやるらしいぞ",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "f7148af8-9051-7020-3047-75855399e8e8",
+            "username": "かるろす",
+            "team_name": "かるろす",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 95,
+            "vote_rate": 0.45,
+            "rank": 15,
+            "vote_breakdown": {
+              "2": 26,
+              "3": 9,
+              "4": 4
+            },
+            "comments": []
+          },
+          {
+            "post_id": "8d04d1a4-d7aa-4bfd-a56f-2e50be61e0ff",
+            "work_text": "行き場のない下品が形になってんなとイヤホンを付け直す",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "5714eaf8-1051-700d-1fce-4f386afcab3f",
+            "username": "POPOJI",
+            "team_name": "POPOJI",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 93,
+            "vote_rate": 0.44,
+            "rank": 16,
+            "vote_breakdown": {
+              "2": 25,
+              "3": 13,
+              "4": 1
+            },
+            "comments": []
+          },
+          {
+            "post_id": "a542754b-dd46-499d-aa97-d38c9ba9a822",
+            "work_text": "落ちていた紙を見えるように広げる",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "5724bad8-f031-70a8-9848-908a6358e094",
+            "username": "笑動的",
+            "team_name": "笑動的",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 92,
+            "vote_rate": 0.44,
+            "rank": 17,
+            "vote_breakdown": {
+              "2": 34,
+              "3": 8
+            },
+            "comments": []
+          },
+          {
+            "post_id": "f36ab760-8a7b-400a-be62-68c1cbd93914",
+            "work_text": "燃えないゴミの日とコインランドリーの場所に詳しくなって帰った",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "f7e4da28-30f1-70a7-412b-ee068da22fbe",
+            "username": "目刺四尾",
+            "team_name": "目刺四尾",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 80,
+            "vote_rate": 0.38,
+            "rank": 18,
+            "vote_breakdown": {
+              "2": 35,
+              "3": 2,
+              "4": 1
+            },
+            "comments": []
+          },
+          {
+            "post_id": "59dcc5a2-ea8d-449a-8b26-7485518873b0",
+            "work_text": "一番儲かってる店を足の裏で撫でてる",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "center",
+            "user_id": "d744da98-4081-70a8-54ff-2b5a579fd9a9",
+            "username": "ゑくれあ",
+            "team_name": "ゑくれあ",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 75,
+            "vote_rate": 0.36,
+            "rank": 19,
+            "vote_breakdown": {
+              "2": 30,
+              "3": 5
+            },
+            "comments": []
+          },
+          {
+            "post_id": "54d8bbeb-4160-46a6-8be7-cb565c16d511",
+            "work_text": "背の長い一輪車で来て、市民に寄り添わないタイプの立候補者だと思われた",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "37c40ac8-c001-7082-ba57-0ac960b3e445",
+            "username": "IkorihaYimiran",
+            "team_name": "IkorihaYimiran",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 72,
+            "vote_rate": 0.34,
+            "rank": 20,
+            "vote_breakdown": {
+              "2": 18,
+              "3": 8,
+              "4": 3
+            },
+            "comments": []
+          },
+          {
+            "post_id": "05ad2b82-e380-46b0-a500-a01bba9f7fd4",
+            "work_text": "折れたカードを靴下にしまう",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "a7e4aa08-a051-7052-956b-4c0452d66aa0",
+            "username": "平田",
+            "team_name": "平田",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 40,
+            "vote_rate": 0.19,
+            "rank": 21,
+            "vote_breakdown": {
+              "2": 17,
+              "3": 2
+            },
+            "comments": []
+          },
+          {
+            "post_id": "5ecc1ce1-835f-40af-aa0e-7cd983000962",
+            "work_text": "好きな宝石を聞いて、賽銭箱を改造させてる",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "57f44a38-a0d1-70c8-cfba-db7b8bdab853",
+            "username": "kak",
+            "team_name": "kak",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 40,
+            "vote_rate": 0.19,
+            "rank": 21,
+            "vote_breakdown": {
+              "2": 14,
+              "3": 4
+            },
+            "comments": []
+          },
+          {
+            "post_id": "2377187b-cead-420a-86dd-c166b491227e",
+            "work_text": "火の輪をくぐって綱を渡った先に玉乗り場があった",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "a714ca38-c0c1-70b6-80e4-39749a544da6",
+            "username": "キラキライリポーン",
+            "team_name": "キラキライリポーン",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 27,
+            "vote_rate": 0.13,
+            "rank": 23,
+            "vote_breakdown": {
+              "2": 9,
+              "3": 3
+            },
+            "comments": []
+          },
+          {
+            "post_id": "7b00934b-a4b4-49b7-865c-0dab2130d304",
+            "work_text": "手始めに街の子供を攫って、身代金の受け渡し場所にサーカスのテントを指定する",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "87a46a98-1031-70e4-f195-104fe3713eb4",
+            "username": "椎名きょく",
+            "team_name": "椎名きょく",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 18,
+            "vote_rate": 0.09,
+            "rank": 24,
+            "vote_breakdown": {
+              "2": 9
+            },
+            "comments": []
+          }
+        ],
+        "totalPostCount": 24,
+        "totalVoteCount": 211,
+        "resultsAnnouncedDatetime": "2026-10-19T13:00:00.000Z",
+        "voters": [
+          {
+            "user_id": "67b48af8-80a1-70ff-8c9e-12c11057fe57",
+            "username": ".tin弁",
+            "vote_count": 8
+          },
+          {
+            "user_id": "97a43ae8-5061-70d7-c3e6-6a0e2cf88412",
+            "username": "2037",
+            "vote_count": 5
+          },
+          {
+            "user_id": "77b4faa8-7081-70a9-623c-23841edff584",
+            "username": "35",
+            "vote_count": 4
+          },
+          {
+            "user_id": "8724eab8-8081-70bb-c857-c8397b4dcc17",
+            "username": "Haruru",
+            "vote_count": 6
+          },
+          {
+            "user_id": "17b49ac8-c071-707e-b50e-ebe6bb5a5448",
+            "username": "Sierra",
+            "vote_count": 1
+          },
+          {
+            "user_id": "b7f46a78-5031-704f-32c4-8971078ec3a2",
+            "username": "YANCE",
+            "vote_count": 5
+          },
+          {
+            "user_id": "77843aa8-40d1-7079-020e-7125e6136c74",
+            "username": "abcdefg",
+            "vote_count": 3
+          },
+          {
+            "user_id": "47344a48-2001-70b8-8feb-51e9018c9e95",
+            "username": "aruma",
+            "vote_count": 4
+          },
+          {
+            "user_id": "e734fa98-c0d1-7032-58c9-f1ce7be2bdae",
+            "username": "bmo",
+            "vote_count": 4
+          },
+          {
+            "user_id": "97943ab8-80f1-707d-9e17-5283da871978",
+            "username": "chikudenki",
+            "vote_count": 2
+          },
+          {
+            "user_id": "7704fa88-e0e1-7030-1686-ef36739be640",
+            "username": "fm佐賀",
+            "vote_count": 7
+          },
+          {
+            "user_id": "d7d41a28-7011-7042-7e0f-af2764576ce6",
+            "username": "foo",
+            "vote_count": 4
+          },
+          {
+            "user_id": "c7842af8-7041-7063-764c-c155fddc3d52",
+            "username": "gas",
+            "vote_count": 3
+          },
+          {
+            "user_id": "1784fa28-e021-704b-f062-1e35ec8e91a2",
+            "username": "jonnity",
+            "vote_count": 13
+          },
+          {
+            "user_id": "17e47a38-e001-7035-c2f6-c2163caebcd0",
+            "username": "monika",
+            "vote_count": 6
+          },
+          {
+            "user_id": "77c48aa8-d031-7042-6e41-6118d1ddcb14",
+            "username": "obasuma",
+            "vote_count": 4
+          },
+          {
+            "user_id": "d7449ac8-e0d1-708d-e501-2e7c9770b806",
+            "username": "sAwArA",
+            "vote_count": 5
+          },
+          {
+            "user_id": "17441aa8-e0a1-707e-26ea-e193162f7337",
+            "username": "tan5.7゜",
+            "vote_count": 7
+          },
+          {
+            "user_id": "a7d45aa8-e0d1-707b-38be-0d138093da89",
+            "username": "tokkumiai",
+            "vote_count": 8
+          },
+          {
+            "user_id": "c7a46ad8-8071-702d-9697-d4a71f23f1c7",
+            "username": "uq",
+            "vote_count": 5
+          },
+          {
+            "user_id": "e7e45a18-6011-7056-c011-c8b1dc2c57b8",
+            "username": "virus菌",
+            "vote_count": 7
+          },
+          {
+            "user_id": "37441ab8-e001-70d0-3235-356e40714880",
+            "username": "yuppo",
+            "vote_count": 6
+          },
+          {
+            "user_id": "57947a28-1081-7093-038c-a15d177d7270",
+            "username": "あぐくねる",
+            "vote_count": 6
+          },
+          {
+            "user_id": "e754eab8-d091-70a6-e609-32d7ce879aa6",
+            "username": "あの日のニンニ",
+            "vote_count": 11
+          },
+          {
+            "user_id": "a784caa8-40a1-70fd-3143-7e803d8fd97a",
+            "username": "いろいろ",
+            "vote_count": 3
+          },
+          {
+            "user_id": "7794da18-0031-70dc-bec0-f761347c9f49",
+            "username": "うた",
+            "vote_count": 13
+          },
+          {
+            "user_id": "c7b4aa28-e0a1-7071-2c16-64962170c0cf",
+            "username": "うーちゃん＠狼",
+            "vote_count": 8
+          },
+          {
+            "user_id": "f7742a48-6051-70aa-71ad-b7114c49b109",
+            "username": "えすわい",
+            "vote_count": 2
+          },
+          {
+            "user_id": "47841a78-a0f1-70df-a3aa-f1ce47d65407",
+            "username": "えー？",
+            "vote_count": 5
+          },
+          {
+            "user_id": "87141a08-e0b1-708e-3b46-afe3b428dfa4",
+            "username": "おふざけ人生",
+            "vote_count": 5
+          },
+          {
+            "user_id": "a7541ac8-c001-7050-a537-24675dc3237e",
+            "username": "お化けぬこ",
+            "vote_count": 9
+          },
+          {
+            "user_id": "a7040a98-f051-70a0-f188-a9e786e011ec",
+            "username": "お城",
+            "vote_count": 5
+          },
+          {
+            "user_id": "77b4da18-a0d1-70fe-4cd3-fa67a71851e1",
+            "username": "お社保",
+            "vote_count": 6
+          },
+          {
+            "user_id": "3794fa78-5011-7082-40bc-ca1ae6faacb0",
+            "username": "かげよしの昼",
+            "vote_count": 4
+          },
+          {
+            "user_id": "d7a46a88-40b1-70d5-9f44-b8bc5961f743",
+            "username": "かとう",
+            "vote_count": 11
+          },
+          {
+            "user_id": "17a4baa8-40a1-7071-7145-342750359c76",
+            "username": "からまき",
+            "vote_count": 6
+          },
+          {
+            "user_id": "77d49aa8-c051-70a7-03e4-2c939fe12861",
+            "username": "きとくん",
+            "vote_count": 12
+          },
+          {
+            "user_id": "9764daf8-50a1-70d5-e1ce-88fcef124c41",
+            "username": "きまぐれ",
+            "vote_count": 8
+          },
+          {
+            "user_id": "f724ea28-9061-70d4-39ac-5b69756dfc5c",
+            "username": "きりまる",
+            "vote_count": 6
+          },
+          {
+            "user_id": "77b4da68-6091-7012-0b46-cbe726605b4a",
+            "username": "くる",
+            "vote_count": 8
+          },
+          {
+            "user_id": "c7d4da28-d0a1-7046-f049-495557e87f71",
+            "username": "けつめんぴ",
+            "vote_count": 1
+          },
+          {
+            "user_id": "e794ea28-1081-70fb-669c-285a408bf3bd",
+            "username": "げら",
+            "vote_count": 6
+          },
+          {
+            "user_id": "87446a08-20d1-70b7-2264-306c2d622b43",
+            "username": "ここから",
+            "vote_count": 10
+          },
+          {
+            "user_id": "b7348a98-30b1-7094-2faf-a45c7700dcca",
+            "username": "こぶら返り",
+            "vote_count": 7
+          },
+          {
+            "user_id": "87343a18-90a1-70c8-652a-6957d9350f21",
+            "username": "ごみしゅ",
+            "vote_count": 3
+          },
+          {
+            "user_id": "a7344a98-8091-70fc-5334-f40693dba0aa",
+            "username": "さいとむ",
+            "vote_count": 8
+          },
+          {
+            "user_id": "17f47a58-0041-70f7-6a19-04f9d6196591",
+            "username": "さくら",
+            "vote_count": 12
+          },
+          {
+            "user_id": "f7545a68-10a1-7035-a9cc-d5977c7ed148",
+            "username": "さんれ",
+            "vote_count": 5
+          },
+          {
+            "user_id": "f704fa48-3031-7050-0ac1-dfc45e0e6433",
+            "username": "しざりEX",
+            "vote_count": 5
+          },
+          {
+            "user_id": "f754ba48-10a1-70a4-9f06-dc1ad85bdf37",
+            "username": "しゅにく",
+            "vote_count": 2
+          },
+          {
+            "user_id": "e7b49a78-d031-700b-e891-f12453b438a0",
+            "username": "じゃん",
+            "vote_count": 7
+          },
+          {
+            "user_id": "87346a28-9041-7028-3a97-3520a8aed412",
+            "username": "すかいどん",
+            "vote_count": 8
+          },
+          {
+            "user_id": "77f47a18-90d1-7048-8a3a-f24eda90185e",
+            "username": "すでにショーン",
+            "vote_count": 3
+          },
+          {
+            "user_id": "97042a68-d0d1-707a-6134-77e60310b28f",
+            "username": "すぽんじ",
+            "vote_count": 5
+          },
+          {
+            "user_id": "67745af8-00a1-7068-c8ac-71128100fa4c",
+            "username": "ぜっとくん",
+            "vote_count": 7
+          },
+          {
+            "user_id": "8794ba28-2011-70d7-e415-a12224010aca",
+            "username": "たきざき",
+            "vote_count": 6
+          },
+          {
+            "user_id": "c7b4ea68-a0f1-70e8-d9c5-7bbe9e3b1c77",
+            "username": "たこ焼きボンバー",
+            "vote_count": 3
+          },
+          {
+            "user_id": "6794bad8-e011-70e6-efbe-9b70ec67a6e5",
+            "username": "たたかう",
+            "vote_count": 6
+          },
+          {
+            "user_id": "a764ea78-8031-70ae-e183-95f287bf48b1",
+            "username": "たんけだ",
+            "vote_count": 13
+          },
+          {
+            "user_id": "37e41a48-e001-70c9-16b1-4682c6539780",
+            "username": "だだり",
+            "vote_count": 5
+          },
+          {
+            "user_id": "37e4ead8-d041-7007-3d52-e9023aa3e922",
+            "username": "ちゃんこフォンデュ",
+            "vote_count": 9
+          },
+          {
+            "user_id": "2704ba08-a021-706c-a575-080374e22a0d",
+            "username": "ちゅどーん",
+            "vote_count": 4
+          },
+          {
+            "user_id": "e7a44ae8-a061-7027-88c1-90b9c80514db",
+            "username": "ちょくりんちょ",
+            "vote_count": 2
+          },
+          {
+            "user_id": "07644a88-f0b1-70f4-7748-90d476b10b84",
+            "username": "てこもと",
+            "vote_count": 4
+          },
+          {
+            "user_id": "07c4eaa8-6001-7071-1a5a-df8370340c72",
+            "username": "とも",
+            "vote_count": 3
+          },
+          {
+            "user_id": "17e4aac8-80b1-70a3-5a5f-670d0525612e",
+            "username": "なめこんぶ",
+            "vote_count": 5
+          },
+          {
+            "user_id": "1774ba38-4051-70b0-9b4f-af8d1b06be91",
+            "username": "にこごり",
+            "vote_count": 3
+          },
+          {
+            "user_id": "5784fab8-50c1-706c-06a7-5708051f7ebe",
+            "username": "にゅわ",
+            "vote_count": 4
+          },
+          {
+            "user_id": "27540a48-10f1-70e7-8cd8-77e7b0c94cf4",
+            "username": "ねこねずみ",
+            "vote_count": 4
+          },
+          {
+            "user_id": "77f4dab8-3031-7017-9939-d5dd068504e5",
+            "username": "のまぼ",
+            "vote_count": 6
+          },
+          {
+            "user_id": "b744eaa8-90e1-705a-b605-99695950cd07",
+            "username": "はさあかた",
+            "vote_count": 5
+          },
+          {
+            "user_id": "57547ac8-f0b1-70e3-0e3b-613c7bb101cf",
+            "username": "は？",
+            "vote_count": 3
+          },
+          {
+            "user_id": "17e47a18-c091-705c-751c-ffb41ebeee16",
+            "username": "ばたんきゅー",
+            "vote_count": 3
+          },
+          {
+            "user_id": "97c4fae8-0001-703f-9559-4ec14619aefd",
+            "username": "ひなせ率",
+            "vote_count": 4
+          },
+          {
+            "user_id": "3774fa38-4071-7024-f41a-01311ed952a8",
+            "username": "ふじがた",
+            "vote_count": 3
+          },
+          {
+            "user_id": "b714aa28-0091-7060-3e1a-0176641a2dc2",
+            "username": "ふりある",
+            "vote_count": 4
+          },
+          {
+            "user_id": "b7c42ad8-f0e1-709a-681f-38383bc63cd9",
+            "username": "へなちょこ",
+            "vote_count": 3
+          },
+          {
+            "user_id": "b7c46ac8-90b1-7082-f689-e282ddf198e5",
+            "username": "ほにほに",
+            "vote_count": 6
+          },
+          {
+            "user_id": "37c4da78-f071-7078-ec84-e26eb247150a",
+            "username": "ぽよん",
+            "vote_count": 1
+          },
+          {
+            "user_id": "87b41aa8-a031-706b-3520-af5333a43d3d",
+            "username": "まお",
+            "vote_count": 10
+          },
+          {
+            "user_id": "87443a08-80f1-7023-7d1a-fecdc448dc68",
+            "username": "まずい水",
+            "vote_count": 4
+          },
+          {
+            "user_id": "0714fa88-00e1-70e2-795a-8f5f7bab4008",
+            "username": "まぢりけがよごる",
+            "vote_count": 4
+          },
+          {
+            "user_id": "57d4ea28-f0b1-705e-6715-29ef5bf139a8",
+            "username": "まったん冷え性",
+            "vote_count": 13
+          },
+          {
+            "user_id": "d7842af8-9071-7042-30a3-fc47cb1a1337",
+            "username": "みささぎ",
+            "vote_count": 7
+          },
+          {
+            "user_id": "f7948a48-30e1-7042-8d54-f164e8ddda42",
+            "username": "みちる",
+            "vote_count": 4
+          },
+          {
+            "user_id": "07747a58-80b1-7010-5118-5819aefacb7a",
+            "username": "ゆきんこっこ",
+            "vote_count": 10
+          },
+          {
+            "user_id": "6784ba18-c0d1-70a8-3a3e-579bb4b9f2e4",
+            "username": "らあらら",
+            "vote_count": 5
+          },
+          {
+            "user_id": "d7344a68-20e1-70dd-c739-eb89c7fa6185",
+            "username": "らうかった",
+            "vote_count": 2
+          },
+          {
+            "user_id": "a7c4fac8-b001-70e7-7d16-15b9b2048b0a",
+            "username": "アルキスト",
+            "vote_count": 5
+          },
+          {
+            "user_id": "6714ca38-d031-7030-b4b2-c12dee92de45",
+            "username": "アントニオカッキーノ",
+            "vote_count": 10
+          },
+          {
+            "user_id": "27b4da28-2031-70a3-f2d3-788ff4f2089a",
+            "username": "ウラニワ",
+            "vote_count": 4
+          },
+          {
+            "user_id": "37e46a88-90a1-705a-f524-73d910177988",
+            "username": "エディ.M",
+            "vote_count": 11
+          },
+          {
+            "user_id": "67546a08-e091-70c6-6cf0-b7641fa31a0d",
+            "username": "オギガガメン",
+            "vote_count": 3
+          },
+          {
+            "user_id": "07f42a18-c0d1-7024-14d2-c9319218df8e",
+            "username": "オタマ弱者",
+            "vote_count": 2
+          },
+          {
+            "user_id": "d7842a48-10e1-7032-6f99-430b93957c55",
+            "username": "キチガキ",
+            "vote_count": 10
+          },
+          {
+            "user_id": "57549a58-3041-7009-27c8-5bc726c644fc",
+            "username": "クライムクライム",
+            "vote_count": 5
+          },
+          {
+            "user_id": "9744ba58-2041-70e1-ee9c-a3920cb08780",
+            "username": "グッチ裕三の歯",
+            "vote_count": 2
+          },
+          {
+            "user_id": "e7641a68-c081-70b3-2a25-b922cc90b07d",
+            "username": "グラス一杯の砂利",
+            "vote_count": 13
+          },
+          {
+            "user_id": "e7849aa8-2021-702d-544b-f339056861b3",
+            "username": "コリンガムのムチ♪",
+            "vote_count": 14
+          },
+          {
+            "user_id": "27f49a78-e091-7012-b40a-7a056b15623d",
+            "username": "サメVS巨大タコス",
+            "vote_count": 8
+          },
+          {
+            "user_id": "b704eac8-3061-7079-3157-220b237e1a8c",
+            "username": "シイカ",
+            "vote_count": 3
+          },
+          {
+            "user_id": "57842aa8-f091-707d-4f8a-d96487d4a662",
+            "username": "シャンプー剤",
+            "vote_count": 3
+          },
+          {
+            "user_id": "87541ac8-2061-70b6-67be-97884becf7e1",
+            "username": "シルバータント",
+            "vote_count": 3
+          },
+          {
+            "user_id": "97e48ae8-6041-7060-480e-7b4f8632d925",
+            "username": "ジュース",
+            "vote_count": 11
+          },
+          {
+            "user_id": "17142af8-6081-70eb-d09a-0ebf4554dc2d",
+            "username": "ジョイントコルテス",
+            "vote_count": 4
+          },
+          {
+            "user_id": "f7249a68-7051-70ca-302c-d23e131931da",
+            "username": "センタロス",
+            "vote_count": 9
+          },
+          {
+            "user_id": "b7849a18-d001-7016-3f89-2de9900a7065",
+            "username": "ソトノトス",
+            "vote_count": 3
+          },
+          {
+            "user_id": "e7747a18-d011-7009-d364-9af2e18c8c45",
+            "username": "チャンス",
+            "vote_count": 5
+          },
+          {
+            "user_id": "37245ab8-6001-70c7-4ecf-67379261dcfa",
+            "username": "ツイタチ",
+            "vote_count": 5
+          },
+          {
+            "user_id": "d7146a08-e0f1-70ee-fad8-cff6a3e932f7",
+            "username": "ツルミチッ素",
+            "vote_count": 5
+          },
+          {
+            "user_id": "a7148a58-d061-7077-0044-73721e0b9635",
+            "username": "ディーゼルノイ",
+            "vote_count": 9
+          },
+          {
+            "user_id": "57349a48-30c1-70a1-02be-8f9eea3ab090",
+            "username": "ドど見",
+            "vote_count": 6
+          },
+          {
+            "user_id": "37a41a58-5011-708a-e86e-1e2ff8fe7234",
+            "username": "ニョン",
+            "vote_count": 3
+          },
+          {
+            "user_id": "e7a42a88-a011-7097-bc99-f3befd508b43",
+            "username": "ノニバス",
+            "vote_count": 5
+          },
+          {
+            "user_id": "07141a38-b091-70c2-f6c4-e2e63a5deb3d",
+            "username": "ハムムン",
+            "vote_count": 8
+          },
+          {
+            "user_id": "87e41a78-d051-704b-15d5-0b94632e763a",
+            "username": "ハートフル",
+            "vote_count": 3
+          },
+          {
+            "user_id": "e7648ab8-d071-70de-5ffe-959d6191f1cb",
+            "username": "バケツマン",
+            "vote_count": 5
+          },
+          {
+            "user_id": "27847ab8-6081-7021-a3c3-063bc60810b2",
+            "username": "バジルごはん",
+            "vote_count": 13
+          },
+          {
+            "user_id": "5754ba58-c0f1-704e-c2f3-bd35c8d93312",
+            "username": "ピュア氷",
+            "vote_count": 3
+          },
+          {
+            "user_id": "37948a88-2011-702a-8976-51bfeb26440d",
+            "username": "ピヨピヨストライク",
+            "vote_count": 4
+          },
+          {
+            "user_id": "67347af8-c001-7039-c129-ce54b52327f3",
+            "username": "ピンクジャム",
+            "vote_count": 7
+          },
+          {
+            "user_id": "77740aa8-7041-7050-7457-8060a4bcc5b6",
+            "username": "ピンクマン",
+            "vote_count": 5
+          },
+          {
+            "user_id": "c7248ab8-c0d1-7050-c938-294e03226af8",
+            "username": "フェイクファー",
+            "vote_count": 6
+          },
+          {
+            "user_id": "67145ac8-6021-709d-58ed-d5eafc4d9f36",
+            "username": "フルーツスペシャリスト",
+            "vote_count": 4
+          },
+          {
+            "user_id": "97d46a88-60a1-7077-09be-e2c53d5a3a46",
+            "username": "フローラルな香り",
+            "vote_count": 8
+          },
+          {
+            "user_id": "77a4ea68-c0b1-7028-ef62-bb83870014b4",
+            "username": "ヘルシー帝",
+            "vote_count": 3
+          },
+          {
+            "user_id": "b774faf8-a071-70f1-9fc3-d2fe659ab240",
+            "username": "ホーミング",
+            "vote_count": 5
+          },
+          {
+            "user_id": "97846a38-a041-708e-41e5-cc7ce421699c",
+            "username": "ボルシチ",
+            "vote_count": 4
+          },
+          {
+            "user_id": "37e45ac8-2071-7041-fd2b-a3e30976b949",
+            "username": "ポンサ",
+            "vote_count": 10
+          },
+          {
+            "user_id": "b714ca68-20e1-70f4-5b5f-6a3446953a9b",
+            "username": "マイマイル",
+            "vote_count": 8
+          },
+          {
+            "user_id": "e7c46aa8-a0e1-7057-78a6-4abb6a2d2e6a",
+            "username": "ミッツ乾電池",
+            "vote_count": 3
+          },
+          {
+            "user_id": "67e4ca88-8051-70c6-695f-eab5d1e4259a",
+            "username": "ミトコンドリア",
+            "vote_count": 4
+          },
+          {
+            "user_id": "f7043a08-8031-7086-8ea3-46f406287383",
+            "username": "モノカルチャー",
+            "vote_count": 4
+          },
+          {
+            "user_id": "17549a88-00a1-7065-ad37-5c08beb2b80b",
+            "username": "ライト",
+            "vote_count": 3
+          },
+          {
+            "user_id": "87a4eac8-d031-7002-68a2-4634eab98603",
+            "username": "ランダム",
+            "vote_count": 7
+          },
+          {
+            "user_id": "07a4aa48-a041-7088-49a7-e05f583ff816",
+            "username": "レイルレイル",
+            "vote_count": 3
+          },
+          {
+            "user_id": "47648a78-3051-708b-cddb-87bae0e5ae28",
+            "username": "世界",
+            "vote_count": 2
+          },
+          {
+            "user_id": "8704aac8-4041-70c2-9316-bfaf6f6fa7fe",
+            "username": "中川秀恵",
+            "vote_count": 3
+          },
+          {
+            "user_id": "e7146ab8-20f1-7009-4e38-df880108ef0a",
+            "username": "中沢の人",
+            "vote_count": 4
+          },
+          {
+            "user_id": "a7844ac8-90d1-70b8-27c4-2f1bed2324ce",
+            "username": "五言舌禍",
+            "vote_count": 5
+          },
+          {
+            "user_id": "f754dab8-e0f1-7054-cb54-cd54efe05a53",
+            "username": "伊坂",
+            "vote_count": 1
+          },
+          {
+            "user_id": "d7846a68-60b1-70b2-b8f7-8f603f162c97",
+            "username": "住民票",
+            "vote_count": 4
+          },
+          {
+            "user_id": "b714ca98-e091-701f-6ef5-b84147fc90f4",
+            "username": "佐原",
+            "vote_count": 6
+          },
+          {
+            "user_id": "17743a18-5071-70a4-85b2-52b0e1f021f6",
+            "username": "侍 in the sky",
+            "vote_count": 3
+          },
+          {
+            "user_id": "27448ae8-00c1-706a-c5e8-7b5d0b93e01c",
+            "username": "修行修行",
+            "vote_count": 3
+          },
+          {
+            "user_id": "b7544a48-e011-7001-6a45-adee81c57d21",
+            "username": "優死 とれま",
+            "vote_count": 9
+          },
+          {
+            "user_id": "0794ba78-d051-7050-8c6b-efb2ad7ecacc",
+            "username": "入れ歯型乳歯",
+            "vote_count": 5
+          },
+          {
+            "user_id": "e7c46ad8-d011-701c-3c4a-28ae3968b37c",
+            "username": "八平衛",
+            "vote_count": 10
+          },
+          {
+            "user_id": "57648ad8-1071-7009-cfaa-becfea069087",
+            "username": "凰蘭",
+            "vote_count": 3
+          },
+          {
+            "user_id": "7714aad8-f041-709d-f2b7-e6dad6ad3b70",
+            "username": "前転左大臣",
+            "vote_count": 9
+          },
+          {
+            "user_id": "a7e40a38-a031-7024-aaa7-e88f0575179c",
+            "username": "千年越しのプロミス",
+            "vote_count": 15
+          },
+          {
+            "user_id": "47d48a28-50f1-7079-6392-5564220f8c7a",
+            "username": "即興曲",
+            "vote_count": 5
+          },
+          {
+            "user_id": "c7949a08-4021-70f9-c2e2-07d873506707",
+            "username": "取り人間コンテスト",
+            "vote_count": 12
+          },
+          {
+            "user_id": "d7e40a38-a051-704b-6261-7dd3d0bb234a",
+            "username": "吉永",
+            "vote_count": 3
+          },
+          {
+            "user_id": "f7145af8-7061-7068-b30e-7c3fe2aae44f",
+            "username": "吉野家作造",
+            "vote_count": 3
+          },
+          {
+            "user_id": "b7441a48-70b1-70ee-cb9f-8f7253fea8bf",
+            "username": "否定から入るオンザビーチ",
+            "vote_count": 7
+          },
+          {
+            "user_id": "c7642a28-f001-7024-e77d-66d3b04f4c1a",
+            "username": "四つ葉の黒婆さん",
+            "vote_count": 8
+          },
+          {
+            "user_id": "b7b49a08-e041-7070-d935-a0fcb3851ea7",
+            "username": "坂本",
+            "vote_count": 3
+          },
+          {
+            "user_id": "27740a98-10c1-7097-51d8-75989ca4faee",
+            "username": "坊っちゃん",
+            "vote_count": 6
+          },
+          {
+            "user_id": "3794fa38-b0e1-7003-744d-9d8651ac5b14",
+            "username": "夏のワルプルギス",
+            "vote_count": 2
+          },
+          {
+            "user_id": "17c40a18-8091-7029-c5f4-6d346509ac83",
+            "username": "夢雅一片",
+            "vote_count": 12
+          },
+          {
+            "user_id": "0794dab8-10c1-7060-d82a-def018b349e1",
+            "username": "大体いつも眠い人",
+            "vote_count": 6
+          },
+          {
+            "user_id": "07d40ad8-c0e1-70c9-1e49-7168f0cdbd91",
+            "username": "大型ケミカル",
+            "vote_count": 3
+          },
+          {
+            "user_id": "47c4fa68-b0a1-7057-ae4a-4e6ade665448",
+            "username": "大野",
+            "vote_count": 6
+          },
+          {
+            "user_id": "67d4bae8-40d1-7046-56b3-1e3519bdfb44",
+            "username": "安藤龍",
+            "vote_count": 4
+          },
+          {
+            "user_id": "2714aa98-2071-70bb-7e72-9b136a1e6999",
+            "username": "尊敬ラーメン屋",
+            "vote_count": 6
+          },
+          {
+            "user_id": "4784fab8-10b1-7008-1a48-3990f9d514b6",
+            "username": "小金沢",
+            "vote_count": 4
+          },
+          {
+            "user_id": "b764ba08-e0f1-709f-9911-d3c0f2ea66e0",
+            "username": "山本宏昌",
+            "vote_count": 3
+          },
+          {
+            "user_id": "27e46aa8-1031-70a9-2832-14cb52178734",
+            "username": "後藤逸材",
+            "vote_count": 14
+          },
+          {
+            "user_id": "c7a45a58-d081-7032-944f-08ca147d1502",
+            "username": "微の歯",
+            "vote_count": 5
+          },
+          {
+            "user_id": "a744ca68-6091-70c1-4219-ff9bc992271d",
+            "username": "懐かしむ会",
+            "vote_count": 3
+          },
+          {
+            "user_id": "07d43a68-8011-7085-5bb7-a764bfaa21bc",
+            "username": "振袖",
+            "vote_count": 11
+          },
+          {
+            "user_id": "f774ca48-30f1-7057-9fb0-82a131da734e",
+            "username": "放尿魔",
+            "vote_count": 7
+          },
+          {
+            "user_id": "97841a88-1031-70f1-54e1-bf93ec8b1e19",
+            "username": "旋風客",
+            "vote_count": 2
+          },
+          {
+            "user_id": "a7949ad8-4081-704b-64cd-5a2f3f0e7551",
+            "username": "昼崎",
+            "vote_count": 6
+          },
+          {
+            "user_id": "7734aad8-70c1-7072-282b-8a81ca75e771",
+            "username": "時間",
+            "vote_count": 2
+          },
+          {
+            "user_id": "07e48aa8-1071-701b-c366-1b61048e7106",
+            "username": "木根島",
+            "vote_count": 5
+          },
+          {
+            "user_id": "07d4fa88-d071-7082-8148-9e0eecc61ac6",
+            "username": "木製の雪",
+            "vote_count": 3
+          },
+          {
+            "user_id": "27f43a78-7001-70c8-9090-3c7e79591f7d",
+            "username": "林原よしき",
+            "vote_count": 3
+          },
+          {
+            "user_id": "17d48a68-b041-7056-f972-340110cfaae2",
+            "username": "根岸",
+            "vote_count": 7
+          },
+          {
+            "user_id": "a7346a28-a011-70df-8eb9-26121b33e623",
+            "username": "武山",
+            "vote_count": 5
+          },
+          {
+            "user_id": "c7144a18-f081-7034-84e3-3f9fb031cf99",
+            "username": "気さくなウサギ",
+            "vote_count": 6
+          },
+          {
+            "user_id": "77245ae8-00a1-709b-1888-cf6cad9a7cf5",
+            "username": "気球",
+            "vote_count": 4
+          },
+          {
+            "user_id": "b714aa78-a001-70a6-e7ee-a1821462ed12",
+            "username": "池谷",
+            "vote_count": 7
+          },
+          {
+            "user_id": "87846a78-40f1-70aa-9c5d-83413a2f72d8",
+            "username": "海老預け",
+            "vote_count": 7
+          },
+          {
+            "user_id": "67644ae8-a031-70ce-9e3b-5e54c1aa0701",
+            "username": "瀧山グングニル",
+            "vote_count": 8
+          },
+          {
+            "user_id": "57c4fa58-8091-7098-b9f2-cdfadbf7d89d",
+            "username": "灯油の日",
+            "vote_count": 12
+          },
+          {
+            "user_id": "67742a68-4021-7032-855a-0cacb55c57d9",
+            "username": "灰色こたつ",
+            "vote_count": 5
+          },
+          {
+            "user_id": "97f4ead8-3001-70ad-0294-00fe575f22b8",
+            "username": "無敵税",
+            "vote_count": 11
+          },
+          {
+            "user_id": "d7a4aa88-f031-70ca-969f-ac2142088df6",
+            "username": "煮込みVUITTON",
+            "vote_count": 5
+          },
+          {
+            "user_id": "5704cad8-e071-7061-c6ab-23791f36b3d0",
+            "username": "爽",
+            "vote_count": 3
+          },
+          {
+            "user_id": "c7147ad8-7071-70ad-be0b-816bc02ad523",
+            "username": "犬クジラ",
+            "vote_count": 2
+          },
+          {
+            "user_id": "0734eaf8-c0e1-706b-47a7-0a1e6e710ac1",
+            "username": "生存権",
+            "vote_count": 4
+          },
+          {
+            "user_id": "b7e4aac8-d0c1-70cb-14c2-434a311369d3",
+            "username": "神谷テクニカ",
+            "vote_count": 2
+          },
+          {
+            "user_id": "67744ad8-3041-7059-87cb-b9852ca01e71",
+            "username": "空飛ぶタイヤ",
+            "vote_count": 10
+          },
+          {
+            "user_id": "87044a48-b071-701b-4be0-51b09a2ed0bc",
+            "username": "笑うモールス信号",
+            "vote_count": 4
+          },
+          {
+            "user_id": "77a47a08-1021-70c3-4eb8-41ba6ce0fa35",
+            "username": "笑う古代魚",
+            "vote_count": 4
+          },
+          {
+            "user_id": "d7b4ba98-d0f1-703f-7f08-bd686d66f139",
+            "username": "縦割り",
+            "vote_count": 7
+          },
+          {
+            "user_id": "47b47ac8-5061-701e-a42c-46542d454ae0",
+            "username": "能動的三半規管",
+            "vote_count": 11
+          },
+          {
+            "user_id": "77548a78-5011-7032-e956-fa9e7dc547c4",
+            "username": "臭い紅茶",
+            "vote_count": 7
+          },
+          {
+            "user_id": "8774ba08-70f1-70aa-a1cf-7595ccae0377",
+            "username": "荒ぶる波平",
+            "vote_count": 9
+          },
+          {
+            "user_id": "07e41a38-5011-709e-7c9e-7099df795c2d",
+            "username": "虎猫",
+            "vote_count": 4
+          },
+          {
+            "user_id": "6704ea68-3031-7077-9372-0ba3145ed3b5",
+            "username": "蜜柑鳥",
+            "vote_count": 8
+          },
+          {
+            "user_id": "07642a38-30c1-7039-ca69-c7b48d978f48",
+            "username": "親善小僧",
+            "vote_count": 5
+          },
+          {
+            "user_id": "4764da98-5091-709f-9feb-dc50d49427fd",
+            "username": "言語遊戯",
+            "vote_count": 13
+          },
+          {
+            "user_id": "b7a4ea68-5001-70e8-ca68-af015c49fbf8",
+            "username": "警邏",
+            "vote_count": 4
+          },
+          {
+            "user_id": "47c44a18-7021-7048-d3ba-85a92433a50e",
+            "username": "贖罪",
+            "vote_count": 1
+          },
+          {
+            "user_id": "0764ca88-20f1-7091-98b1-9bbe09755c29",
+            "username": "進展シティ",
+            "vote_count": 4
+          },
+          {
+            "user_id": "67646a78-50c1-70fb-370c-3f9b3d05ce0c",
+            "username": "遠くを見ている",
+            "vote_count": 2
+          },
+          {
+            "user_id": "57e46a98-b0f1-70e8-5309-e6cfc0ff7fc6",
+            "username": "金魚のムニエル",
+            "vote_count": 10
+          },
+          {
+            "user_id": "e7245a68-2061-706b-3088-7c9ca3909898",
+            "username": "＋２０円",
+            "vote_count": 1
+          }
+        ],
+        "isResultsAnnounced": false
+      }
     }
-  ]
+  },
+  "80b57476-d331-4d3f-9ff7-9eb28f0039de": {
+    "status": 200,
+    "data": {
+      "success": true,
+      "data": {
+        "theme": {
+          "id": "80b57476-d331-4d3f-9ff7-9eb28f0039de",
+          "match_id": "0ef04231-168d-4576-896b-2fb97f51caf2",
+          "match_name": "2回戦",
+          "group_name": "グループA",
+          "theme_status": "results_announced",
+          "theme_type": "text",
+          "theme_title": "グループA",
+          "theme_text": "「どう見てもコイツが犯人だろ」という被告人を担当することになった弱小弁護士がとった奇策",
+          "blank_count": null,
+          "individual_post_count": 1,
+          "team_post_count": 1,
+          "auto_status_switch_flag": true,
+          "posting_start_datetime": null,
+          "posting_deadline_datetime": "2026-10-26T13:00:00.000Z",
+          "posting_end_datetime": "2026-10-26T13:00:00.000Z",
+          "voting_end_datetime": "2026-11-02T13:00:00.000Z",
+          "progress_display_flag": true,
+          "vote_format": "classic",
+          "poster_restriction_type": "group",
+          "voter_restriction_type": "sync_poster",
+          "work_animation_flag": false,
+          "theme_image_url": "",
+          "youtube_url": "",
+          "post_type": "text",
+          "post_font_size": 22,
+          "theme_provider": "",
+          "admin_message": "",
+          "vote_stage_points": [
+            4,
+            3,
+            2,
+            0
+          ],
+          "battle_format": "individual",
+          "match_count": 1,
+          "advancement_team_count": 9,
+          "match_display_order": 6,
+          "event_id": "hangiri7",
+          "ranking_chart_id": "6b779bc0-e639-497b-a4cc-067cfd514dda"
+        },
+        "teams": [
+          {
+            "team_id": "396372f3-97b9-495e-a9db-7d09d9ac9248",
+            "team_name": "かげよしの昼",
+            "members": [
+              {
+                "user_id": "3794fa78-5011-7082-40bc-ca1ae6faacb0",
+                "username": "かげよしの昼",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "3794fa78-5011-7082-40bc-ca1ae6faacb0",
+              "username": "かげよしの昼"
+            }
+          },
+          {
+            "team_id": "c96cb104-5ce5-4df2-9b1d-865d9f65f830",
+            "team_name": "からまき",
+            "members": [
+              {
+                "user_id": "17a4baa8-40a1-7071-7145-342750359c76",
+                "username": "からまき",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "17a4baa8-40a1-7071-7145-342750359c76",
+              "username": "からまき"
+            }
+          },
+          {
+            "team_id": "11138e58-3b0c-4f6d-8e3e-7abcd932d7ee",
+            "team_name": "きまぐれ",
+            "members": [
+              {
+                "user_id": "9764daf8-50a1-70d5-e1ce-88fcef124c41",
+                "username": "きまぐれ",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "9764daf8-50a1-70d5-e1ce-88fcef124c41",
+              "username": "きまぐれ"
+            }
+          },
+          {
+            "team_id": "0023307f-e170-43c2-b9d9-c45726a6089e",
+            "team_name": "ちょくりんちょ",
+            "members": [
+              {
+                "user_id": "e7a44ae8-a061-7027-88c1-90b9c80514db",
+                "username": "ちょくりんちょ",
+                "has_posted": false,
+                "post_count": 0
+              }
+            ],
+            "team_post": null
+          },
+          {
+            "team_id": "0177b570-6ee6-4c9a-9a31-167a9395235b",
+            "team_name": "ふりある",
+            "members": [
+              {
+                "user_id": "b714aa28-0091-7060-3e1a-0176641a2dc2",
+                "username": "ふりある",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "b714aa28-0091-7060-3e1a-0176641a2dc2",
+              "username": "ふりある"
+            }
+          },
+          {
+            "team_id": "022f2598-0983-4521-978a-dd2450d4e7ec",
+            "team_name": "へなちょこ",
+            "members": [
+              {
+                "user_id": "b7c42ad8-f0e1-709a-681f-38383bc63cd9",
+                "username": "へなちょこ",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "b7c42ad8-f0e1-709a-681f-38383bc63cd9",
+              "username": "へなちょこ"
+            }
+          },
+          {
+            "team_id": "9f13043e-03f7-4142-8ac3-d3e37aaaf305",
+            "team_name": "らうかった",
+            "members": [
+              {
+                "user_id": "d7344a68-20e1-70dd-c739-eb89c7fa6185",
+                "username": "らうかった",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "d7344a68-20e1-70dd-c739-eb89c7fa6185",
+              "username": "らうかった"
+            }
+          },
+          {
+            "team_id": "d8edc692-04ec-4180-9910-90e599d2efbc",
+            "team_name": "ヘルシー帝",
+            "members": [
+              {
+                "user_id": "77a4ea68-c0b1-7028-ef62-bb83870014b4",
+                "username": "ヘルシー帝",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "77a4ea68-c0b1-7028-ef62-bb83870014b4",
+              "username": "ヘルシー帝"
+            }
+          },
+          {
+            "team_id": "cff07df2-56ab-4507-af0f-b2bf4d92c86f",
+            "team_name": "レイルレイル",
+            "members": [
+              {
+                "user_id": "07a4aa48-a041-7088-49a7-e05f583ff816",
+                "username": "レイルレイル",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "07a4aa48-a041-7088-49a7-e05f583ff816",
+              "username": "レイルレイル"
+            }
+          },
+          {
+            "team_id": "ff9a3466-f888-428e-8727-2c436b991ff0",
+            "team_name": "即興曲",
+            "members": [
+              {
+                "user_id": "47d48a28-50f1-7079-6392-5564220f8c7a",
+                "username": "即興曲",
+                "has_posted": false,
+                "post_count": 0
+              }
+            ],
+            "team_post": null
+          },
+          {
+            "team_id": "ce3e0077-a7b5-48c8-ac6a-03ec3ab75dc4",
+            "team_name": "取り人間コンテスト",
+            "members": [
+              {
+                "user_id": "c7949a08-4021-70f9-c2e2-07d873506707",
+                "username": "取り人間コンテスト",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "c7949a08-4021-70f9-c2e2-07d873506707",
+              "username": "取り人間コンテスト"
+            }
+          },
+          {
+            "team_id": "1f432391-f583-4752-a2e3-a0869a1de20c",
+            "team_name": "大型ケミカル",
+            "members": [
+              {
+                "user_id": "07d40ad8-c0e1-70c9-1e49-7168f0cdbd91",
+                "username": "大型ケミカル",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "07d40ad8-c0e1-70c9-1e49-7168f0cdbd91",
+              "username": "大型ケミカル"
+            }
+          },
+          {
+            "team_id": "2654aa06-1cca-41ff-ace6-ee0012f088e6",
+            "team_name": "尊敬ラーメン屋",
+            "members": [
+              {
+                "user_id": "2714aa98-2071-70bb-7e72-9b136a1e6999",
+                "username": "尊敬ラーメン屋",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "2714aa98-2071-70bb-7e72-9b136a1e6999",
+              "username": "尊敬ラーメン屋"
+            }
+          },
+          {
+            "team_id": "63bc6af1-c154-4798-9eba-5212698be02d",
+            "team_name": "山本宏昌",
+            "members": [
+              {
+                "user_id": "b764ba08-e0f1-709f-9911-d3c0f2ea66e0",
+                "username": "山本宏昌",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "b764ba08-e0f1-709f-9911-d3c0f2ea66e0",
+              "username": "山本宏昌"
+            }
+          },
+          {
+            "team_id": "f243558a-0dae-4a56-86f0-cfba610f604e",
+            "team_name": "毎秒砕く",
+            "members": [
+              {
+                "user_id": "f7946a98-40d1-7099-9c79-d62ca7815733",
+                "username": "毎秒砕く",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "f7946a98-40d1-7099-9c79-d62ca7815733",
+              "username": "毎秒砕く"
+            }
+          },
+          {
+            "team_id": "7a91bd4a-866b-4197-a565-058dd76fa8a8",
+            "team_name": "永栄",
+            "members": [
+              {
+                "user_id": "b7a4ca08-7051-703e-be9d-a95bc1ad63a4",
+                "username": "永栄",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "b7a4ca08-7051-703e-be9d-a95bc1ad63a4",
+              "username": "永栄"
+            }
+          },
+          {
+            "team_id": "7d2ae598-1553-4ed6-8cea-e6b27e8f536d",
+            "team_name": "無敵税",
+            "members": [
+              {
+                "user_id": "97f4ead8-3001-70ad-0294-00fe575f22b8",
+                "username": "無敵税",
+                "has_posted": true,
+                "post_count": 1
+              }
+            ],
+            "team_post": {
+              "user_id": "97f4ead8-3001-70ad-0294-00fe575f22b8",
+              "username": "無敵税"
+            }
+          }
+        ],
+        "posters": [
+          {
+            "user_id": "3794fa78-5011-7082-40bc-ca1ae6faacb0",
+            "username": "かげよしの昼",
+            "post_count": 1
+          },
+          {
+            "user_id": "17a4baa8-40a1-7071-7145-342750359c76",
+            "username": "からまき",
+            "post_count": 1
+          },
+          {
+            "user_id": "9764daf8-50a1-70d5-e1ce-88fcef124c41",
+            "username": "きまぐれ",
+            "post_count": 1
+          },
+          {
+            "user_id": "b714aa28-0091-7060-3e1a-0176641a2dc2",
+            "username": "ふりある",
+            "post_count": 1
+          },
+          {
+            "user_id": "b7c42ad8-f0e1-709a-681f-38383bc63cd9",
+            "username": "へなちょこ",
+            "post_count": 1
+          },
+          {
+            "user_id": "d7344a68-20e1-70dd-c739-eb89c7fa6185",
+            "username": "らうかった",
+            "post_count": 1
+          },
+          {
+            "user_id": "77a4ea68-c0b1-7028-ef62-bb83870014b4",
+            "username": "ヘルシー帝",
+            "post_count": 1
+          },
+          {
+            "user_id": "07a4aa48-a041-7088-49a7-e05f583ff816",
+            "username": "レイルレイル",
+            "post_count": 1
+          },
+          {
+            "user_id": "c7949a08-4021-70f9-c2e2-07d873506707",
+            "username": "取り人間コンテスト",
+            "post_count": 1
+          },
+          {
+            "user_id": "07d40ad8-c0e1-70c9-1e49-7168f0cdbd91",
+            "username": "大型ケミカル",
+            "post_count": 1
+          },
+          {
+            "user_id": "2714aa98-2071-70bb-7e72-9b136a1e6999",
+            "username": "尊敬ラーメン屋",
+            "post_count": 1
+          },
+          {
+            "user_id": "b764ba08-e0f1-709f-9911-d3c0f2ea66e0",
+            "username": "山本宏昌",
+            "post_count": 1
+          },
+          {
+            "user_id": "f7946a98-40d1-7099-9c79-d62ca7815733",
+            "username": "毎秒砕く",
+            "post_count": 1
+          },
+          {
+            "user_id": "b7a4ca08-7051-703e-be9d-a95bc1ad63a4",
+            "username": "永栄",
+            "post_count": 1
+          },
+          {
+            "user_id": "97f4ead8-3001-70ad-0294-00fe575f22b8",
+            "username": "無敵税",
+            "post_count": 1
+          }
+        ],
+        "userPosts": [],
+        "userPostCount": 0,
+        "canPost": true,
+        "cannotPostReason": null,
+        "matchThemes": [
+          {
+            "id": "80b57476-d331-4d3f-9ff7-9eb28f0039de",
+            "display_order": 1
+          },
+          {
+            "id": "94913be9-4f40-4a33-8757-c01a0b859aaa",
+            "display_order": 2
+          },
+          {
+            "id": "2a3048d9-78f3-40fd-8c11-2a31a7841d14",
+            "display_order": 3
+          },
+          {
+            "id": "61780c03-a2b0-4526-b448-1409fe5aaca5",
+            "display_order": 4
+          },
+          {
+            "id": "588895d5-2a72-4cf7-bc0a-a0602611d88d",
+            "display_order": 5
+          },
+          {
+            "id": "93f161b4-d878-474c-9ab8-48903f03ec1a",
+            "display_order": 6
+          },
+          {
+            "id": "c8d55057-4e0d-4319-be07-9755d0c01f54",
+            "display_order": 7
+          },
+          {
+            "id": "238ab214-704c-4792-b715-d77df453eb6f",
+            "display_order": 8
+          }
+        ],
+        "finalResults": [
+          {
+            "post_id": "070ee07c-1c52-45f8-b595-06157fb05e7d",
+            "work_text": "動物の声でも特に日本語と似たものを集めた",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "d7344a68-20e1-70dd-c739-eb89c7fa6185",
+            "username": "らうかった",
+            "team_name": "らうかった",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 198,
+            "vote_rate": 1.22,
+            "rank": 1,
+            "vote_breakdown": {
+              "2": 58,
+              "3": 22,
+              "4": 4
+            },
+            "comments": []
+          },
+          {
+            "post_id": "4e392692-ac23-48ff-a445-c28dcab548da",
+            "work_text": "小窓から喋らせることでお姫様に見せる",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "f7946a98-40d1-7099-9c79-d62ca7815733",
+            "username": "毎秒砕く",
+            "team_name": "毎秒砕く",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 162,
+            "vote_rate": 1,
+            "rank": 2,
+            "vote_breakdown": {
+              "2": 30,
+              "3": 22,
+              "4": 9
+            },
+            "comments": []
+          },
+          {
+            "post_id": "6242c2be-a17e-45ef-8d00-3548ddde5133",
+            "work_text": "宇宙飛行士の格好で普通の事を言ってる",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "b7c42ad8-f0e1-709a-681f-38383bc63cd9",
+            "username": "へなちょこ",
+            "team_name": "へなちょこ",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 159,
+            "vote_rate": 0.98,
+            "rank": 3,
+            "vote_breakdown": {
+              "2": 50,
+              "3": 17,
+              "4": 2
+            },
+            "comments": []
+          },
+          {
+            "post_id": "20d51a74-9c0f-40a3-99e3-296a2498ae04",
+            "work_text": "この人は袋を顔に被せても寝ない人ですと言った",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "2714aa98-2071-70bb-7e72-9b136a1e6999",
+            "username": "尊敬ラーメン屋",
+            "team_name": "尊敬ラーメン屋",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 145,
+            "vote_rate": 0.9,
+            "rank": 4,
+            "vote_breakdown": {
+              "2": 50,
+              "3": 15
+            },
+            "comments": []
+          },
+          {
+            "post_id": "003811f2-bb8c-4583-806a-3b650e70dfda",
+            "work_text": "勝手に流してる落語を遮るように喋る",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "97f4ead8-3001-70ad-0294-00fe575f22b8",
+            "username": "無敵税",
+            "team_name": "無敵税",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 124,
+            "vote_rate": 0.77,
+            "rank": 5,
+            "vote_breakdown": {
+              "2": 36,
+              "3": 16,
+              "4": 1
+            },
+            "comments": []
+          },
+          {
+            "post_id": "cd3d019a-602a-4acb-8517-f0a304bd1b3d",
+            "work_text": "写真だとこんな端に、という話から始める",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "9764daf8-50a1-70d5-e1ce-88fcef124c41",
+            "username": "きまぐれ",
+            "team_name": "きまぐれ",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 120,
+            "vote_rate": 0.74,
+            "rank": 6,
+            "vote_breakdown": {
+              "2": 37,
+              "3": 10,
+              "4": 4
+            },
+            "comments": []
+          },
+          {
+            "post_id": "d04f5ed4-b814-444f-b7ac-402df9d514c6",
+            "work_text": "宝箱から資料を探して、そのまま箱に飲み込まれる",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "17a4baa8-40a1-7071-7145-342750359c76",
+            "username": "からまき",
+            "team_name": "からまき",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 97,
+            "vote_rate": 0.6,
+            "rank": 7,
+            "vote_breakdown": {
+              "2": 24,
+              "3": 11,
+              "4": 4
+            },
+            "comments": []
+          },
+          {
+            "post_id": "5aa543bf-8800-4d53-8fa3-fb29db89754f",
+            "work_text": "「こいつは人として発明だ！」とレーザーポインターを額に当てる",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "07a4aa48-a041-7088-49a7-e05f583ff816",
+            "username": "レイルレイル",
+            "team_name": "レイルレイル",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 85,
+            "vote_rate": 0.52,
+            "rank": 8,
+            "vote_breakdown": {
+              "2": 25,
+              "3": 9,
+              "4": 2
+            },
+            "comments": []
+          },
+          {
+            "post_id": "dbd62068-7824-409c-935d-16bd47ef3821",
+            "work_text": "ペンを分解した時に出てきたお札に折り目が無い",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "b764ba08-e0f1-709f-9911-d3c0f2ea66e0",
+            "username": "山本宏昌",
+            "team_name": "山本宏昌",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 81,
+            "vote_rate": 0.5,
+            "rank": 9,
+            "vote_breakdown": {
+              "2": 28,
+              "3": 7,
+              "4": 1
+            },
+            "comments": []
+          },
+          {
+            "post_id": "5a519554-d02e-452e-9cee-ee5471df0f1d",
+            "work_text": "音楽を流してる間に服を買えるだけ買う",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "b714aa28-0091-7060-3e1a-0176641a2dc2",
+            "username": "ふりある",
+            "team_name": "ふりある",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 75,
+            "vote_rate": 0.46,
+            "rank": 10,
+            "vote_breakdown": {
+              "2": 25,
+              "3": 7,
+              "4": 1
+            },
+            "comments": []
+          },
+          {
+            "post_id": "02acd1c3-a2c9-425d-8f29-c9210b7acb68",
+            "work_text": "被告人のイヤホンを解体したら羽虫が出てくる",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "b7a4ca08-7051-703e-be9d-a95bc1ad63a4",
+            "username": "永栄",
+            "team_name": "永栄",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 66,
+            "vote_rate": 0.41,
+            "rank": 11,
+            "vote_breakdown": {
+              "2": 25,
+              "3": 4,
+              "4": 1
+            },
+            "comments": []
+          },
+          {
+            "post_id": "7fe580a2-0172-45c8-a1a0-36cc5597b757",
+            "work_text": "襟を払って落ちた砂が灰皿に収まる",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "3794fa78-5011-7082-40bc-ca1ae6faacb0",
+            "username": "かげよしの昼",
+            "team_name": "かげよしの昼",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 61,
+            "vote_rate": 0.38,
+            "rank": 12,
+            "vote_breakdown": {
+              "2": 23,
+              "3": 5
+            },
+            "comments": []
+          },
+          {
+            "post_id": "f931b99f-2e5b-4591-b50b-327d1df680df",
+            "work_text": "「勝ちたいんか？」と被告人に問う",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "c7949a08-4021-70f9-c2e2-07d873506707",
+            "username": "取り人間コンテスト",
+            "team_name": "取り人間コンテスト",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 40,
+            "vote_rate": 0.25,
+            "rank": 13,
+            "vote_breakdown": {
+              "2": 15,
+              "3": 2,
+              "4": 1
+            },
+            "comments": []
+          },
+          {
+            "post_id": "ae604156-e2e5-4ddf-9a70-b770d9e6970d",
+            "work_text": "絶縁してる友達が説教をした後、和解させる",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "07d40ad8-c0e1-70c9-1e49-7168f0cdbd91",
+            "username": "大型ケミカル",
+            "team_name": "大型ケミカル",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 31,
+            "vote_rate": 0.19,
+            "rank": 14,
+            "vote_breakdown": {
+              "2": 14,
+              "3": 1
+            },
+            "comments": []
+          },
+          {
+            "post_id": "d974d3ae-d313-4a1a-afa5-4d306a843ea1",
+            "work_text": "有名になる方法という有料の記事を販売した",
+            "blank_answer_1": null,
+            "blank_answer_2": null,
+            "blank_answer_3": null,
+            "font_size": 2,
+            "text_align": "left",
+            "user_id": "77a4ea68-c0b1-7028-ef62-bb83870014b4",
+            "username": "ヘルシー帝",
+            "team_name": "ヘルシー帝",
+            "image_url": null,
+            "youtube_url": null,
+            "total_score": 30,
+            "vote_rate": 0.19,
+            "rank": 15,
+            "vote_breakdown": {
+              "2": 10,
+              "3": 2,
+              "4": 1
+            },
+            "comments": []
+          }
+        ],
+        "totalPostCount": 15,
+        "totalVoteCount": 162,
+        "resultsAnnouncedDatetime": "2026-11-02T13:00:00.000Z",
+        "voters": [
+          {
+            "user_id": "67b48af8-80a1-70ff-8c9e-12c11057fe57",
+            "username": ".tin弁",
+            "vote_count": 5
+          },
+          {
+            "user_id": "d7343a88-d0b1-7046-1fe0-17934ddc45a6",
+            "username": "2個",
+            "vote_count": 2
+          },
+          {
+            "user_id": "77b4faa8-7081-70a9-623c-23841edff584",
+            "username": "35",
+            "vote_count": 3
+          },
+          {
+            "user_id": "97b40a98-e0c1-705e-1763-523f0904988f",
+            "username": "723",
+            "vote_count": 5
+          },
+          {
+            "user_id": "8724eab8-8081-70bb-c857-c8397b4dcc17",
+            "username": "Haruru",
+            "vote_count": 3
+          },
+          {
+            "user_id": "37c40ac8-c001-7082-ba57-0ac960b3e445",
+            "username": "IkorihaYimiran",
+            "vote_count": 14
+          },
+          {
+            "user_id": "b7f46a78-5031-704f-32c4-8971078ec3a2",
+            "username": "YANCE",
+            "vote_count": 2
+          },
+          {
+            "user_id": "77843aa8-40d1-7079-020e-7125e6136c74",
+            "username": "abcdefg",
+            "vote_count": 3
+          },
+          {
+            "user_id": "47344a48-2001-70b8-8feb-51e9018c9e95",
+            "username": "aruma",
+            "vote_count": 4
+          },
+          {
+            "user_id": "e734fa98-c0d1-7032-58c9-f1ce7be2bdae",
+            "username": "bmo",
+            "vote_count": 3
+          },
+          {
+            "user_id": "d7d41a28-7011-7042-7e0f-af2764576ce6",
+            "username": "foo",
+            "vote_count": 3
+          },
+          {
+            "user_id": "c7842af8-7041-7063-764c-c155fddc3d52",
+            "username": "gas",
+            "vote_count": 4
+          },
+          {
+            "user_id": "1784fa28-e021-704b-f062-1e35ec8e91a2",
+            "username": "jonnity",
+            "vote_count": 8
+          },
+          {
+            "user_id": "17e47a38-e001-7035-c2f6-c2163caebcd0",
+            "username": "monika",
+            "vote_count": 4
+          },
+          {
+            "user_id": "77c48aa8-d031-7042-6e41-6118d1ddcb14",
+            "username": "obasuma",
+            "vote_count": 2
+          },
+          {
+            "user_id": "c7a46ad8-8071-702d-9697-d4a71f23f1c7",
+            "username": "uq",
+            "vote_count": 4
+          },
+          {
+            "user_id": "e7e45a18-6011-7056-c011-c8b1dc2c57b8",
+            "username": "virus菌",
+            "vote_count": 6
+          },
+          {
+            "user_id": "57947a28-1081-7093-038c-a15d177d7270",
+            "username": "あぐくねる",
+            "vote_count": 5
+          },
+          {
+            "user_id": "6714baa8-4071-70ba-448e-1e83678bf725",
+            "username": "あとひとつ流星群",
+            "vote_count": 4
+          },
+          {
+            "user_id": "e754eab8-d091-70a6-e609-32d7ce879aa6",
+            "username": "あの日のニンニ",
+            "vote_count": 4
+          },
+          {
+            "user_id": "a784caa8-40a1-70fd-3143-7e803d8fd97a",
+            "username": "いろいろ",
+            "vote_count": 3
+          },
+          {
+            "user_id": "7794da18-0031-70dc-bec0-f761347c9f49",
+            "username": "うた",
+            "vote_count": 8
+          },
+          {
+            "user_id": "c7b4aa28-e0a1-7071-2c16-64962170c0cf",
+            "username": "うーちゃん＠狼",
+            "vote_count": 6
+          },
+          {
+            "user_id": "87141a08-e0b1-708e-3b46-afe3b428dfa4",
+            "username": "おふざけ人生",
+            "vote_count": 4
+          },
+          {
+            "user_id": "a7541ac8-c001-7050-a537-24675dc3237e",
+            "username": "お化けぬこ",
+            "vote_count": 5
+          },
+          {
+            "user_id": "a7040a98-f051-70a0-f188-a9e786e011ec",
+            "username": "お城",
+            "vote_count": 4
+          },
+          {
+            "user_id": "3774da28-e031-700b-d713-e38d09dcd6ed",
+            "username": "かごめ",
+            "vote_count": 8
+          },
+          {
+            "user_id": "f7148af8-9051-7020-3047-75855399e8e8",
+            "username": "かるろす",
+            "vote_count": 6
+          },
+          {
+            "user_id": "77d49aa8-c051-70a7-03e4-2c939fe12861",
+            "username": "きとくん",
+            "vote_count": 3
+          },
+          {
+            "user_id": "f724ea28-9061-70d4-39ac-5b69756dfc5c",
+            "username": "きりまる",
+            "vote_count": 3
+          },
+          {
+            "user_id": "77b4da68-6091-7012-0b46-cbe726605b4a",
+            "username": "くる",
+            "vote_count": 2
+          },
+          {
+            "user_id": "c7d4da28-d0a1-7046-f049-495557e87f71",
+            "username": "けつめんぴ",
+            "vote_count": 2
+          },
+          {
+            "user_id": "87446a08-20d1-70b7-2264-306c2d622b43",
+            "username": "ここから",
+            "vote_count": 3
+          },
+          {
+            "user_id": "b7348a98-30b1-7094-2faf-a45c7700dcca",
+            "username": "こぶら返り",
+            "vote_count": 4
+          },
+          {
+            "user_id": "a7344a98-8091-70fc-5334-f40693dba0aa",
+            "username": "さいとむ",
+            "vote_count": 4
+          },
+          {
+            "user_id": "17f47a58-0041-70f7-6a19-04f9d6196591",
+            "username": "さくら",
+            "vote_count": 8
+          },
+          {
+            "user_id": "a704da68-e0c1-7084-c1fd-1300a520bec3",
+            "username": "さすけのお兄さん",
+            "vote_count": 3
+          },
+          {
+            "user_id": "f7545a68-10a1-7035-a9cc-d5977c7ed148",
+            "username": "さんれ",
+            "vote_count": 1
+          },
+          {
+            "user_id": "f754ba48-10a1-70a4-9f06-dc1ad85bdf37",
+            "username": "しゅにく",
+            "vote_count": 2
+          },
+          {
+            "user_id": "e7b49a78-d031-700b-e891-f12453b438a0",
+            "username": "じゃん",
+            "vote_count": 5
+          },
+          {
+            "user_id": "87346a28-9041-7028-3a97-3520a8aed412",
+            "username": "すかいどん",
+            "vote_count": 4
+          },
+          {
+            "user_id": "77f47a18-90d1-7048-8a3a-f24eda90185e",
+            "username": "すでにショーン",
+            "vote_count": 2
+          },
+          {
+            "user_id": "97042a68-d0d1-707a-6134-77e60310b28f",
+            "username": "すぽんじ",
+            "vote_count": 3
+          },
+          {
+            "user_id": "67745af8-00a1-7068-c8ac-71128100fa4c",
+            "username": "ぜっとくん",
+            "vote_count": 1
+          },
+          {
+            "user_id": "c7b4ea68-a0f1-70e8-d9c5-7bbe9e3b1c77",
+            "username": "たこ焼きボンバー",
+            "vote_count": 3
+          },
+          {
+            "user_id": "6794bad8-e011-70e6-efbe-9b70ec67a6e5",
+            "username": "たたかう",
+            "vote_count": 4
+          },
+          {
+            "user_id": "a764ea78-8031-70ae-e183-95f287bf48b1",
+            "username": "たんけだ",
+            "vote_count": 6
+          },
+          {
+            "user_id": "37e41a48-e001-70c9-16b1-4682c6539780",
+            "username": "だだり",
+            "vote_count": 2
+          },
+          {
+            "user_id": "37e4ead8-d041-7007-3d52-e9023aa3e922",
+            "username": "ちゃんこフォンデュ",
+            "vote_count": 7
+          },
+          {
+            "user_id": "07c4eaa8-6001-7071-1a5a-df8370340c72",
+            "username": "とも",
+            "vote_count": 1
+          },
+          {
+            "user_id": "17e4aac8-80b1-70a3-5a5f-670d0525612e",
+            "username": "なめこんぶ",
+            "vote_count": 3
+          },
+          {
+            "user_id": "1774ba38-4051-70b0-9b4f-af8d1b06be91",
+            "username": "にこごり",
+            "vote_count": 2
+          },
+          {
+            "user_id": "5784fab8-50c1-706c-06a7-5708051f7ebe",
+            "username": "にゅわ",
+            "vote_count": 3
+          },
+          {
+            "user_id": "27540a48-10f1-70e7-8cd8-77e7b0c94cf4",
+            "username": "ねこねずみ",
+            "vote_count": 3
+          },
+          {
+            "user_id": "57547ac8-f0b1-70e3-0e3b-613c7bb101cf",
+            "username": "は？",
+            "vote_count": 3
+          },
+          {
+            "user_id": "17e47a18-c091-705c-751c-ffb41ebeee16",
+            "username": "ばたんきゅー",
+            "vote_count": 4
+          },
+          {
+            "user_id": "97c4fae8-0001-703f-9559-4ec14619aefd",
+            "username": "ひなせ率",
+            "vote_count": 2
+          },
+          {
+            "user_id": "97447af8-a0d1-702e-1a86-2e87b0eea74f",
+            "username": "ふかし",
+            "vote_count": 1
+          },
+          {
+            "user_id": "3774fa38-4071-7024-f41a-01311ed952a8",
+            "username": "ふじがた",
+            "vote_count": 3
+          },
+          {
+            "user_id": "b7c46ac8-90b1-7082-f689-e282ddf198e5",
+            "username": "ほにほに",
+            "vote_count": 5
+          },
+          {
+            "user_id": "37c4da78-f071-7078-ec84-e26eb247150a",
+            "username": "ぽよん",
+            "vote_count": 1
+          },
+          {
+            "user_id": "87b41aa8-a031-706b-3520-af5333a43d3d",
+            "username": "まお",
+            "vote_count": 2
+          },
+          {
+            "user_id": "87443a08-80f1-7023-7d1a-fecdc448dc68",
+            "username": "まずい水",
+            "vote_count": 4
+          },
+          {
+            "user_id": "0714fa88-00e1-70e2-795a-8f5f7bab4008",
+            "username": "まぢりけがよごる",
+            "vote_count": 2
+          },
+          {
+            "user_id": "57d4ea28-f0b1-705e-6715-29ef5bf139a8",
+            "username": "まったん冷え性",
+            "vote_count": 7
+          },
+          {
+            "user_id": "d7842af8-9071-7042-30a3-fc47cb1a1337",
+            "username": "みささぎ",
+            "vote_count": 4
+          },
+          {
+            "user_id": "f7948a48-30e1-7042-8d54-f164e8ddda42",
+            "username": "みちる",
+            "vote_count": 7
+          },
+          {
+            "user_id": "07747a58-80b1-7010-5118-5819aefacb7a",
+            "username": "ゆきんこっこ",
+            "vote_count": 3
+          },
+          {
+            "user_id": "6784ba18-c0d1-70a8-3a3e-579bb4b9f2e4",
+            "username": "らあらら",
+            "vote_count": 3
+          },
+          {
+            "user_id": "a7c4fac8-b001-70e7-7d16-15b9b2048b0a",
+            "username": "アルキスト",
+            "vote_count": 3
+          },
+          {
+            "user_id": "27b4da28-2031-70a3-f2d3-788ff4f2089a",
+            "username": "ウラニワ",
+            "vote_count": 4
+          },
+          {
+            "user_id": "0794ea48-8081-7032-7b31-52ca7ee0860e",
+            "username": "エコノミー",
+            "vote_count": 7
+          },
+          {
+            "user_id": "37e46a88-90a1-705a-f524-73d910177988",
+            "username": "エディ.M",
+            "vote_count": 3
+          },
+          {
+            "user_id": "67546a08-e091-70c6-6cf0-b7641fa31a0d",
+            "username": "オギガガメン",
+            "vote_count": 2
+          },
+          {
+            "user_id": "07f42a18-c0d1-7024-14d2-c9319218df8e",
+            "username": "オタマ弱者",
+            "vote_count": 1
+          },
+          {
+            "user_id": "d7842a48-10e1-7032-6f99-430b93957c55",
+            "username": "キチガキ",
+            "vote_count": 7
+          },
+          {
+            "user_id": "a714ca38-c0c1-70b6-80e4-39749a544da6",
+            "username": "キラキライリポーン",
+            "vote_count": 6
+          },
+          {
+            "user_id": "57549a58-3041-7009-27c8-5bc726c644fc",
+            "username": "クライムクライム",
+            "vote_count": 4
+          },
+          {
+            "user_id": "e7849aa8-2021-702d-544b-f339056861b3",
+            "username": "コリンガムのムチ♪",
+            "vote_count": 10
+          },
+          {
+            "user_id": "47c4cac8-b071-7010-fe4e-ac23b1488645",
+            "username": "サカキ",
+            "vote_count": 3
+          },
+          {
+            "user_id": "27f49a78-e091-7012-b40a-7a056b15623d",
+            "username": "サメVS巨大タコス",
+            "vote_count": 6
+          },
+          {
+            "user_id": "b704eac8-3061-7079-3157-220b237e1a8c",
+            "username": "シイカ",
+            "vote_count": 3
+          },
+          {
+            "user_id": "57842aa8-f091-707d-4f8a-d96487d4a662",
+            "username": "シャンプー剤",
+            "vote_count": 2
+          },
+          {
+            "user_id": "87541ac8-2061-70b6-67be-97884becf7e1",
+            "username": "シルバータント",
+            "vote_count": 1
+          },
+          {
+            "user_id": "97e48ae8-6041-7060-480e-7b4f8632d925",
+            "username": "ジュース",
+            "vote_count": 11
+          },
+          {
+            "user_id": "d7146a08-e0f1-70ee-fad8-cff6a3e932f7",
+            "username": "ツルミチッ素",
+            "vote_count": 5
+          },
+          {
+            "user_id": "57349a48-30c1-70a1-02be-8f9eea3ab090",
+            "username": "ドど見",
+            "vote_count": 4
+          },
+          {
+            "user_id": "87e41a78-d051-704b-15d5-0b94632e763a",
+            "username": "ハートフル",
+            "vote_count": 2
+          },
+          {
+            "user_id": "27847ab8-6081-7021-a3c3-063bc60810b2",
+            "username": "バジルごはん",
+            "vote_count": 8
+          },
+          {
+            "user_id": "5754ba58-c0f1-704e-c2f3-bd35c8d93312",
+            "username": "ピュア氷",
+            "vote_count": 2
+          },
+          {
+            "user_id": "37948a88-2011-702a-8976-51bfeb26440d",
+            "username": "ピヨピヨストライク",
+            "vote_count": 4
+          },
+          {
+            "user_id": "67347af8-c001-7039-c129-ce54b52327f3",
+            "username": "ピンクジャム",
+            "vote_count": 4
+          },
+          {
+            "user_id": "77740aa8-7041-7050-7457-8060a4bcc5b6",
+            "username": "ピンクマン",
+            "vote_count": 3
+          },
+          {
+            "user_id": "67145ac8-6021-709d-58ed-d5eafc4d9f36",
+            "username": "フルーツスペシャリスト",
+            "vote_count": 3
+          },
+          {
+            "user_id": "97846a38-a041-708e-41e5-cc7ce421699c",
+            "username": "ボルシチ",
+            "vote_count": 3
+          },
+          {
+            "user_id": "37e45ac8-2071-7041-fd2b-a3e30976b949",
+            "username": "ポンサ",
+            "vote_count": 3
+          },
+          {
+            "user_id": "e7c46aa8-a0e1-7057-78a6-4abb6a2d2e6a",
+            "username": "ミッツ乾電池",
+            "vote_count": 3
+          },
+          {
+            "user_id": "67e4ca88-8051-70c6-695f-eab5d1e4259a",
+            "username": "ミトコンドリア",
+            "vote_count": 4
+          },
+          {
+            "user_id": "f7043a08-8031-7086-8ea3-46f406287383",
+            "username": "モノカルチャー",
+            "vote_count": 3
+          },
+          {
+            "user_id": "47e4baa8-5001-70d3-5780-6611ac9cd589",
+            "username": "ヤギの目",
+            "vote_count": 5
+          },
+          {
+            "user_id": "17549a88-00a1-7065-ad37-5c08beb2b80b",
+            "username": "ライト",
+            "vote_count": 2
+          },
+          {
+            "user_id": "87a4eac8-d031-7002-68a2-4634eab98603",
+            "username": "ランダム",
+            "vote_count": 1
+          },
+          {
+            "user_id": "47648a78-3051-708b-cddb-87bae0e5ae28",
+            "username": "世界",
+            "vote_count": 2
+          },
+          {
+            "user_id": "a7844ac8-90d1-70b8-27c4-2f1bed2324ce",
+            "username": "五言舌禍",
+            "vote_count": 5
+          },
+          {
+            "user_id": "f754dab8-e0f1-7054-cb54-cd54efe05a53",
+            "username": "伊坂",
+            "vote_count": 3
+          },
+          {
+            "user_id": "d7846a68-60b1-70b2-b8f7-8f603f162c97",
+            "username": "住民票",
+            "vote_count": 3
+          },
+          {
+            "user_id": "b714ca98-e091-701f-6ef5-b84147fc90f4",
+            "username": "佐原",
+            "vote_count": 4
+          },
+          {
+            "user_id": "17743a18-5071-70a4-85b2-52b0e1f021f6",
+            "username": "侍 in the sky",
+            "vote_count": 2
+          },
+          {
+            "user_id": "27448ae8-00c1-706a-c5e8-7b5d0b93e01c",
+            "username": "修行修行",
+            "vote_count": 3
+          },
+          {
+            "user_id": "b7544a48-e011-7001-6a45-adee81c57d21",
+            "username": "優死 とれま",
+            "vote_count": 8
+          },
+          {
+            "user_id": "0794ba78-d051-7050-8c6b-efb2ad7ecacc",
+            "username": "入れ歯型乳歯",
+            "vote_count": 4
+          },
+          {
+            "user_id": "57648ad8-1071-7009-cfaa-becfea069087",
+            "username": "凰蘭",
+            "vote_count": 1
+          },
+          {
+            "user_id": "67e4ca98-5081-70a3-365c-f39e6808755b",
+            "username": "前田",
+            "vote_count": 5
+          },
+          {
+            "user_id": "a7e40a38-a031-7024-aaa7-e88f0575179c",
+            "username": "千年越しのプロミス",
+            "vote_count": 7
+          },
+          {
+            "user_id": "d7e40a38-a051-704b-6261-7dd3d0bb234a",
+            "username": "吉永",
+            "vote_count": 4
+          },
+          {
+            "user_id": "f7145af8-7061-7068-b30e-7c3fe2aae44f",
+            "username": "吉野家作造",
+            "vote_count": 2
+          },
+          {
+            "user_id": "b7441a48-70b1-70ee-cb9f-8f7253fea8bf",
+            "username": "否定から入るオンザビーチ",
+            "vote_count": 6
+          },
+          {
+            "user_id": "c7642a28-f001-7024-e77d-66d3b04f4c1a",
+            "username": "四つ葉の黒婆さん",
+            "vote_count": 6
+          },
+          {
+            "user_id": "b7b49a08-e041-7070-d935-a0fcb3851ea7",
+            "username": "坂本",
+            "vote_count": 5
+          },
+          {
+            "user_id": "27740a98-10c1-7097-51d8-75989ca4faee",
+            "username": "坊っちゃん",
+            "vote_count": 3
+          },
+          {
+            "user_id": "3794fa38-b0e1-7003-744d-9d8651ac5b14",
+            "username": "夏のワルプルギス",
+            "vote_count": 1
+          },
+          {
+            "user_id": "0794dab8-10c1-7060-d82a-def018b349e1",
+            "username": "大体いつも眠い人",
+            "vote_count": 4
+          },
+          {
+            "user_id": "47c4fa68-b0a1-7057-ae4a-4e6ade665448",
+            "username": "大野",
+            "vote_count": 6
+          },
+          {
+            "user_id": "27f42ac8-7011-70fb-222f-56698f588e87",
+            "username": "安全地帯",
+            "vote_count": 1
+          },
+          {
+            "user_id": "67d4bae8-40d1-7046-56b3-1e3519bdfb44",
+            "username": "安藤龍",
+            "vote_count": 3
+          },
+          {
+            "user_id": "27e46aa8-1031-70a9-2832-14cb52178734",
+            "username": "後藤逸材",
+            "vote_count": 5
+          },
+          {
+            "user_id": "c7a45a58-d081-7032-944f-08ca147d1502",
+            "username": "微の歯",
+            "vote_count": 7
+          },
+          {
+            "user_id": "a744ca68-6091-70c1-4219-ff9bc992271d",
+            "username": "懐かしむ会",
+            "vote_count": 3
+          },
+          {
+            "user_id": "07d43a68-8011-7085-5bb7-a764bfaa21bc",
+            "username": "振袖",
+            "vote_count": 3
+          },
+          {
+            "user_id": "f774ca48-30f1-7057-9fb0-82a131da734e",
+            "username": "放尿魔",
+            "vote_count": 5
+          },
+          {
+            "user_id": "97841a88-1031-70f1-54e1-bf93ec8b1e19",
+            "username": "旋風客",
+            "vote_count": 3
+          },
+          {
+            "user_id": "27940a68-c021-7020-9bbe-64b4d8d366a8",
+            "username": "昨今",
+            "vote_count": 3
+          },
+          {
+            "user_id": "a7949ad8-4081-704b-64cd-5a2f3f0e7551",
+            "username": "昼崎",
+            "vote_count": 4
+          },
+          {
+            "user_id": "07e48aa8-1071-701b-c366-1b61048e7106",
+            "username": "木根島",
+            "vote_count": 4
+          },
+          {
+            "user_id": "17d48a68-b041-7056-f972-340110cfaae2",
+            "username": "根岸",
+            "vote_count": 4
+          },
+          {
+            "user_id": "c7144a18-f081-7034-84e3-3f9fb031cf99",
+            "username": "気さくなウサギ",
+            "vote_count": 4
+          },
+          {
+            "user_id": "77245ae8-00a1-709b-1888-cf6cad9a7cf5",
+            "username": "気球",
+            "vote_count": 3
+          },
+          {
+            "user_id": "b714aa78-a001-70a6-e7ee-a1821462ed12",
+            "username": "池谷",
+            "vote_count": 3
+          },
+          {
+            "user_id": "87846a78-40f1-70aa-9c5d-83413a2f72d8",
+            "username": "海老預け",
+            "vote_count": 6
+          },
+          {
+            "user_id": "67145a08-f021-7084-7736-e3989c0ea7f9",
+            "username": "清水り",
+            "vote_count": 3
+          },
+          {
+            "user_id": "67742a68-4021-7032-855a-0cacb55c57d9",
+            "username": "灰色こたつ",
+            "vote_count": 4
+          },
+          {
+            "user_id": "d7a4aa88-f031-70ca-969f-ac2142088df6",
+            "username": "煮込みVUITTON",
+            "vote_count": 3
+          },
+          {
+            "user_id": "5704cad8-e071-7061-c6ab-23791f36b3d0",
+            "username": "爽",
+            "vote_count": 3
+          },
+          {
+            "user_id": "c7147ad8-7071-70ad-be0b-816bc02ad523",
+            "username": "犬クジラ",
+            "vote_count": 2
+          },
+          {
+            "user_id": "0734eaf8-c0e1-706b-47a7-0a1e6e710ac1",
+            "username": "生存権",
+            "vote_count": 3
+          },
+          {
+            "user_id": "f7e4da28-30f1-70a7-412b-ee068da22fbe",
+            "username": "目刺四尾",
+            "vote_count": 8
+          },
+          {
+            "user_id": "b7e4aac8-d0c1-70cb-14c2-434a311369d3",
+            "username": "神谷テクニカ",
+            "vote_count": 4
+          },
+          {
+            "user_id": "67744ad8-3041-7059-87cb-b9852ca01e71",
+            "username": "空飛ぶタイヤ",
+            "vote_count": 6
+          },
+          {
+            "user_id": "87044a48-b071-701b-4be0-51b09a2ed0bc",
+            "username": "笑うモールス信号",
+            "vote_count": 2
+          },
+          {
+            "user_id": "77a47a08-1021-70c3-4eb8-41ba6ce0fa35",
+            "username": "笑う古代魚",
+            "vote_count": 3
+          },
+          {
+            "user_id": "d7b4ba98-d0f1-703f-7f08-bd686d66f139",
+            "username": "縦割り",
+            "vote_count": 4
+          },
+          {
+            "user_id": "47b47ac8-5061-701e-a42c-46542d454ae0",
+            "username": "能動的三半規管",
+            "vote_count": 7
+          },
+          {
+            "user_id": "77548a78-5011-7032-e956-fa9e7dc547c4",
+            "username": "臭い紅茶",
+            "vote_count": 2
+          },
+          {
+            "user_id": "07e41a38-5011-709e-7c9e-7099df795c2d",
+            "username": "虎猫",
+            "vote_count": 3
+          },
+          {
+            "user_id": "6704ea68-3031-7077-9372-0ba3145ed3b5",
+            "username": "蜜柑鳥",
+            "vote_count": 1
+          },
+          {
+            "user_id": "07642a38-30c1-7039-ca69-c7b48d978f48",
+            "username": "親善小僧",
+            "vote_count": 2
+          },
+          {
+            "user_id": "4764da98-5091-709f-9feb-dc50d49427fd",
+            "username": "言語遊戯",
+            "vote_count": 6
+          },
+          {
+            "user_id": "b7a4ea68-5001-70e8-ca68-af015c49fbf8",
+            "username": "警邏",
+            "vote_count": 3
+          },
+          {
+            "user_id": "47c44a18-7021-7048-d3ba-85a92433a50e",
+            "username": "贖罪",
+            "vote_count": 3
+          },
+          {
+            "user_id": "67646a78-50c1-70fb-370c-3f9b3d05ce0c",
+            "username": "遠くを見ている",
+            "vote_count": 3
+          },
+          {
+            "user_id": "57e46a98-b0f1-70e8-5309-e6cfc0ff7fc6",
+            "username": "金魚のムニエル",
+            "vote_count": 8
+          },
+          {
+            "user_id": "47440a68-e081-7072-f541-890ca94d4f70",
+            "username": "馬to量子化",
+            "vote_count": 4
+          }
+        ],
+        "isResultsAnnounced": false
+      }
+    }
+  }
 }
