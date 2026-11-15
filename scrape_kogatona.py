@@ -65,11 +65,12 @@ def read_match(entry):
         answers.append(dict(rank=int(cells[0].text_content()), score=score, author=author,
                             text=answer, images=media, source=detail, breakdown=breakdown))
     note = page.xpath('//td[@class="NOTE"]')[0].text_content()
+    voters = int(re.search(r'投票数：\s*(\d+)', note)[1])
     expected = int(re.search(r'投稿数：(\d+)', note)[1])
     if expected != len(answers):
         raise ValueError((url, expected, len(answers)))
     return dict(title=title, source=url, block=block, round=round_name, prompt=text,
-                images=images, answers=answers)
+                images=images, voters=voters, answers=answers)
 
 def read_vote(answer):
     page = get(answer['source'])
