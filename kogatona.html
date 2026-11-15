@@ -103,6 +103,12 @@ function matchDetails(match, parent) {
     const answer = node('div', null, 'answer');
     const score = node('strong', a.rank + '位 · ' + a.author + ' · ' + a.score + '点');
     answer.append(score);
+    if (match.voters > 0 && a.breakdown) {
+      const voteCount = Object.values(a.breakdown).reduce((sum, count) => sum + count, 0);
+      const voteRate = (100 * voteCount / match.voters).toFixed(1);
+      const pointsPerVoter = (a.score / match.voters).toFixed(2);
+      answer.append(node('div', `得票率 ${voteRate}％（${voteCount}/${match.voters}人） · 得点÷採点人数 ${pointsPerVoter}`, 'meta'));
+    }
     if (a.vote) answer.append(' ', node('span', '投票 ' + a.vote + '点', 'chip v' + a.vote));
     if (a.voteListMismatch) answer.append(node('p', '元サイトの集計と公開投票者一覧で票数に差があります。', 'meta'));
     answer.append(node('p', a.text));
