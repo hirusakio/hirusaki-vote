@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ja">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>コガトナ2026 投票結果</title>
+<style>
+*{box-sizing:border-box}body{margin:0;background:#f5f7fb;color:#182230;font:16px/1.6 system-ui,sans-serif}main{max-width:1260px;margin:auto;padding:18px}header,.filters,.match{background:white;border:1px solid #dfe5ef;border-radius:12px;padding:14px;margin-bottom:12px}h1{font-size:24px;margin:0}p{margin:6px 0}a{color:#245aa5}.filters,.legend,.scores{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center}select,input{font:inherit;min-height:36px;max-width:100%}.hint,.meta{color:#4e5c70;font-size:13px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:8px;align-items:start}.match{margin:0;min-width:0}summary{cursor:pointer;overflow-wrap:anywhere}summary strong{display:inline-block}.scores{gap:4px;margin-top:6px}.chip{display:inline-block;padding:2px 7px;border-radius:5px;background:#edf2f7;font-size:13px;white-space:nowrap}.v5{background:#f2b94b}.v3{background:#ed7777}.v2{background:#84acf7}.self{background:#73cfa9}.prompt{border-left:3px solid #a6c0e8;padding-left:10px;margin:12px 0;white-space:pre-wrap}.answer{border-top:1px solid #dfe5ef;padding:10px 0;overflow-wrap:anywhere}.answer p{white-space:pre-wrap}.media{display:block;max-width:100%;max-height:260px;margin:8px 0}.source{font-size:13px}@media(max-width:500px){main{padding:8px}.filters{gap:8px}.filters label:last-child{width:100%}.filters input[type=search]{width:100%}}
+</style>
+<main class="shell">
+<header><h1>コガトナ2026 投票結果</h1><div class="legend"><span class="chip v5">5点</span><span class="chip v3">3点</span><span class="chip v2">2点</span><span class="chip self">自分の回答</span><a class="source" href="https://koganezawa.main.jp/cgi-bin/votekt2026/vote.cgi">元サイト</a></div></header>
+<div class="filters">
+<label>回戦 <select id="round"></select></label>
+<label>ブロック <select id="block"></select></label>
+<label>投票点 <select id="points"><option value="">すべて</option><option value="5">5点</option><option value="3">3点</option><option value="2">2点</option></select></label>
+<label><input id="voted" type="checkbox" checked> 投票先・自分の試合</label>
+<label><input id="query" type="search" placeholder="対戦者・お題を検索" aria-label="対戦者・お題を検索"></label>
+</div>
+<p id="count" class="hint" aria-live="polite"></p>
+<div id="matches" class="grid"></div>
+</main>
+<script>
+const byId = id => document.getElementById(id);
+const round = byId('round'), block = byId('block'), points = byId('points');
+const voted = byId('voted'), query = byId('query'), grid = byId('matches');
+const own = a => a.author === '昼崎';
+let matches = [];
+const number = value => Number(value);
+function node(tag, text, className) {
+  const el = document.createElement(tag);
+  if (text != null) el.textContent = text;
+  if (className) el.className = className;
+  return el;
+}
+function options(select, values, all) {
+  const current = select.value;
+  select.replaceChildren(new Option(all, ''), ...values.map(value => new Option(value, value)));
+  if (values.includes(current)) select.value = current;
+}
+function link(label, href) {
+  const el = node('a', label, 'source');
+  el.href = href;
+  el.target = '_blank';
+  el.rel = 'noopener';
+  return el;
+}
+function media(parent, urls) {
+  for (const url of urls) {
+    const img = node('img', null, 'media');
+    img.src = url;
+    img.alt = '掲載画像';
+    img.loading = 'lazy';
+    parent.append(img);
+  }
+}
+function matchCard(match) {
+  const card = node('details', null, 'match');
+  const summary = node('summary');
+  summary.append(node('strong', match.title), node('div', [match.round, match.block].filter(Boolean).join(' · '), 'meta'));
+  const chips = node('div', null, 'scores');
+  for (const a of match.answers) {
+    const label = [a.rank + '位', a.author];
+    if (a.vote) label.push('＋' + a.vote + '点');
+    chips.append(node('span', label.join(' '), 'chip ' + (own(a) ? 'self' : a.vote ? 'v' + a.vote : '')));
+  }
+  summary.append(chips);
+  card.append(summary);
+  card.addEventListener('toggle', () => {
+    if (!card.open || card.children.length > 1) return;
+    const prompt = node('div', match.prompt, 'prompt');
+    media(prompt, match.images);
+    card.append(prompt);
+    for (const a of match.answers) {
+      const answer = node('div', null, 'answer');
+      answer.append(node('strong', a.rank + '位 · ' + a.author + ' · ' + a.score + '点'));
+      if (a.vote) answer.append(node('div', '自分の投票 ' + a.vote + '点', 'meta'));
+      if (a.voteListMismatch) answer.append(node('p', '元サイトの集計と公開投票者一覧で票数に差があります。', 'meta'));
+      answer.append(node('p', a.text));
+      media(answer, a.images);
+      answer.append(link('元の回答・投票者を見る ↗', a.source));
+      card.append(answer);
+    }
+    card.append(link('元の試合結果を見る ↗', match.source));
+  });
+  return card;
+}
+function render() {
+  const stage = matches.filter(m => !round.value || m.round === round.value);
+  options(block, [...new Set(stage.map(m => m.block).filter(Boolean))].sort(), 'すべて');
+  const needle = query.value.trim().toLowerCase();
+  const visible = stage.filter(m => (!block.value || m.block === block.value)
+    && (!needle || [m.title, m.prompt].some(s => s.toLowerCase().includes(needle)))
+    && (!points.value || m.answers.some(a => a.vote === number(points.value)))
+    && (!voted.checked || m.answers.some(a => a.vote || own(a))));
+  byId('count').textContent = visible.length + '試合 / ' + stage.length + '試合' +
+    (voted.checked ? '（自分の試合を含む）' : '');
+  grid.replaceChildren(...visible.map(matchCard));
+}
+for (const control of [round, block, points, voted, query]) control.addEventListener('input', render);
+fetch('kogatona.json').then(response => {
+  if (!response.ok) throw Error(response.status);
+  return response.json();
+}).then(data => {
+  matches = data;
+  const rounds = [...new Set(matches.map(m => m.round))];
+  options(round, rounds, 'すべて');
+  round.value = rounds.at(-1) || '';
+  if (!matches.some(m => m.round === round.value && m.answers.some(a => a.vote || own(a)))) voted.checked = false;
+  render();
+}).catch(() => { byId('count').textContent = '結果を読み込めませんでした。'; });
+</script>
+</html>
