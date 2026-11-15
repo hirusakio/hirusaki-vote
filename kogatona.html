@@ -18,13 +18,13 @@
   .grid,.desktop-detail{background:white;border:1px solid #dfe5ef;border-radius:8px;max-height:670px;overflow:auto}
   .grid{display:block}
   .match{padding:0;border:0;border-radius:0;border-bottom:1px solid #e6ebf2}
-  .match summary{display:grid;grid-template-columns:2em minmax(0,1fr) 5.6em 9em;gap:6px;align-items:center;padding:5px 9px;font-size:14px;list-style:none}
+  .match summary{display:grid;grid-template-columns:2em minmax(0,1fr) max-content max-content;gap:6px;align-items:center;padding:5px 9px;font-size:14px;list-style:none}
   .match summary::-webkit-details-marker{display:none}
   .match summary:hover,.match.active summary{background:#eaf2ff}
-  .match summary strong{grid-column:2;grid-row:1;font-weight:650;line-height:1.3}
+  .match summary strong{grid-column:2;grid-row:1;font-weight:650;line-height:1.3;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
   .match summary .meta{grid-column:1;grid-row:1}
   .match summary .match-average{grid-column:3;grid-row:1;text-align:right;margin:0}
-  .match summary .scores{grid-column:4;grid-row:1;justify-content:flex-end;gap:3px;margin:0}
+  .match summary .scores{grid-column:4;grid-row:1;justify-content:flex-end;flex-wrap:nowrap;gap:3px;margin:0}
   .match summary .chip{padding:1px 4px;font-size:12px}
   .chip-author,.mobile-round,.match-body{display:none}
   .desktop-detail{display:block;padding:10px 14px}
@@ -129,7 +129,9 @@ function matchCard(match) {
   const summary = node('summary');
   const info = node('div', null, 'meta');
   info.append(node('span', match.round + (match.block ? ' · ' : ''), 'mobile-round'), match.block);
-  summary.append(node('strong', match.title), info);
+  const title = node('strong', match.title);
+  title.title = match.title;
+  summary.append(title, info);
   const chips = node('div', null, 'scores');
   for (const a of match.answers) {
     const chip = node('span', a.rank + '位', 'chip ' + (own(a) ? 'self' : a.vote ? 'v' + a.vote : ''));
