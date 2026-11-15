@@ -5,7 +5,32 @@
 <title>コガトナ2026 投票結果</title>
 <style>
 *{box-sizing:border-box}body{margin:0;background:#f5f7fb;color:#182230;font:16px/1.6 system-ui,sans-serif}main{max-width:1260px;margin:auto;padding:18px}header,.filters,.match{background:white;border:1px solid #dfe5ef;border-radius:12px;padding:14px;margin-bottom:12px}h1{font-size:24px;margin:0}p{margin:6px 0}a{color:#245aa5}.filters,.legend,.scores{display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center}select,input{font:inherit;min-height:36px;max-width:100%}.hint,.meta{color:#4e5c70;font-size:13px}.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));gap:8px;align-items:start}.match{margin:0;min-width:0}summary{cursor:pointer;overflow-wrap:anywhere}summary strong{display:inline-block}.scores{gap:4px;margin-top:6px}.chip{display:inline-block;padding:2px 7px;border-radius:5px;background:#edf2f7;font-size:13px;white-space:nowrap}.v5{background:#f2b94b}.v3{background:#ed7777}.v2{background:#84acf7}.self{background:#73cfa9}.prompt{border-left:3px solid #a6c0e8;padding-left:10px;margin:12px 0;white-space:pre-wrap}.answer{border-top:1px solid #dfe5ef;padding:10px 0;overflow-wrap:anywhere}.answer p{white-space:pre-wrap}.media{display:block;max-width:100%;max-height:260px;margin:8px 0}.source{font-size:13px}@media(max-width:500px){main{padding:8px}.filters{gap:8px}.filters label:last-child{width:100%}.filters input[type=search]{width:100%}}
-</style>
+
+.desktop-detail{display:none}
+@media(min-width:900px){
+  main{max-width:1700px;padding:8px 14px}
+  header{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:7px 12px;margin-bottom:6px}
+  h1{font-size:19px}.filters{padding:6px 10px;margin-bottom:3px;gap:5px 12px}
+  select,input{min-height:30px}.hint{margin:4px 0}
+  .workspace{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,1fr);gap:10px;align-items:start}
+  .grid,.desktop-detail{background:white;border:1px solid #dfe5ef;border-radius:8px;max-height:670px;overflow:auto}
+  .grid{display:block}
+  .match{padding:0;border:0;border-radius:0;border-bottom:1px solid #e6ebf2}
+  .match summary{display:grid;grid-template-columns:2em minmax(0,1fr) 9em;gap:6px;align-items:center;padding:5px 9px;font-size:14px;list-style:none}
+  .match summary::-webkit-details-marker{display:none}
+  .match summary:hover,.match.active summary{background:#eaf2ff}
+  .match summary strong{grid-column:2;grid-row:1;font-weight:650;line-height:1.3}
+  .match summary .meta{grid-column:1;grid-row:1}
+  .match summary .scores{grid-column:3;grid-row:1;justify-content:flex-end;gap:3px;margin:0}
+  .match summary .chip{padding:1px 4px;font-size:12px}
+  .chip-author,.mobile-round,.match-body{display:none}
+  .desktop-detail{display:block;padding:10px 14px}
+  .desktop-detail h2{font-size:17px;margin:0}
+  .desktop-detail .prompt{margin:7px 0}
+  .desktop-detail .answer{padding:6px 0}
+  .desktop-detail .answer p{margin:3px 0}
+}
+
 <main class="shell">
 <header><h1>コガトナ2026 投票結果</h1><div class="legend"><span class="chip v5">5点</span><span class="chip v3">3点</span><span class="chip v2">2点</span><span class="chip self">自分の回答</span><a class="source" href="https://koganezawa.main.jp/cgi-bin/votekt2026/vote.cgi">元サイト</a></div></header>
 <div class="filters">
@@ -16,7 +41,7 @@
 <label><input id="query" type="search" placeholder="対戦者・お題を検索" aria-label="対戦者・お題を検索"></label>
 </div>
 <p id="count" class="hint" aria-live="polite"></p>
-<div id="matches" class="grid"></div>
+<div class="workspace"><div id="matches" class="grid"></div><section id="desktop-detail" class="desktop-detail" aria-label="試合詳細"></section></div>
 </main>
 <script>
 const byId = id => document.getElementById(id);
@@ -24,6 +49,9 @@ const round = byId('round'), block = byId('block'), points = byId('points');
 const voted = byId('voted'), query = byId('query'), grid = byId('matches');
 const own = a => a.author === '昼崎';
 let matches = [];
+let selectedMatch;
+const desktop = matchMedia("(min-width:900px)");
+const detail = byId("desktop-detail");
 const number = value => Number(value);
 function node(tag, text, className) {
   const el = document.createElement(tag);
@@ -52,34 +80,61 @@ function media(parent, urls) {
     parent.append(img);
   }
 }
+function matchDetails(match, parent) {
+  const prompt = node('div', match.prompt, 'prompt');
+  media(prompt, match.images);
+  parent.append(prompt);
+  for (const a of match.answers) {
+    const answer = node('div', null, 'answer');
+    const score = node('strong', a.rank + '位 · ' + a.author + ' · ' + a.score + '点');
+    answer.append(score);
+    if (a.vote) answer.append(' ', node('span', '投票 ' + a.vote + '点', 'chip v' + a.vote));
+    if (a.voteListMismatch) answer.append(node('p', '元サイトの集計と公開投票者一覧で票数に差があります。', 'meta'));
+    answer.append(node('p', a.text));
+    media(answer, a.images);
+    answer.append(link('元の回答・投票者を見る ↗', a.source));
+    parent.append(answer);
+  }
+  parent.append(link('元の試合結果を見る ↗', match.source));
+}
+function selectMatch(match) {
+  selectedMatch = match;
+  for (const card of grid.children) {
+    card.classList.toggle('active', card.dataset.source === match?.source);
+  }
+  detail.replaceChildren();
+  if (!match) return;
+  detail.append(node('h2', match.title));
+  matchDetails(match, detail);
+  detail.scrollTop = 0;
+}
 function matchCard(match) {
   const card = node('details', null, 'match');
+  card.dataset.source = match.source;
   const summary = node('summary');
-  summary.append(node('strong', match.title), node('div', [match.round, match.block].filter(Boolean).join(' · '), 'meta'));
+  const info = node('div', null, 'meta');
+  info.append(node('span', match.round + (match.block ? ' · ' : ''), 'mobile-round'), match.block);
+  summary.append(node('strong', match.title), info);
   const chips = node('div', null, 'scores');
   for (const a of match.answers) {
-    const label = [a.rank + '位', a.author];
-    if (a.vote) label.push('＋' + a.vote + '点');
-    chips.append(node('span', label.join(' '), 'chip ' + (own(a) ? 'self' : a.vote ? 'v' + a.vote : '')));
+    const chip = node('span', a.rank + '位', 'chip ' + (own(a) ? 'self' : a.vote ? 'v' + a.vote : ''));
+    chip.append(node('span', ' ' + a.author, 'chip-author'));
+    if (a.vote) chip.append(' +' + a.vote);
+    chip.title = a.author + (a.vote ? ' · 投票 ' + a.vote + '点' : '');
+    chips.append(chip);
   }
   summary.append(chips);
   card.append(summary);
+  summary.addEventListener('click', event => {
+    if (!desktop.matches) return;
+    event.preventDefault();
+    selectMatch(match);
+  });
   card.addEventListener('toggle', () => {
     if (!card.open || card.children.length > 1) return;
-    const prompt = node('div', match.prompt, 'prompt');
-    media(prompt, match.images);
-    card.append(prompt);
-    for (const a of match.answers) {
-      const answer = node('div', null, 'answer');
-      answer.append(node('strong', a.rank + '位 · ' + a.author + ' · ' + a.score + '点'));
-      if (a.vote) answer.append(node('div', '自分の投票 ' + a.vote + '点', 'meta'));
-      if (a.voteListMismatch) answer.append(node('p', '元サイトの集計と公開投票者一覧で票数に差があります。', 'meta'));
-      answer.append(node('p', a.text));
-      media(answer, a.images);
-      answer.append(link('元の回答・投票者を見る ↗', a.source));
-      card.append(answer);
-    }
-    card.append(link('元の試合結果を見る ↗', match.source));
+    const body = node('div', null, 'match-body');
+    matchDetails(match, body);
+    card.append(body);
   });
   return card;
 }
@@ -94,8 +149,11 @@ function render() {
   byId('count').textContent = visible.length + '試合 / ' + stage.length + '試合' +
     (voted.checked ? '（自分の試合を含む）' : '');
   grid.replaceChildren(...visible.map(matchCard));
+  grid.scrollTop = 0;
+  if (desktop.matches) selectMatch(visible.includes(selectedMatch) ? selectedMatch : visible[0]);
 }
 for (const control of [round, block, points, voted, query]) control.addEventListener('input', render);
+desktop.addEventListener('change', render);
 fetch('kogatona.json').then(response => {
   if (!response.ok) throw Error(response.status);
   return response.json();
