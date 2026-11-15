@@ -170,6 +170,7 @@ function render() {
     && (!needle || [m.title, m.prompt].some(s => s.toLowerCase().includes(needle)))
     && (!points.value || m.answers.some(a => a.vote === number(points.value)))
     && (!voted.checked || m.answers.some(a => a.vote || own(a))));
+  visible.reverse();
   byId('count').textContent = visible.length + '試合 / ' + stage.length + '試合' +
     (voted.checked ? '（自分の試合を含む）' : '');
   grid.replaceChildren(...visible.map(matchCard));
