@@ -1,6 +1,6 @@
 {
   "event": "hangiri7",
-  "generatedAt": "2026-11-03T01:49:45.842708+00:00",
+  "generatedAt": "2026-11-16T13:41:00.279183+00:00",
   "rounds": [
     {
       "round": 1,
@@ -8901,12 +8901,1640 @@
           ]
         }
       ]
+    },
+    {
+      "round": 3,
+      "matchId": "2b293ed7-d1bf-456f-b422-d4362b953d50",
+      "name": "3回戦",
+      "adminMessage": "1グループ12人、上位6人が勝ち抜け",
+      "source": "https://oogiri-mi.com/hangiri7/match/2b293ed7-d1bf-456f-b422-d4362b953d50",
+      "groups": [
+        {
+          "id": "3e27153c-5931-40ef-b910-a2b260fb89f5",
+          "group": "グループA",
+          "displayOrder": 1,
+          "prompt": "霧が濃すぎる街で起きた悲しい事件",
+          "promptType": "text",
+          "imageUrl": null,
+          "provider": null,
+          "submissions": 11,
+          "voters": 132,
+          "advancementCount": 6,
+          "source": "https://oogiri-mi.com/hangiri7/theme/3e27153c-5931-40ef-b910-a2b260fb89f5",
+          "answers": [
+            {
+              "position": 1,
+              "rank": 1,
+              "postId": "0a27f98e-35d2-4e09-8b2b-401a0fb3ae7f",
+              "author": "ばたんきゅー",
+              "answer": "鼻先が当たる距離で詐欺師と喋ってた",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 169,
+              "voteRate": 1.28,
+              "voteBreakdown": {
+                "2": 35,
+                "3": 29,
+                "4": 3
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 3
+            },
+            {
+              "position": 2,
+              "rank": 2,
+              "postId": "11f5d388-6ea0-4db8-ab2b-ac27a35ad15f",
+              "author": "ノニバス",
+              "answer": "肩組んだら冬でも元気な木だった",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 157,
+              "voteRate": 1.19,
+              "voteBreakdown": {
+                "2": 33,
+                "3": 21,
+                "4": 7
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 0
+            },
+            {
+              "position": 3,
+              "rank": 3,
+              "postId": "8f8b651d-8741-41ff-bd39-eda0379a3984",
+              "author": "修行修行",
+              "answer": "地元の警察が一生を掛けて踏切を拭いている",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 147,
+              "voteRate": 1.11,
+              "voteBreakdown": {
+                "2": 33,
+                "3": 19,
+                "4": 6
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 2
+            },
+            {
+              "position": 4,
+              "rank": 4,
+              "postId": "321c023f-7a55-42bc-ba75-f472b95c4dfe",
+              "author": "無敵税",
+              "answer": "そこが踏切の外か中か分からないままキスした",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 131,
+              "voteRate": 0.99,
+              "voteBreakdown": {
+                "2": 34,
+                "3": 17,
+                "4": 3
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 3
+            },
+            {
+              "position": 5,
+              "rank": 5,
+              "postId": "6ac3ee0d-529b-479b-82bc-033ca865ed03",
+              "author": "シャンプー剤",
+              "answer": "あの薬局に二階があったと潰れてから気づいた",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 128,
+              "voteRate": 0.97,
+              "voteBreakdown": {
+                "2": 37,
+                "3": 14,
+                "4": 3
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 2
+            },
+            {
+              "position": 6,
+              "rank": 6,
+              "postId": "3d338053-94e4-4435-8b1e-002344fe2556",
+              "author": "とも",
+              "answer": "体細い事に意味ある気がして僕は好きですと言われた",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 117,
+              "voteRate": 0.89,
+              "voteBreakdown": {
+                "2": 32,
+                "3": 15,
+                "4": 2
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 0
+            },
+            {
+              "position": 7,
+              "rank": 7,
+              "postId": "58a50009-b60d-44e6-a058-eed3671a5f17",
+              "author": "2個",
+              "answer": "テニスボールを見つけてそのままアナウンサーになれた人がいた",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 95,
+              "voteRate": 0.72,
+              "voteBreakdown": {
+                "2": 25,
+                "3": 11,
+                "4": 3
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 0
+            },
+            {
+              "position": 8,
+              "rank": 8,
+              "postId": "f8566f5e-7d49-4d2c-b5aa-33d72e6dc4a4",
+              "author": "怨玉こ",
+              "answer": "急にその場でうずくまって、いやどっか痛むとかではないと言われた",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 90,
+              "voteRate": 0.68,
+              "voteBreakdown": {
+                "2": 28,
+                "3": 10,
+                "4": 1
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 0
+            },
+            {
+              "position": 9,
+              "rank": 9,
+              "postId": "96bc23a3-661d-4c01-8e88-5b3023b65b60",
+              "author": "犬クジラ",
+              "answer": "王様が何色の馬車で来たのか分からなかった",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 85,
+              "voteRate": 0.64,
+              "voteBreakdown": {
+                "2": 32,
+                "3": 7
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 3
+            },
+            {
+              "position": 10,
+              "rank": 10,
+              "postId": "e52b4f6d-cf34-463b-af2e-22d413760589",
+              "author": "侍 in the sky",
+              "answer": "トマトをペーストにしてたら無くなった",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 80,
+              "voteRate": 0.61,
+              "voteBreakdown": {
+                "2": 25,
+                "3": 10
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 0
+            },
+            {
+              "position": 11,
+              "rank": 11,
+              "postId": "311a977e-8b67-48ba-9c0e-0bbcad816b55",
+              "author": "きりまる",
+              "answer": "これ彼女じゃないんじゃない？とフラッシュモブ側の人が先に気づいた",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 44,
+              "voteRate": 0.33,
+              "voteBreakdown": {
+                "2": 13,
+                "3": 6
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 0
+            }
+          ]
+        },
+        {
+          "id": "f80ba0ee-d547-4da1-aab4-5f21c222bfe2",
+          "group": "グループB",
+          "displayOrder": 2,
+          "prompt": "画像で一言",
+          "promptType": "picture",
+          "imageUrl": "themes/f80ba0ee-d547-4da1-aab4-5f21c222bfe2/1793594893684-1c3vvp-___________.jpg",
+          "provider": null,
+          "submissions": 12,
+          "voters": 129,
+          "advancementCount": 6,
+          "source": "https://oogiri-mi.com/hangiri7/theme/f80ba0ee-d547-4da1-aab4-5f21c222bfe2",
+          "answers": [
+            {
+              "position": 1,
+              "rank": 1,
+              "postId": "626d5526-93f2-41ca-a086-70a84466038a",
+              "author": "けつめんぴ",
+              "answer": "たしか刀といい勝負ができてたんだよ",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 151,
+              "voteRate": 1.17,
+              "voteBreakdown": {
+                "2": 40,
+                "3": 17,
+                "4": 5
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 3
+            },
+            {
+              "position": 2,
+              "rank": 2,
+              "postId": "fdeb2611-a388-4add-a9ee-4befda3f7f1c",
+              "author": "昨今",
+              "answer": "スーツを貸してくれる店があったはず",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 135,
+              "voteRate": 1.05,
+              "voteBreakdown": {
+                "2": 45,
+                "3": 15
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 2
+            },
+            {
+              "position": 3,
+              "rank": 3,
+              "postId": "111e5726-757f-4834-abfb-d0d7eb08bc3f",
+              "author": "あの日のニンニ",
+              "answer": "もう芸術家じゃないって自分で決めていいのか",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 130,
+              "voteRate": 1.01,
+              "voteBreakdown": {
+                "2": 38,
+                "3": 14,
+                "4": 3
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 2
+            },
+            {
+              "position": 4,
+              "rank": 4,
+              "postId": "e09ce55f-f3b3-4e7b-94ca-d28f4cd8dadb",
+              "author": "723",
+              "answer": "刑務所に向かうためのタクシーだろうか",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 102,
+              "voteRate": 0.79,
+              "voteBreakdown": {
+                "2": 29,
+                "3": 12,
+                "4": 2
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 3
+            },
+            {
+              "position": 5,
+              "rank": 5,
+              "postId": "58fceaee-8630-49b3-a985-ce6c77b022f3",
+              "author": "ここから",
+              "answer": "季節で走り方が変わる人なんかな",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 88,
+              "voteRate": 0.68,
+              "voteBreakdown": {
+                "2": 27,
+                "3": 10,
+                "4": 1
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 3
+            },
+            {
+              "position": 6,
+              "rank": 6,
+              "postId": "e2ca995f-0dc3-4f30-95d1-f79637dc5b0b",
+              "author": "しゅにく",
+              "answer": "魚に戻りたい、と口が勝手に言ってた",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 87,
+              "voteRate": 0.67,
+              "voteBreakdown": {
+                "2": 30,
+                "3": 5,
+                "4": 3
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 0
+            },
+            {
+              "position": 7,
+              "rank": 7,
+              "postId": "6b41c59b-37af-4a13-883c-9012f4358266",
+              "author": "マイマイル",
+              "answer": "見るからにトイレだが本当に畳屋かね",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 83,
+              "voteRate": 0.64,
+              "voteBreakdown": {
+                "2": 27,
+                "3": 7,
+                "4": 2
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 0
+            },
+            {
+              "position": 8,
+              "rank": 8,
+              "postId": "5c09e5f0-63a4-414f-808f-9922607874df",
+              "author": "馬to量子化",
+              "answer": "まさか会社と同じクッションにしたことが関係あるのか",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 80,
+              "voteRate": 0.62,
+              "voteBreakdown": {
+                "2": 22,
+                "3": 8,
+                "4": 3
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 0
+            },
+            {
+              "position": 9,
+              "rank": 9,
+              "postId": "4b3a62d6-a712-4861-bbe0-9e8d7328e7c1",
+              "author": "にゅわ",
+              "answer": "オムレツのプロ、麦畑を見る",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 63,
+              "voteRate": 0.49,
+              "voteBreakdown": {
+                "2": 21,
+                "3": 3,
+                "4": 3
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 0
+            },
+            {
+              "position": 10,
+              "rank": 10,
+              "postId": "257374aa-e0d1-4cda-9eb4-87f53475e43a",
+              "author": "ピュア氷",
+              "answer": "踏切で働いてた時は本気だったんだよな",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 55,
+              "voteRate": 0.43,
+              "voteBreakdown": {
+                "2": 20,
+                "3": 5
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 3
+            },
+            {
+              "position": 11,
+              "rank": 11,
+              "postId": "edeede01-8a39-4c84-aa2d-906db437eeb8",
+              "author": "生存権",
+              "answer": "城の高さを一発で当てれるようになった",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 54,
+              "voteRate": 0.42,
+              "voteBreakdown": {
+                "2": 21,
+                "3": 4
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 0
+            },
+            {
+              "position": 12,
+              "rank": 12,
+              "postId": "c58d47ff-c93f-4d0a-a89a-e7a475bd84e6",
+              "author": "山本宏昌",
+              "answer": "貿易中の会話をそのまま流せば解決ですよ",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 43,
+              "voteRate": 0.33,
+              "voteBreakdown": {
+                "2": 14,
+                "3": 5
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 0
+            }
+          ]
+        },
+        {
+          "id": "ac450e00-7d21-4fca-90ec-7a6bbbfd4981",
+          "group": "グループC",
+          "displayOrder": 3,
+          "prompt": "退勤後に行く高級中華料理屋のことで頭がいっぱいの会社員が仕事中にしてしまった失敗",
+          "promptType": "text",
+          "imageUrl": null,
+          "provider": null,
+          "submissions": 12,
+          "voters": 128,
+          "advancementCount": 6,
+          "source": "https://oogiri-mi.com/hangiri7/theme/ac450e00-7d21-4fca-90ec-7a6bbbfd4981",
+          "answers": [
+            {
+              "position": 1,
+              "rank": 1,
+              "postId": "008c9546-299f-4d28-a457-538ec934bbf6",
+              "author": "bmo",
+              "answer": "みんなもこれ使っていいですよと自分の印鑑を真ん中に置いた",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 149,
+              "voteRate": 1.16,
+              "voteBreakdown": {
+                "2": 37,
+                "3": 21,
+                "4": 3
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 2
+            },
+            {
+              "position": 2,
+              "rank": 1,
+              "postId": "7513e09d-8888-44c8-ae50-025b08b45530",
+              "author": "神谷テクニカ",
+              "answer": "コピー機をあまりにもパカっと開けてしまう",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 149,
+              "voteRate": 1.16,
+              "voteBreakdown": {
+                "2": 40,
+                "3": 19,
+                "4": 3
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 2
+            },
+            {
+              "position": 3,
+              "rank": 3,
+              "postId": "f562314b-b00e-4c3c-a0e8-f5663ad6eae0",
+              "author": "へなちょこ",
+              "answer": "香水のサイトが乗っ取られて笑ってしまった",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 116,
+              "voteRate": 0.91,
+              "voteBreakdown": {
+                "2": 38,
+                "3": 8,
+                "4": 4
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 0
+            },
+            {
+              "position": 4,
+              "rank": 4,
+              "postId": "2ad1bddb-54c1-4087-b065-22cb170e824f",
+              "author": "尊敬ラーメン屋",
+              "answer": "本気で机が透けると思って水を垂らした",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 114,
+              "voteRate": 0.89,
+              "voteBreakdown": {
+                "2": 32,
+                "3": 14,
+                "4": 2
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 2
+            },
+            {
+              "position": 5,
+              "rank": 5,
+              "postId": "bb2200b3-b54a-47d4-a66d-3d766c238431",
+              "author": "世界",
+              "answer": "雨降ってますと連絡した後にメガネの汚れと気づいた",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 108,
+              "voteRate": 0.84,
+              "voteBreakdown": {
+                "2": 29,
+                "3": 10,
+                "4": 5
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 0
+            },
+            {
+              "position": 6,
+              "rank": 6,
+              "postId": "155c03b1-1b91-4346-ad1f-8af8c3eabe87",
+              "author": "にこごり",
+              "answer": "隣で探してる資料がさっき口を拭いた紙だった",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 83,
+              "voteRate": 0.65,
+              "voteBreakdown": {
+                "2": 30,
+                "3": 5,
+                "4": 2
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 3
+            },
+            {
+              "position": 7,
+              "rank": 7,
+              "postId": "8d00456a-7c80-4a3e-8cb0-8ab2cd9cb0a4",
+              "author": "根岸",
+              "answer": "モニターに止まったハエを一切の迷いなく叩いた",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 74,
+              "voteRate": 0.58,
+              "voteBreakdown": {
+                "2": 29,
+                "3": 4,
+                "4": 1
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 2
+            },
+            {
+              "position": 8,
+              "rank": 8,
+              "postId": "2fb7f29e-af3d-4ce3-98fb-130f1b5853cd",
+              "author": "obasuma",
+              "answer": "病院に行ってトトロを最後まで見た",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 70,
+              "voteRate": 0.55,
+              "voteBreakdown": {
+                "2": 23,
+                "3": 8
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 0
+            },
+            {
+              "position": 9,
+              "rank": 9,
+              "postId": "2a6d912b-4b53-423a-89cb-722e2d37485b",
+              "author": "ふじがた",
+              "answer": "業界の言葉ですからと勝手にパソコンを操作した",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 60,
+              "voteRate": 0.47,
+              "voteBreakdown": {
+                "2": 19,
+                "3": 6,
+                "4": 1
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 0
+            },
+            {
+              "position": 10,
+              "rank": 10,
+              "postId": "cd317ce7-e083-4a49-8558-baae1476f00b",
+              "author": "空飛ぶタイヤ",
+              "answer": "金色の龍のカチューシャを縦につけてた",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 50,
+              "voteRate": 0.39,
+              "voteBreakdown": {
+                "2": 15,
+                "3": 4,
+                "4": 2
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 3
+            },
+            {
+              "position": 11,
+              "rank": 11,
+              "postId": "ab1ec9bb-b4c1-4754-a980-7a6a1eb5c11e",
+              "author": "蜜柑鳥",
+              "answer": "机叩いた直後の社長に紹興酒について質問した",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 35,
+              "voteRate": 0.27,
+              "voteBreakdown": {
+                "2": 11,
+                "3": 3,
+                "4": 1
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 0
+            },
+            {
+              "position": 12,
+              "rank": 12,
+              "postId": "610a9b76-bf8b-44e1-9f37-fe071c9958ab",
+              "author": "大体いつも眠い人",
+              "answer": "カンフーの手で書類をめくるから指が切れてしまう",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 28,
+              "voteRate": 0.22,
+              "voteBreakdown": {
+                "2": 12,
+                "4": 1
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 0
+            }
+          ]
+        },
+        {
+          "id": "a020e071-d35c-48ee-b79e-9d6d1cef34d4",
+          "group": "グループD",
+          "displayOrder": 4,
+          "prompt": "「コイツ道場破り初心者だろ」と思った理由",
+          "promptType": "text",
+          "imageUrl": null,
+          "provider": null,
+          "submissions": 12,
+          "voters": 127,
+          "advancementCount": 6,
+          "source": "https://oogiri-mi.com/hangiri7/theme/a020e071-d35c-48ee-b79e-9d6d1cef34d4",
+          "answers": [
+            {
+              "position": 1,
+              "rank": 1,
+              "postId": "5f2c078d-7082-4f33-b95e-dc9951eee511",
+              "author": "らうかった",
+              "answer": "木の寿命を知って完全に動けなくなってる",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 143,
+              "voteRate": 1.13,
+              "voteBreakdown": {
+                "2": 38,
+                "3": 13,
+                "4": 7
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 0
+            },
+            {
+              "position": 2,
+              "rank": 2,
+              "postId": "345e7314-c49e-4cb9-aeab-712a602916ca",
+              "author": "坂本",
+              "answer": "雑巾で顔を拭いてるのを見て携帯落とした",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 128,
+              "voteRate": 1.01,
+              "voteBreakdown": {
+                "2": 29,
+                "3": 18,
+                "4": 4
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 0
+            },
+            {
+              "position": 3,
+              "rank": 2,
+              "postId": "c9da6396-e5c3-4804-9a17-b4107f262a1f",
+              "author": "じゃん",
+              "answer": "雨漏りを直してる業者に暗くするなと叫ぶ",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 128,
+              "voteRate": 1.01,
+              "voteBreakdown": {
+                "2": 28,
+                "3": 20,
+                "4": 3
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 0
+            },
+            {
+              "position": 4,
+              "rank": 4,
+              "postId": "5d12d401-241d-4a79-8c32-fe2d993533ee",
+              "author": "シルバータント",
+              "answer": "床に置いたヘルメットを拾われたのが気に入らない",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 114,
+              "voteRate": 0.9,
+              "voteBreakdown": {
+                "2": 39,
+                "3": 12
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 2
+            },
+            {
+              "position": 5,
+              "rank": 5,
+              "postId": "fd970bfb-42c6-4afa-8165-20f8a4045474",
+              "author": "だだり",
+              "answer": "裏返した手袋からホイッスルが出てくる",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 110,
+              "voteRate": 0.87,
+              "voteBreakdown": {
+                "2": 35,
+                "3": 8,
+                "4": 4
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 0
+            },
+            {
+              "position": 6,
+              "rank": 6,
+              "postId": "01885219-4a06-44f5-8d7e-855b924e1098",
+              "author": "安藤龍",
+              "answer": "コップで水を貰ってるときに後ろから握手された",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 98,
+              "voteRate": 0.77,
+              "voteBreakdown": {
+                "2": 35,
+                "3": 8,
+                "4": 1
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 0
+            },
+            {
+              "position": 7,
+              "rank": 7,
+              "postId": "127999fc-a21a-4a9e-a8db-250edcca9339",
+              "author": "進展シティ",
+              "answer": "見えてないけど後ろから動画を撮られてると思ってる",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 96,
+              "voteRate": 0.76,
+              "voteBreakdown": {
+                "2": 35,
+                "3": 6,
+                "4": 2
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 3
+            },
+            {
+              "position": 8,
+              "rank": 8,
+              "postId": "7ab0bb31-679a-440b-8200-a685395e90e3",
+              "author": "毎秒砕く",
+              "answer": "女海賊のポスターに輪ゴムを飛ばしてる",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 88,
+              "voteRate": 0.69,
+              "voteBreakdown": {
+                "2": 27,
+                "3": 10,
+                "4": 1
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 2
+            },
+            {
+              "position": 9,
+              "rank": 9,
+              "postId": "33e24417-49b2-4924-a1dd-685d9c556365",
+              "author": "気さくなウサギ",
+              "answer": "風鈴の位置を直している人にロッカーの場所を聞いている",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 85,
+              "voteRate": 0.67,
+              "voteBreakdown": {
+                "2": 27,
+                "3": 5,
+                "4": 4
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 0
+            },
+            {
+              "position": 10,
+              "rank": 10,
+              "postId": "dbd88486-15a4-44d0-99c2-cf7cd84a7ba0",
+              "author": "なめこんぶ",
+              "answer": "店員さんどうして⋯と呟いて力尽きる",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 52,
+              "voteRate": 0.41,
+              "voteBreakdown": {
+                "2": 17,
+                "3": 2,
+                "4": 3
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 2
+            },
+            {
+              "position": 11,
+              "rank": 11,
+              "postId": "15e15e46-2409-47ab-b326-0dc3ac02ac3e",
+              "author": "レイルレイル",
+              "answer": "一番背が高い奴の足にかぼすを絞る",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 34,
+              "voteRate": 0.27,
+              "voteBreakdown": {
+                "2": 11,
+                "3": 4
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 0
+            },
+            {
+              "position": 12,
+              "rank": 12,
+              "postId": "ce5ef20e-52f8-4f55-a188-963388ee0377",
+              "author": "きまぐれ",
+              "answer": "英語ってこういう時に上達する、と思いながら正拳を出してる",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 33,
+              "voteRate": 0.26,
+              "voteBreakdown": {
+                "2": 13,
+                "3": 1,
+                "4": 1
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 0
+            }
+          ]
+        },
+        {
+          "id": "e2adaed3-f138-4611-a1d7-5c9a7ab5b5c8",
+          "group": "グループE",
+          "displayOrder": 5,
+          "prompt": "{{1}}。それでは、乾杯！",
+          "promptType": "blank",
+          "imageUrl": null,
+          "provider": null,
+          "submissions": 11,
+          "voters": 127,
+          "advancementCount": 6,
+          "source": "https://oogiri-mi.com/hangiri7/theme/e2adaed3-f138-4611-a1d7-5c9a7ab5b5c8",
+          "answers": [
+            {
+              "position": 1,
+              "rank": 1,
+              "postId": "e122e649-fbd6-4c20-92ab-596ac932c30b",
+              "author": "ふかし",
+              "answer": null,
+              "blanks": [
+                "引っ張られた掃除機にしか描けない軌道",
+                null,
+                null
+              ],
+              "totalScore": 169,
+              "voteRate": 1.33,
+              "voteBreakdown": {
+                "2": 36,
+                "3": 23,
+                "4": 7
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 0
+            },
+            {
+              "position": 2,
+              "rank": 2,
+              "postId": "8b4cdcc5-98cc-4ca1-b49a-dc271e07c8e1",
+              "author": "ねこねずみ",
+              "answer": null,
+              "blanks": [
+                "我々が盗んだ苺がガムになりました",
+                null,
+                null
+              ],
+              "totalScore": 147,
+              "voteRate": 1.16,
+              "voteBreakdown": {
+                "2": 34,
+                "3": 21,
+                "4": 4
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 3
+            },
+            {
+              "position": 3,
+              "rank": 3,
+              "postId": "5fe9e75e-1f3b-4f26-8e4d-79b57d649094",
+              "author": "サカキ",
+              "answer": null,
+              "blanks": [
+                "同じ日に休んだ二人がどっちも銭湯を継ぐとはね",
+                null,
+                null
+              ],
+              "totalScore": 143,
+              "voteRate": 1.13,
+              "voteBreakdown": {
+                "2": 43,
+                "3": 15,
+                "4": 3
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 0
+            },
+            {
+              "position": 4,
+              "rank": 4,
+              "postId": "7f35058b-e76e-43f0-9f59-7043c463fa7e",
+              "author": "は？",
+              "answer": null,
+              "blanks": [
+                "いきなり喋らなくなるところが蛍光灯みたいでした",
+                null,
+                null
+              ],
+              "totalScore": 125,
+              "voteRate": 0.98,
+              "voteBreakdown": {
+                "2": 39,
+                "3": 13,
+                "4": 2
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 0
+            },
+            {
+              "position": 5,
+              "rank": 5,
+              "postId": "1249dee1-9820-4e93-a344-2f7886d1054d",
+              "author": "ウラニワ",
+              "answer": null,
+              "blanks": [
+                "料理が微妙でも船だから許せちゃう",
+                null,
+                null
+              ],
+              "totalScore": 123,
+              "voteRate": 0.97,
+              "voteBreakdown": {
+                "2": 33,
+                "3": 15,
+                "4": 3
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 2
+            },
+            {
+              "position": 6,
+              "rank": 6,
+              "postId": "67c38e41-abf2-410f-ae52-25972d9b7a57",
+              "author": "foo",
+              "answer": null,
+              "blanks": [
+                "ついにツチノコが見つかったということで、約束どおり私は今後一生声を発しません",
+                null,
+                null
+              ],
+              "totalScore": 107,
+              "voteRate": 0.84,
+              "voteBreakdown": {
+                "2": 27,
+                "3": 11,
+                "4": 5
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 3
+            },
+            {
+              "position": 7,
+              "rank": 7,
+              "postId": "4d83dd2b-182c-45d7-a543-291257693ac3",
+              "author": "伊坂",
+              "answer": null,
+              "blanks": [
+                "眩しそうに蜂見るのとか昔の俺そっくり",
+                null,
+                null
+              ],
+              "totalScore": 99,
+              "voteRate": 0.78,
+              "voteBreakdown": {
+                "2": 31,
+                "3": 11,
+                "4": 1
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 0
+            },
+            {
+              "position": 8,
+              "rank": 8,
+              "postId": "460fe526-650e-47b5-96a1-9a02084363d3",
+              "author": "たこ焼きボンバー",
+              "answer": null,
+              "blanks": [
+                "私より後に来た人がもう座っている",
+                null,
+                null
+              ],
+              "totalScore": 85,
+              "voteRate": 0.67,
+              "voteBreakdown": {
+                "2": 22,
+                "3": 11,
+                "4": 2
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 0
+            },
+            {
+              "position": 9,
+              "rank": 9,
+              "postId": "c4637f05-52ab-4bb9-afee-969b2cc76970",
+              "author": "気球",
+              "answer": null,
+              "blanks": [
+                "スマホで調べるのは、走り回ってる犬のそれに近い",
+                null,
+                null
+              ],
+              "totalScore": 79,
+              "voteRate": 0.62,
+              "voteBreakdown": {
+                "2": 22,
+                "3": 9,
+                "4": 2
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 0
+            },
+            {
+              "position": 10,
+              "rank": 10,
+              "postId": "a2a2cca4-cd63-41bb-a339-038fb555efe2",
+              "author": "すでにショーン",
+              "answer": null,
+              "blanks": [
+                "最後まで髪型が漫画なのが俺たちって感じ",
+                null,
+                null
+              ],
+              "totalScore": 73,
+              "voteRate": 0.57,
+              "voteBreakdown": {
+                "2": 23,
+                "3": 5,
+                "4": 3
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 2
+            },
+            {
+              "position": 11,
+              "rank": 11,
+              "postId": "588712de-dbbe-4b0c-9b01-468df34fa8a8",
+              "author": "gas",
+              "answer": null,
+              "blanks": [
+                "待ち受けをペットの犬の写真にしている人にはお帰り頂きました",
+                null,
+                null
+              ],
+              "totalScore": 61,
+              "voteRate": 0.48,
+              "voteBreakdown": {
+                "2": 20,
+                "3": 3,
+                "4": 3
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 0
+            }
+          ]
+        },
+        {
+          "id": "15a4d831-3c6c-45f8-b16d-77cf935a7882",
+          "group": "グループF",
+          "displayOrder": 6,
+          "prompt": "飛行機に乗っていて「もうすぐ着陸かな」と思ったら聞こえてきた機長のアナウンス",
+          "promptType": "text",
+          "imageUrl": null,
+          "provider": null,
+          "submissions": 12,
+          "voters": 126,
+          "advancementCount": 6,
+          "source": "https://oogiri-mi.com/hangiri7/theme/15a4d831-3c6c-45f8-b16d-77cf935a7882",
+          "answers": [
+            {
+              "position": 1,
+              "rank": 1,
+              "postId": "47bb0a8d-3170-4f9c-b5fa-b570885e1de3",
+              "author": "ピンクマン",
+              "answer": "集中していたらかっこいい髪形になってしまいました",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 138,
+              "voteRate": 1.1,
+              "voteBreakdown": {
+                "2": 38,
+                "3": 18,
+                "4": 2
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 3
+            },
+            {
+              "position": 2,
+              "rank": 2,
+              "postId": "b3607938-12c2-4fdd-ba76-6e03c3aee2ce",
+              "author": "寝坊",
+              "answer": "最近自分の中に一匹の猿が入ってきた",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 119,
+              "voteRate": 0.94,
+              "voteBreakdown": {
+                "2": 27,
+                "3": 15,
+                "4": 5
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 0
+            },
+            {
+              "position": 3,
+              "rank": 3,
+              "postId": "277de212-f314-4824-bf06-1b16e517731d",
+              "author": "灰色こたつ",
+              "answer": "例えば、枕には裏と表が決まっておりまして",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 104,
+              "voteRate": 0.83,
+              "voteBreakdown": {
+                "2": 23,
+                "3": 14,
+                "4": 4
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 0
+            },
+            {
+              "position": 4,
+              "rank": 4,
+              "postId": "225b8c03-22b6-47c1-9eab-d9b7afb62192",
+              "author": "ランダム",
+              "answer": "もう一個、もう一個が止まらないおふくろの味",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 100,
+              "voteRate": 0.79,
+              "voteBreakdown": {
+                "2": 26,
+                "3": 12,
+                "4": 3
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 2
+            },
+            {
+              "position": 5,
+              "rank": 5,
+              "postId": "56fd4bdd-6b9d-4391-a07c-2335890e86c4",
+              "author": "煮込みVUITTON",
+              "answer": "エプロンに着替えた私が通路にいますのでご注意ください",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 98,
+              "voteRate": 0.78,
+              "voteBreakdown": {
+                "2": 35,
+                "3": 8,
+                "4": 1
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 2
+            },
+            {
+              "position": 6,
+              "rank": 6,
+              "postId": "3227959b-4dac-4bd6-883b-e7c87604e176",
+              "author": "優死 とれま",
+              "answer": "最近、卵を食べてる時の父親に顔が似てきました",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 93,
+              "voteRate": 0.74,
+              "voteBreakdown": {
+                "2": 30,
+                "3": 7,
+                "4": 3
+              },
+              "isSelf": false,
+              "passed": true,
+              "selfVote": 0
+            },
+            {
+              "position": 7,
+              "rank": 7,
+              "postId": "2a955f22-8d57-41d0-8ced-7292d92691df",
+              "author": "虎猫",
+              "answer": "心を落ち着ける薬が機器の下に入り込みました",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 91,
+              "voteRate": 0.72,
+              "voteBreakdown": {
+                "2": 30,
+                "3": 9,
+                "4": 1
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 2
+            },
+            {
+              "position": 8,
+              "rank": 8,
+              "postId": "75288a87-f077-4235-8ee0-18a3cbf37299",
+              "author": "あとひとつ流星群",
+              "answer": "溶岩って意外と柔らかいイメージ？",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 78,
+              "voteRate": 0.62,
+              "voteBreakdown": {
+                "2": 26,
+                "3": 6,
+                "4": 2
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 0
+            },
+            {
+              "position": 9,
+              "rank": 9,
+              "postId": "4fc266dc-6d21-4907-baa2-31ea67478d58",
+              "author": "からまき",
+              "answer": "背もたれで人を隠す、納得の負けです",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 71,
+              "voteRate": 0.56,
+              "voteBreakdown": {
+                "2": 23,
+                "3": 7,
+                "4": 1
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 0
+            },
+            {
+              "position": 10,
+              "rank": 9,
+              "postId": "73ccae95-0073-4431-987e-d3102ac257a0",
+              "author": "爽",
+              "answer": "操縦席の後ろに膝を当ててきた方がいます",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 71,
+              "voteRate": 0.56,
+              "voteBreakdown": {
+                "2": 17,
+                "3": 11,
+                "4": 1
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 0
+            },
+            {
+              "position": 11,
+              "rank": 11,
+              "postId": "1a7fa1bd-4647-4b8e-9fa5-316e39d8ce6c",
+              "author": "四つ葉の黒婆さん",
+              "answer": "いま皆様の前には、大切な物を入れた箱が２つあります",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 61,
+              "voteRate": 0.48,
+              "voteBreakdown": {
+                "2": 16,
+                "3": 7,
+                "4": 2
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 0
+            },
+            {
+              "position": 12,
+              "rank": 12,
+              "postId": "bd9a9fef-e891-4472-8db2-d38f28c707a5",
+              "author": "遠くを見ている",
+              "answer": "てこの原理だけで直るものも多い！",
+              "blanks": [
+                null,
+                null,
+                null
+              ],
+              "totalScore": 42,
+              "voteRate": 0.33,
+              "voteBreakdown": {
+                "2": 16,
+                "3": 2,
+                "4": 1
+              },
+              "isSelf": false,
+              "passed": false,
+              "selfVote": 0
+            }
+          ]
+        }
+      ]
     }
   ],
   "selfVotes": {
     "username": "昼崎",
-    "checkedAt": "2026-11-03T01:50:53.901896+00:00",
-    "checkedAnswers": 393,
+    "checkedAt": "2026-11-16T13:41:00.279183+00:00",
+    "checkedAnswers": 463,
     "source": "public-post-voters",
     "complete": true
   }
