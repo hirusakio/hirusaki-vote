@@ -44,7 +44,9 @@
 <label><input id="voted" type="checkbox" checked> 投票先・自分の試合</label>
 <label><input id="query" type="search" placeholder="対戦者・お題を検索" aria-label="対戦者・お題を検索"></label>
 </div>
-<p id="count" class="hint" aria-live="polite"></p>
+<div class="legend hint" aria-live="polite"><span id="count"></span>
+<span>上位25％への投票 <strong id="top25">—</strong></span>
+<span>上位50％への投票 <strong id="top50">—</strong></span></div>
 <div class="workspace"><div id="matches" class="grid"></div><section id="desktop-detail" class="desktop-detail" aria-label="試合詳細"></section></div>
 </main>
 <script>
@@ -170,6 +172,15 @@ function render() {
     && (!needle || [m.title, m.prompt].some(s => s.toLowerCase().includes(needle)))
     && (!points.value || m.answers.some(a => a.vote === number(points.value)))
     && (!voted.checked || m.answers.some(a => a.vote || own(a))));
+  const votes = visible.flatMap(match => match.answers
+    .filter(answer => answer.vote > 0 && (!points.value || answer.vote === number(points.value)))
+    .map(answer => answer.rank / match.answers.length));
+  for (const n of [25, 50]) {
+    const hits = votes.filter(rank => rank <= n / 100).length;
+    byId('top' + n).textContent = votes.length
+      ? `${(100 * hits / votes.length).toFixed(1)}％（${hits}/${votes.length}件）`
+      : '—';
+  }
   visible.reverse();
   byId('count').textContent = visible.length + '試合 / ' + stage.length + '試合' +
     (voted.checked ? '（自分の試合を含む）' : '');

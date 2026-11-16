@@ -25,6 +25,7 @@
 <span class="filter-label">投票点</span><div class="toggle-row"><button class="toggle active" data-point="4">4点</button><button class="toggle active" data-point="3">3点</button><button class="toggle active" data-point="2">2点</button></div>
 </div>
 <div class="stats"><div><span>グループ</span><strong id="group-count">—</strong></div><div><span>回答数</span><strong id="answer-count">—</strong></div><div><span>通過回答</span><strong id="pass-count">—</strong></div><div><span>自分の回答</span><strong id="self-count">—</strong></div></div>
+<p class="meta" aria-live="polite">上位25％への投票 <strong id="top25">—</strong>　上位50％への投票 <strong id="top50">—</strong></p>
 </section>
 <div class="main">
 <section class="card heat-card">
@@ -72,6 +73,12 @@ function bind(){
  document.querySelectorAll("[data-point]").forEach(b=>b.onclick=()=>{toggle(selectedPoints,+b.dataset.point,[4,3,2]);document.querySelectorAll("[data-point]").forEach(x=>x.classList.toggle("active",selectedPoints.has(+x.dataset.point)));render()});
 }
 function renderStats(list){
+ const votes=list.flatMap(g=>g.answers.filter(a=>selectedPoints.has(a.selfVote))
+  .map(a=>a.rank/g.submissions));
+ for(const n of [25,50]){
+  const hits=votes.filter(rank=>rank<=n/100).length;
+  $("top"+n).textContent=votes.length?`${(100*hits/votes.length).toFixed(1)}％（${hits}/${votes.length}件）`:"—";
+ }
  $("group-count").textContent=list.length;
  $("answer-count").textContent=list.reduce((s,g)=>s+g.submissions,0);
  $("pass-count").textContent=list.reduce((s,g)=>s+g.answers.filter(a=>a.passed).length,0);
